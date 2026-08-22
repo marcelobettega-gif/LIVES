@@ -1,11 +1,9 @@
-name: Transcrever live Fabio Adriano v2
+name: Transcrever live Fabio Adriano
 
 on:
-  workflow_dispatch:
-
   schedule:
-    # 12:00 UTC = 09:00 em São Paulo (UTC-3)
     - cron: "0 12 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -18,33 +16,31 @@ jobs:
       - name: Baixar repositório
         uses: actions/checkout@v4
 
-      - name: Conferir estrutura do repositório
-        run: |
-          echo "Diretório atual:"
-          pwd
-
-          echo "Arquivos na raiz:"
-          ls -la
-
-          echo "Workflows encontrados:"
-          find .github/workflows -maxdepth 1 -type f -print || true
-
-          if [ ! -f "./transcrever.py" ]; then
-            echo "ERRO: transcrever.py não está na raiz do repositório."
-            exit 2
-          fi
-
-          echo "transcrever.py encontrado com sucesso."
-
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Instalar dependências
+      - name: Instalar dependências Python
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+          pip install playwright
+
+      - name: Instalar Chromium do Playwright
+        run: |
+          python -m playwright install --with-deps chromium
+
+      - name: Conferir estrutura do repositório
+        run: |
+          pwd
+          ls -la
+
+          if [ ! -f "./transcrever.py" ]; then
+            echo "ERRO: transcrever.py não encontrado na raiz."
+            exit 2
+          fi
+
+          echo "transcrever.py encontrado."
 
       - name: Rodar transcrição
         run: |
@@ -58,8 +54,6 @@ jobs:
           fi
 
           echo "Transcrição gerada com sucesso."
-
-          echo "Tamanho do arquivo:"
           wc -c ultima_live.txt
 
           echo "Primeiras linhas:"
