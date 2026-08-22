@@ -1,3 +1,14 @@
+# Novo workflow — transcrever-live-v2.yml
+
+Crie o arquivo:
+
+`.github/workflows/transcrever-live-v2.yml`
+
+com este conteúdo:
+
+```yaml
+name: Transcrever live Fabio Adriano v2
+
 on:
   workflow_dispatch:
   schedule:
