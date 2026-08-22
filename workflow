@@ -13,23 +13,62 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Baixar repositório
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Configurar Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Instalar dependências
+      - name: Instalar dependências Python
         run: |
-          pip install requests beautifulsoup4
+          python -m pip install --upgrade pip
+          pip install playwright
+
+      - name: Instalar Chromium do Playwright
+        run: |
+          python -m playwright install --with-deps chromium
+
+      - name: Conferir estrutura do repositório
+        run: |
+          pwd
+          ls -la
+
+          if [ ! -f "./transcrever.py" ]; then
+            echo "ERRO: transcrever.py não encontrado na raiz."
+            exit 2
+          fi
+
+          echo "transcrever.py encontrado."
 
       - name: Rodar transcrição
-        run: python transcrever.py
+        run: |
+          python ./transcrever.py
 
-      - name: Salvar resultado
+      - name: Conferir resultado
+        run: |
+          if [ ! -s "ultima_live.txt" ]; then
+            echo "ERRO: ultima_live.txt não foi criado ou está vazio."
+            exit 3
+          fi
+
+          echo "Transcrição gerada com sucesso."
+          wc -c ultima_live.txt
+
+          echo "Primeiras linhas:"
+          head -n 5 ultima_live.txt || true
+
+      - name: Salvar resultado no repositório
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add ultima_live.txt
-          git commit -m "Atualiza transcrição da última live" || exit 0
-          git push
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma mudança em ultima_live.txt."
+          else
+            git commit -m "Atualiza transcrição da última live"
+            git push
+          fi
