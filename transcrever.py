@@ -3,7 +3,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 CHANNEL = "https://www.youtube.com/@fabioadriano/streams"
-TRANSCRIBER = "https://youtubetotranscript.com/"
+TRANSCRIBER = "https://2outube.com/"
 
 def main():
     with sync_playwright() as p:
@@ -20,43 +20,76 @@ def main():
 
         page = context.new_page()
 
-        # -------------------------------------------------
-        # 1. ENCONTRAR A LIVE MAIS RECENTE DO FÁBIO ADRIANO
-        # -------------------------------------------------
+        # =================================================
+        # 1. ABRIR A ABA AO VIVO DO CANAL
+        # =================================================
 
         print("Abrindo canal do Fabio Adriano...")
-        page.goto(CHANNEL, wait_until="domcontentloaded", timeout=60000)
 
-        page.wait_for_timeout(5000)
-
-        html = page.content()
-
-        ids = re.findall(
-            r'"videoId":"([A-Za-z0-9_-]{11})"',
-            html
+        page.goto(
+            CHANNEL,
+            wait_until="domcontentloaded",
+            timeout=60000
         )
 
-        videos = list(dict.fromkeys(ids))
+        page.wait_for_timeout(6000)
 
-        if not videos:
+        # =================================================
+        # 2. PEGAR O PRIMEIRO VÍDEO VISÍVEL DA ABA AO VIVO
+        # =================================================
+
+        print("Procurando o primeiro vídeo da aba Ao vivo...")
+
+        links = page.locator(
+            'a[href*="/live/"], a[href*="/watch?v="]'
+        )
+
+        first_video_url = None
+
+        for i in range(links.count()):
+            try:
+                href = links.nth(i).get_attribute("href")
+
+                if not href:
+                    continue
+
+                match = re.search(
+                    r'(?:/live/|watch\?v=)([A-Za-z0-9_-]{11})',
+                    href
+                )
+
+                if not match:
+                    continue
+
+                video_id = match.group(1)
+
+                first_video_url = (
+                    f"https://www.youtube.com/live/{video_id}"
+                )
+
+                break
+
+            except Exception:
+                continue
+
+        if not first_video_url:
             raise RuntimeError(
-                "Nenhum vídeo encontrado na aba Ao vivo."
+                "Não foi possível identificar o primeiro vídeo da aba Ao vivo."
             )
 
-        video_id = videos[0]
+        video_id = re.search(
+            r'/live/([A-Za-z0-9_-]{11})',
+            first_video_url
+        ).group(1)
 
-        youtube_url = (
-            f"https://www.youtube.com/live/{video_id}"
-        )
+        print("Primeiro vídeo encontrado:")
+        print(first_video_url)
 
-        print("Vídeo encontrado:")
-        print(youtube_url)
+        # =================================================
+        # 3. ABRIR O 2OUTUBE
+        # =================================================
 
-        # -------------------------------------------------
-        # 2. ABRIR O YOUTUBE TO TRANSCRIPT
-        # -------------------------------------------------
-
-        print("Abrindo YouTubeToTranscript...")
+        print("Abrindo 2outube...")
 
         page.goto(
             TRANSCRIBER,
@@ -64,59 +97,96 @@ def main():
             timeout=60000
         )
 
-        page.wait_for_timeout(3000)
+        page.wait_for_timeout(4000)
 
-        # -------------------------------------------------
-        # 3. LOCALIZAR O CAMPO DE URL
-        # -------------------------------------------------
+        # =================================================
+        # 4. LOCALIZAR CAMPO DE URL
+        # =================================================
 
-        input_box = page.locator(
-            'input[placeholder*="YouTube URL"]'
-        ).first
+        print("Procurando campo de URL...")
 
-        if input_box.count() == 0:
-            input_box = page.locator(
-                'input[placeholder*="Paste"]'
-            ).first
+        input_box = None
 
-        if input_box.count() == 0:
+        possible_inputs = [
+            'input[type="url"]',
+            'input[placeholder*="YouTube"]',
+            'input[placeholder*="youtube"]',
+            'input[placeholder*="Paste"]',
+            'input[placeholder*="paste"]',
+            'input[name*="url"]',
+            'input[id*="url"]',
+        ]
+
+        for selector in possible_inputs:
+            locator = page.locator(selector)
+
+            if locator.count() > 0:
+                input_box = locator.first
+                break
+
+        if input_box is None:
             raise RuntimeError(
-                "Campo para colar a URL não encontrado."
+                "Campo para colar a URL não encontrado no 2outube."
             )
+
+        # =================================================
+        # 5. COLAR A URL COMPLETA
+        # =================================================
 
         print("Colando URL completa...")
 
-        input_box.fill(youtube_url)
+        input_box.fill(first_video_url)
 
-        # -------------------------------------------------
-        # 4. CLICAR EM GET FREE TRANSCRIPT
-        # -------------------------------------------------
+        page.wait_for_timeout(1000)
 
-        button = page.get_by_text(
+        # =================================================
+        # 6. CLICAR NO BOTÃO DE TRANSCRIÇÃO
+        # =================================================
+
+        print("Procurando botão de transcrição...")
+
+        button = None
+
+        possible_buttons = [
+            "Get Transcript",
             "Get Free Transcript",
-            exact=False
-        ).first
+            "Transcript",
+            "Transcribe",
+            "Generate",
+        ]
 
-        if button.count() == 0:
-            button = page.get_by_text(
-                "Get Transcript",
+        for text in possible_buttons:
+            locator = page.get_by_text(
+                text,
                 exact=False
-            ).first
+            )
 
-        if button.count() == 0:
+            if locator.count() > 0:
+                button = locator.first
+                break
+
+        if button is None:
+            submit = page.locator(
+                'button[type="submit"], input[type="submit"]'
+            )
+
+            if submit.count() > 0:
+                button = submit.first
+
+        if button is None:
             raise RuntimeError(
-                "Botão Get Free Transcript não encontrado."
+                "Botão para gerar a transcrição não encontrado."
             )
 
         print("Solicitando transcrição...")
 
         button.click()
 
-        # -------------------------------------------------
-        # 5. ESPERAR A TRANSCRIÇÃO
-        # -------------------------------------------------
+        # =================================================
+        # 7. ESPERAR O RESULTADO
+        # =================================================
 
-        page.wait_for_timeout(8000)
+        page.wait_for_timeout(10000)
 
         try:
             page.wait_for_load_state(
@@ -128,20 +198,10 @@ def main():
 
         print("Página de resultado carregada.")
 
-        # -------------------------------------------------
-        # 6. EXTRAIR TEXTO DA PÁGINA
-        # -------------------------------------------------
+        # =================================================
+        # 8. PROCURAR A TRANSCRIÇÃO
+        # =================================================
 
-        body_text = page.locator("body").inner_text()
-
-        if len(body_text) < 500:
-            raise RuntimeError(
-                "A página retornou pouco conteúdo. "
-                "A transcrição pode não ter sido gerada."
-            )
-
-        # Procura blocos grandes que provavelmente contenham
-        # a transcrição.
         candidates = []
 
         selectors = [
@@ -149,49 +209,78 @@ def main():
             "pre",
             '[class*="transcript"]',
             '[id*="transcript"]',
+            '[class*="caption"]',
+            '[id*="caption"]',
             "article",
             "main",
         ]
 
         for selector in selectors:
-            elements = page.locator(selector)
+            locator = page.locator(selector)
 
-            for i in range(elements.count()):
+            for i in range(locator.count()):
                 try:
-                    text = elements.nth(i).inner_text().strip()
+                    element = locator.nth(i)
+
+                    text = ""
+
+                    try:
+                        text = element.input_value().strip()
+                    except Exception:
+                        text = element.inner_text().strip()
 
                     if len(text) > 1000:
                         candidates.append(text)
 
                 except Exception:
-                    pass
+                    continue
 
-        # Se não encontrou bloco específico,
-        # usa o texto completo da página.
-        if candidates:
-            transcript = max(
-                candidates,
-                key=len
+        # =================================================
+        # 9. FALLBACK: TEXTO DA PÁGINA INTEIRA
+        # =================================================
+
+        body_text = page.locator("body").inner_text()
+
+        if len(body_text) > 1000:
+            candidates.append(body_text)
+
+        if not candidates:
+            # salva HTML para diagnóstico
+            Path("debug_2outube.html").write_text(
+                page.content(),
+                encoding="utf-8"
             )
-        else:
-            transcript = body_text
 
-        # -------------------------------------------------
-        # 7. VALIDAÇÃO
-        # -------------------------------------------------
+            raise RuntimeError(
+                "Não foi possível encontrar uma transcrição no 2outube."
+            )
+
+        transcript = max(
+            candidates,
+            key=len
+        )
+
+        # =================================================
+        # 10. VALIDAÇÃO
+        # =================================================
 
         if len(transcript) < 1000:
-            raise RuntimeError(
-                "Transcrição não encontrada ou muito curta."
+            Path("debug_2outube.html").write_text(
+                page.content(),
+                encoding="utf-8"
             )
 
-        # -------------------------------------------------
-        # 8. SALVAR RESULTADO
-        # -------------------------------------------------
+            raise RuntimeError(
+                "A transcrição encontrada é muito curta."
+            )
+
+        # =================================================
+        # 11. SALVAR TXT
+        # =================================================
 
         output = (
             f"VIDEO_ID: {video_id}\n"
-            f"URL: {youtube_url}\n\n"
+            f"URL: {first_video_url}\n\n"
             f"{transcript}"
         )
 
