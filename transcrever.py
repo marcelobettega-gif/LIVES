@@ -42,7 +42,9 @@ form = soup.find("form")
 if form is None:
     raise RuntimeError("Formulário não encontrado")
 
-action = form.get("action") or site
+from urllib.parse import urljoin
+
+action = urljoin(site, form.get("action") or "")
 method = form.get("method", "post").lower()
 
 data = {}
