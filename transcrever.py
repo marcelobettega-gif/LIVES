@@ -1,86 +1,214 @@
-import requests
-from bs4 import BeautifulSoup
 import re
 from pathlib import Path
+from playwright.sync_api import sync_playwright
 
 CHANNEL = "https://www.youtube.com/@fabioadriano/streams"
+TRANSCRIBER = "https://youtubetotranscript.com/"
 
-headers = {
-    "User-Agent": "Mozilla/5.0"
-}
+def main():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
 
-# 1. Abre a página Ao vivo
-html = requests.get(CHANNEL, headers=headers).text
+        context = browser.new_context(
+            viewport={"width": 1365, "height": 900},
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/140.0.0.0 Safari/537.36"
+            ),
+        )
 
-# 2. Procura os IDs dos vídeos
-ids = re.findall(r'"videoId":"([A-Za-z0-9_-]{11})"', html)
+        page = context.new_page()
 
-# remove duplicados mantendo ordem
-videos = list(dict.fromkeys(ids))
+        # -------------------------------------------------
+        # 1. ENCONTRAR A LIVE MAIS RECENTE DO FÁBIO ADRIANO
+        # -------------------------------------------------
 
-if not videos:
-    raise RuntimeError("Nenhum vídeo encontrado")
+        print("Abrindo canal do Fabio Adriano...")
+        page.goto(CHANNEL, wait_until="domcontentloaded", timeout=60000)
 
-# primeiro vídeo da aba Ao vivo
-video_id = videos[0]
+        page.wait_for_timeout(5000)
 
-# URL completa
-youtube_url = f"https://www.youtube.com/live/{video_id}"
+        html = page.content()
 
-print("Vídeo:", youtube_url)
+        ids = re.findall(
+            r'"videoId":"([A-Za-z0-9_-]{11})"',
+            html
+        )
 
-# 3. Envia a URL inteira ao YouTubeToTranscript
-site = "https://youtubetotranscript.com/"
+        videos = list(dict.fromkeys(ids))
 
-session = requests.Session()
-page = session.get(site, headers=headers)
+        if not videos:
+            raise RuntimeError(
+                "Nenhum vídeo encontrado na aba Ao vivo."
+            )
 
-soup = BeautifulSoup(page.text, "html.parser")
+        video_id = videos[0]
 
-form = soup.find("form")
+        youtube_url = (
+            f"https://www.youtube.com/live/{video_id}"
+        )
 
-if form is None:
-    raise RuntimeError("Formulário não encontrado")
+        print("Vídeo encontrado:")
+        print(youtube_url)
 
-from urllib.parse import urljoin
+        # -------------------------------------------------
+        # 2. ABRIR O YOUTUBE TO TRANSCRIPT
+        # -------------------------------------------------
 
-action = urljoin(site, form.get("action") or "")
-method = form.get("method", "post").lower()
+        print("Abrindo YouTubeToTranscript...")
 
-data = {}
+        page.goto(
+            TRANSCRIBER,
+            wait_until="domcontentloaded",
+            timeout=60000
+        )
 
-for inp in form.find_all("input"):
-    name = inp.get("name")
-    if name:
-        data[name] = inp.get("value", "")
+        page.wait_for_timeout(3000)
 
-# encontra o campo da URL
-for key in data:
-    if "url" in key.lower() or "youtube" in key.lower():
-        data[key] = youtube_url
+        # -------------------------------------------------
+        # 3. LOCALIZAR O CAMPO DE URL
+        # -------------------------------------------------
 
-if method == "post":
-    result = session.post(action, data=data, headers=headers)
-else:
-    result = session.get(action, params=data, headers=headers)
+        input_box = page.locator(
+            'input[placeholder*="YouTube URL"]'
+        ).first
 
-result.raise_for_status()
+        if input_box.count() == 0:
+            input_box = page.locator(
+                'input[placeholder*="Paste"]'
+            ).first
 
-# 4. Extrai a transcrição
-soup = BeautifulSoup(result.text, "html.parser")
+        if input_box.count() == 0:
+            raise RuntimeError(
+                "Campo para colar a URL não encontrado."
+            )
 
-transcript = None
+        print("Colando URL completa...")
 
-for tag in soup.find_all(["textarea", "pre", "div"]):
-    text = tag.get_text("\n", strip=True)
-    if len(text) > 500:
-        transcript = text
-        break
+        input_box.fill(youtube_url)
 
-if not transcript:
-    raise RuntimeError("Transcrição não encontrada")
+        # -------------------------------------------------
+        # 4. CLICAR EM GET FREE TRANSCRIPT
+        # -------------------------------------------------
 
-# 5. Salva
-Path("ultima_live.txt").write_text(transcript, encoding="utf-8")
+        button = page.get_by_text(
+            "Get Free Transcript",
+            exact=False
+        ).first
 
-print("Transcrição salva")
+        if button.count() == 0:
+            button = page.get_by_text(
+                "Get Transcript",
+                exact=False
+            ).first
+
+        if button.count() == 0:
+            raise RuntimeError(
+                "Botão Get Free Transcript não encontrado."
+            )
+
+        print("Solicitando transcrição...")
+
+        button.click()
+
+        # -------------------------------------------------
+        # 5. ESPERAR A TRANSCRIÇÃO
+        # -------------------------------------------------
+
+        page.wait_for_timeout(8000)
+
+        try:
+            page.wait_for_load_state(
+                "networkidle",
+                timeout=30000
+            )
+        except Exception:
+            pass
+
+        print("Página de resultado carregada.")
+
+        # -------------------------------------------------
+        # 6. EXTRAIR TEXTO DA PÁGINA
+        # -------------------------------------------------
+
+        body_text = page.locator("body").inner_text()
+
+        if len(body_text) < 500:
+            raise RuntimeError(
+                "A página retornou pouco conteúdo. "
+                "A transcrição pode não ter sido gerada."
+            )
+
+        # Procura blocos grandes que provavelmente contenham
+        # a transcrição.
+        candidates = []
+
+        selectors = [
+            "textarea",
+            "pre",
+            '[class*="transcript"]',
+            '[id*="transcript"]',
+            "article",
+            "main",
+        ]
+
+        for selector in selectors:
+            elements = page.locator(selector)
+
+            for i in range(elements.count()):
+                try:
+                    text = elements.nth(i).inner_text().strip()
+
+                    if len(text) > 1000:
+                        candidates.append(text)
+
+                except Exception:
+                    pass
+
+        # Se não encontrou bloco específico,
+        # usa o texto completo da página.
+        if candidates:
+            transcript = max(
+                candidates,
+                key=len
+            )
+        else:
+            transcript = body_text
+
+        # -------------------------------------------------
+        # 7. VALIDAÇÃO
+        # -------------------------------------------------
+
+        if len(transcript) < 1000:
+            raise RuntimeError(
+                "Transcrição não encontrada ou muito curta."
+            )
+
+        # -------------------------------------------------
+        # 8. SALVAR RESULTADO
+        # -------------------------------------------------
+
+        output = (
+            f"VIDEO_ID: {video_id}\n"
+            f"URL: {youtube_url}\n\n"
+            f"{transcript}"
+        )
+
+        Path("ultima_live.txt").write_text(
+            output,
+            encoding="utf-8"
+        )
+
+        print("")
+        print("SUCESSO.")
+        print("Transcrição salva em ultima_live.txt")
+        print(
+            f"Tamanho: {len(transcript)} caracteres"
+        )
+
+        browser.close()
+
+
+if __name__ == "__main__":
+    main()
