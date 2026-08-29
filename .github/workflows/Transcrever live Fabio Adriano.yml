@@ -71,3 +71,4 @@ jobs:
           else
             git commit -m "Atualiza transcrição da última live"
             git push
+          fi
