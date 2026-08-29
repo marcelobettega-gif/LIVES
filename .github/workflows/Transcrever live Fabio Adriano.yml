@@ -2,7 +2,7 @@ name: Transcrever live Fabio Adriano
 
 on:
   schedule:
-   - cron: "0 12 * * 1-5"
+   - cron: "5 10 * * 1-5"
   workflow_dispatch:
 
 permissions:
@@ -71,4 +71,3 @@ jobs:
           else
             git commit -m "Atualiza transcrição da última live"
             git push
-          fi
