@@ -7,16 +7,25 @@ from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
 
+# ============================================================
+# CONFIGURAÇÃO
+# ============================================================
+
 CHANNEL_URL = "https://www.youtube.com/@BTGTrader/streams"
 OUTPUT_FILE = Path("ultima_live_btg.txt")
 
-# Segurança contra workflows intermináveis
+# Máximo de ciclos:
+# cada ciclo tenta 2outube e depois TubeTranscript.
 MAX_CYCLES = 4
+
+# Espera entre ciclos completos.
 WAIT_BETWEEN_ATTEMPTS = 20
 
+# Critérios mínimos de validação.
 MIN_TRANSCRIPT_LENGTH = 1800
 MIN_TRANSCRIPT_WORDS = 250
 MIN_TIMESTAMP_COUNT = 4
+
 
 BAD_MESSAGES = (
     "transcript not available",
@@ -28,7 +37,9 @@ BAD_MESSAGES = (
     "this video is unavailable",
     "captcha",
     "cloudflare",
+    "access denied",
 )
+
 
 PAGE_FOOTERS = (
     "Works on any YouTube video.",
@@ -37,6 +48,10 @@ PAGE_FOOTERS = (
     "Get transcripts by email",
 )
 
+
+# ============================================================
+# FUNÇÕES BÁSICAS
+# ============================================================
 
 def extract_video_id(url: str):
     patterns = (
@@ -47,6 +62,7 @@ def extract_video_id(url: str):
 
     for pattern in patterns:
         match = re.search(pattern, url or "")
+
         if match:
             return match.group(1)
 
@@ -55,8 +71,18 @@ def extract_video_id(url: str):
 
 def normalize_whitespace(text: str) -> str:
     text = (text or "").replace("\r\n", "\n").replace("\r", "\n")
-    text = re.sub(r"[ \t]+\n", "\n", text)
-    text = re.sub(r"\n{4,}", "\n\n\n", text)
+
+    text = re.sub(
+        r"[ \t]+\n",
+        "\n",
+        text,
+    )
+
+    text = re.sub(
+        r"\n{4,}",
+        "\n\n\n",
+        text,
+    )
 
     return text.strip()
 
@@ -69,6 +95,10 @@ def count_timestamps(text: str) -> int:
         )
     )
 
+
+# ============================================================
+# LIMPEZA DA TRANSCRIÇÃO
+# ============================================================
 
 def strip_page_chrome(text: str) -> str:
     if not text:
@@ -87,10 +117,10 @@ def strip_page_chrome(text: str) -> str:
     endings = []
 
     for footer in PAGE_FOOTERS:
-        pos = text.find(footer)
+        position = text.find(footer)
 
-        if pos >= 0:
-            endings.append(pos)
+        if position >= 0:
+            endings.append(position)
 
     if endings:
         text = text[:min(endings)]
@@ -110,23 +140,35 @@ def strip_page_chrome(text: str) -> str:
         "×",
     }
 
-    lines = [
-        line
-        for line in text.splitlines()
-        if line.strip() not in junk_lines
-    ]
+    lines = []
 
-    return normalize_whitespace("\n".join(lines))
+    for line in text.splitlines():
+        if line.strip() not in junk_lines:
+            lines.append(line)
 
+    return normalize_whitespace(
+        "\n".join(lines)
+    )
+
+
+# ============================================================
+# VALIDAÇÃO
+# ============================================================
 
 def validate_transcript(text: str) -> bool:
     """
-    Aceita:
-    - transcrições com timestamps; OU
-    - transcrições longas sem timestamps.
+    Considera válida uma transcrição que:
 
-    Isso evita rejeitar uma transcrição válida do TubeTranscript
-    apenas porque o site não exibiu timestamps.
+    1. tenha tamanho e número de palavras mínimos;
+    2. não contenha mensagens conhecidas de erro;
+    3. tenha timestamps suficientes;
+
+    OU
+
+    4. seja suficientemente longa mesmo sem timestamps.
+
+    Isso é importante porque o TubeTranscript pode gerar
+    texto válido sem timestamps.
     """
 
     if not text:
@@ -148,22 +190,19 @@ def validate_transcript(text: str) -> bool:
 
     lower = text.lower()
 
-    if any(
-        message in lower
-        for message in BAD_MESSAGES
-    ):
-        return False
+    for message in BAD_MESSAGES:
+        if message in lower:
+            return False
 
-    # Caso ideal: transcript com timestamps
+    # Cenário ideal: timestamps presentes.
     if count_timestamps(text) >= MIN_TIMESTAMP_COUNT:
         return True
 
-    # TubeTranscript ou outro provedor pode entregar
-    # transcript longo sem timestamps.
+    # Transcrição longa sem timestamps.
     if len(words) >= 500:
         return True
 
-    # Também aceita transcript explicitamente identificado.
+    # Algumas páginas identificam explicitamente TRANSCRIPT.
     has_marker = bool(
         re.search(
             r"(?mi)^\s*TRANSCRIPT\s*$",
@@ -171,14 +210,24 @@ def validate_transcript(text: str) -> bool:
         )
     )
 
-    return has_marker and len(words) >= 250
+    if has_marker and len(words) >= 250:
+        return True
+
+    return False
 
 
 def prepare_transcript(text: str):
     text = strip_page_chrome(text)
 
-    return text if validate_transcript(text) else None
+    if validate_transcript(text):
+        return text
 
+    return None
+
+
+# ============================================================
+# VERIFICAÇÃO DO ARQUIVO JÁ EXISTENTE
+# ============================================================
 
 def get_saved_video_id():
     if not OUTPUT_FILE.exists():
@@ -198,7 +247,10 @@ def get_saved_video_id():
         head,
     )
 
-    return match.group(1) if match else None
+    if match:
+        return match.group(1)
+
+    return None
 
 
 def existing_file_is_valid_for(video_id: str) -> bool:
@@ -217,16 +269,28 @@ def existing_file_is_valid_for(video_id: str) -> bool:
     if f"VIDEO_ID: {video_id}" not in text[:1500]:
         return False
 
-    parts = text.split("\n\n", 1)
+    parts = text.split(
+        "\n\n",
+        1,
+    )
 
-    return (
-        len(parts) == 2
-        and validate_transcript(parts[1])
+    if len(parts) != 2:
+        return False
+
+    return validate_transcript(
+        parts[1]
     )
 
 
+# ============================================================
+# LOCALIZAR A LIVE MAIS RECENTE DO BTG
+# ============================================================
+
 def find_latest_completed_live(page):
-    print("Abrindo canal BTG Trader...", flush=True)
+    print(
+        "Abrindo canal BTG Trader...",
+        flush=True,
+    )
 
     page.goto(
         CHANNEL_URL,
@@ -234,7 +298,9 @@ def find_latest_completed_live(page):
         timeout=60000,
     )
 
-    page.wait_for_timeout(5000)
+    page.wait_for_timeout(
+        5000
+    )
 
     print(
         "Procurando a live concluída mais recente na aba Ao vivo...",
@@ -242,30 +308,46 @@ def find_latest_completed_live(page):
     )
 
     selectors = (
-        'ytd-rich-item-renderer a[href*="/live/"], '
-        'ytd-rich-item-renderer a[href*="/watch?v="]',
-        'a[href*="/live/"], a[href*="/watch?v="]',
+        (
+            'ytd-rich-item-renderer '
+            'a[href*="/live/"], '
+            'ytd-rich-item-renderer '
+            'a[href*="/watch?v="]'
+        ),
+        (
+            'a[href*="/live/"], '
+            'a[href*="/watch?v="]'
+        ),
     )
 
     seen = set()
 
     for selector in selectors:
-        links = page.locator(selector)
+        links = page.locator(
+            selector
+        )
 
-        for i in range(min(links.count(), 100)):
+        total = min(
+            links.count(),
+            100,
+        )
+
+        for i in range(total):
             try:
                 link = links.nth(i)
 
-                href = link.get_attribute("href")
+                href = link.get_attribute(
+                    "href"
+                )
 
                 video_id = extract_video_id(
                     href or ""
                 )
 
-                if (
-                    not video_id
-                    or video_id in seen
-                ):
+                if not video_id:
+                    continue
+
+                if video_id in seen:
                     continue
 
                 seen.add(video_id)
@@ -294,9 +376,9 @@ def find_latest_completed_live(page):
 
                         if not title:
                             lines = [
-                                x.strip()
-                                for x in card_text.splitlines()
-                                if x.strip()
+                                line.strip()
+                                for line in card_text.splitlines()
+                                if line.strip()
                             ]
 
                             if lines:
@@ -318,10 +400,12 @@ def find_latest_completed_live(page):
                     "live now",
                 )
 
-                if any(
+                is_future_or_live = any(
                     marker in lower
                     for marker in future_or_live_markers
-                ):
+                )
+
+                if is_future_or_live:
                     print(
                         "Ignorando live futura/em andamento: "
                         f"{video_id}",
@@ -331,17 +415,20 @@ def find_latest_completed_live(page):
                     continue
 
                 youtube_url = (
-                    f"https://www.youtube.com/live/{video_id}"
+                    "https://www.youtube.com/live/"
+                    f"{video_id}"
                 )
 
                 print(
                     f"VIDEO_ID encontrado: {video_id}",
                     flush=True,
                 )
+
                 print(
                     f"TITLE: {title}",
                     flush=True,
                 )
+
                 print(
                     f"URL: {youtube_url}",
                     flush=True,
@@ -365,6 +452,10 @@ def find_latest_completed_live(page):
     )
 
 
+# ============================================================
+# EXTRAIR TEXTO DE UMA PÁGINA
+# ============================================================
+
 def extract_transcript_from_page(page):
     candidates = []
 
@@ -381,11 +472,16 @@ def extract_transcript_from_page(page):
 
     for selector in selectors:
         try:
-            locator = page.locator(selector)
+            locator = page.locator(
+                selector
+            )
 
-            for i in range(
-                min(locator.count(), 30)
-            ):
+            total = min(
+                locator.count(),
+                30,
+            )
+
+            for i in range(total):
                 try:
                     element = locator.nth(i)
 
@@ -404,7 +500,9 @@ def extract_transcript_from_page(page):
                     )
 
                     if text:
-                        candidates.append(text)
+                        candidates.append(
+                            text
+                        )
 
                 except Exception:
                     continue
@@ -412,6 +510,7 @@ def extract_transcript_from_page(page):
         except Exception:
             continue
 
+    # Fallback: corpo inteiro da página.
     try:
         body = page.locator(
             "body"
@@ -424,22 +523,30 @@ def extract_transcript_from_page(page):
         )
 
         if body:
-            candidates.append(body)
+            candidates.append(
+                body
+            )
 
     except Exception:
         pass
 
-    return (
-        max(
-            candidates,
-            key=len,
-        )
-        if candidates
-        else None
+    if not candidates:
+        return None
+
+    return max(
+        candidates,
+        key=len,
     )
 
 
-def try_2outube_direct(page, video_id):
+# ============================================================
+# 2OUTUBE — ACESSO DIRETO
+# ============================================================
+
+def try_2outube_direct(
+    page,
+    video_id,
+):
     urls = (
         f"https://2outube.com/watch?v={video_id}",
         f"https://2outube.com/live/{video_id}",
@@ -458,10 +565,12 @@ def try_2outube_direct(page, video_id):
                 timeout=45000,
             )
 
-            page.wait_for_timeout(6000)
+            page.wait_for_timeout(
+                6000
+            )
 
-            transcript = (
-                extract_transcript_from_page(page)
+            transcript = extract_transcript_from_page(
+                page
             )
 
             if transcript:
@@ -483,6 +592,10 @@ def try_2outube_direct(page, video_id):
     return None
 
 
+# ============================================================
+# LOCALIZAR CAMPO DE URL
+# ============================================================
+
 def find_visible_input(page):
     selectors = (
         'input[type="url"]',
@@ -502,9 +615,12 @@ def find_visible_input(page):
                 selector
             )
 
-            for i in range(
-                min(locator.count(), 20)
-            ):
+            total = min(
+                locator.count(),
+                20,
+            )
+
+            for i in range(total):
                 candidate = locator.nth(i)
 
                 try:
@@ -519,6 +635,10 @@ def find_visible_input(page):
 
     return None
 
+
+# ============================================================
+# 2OUTUBE — FORMULÁRIO
+# ============================================================
 
 def click_2outube_button(page):
     pattern = re.compile(
@@ -536,9 +656,12 @@ def click_2outube_button(page):
             name=pattern,
         )
 
-        for i in range(
-            min(buttons.count(), 20)
-        ):
+        total = min(
+            buttons.count(),
+            20,
+        )
+
+        for i in range(total):
             candidate = buttons.nth(i)
 
             if candidate.is_visible():
@@ -557,9 +680,12 @@ def click_2outube_button(page):
             'input[type="submit"]'
         )
 
-        for i in range(
-            min(buttons.count(), 20)
-        ):
+        total = min(
+            buttons.count(),
+            20,
+        )
+
+        for i in range(total):
             candidate = buttons.nth(i)
 
             if candidate.is_visible():
@@ -575,7 +701,10 @@ def click_2outube_button(page):
     return False
 
 
-def try_2outube_form(page, youtube_url):
+def try_2outube_form(
+    page,
+    youtube_url,
+):
     print(
         "Tentando formulário do 2outube...",
         flush=True,
@@ -588,7 +717,9 @@ def try_2outube_form(page, youtube_url):
             timeout=45000,
         )
 
-        page.wait_for_timeout(3000)
+        page.wait_for_timeout(
+            3000
+        )
 
         input_box = find_visible_input(
             page
@@ -620,15 +751,14 @@ def try_2outube_form(page, youtube_url):
 
             return None
 
-        # Até 30 segundos para aparecer
-        # uma transcrição válida.
+        # Espera até aproximadamente 30 segundos.
         for wait_round in range(1, 7):
             page.wait_for_timeout(
                 5000
             )
 
-            transcript = (
-                extract_transcript_from_page(page)
+            transcript = extract_transcript_from_page(
+                page
             )
 
             if transcript:
@@ -656,6 +786,10 @@ def try_2outube_form(page, youtube_url):
     return None
 
 
+# ============================================================
+# TUBETRANSCRIPT
+# ============================================================
+
 def click_tubetranscript_button(page):
     patterns = (
         re.compile(
@@ -679,9 +813,12 @@ def click_tubetranscript_button(page):
                 name=pattern,
             )
 
-            for i in range(
-                min(buttons.count(), 20)
-            ):
+            total = min(
+                buttons.count(),
+                20,
+            )
+
+            for i in range(total):
                 candidate = buttons.nth(i)
 
                 if candidate.is_visible():
@@ -694,15 +831,19 @@ def click_tubetranscript_button(page):
         except Exception:
             continue
 
+    # Fallback para botão submit.
     try:
         submit = page.locator(
             'button[type="submit"], '
             'input[type="submit"]'
         )
 
-        for i in range(
-            min(submit.count(), 20)
-        ):
+        total = min(
+            submit.count(),
+            20,
+        )
+
+        for i in range(total):
             candidate = submit.nth(i)
 
             if candidate.is_visible():
@@ -769,15 +910,14 @@ def try_tubetranscript(
 
             return None
 
-        # Máximo de aproximadamente 40 segundos
-        # esperando a geração.
+        # Espera no máximo aproximadamente 40 segundos.
         for wait_round in range(1, 9):
             page.wait_for_timeout(
                 5000
             )
 
-            transcript = (
-                extract_transcript_from_page(page)
+            transcript = extract_transcript_from_page(
+                page
             )
 
             if transcript:
@@ -803,6 +943,10 @@ def try_tubetranscript(
 
     return None
 
+
+# ============================================================
+# DEBUG
+# ============================================================
 
 def save_debug_page(
     page,
@@ -831,20 +975,26 @@ def save_debug_page(
         )
 
 
+# ============================================================
+# CICLOS DE TENTATIVA
+# ============================================================
+
 def get_transcript_with_retries(
     page,
     video_id,
     youtube_url,
 ):
     """
-    Faz no máximo quatro ciclos.
+    Executa no máximo MAX_CYCLES ciclos.
 
-    Cada ciclo:
-    1. 2outube direto
+    Cada ciclo tenta:
+
+    1. 2outube por URL direta
     2. formulário do 2outube
     3. TubeTranscript
 
-    Depois de quatro ciclos, encerra com erro.
+    Se nenhum funcionar após quatro ciclos,
+    encerra com erro em vez de ficar em loop infinito.
     """
 
     for cycle in range(
@@ -856,21 +1006,25 @@ def get_transcript_with_retries(
             "=" * 60,
             flush=True,
         )
+
         print(
             f"CICLO {cycle}/{MAX_CYCLES}: "
             "2outube -> TubeTranscript",
             flush=True,
         )
+
         print(
             "=" * 60,
             flush=True,
         )
 
-        transcript = (
-            try_2outube_direct(
-                page,
-                video_id,
-            )
+        # ----------------------------------------------------
+        # 1. 2OUTUBE DIRETO
+        # ----------------------------------------------------
+
+        transcript = try_2outube_direct(
+            page,
+            video_id,
         )
 
         if transcript:
@@ -879,11 +1033,13 @@ def get_transcript_with_retries(
                 "2outube-direct",
             )
 
-        transcript = (
-            try_2outube_form(
-                page,
-                youtube_url,
-            )
+        # ----------------------------------------------------
+        # 2. 2OUTUBE FORMULÁRIO
+        # ----------------------------------------------------
+
+        transcript = try_2outube_form(
+            page,
+            youtube_url,
         )
 
         if transcript:
@@ -892,11 +1048,13 @@ def get_transcript_with_retries(
                 "2outube-form",
             )
 
-        transcript = (
-            try_tubetranscript(
-                page,
-                youtube_url,
-            )
+        # ----------------------------------------------------
+        # 3. TUBETRANSCRIPT
+        # ----------------------------------------------------
+
+        transcript = try_tubetranscript(
+            page,
+            youtube_url,
         )
 
         if transcript:
@@ -905,6 +1063,7 @@ def get_transcript_with_retries(
                 "TubeTranscript",
             )
 
+        # Salva diagnóstico do último site acessado.
         save_debug_page(
             page,
             cycle,
@@ -916,6 +1075,7 @@ def get_transcript_with_retries(
                 "transcrição válida neste ciclo.",
                 flush=True,
             )
+
             print(
                 f"Novo ciclo em {WAIT_BETWEEN_ATTEMPTS}s...",
                 flush=True,
@@ -925,7 +1085,245 @@ def get_transcript_with_retries(
                 WAIT_BETWEEN_ATTEMPTS
             )
 
+    # IMPORTANTE:
+    # aqui o programa obrigatoriamente encerra.
+    # Não existe while True.
     raise RuntimeError(
         f"Falha após {MAX_CYCLES} ciclos completos. "
         "2outube e TubeTranscript não retornaram "
-        "uma transcrição váli
+        "uma transcrição válida. "
+        "O ultima_live_btg.txt anterior foi preservado."
+    )
+
+
+# ============================================================
+# SALVAR RESULTADO
+# ============================================================
+
+def save_transcript(
+    video_id,
+    youtube_url,
+    title,
+    transcript,
+    source,
+):
+    transcript = prepare_transcript(
+        transcript
+    )
+
+    if not transcript:
+        raise RuntimeError(
+            "Transcrição falhou na validação final."
+        )
+
+    fetched_at = datetime.now(
+        ZoneInfo(
+            "America/Sao_Paulo"
+        )
+    ).isoformat(
+        timespec="seconds"
+    )
+
+    output = (
+        f"VIDEO_ID: {video_id}\n"
+        f"URL: {youtube_url}\n"
+        f"TITLE: {title}\n"
+        f"FETCHED_AT: {fetched_at}\n"
+        f"SOURCE: {source}\n"
+        f"TRANSCRIPT_LENGTH: {len(transcript)}\n"
+        "\n"
+        f"{transcript}\n"
+    )
+
+    temp_file = Path(
+        "ultima_live_btg_nova.txt"
+    )
+
+    temp_file.write_text(
+        output,
+        encoding="utf-8",
+    )
+
+    # Confere novamente o arquivo gravado
+    # antes de substituir o TXT anterior.
+    saved = temp_file.read_text(
+        encoding="utf-8",
+        errors="ignore",
+    )
+
+    parts = saved.split(
+        "\n\n",
+        1,
+    )
+
+    if (
+        len(parts) != 2
+        or not validate_transcript(
+            parts[1]
+        )
+    ):
+        temp_file.unlink(
+            missing_ok=True
+        )
+
+        raise RuntimeError(
+            "Arquivo temporário não contém "
+            "uma transcrição válida."
+        )
+
+    # Só substitui o arquivo anterior
+    # depois de todas as validações.
+    temp_file.replace(
+        OUTPUT_FILE
+    )
+
+    print("")
+    print(
+        "=" * 60,
+        flush=True,
+    )
+
+    print(
+        "SUCESSO",
+        flush=True,
+    )
+
+    print(
+        "=" * 60,
+        flush=True,
+    )
+
+    print(
+        f"VIDEO_ID: {video_id}",
+        flush=True,
+    )
+
+    print(
+        f"TITLE: {title}",
+        flush=True,
+    )
+
+    print(
+        f"URL: {youtube_url}",
+        flush=True,
+    )
+
+    print(
+        f"SOURCE: {source}",
+        flush=True,
+    )
+
+    print(
+        f"FETCHED_AT: {fetched_at}",
+        flush=True,
+    )
+
+    print(
+        f"Tamanho: {len(transcript)} caracteres",
+        flush=True,
+    )
+
+    print(
+        f"Timestamps: {count_timestamps(transcript)}",
+        flush=True,
+    )
+
+    print(
+        f"Arquivo salvo: {OUTPUT_FILE}",
+        flush=True,
+    )
+
+
+# ============================================================
+# MAIN
+# ============================================================
+
+def main():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True
+        )
+
+        context = browser.new_context(
+            viewport={
+                "width": 1365,
+                "height": 900,
+            },
+            user_agent=(
+                "Mozilla/5.0 "
+                "(Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 "
+                "(KHTML, like Gecko) "
+                "Chrome/140.0.0.0 Safari/537.36"
+            ),
+            locale="pt-BR",
+        )
+
+        page = context.new_page()
+
+        try:
+            # ------------------------------------------------
+            # Localiza a última live concluída.
+            # ------------------------------------------------
+
+            (
+                video_id,
+                youtube_url,
+                title,
+            ) = find_latest_completed_live(
+                page
+            )
+
+            # ------------------------------------------------
+            # Se a live atual já estiver salva e válida,
+            # não desperdiça tempo retranscrevendo.
+            # ------------------------------------------------
+
+            saved_video_id = get_saved_video_id()
+
+            if (
+                saved_video_id == video_id
+                and existing_file_is_valid_for(
+                    video_id
+                )
+            ):
+                print(
+                    "A live concluída mais recente "
+                    "já está salva e válida. "
+                    "Nada a atualizar.",
+                    flush=True,
+                )
+
+                return
+
+            # ------------------------------------------------
+            # Tenta obter a transcrição.
+            # ------------------------------------------------
+
+            (
+                transcript,
+                source,
+            ) = get_transcript_with_retries(
+                page,
+                video_id,
+                youtube_url,
+            )
+
+            # ------------------------------------------------
+            # Salva somente após validação.
+            # ------------------------------------------------
+
+            save_transcript(
+                video_id,
+                youtube_url,
+                title,
+                transcript,
+                source,
+            )
+
+        finally:
+            browser.close()
+
+
+if __name__ == "__main__":
+    main()
