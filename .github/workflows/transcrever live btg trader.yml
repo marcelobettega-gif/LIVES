@@ -1,0 +1,50 @@
+name: Transcrever live BTG Trader
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # 08:00 em São Paulo = 11:00 UTC
+    - cron: "0 11 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: transcrever-live-btg
+  cancel-in-progress: true
+
+jobs:
+  transcrever:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Rodar transcrição BTG
+        run: python transcrever_live_btg.py
+
+      - name: Commit da transcrição
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if [ -f ultima_live_btg.txt ]; then
+            git add ultima_live_btg.txt
+            git diff --cached --quiet || git commit -m "Atualiza transcrição da última live BTG Trader"
+            git push
+          else
+            echo "ultima_live_btg.txt não foi criado."
+          fi
