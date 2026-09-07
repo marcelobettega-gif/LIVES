@@ -54,6 +54,13 @@ def main() -> int:
         print("Erro: configure PLAYLIST_URL em Settings > Secrets and variables > Actions > Variables.", file=sys.stderr)
         return 1
 
+    # Validar que yt-dlp está instalado
+    try:
+        import yt_dlp
+    except ImportError:
+        print("Erro: yt-dlp não está instalado corretamente.", file=sys.stderr)
+        return 1
+
     workspace = Path(os.getenv("GITHUB_WORKSPACE", Path.cwd())).resolve()
     output_dir = Path(args.output_dir)
     if not output_dir.is_absolute():
@@ -88,9 +95,12 @@ def main() -> int:
         args.playlist_url,
     ]
 
-    resultado = subprocess.run(comando, check=False)
+    resultado = subprocess.run(comando, capture_output=True, text=True, check=False)
     if resultado.returncode != 0:
         print("Erro: yt-dlp não conseguiu processar a playlist.", file=sys.stderr)
+        print(f"Código de erro: {resultado.returncode}", file=sys.stderr)
+        if resultado.stderr:
+            print(f"Saída de erro: {resultado.stderr}", file=sys.stderr)
         return resultado.returncode
 
     vtts = sorted(output_dir.glob("*.vtt"))
