@@ -92,6 +92,19 @@ def main() -> int:
         str(archive_file),
         "--output",
         str(output_dir / "%(playlist_index)03d - %(title)s [%(id)s].%(ext)s"),
+        # Adicionar opções para evitar detecção de bot
+        "--no-warnings",
+        "-f",
+        "best",
+        # Usar nodejs como runtime JavaScript
+        "--js-runtimes",
+        "nodejs",
+        # Adicionar headers para parecer com um navegador
+        "--add-header",
+        "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        # Aumentar timeouts
+        "--socket-timeout",
+        "30",
         args.playlist_url,
     ]
 
