@@ -1,6 +1,6 @@
 VIDEO_ID: BIiCxFn1als
 URL: https://www.youtube.com/watch?v=BIiCxFn1als
-FETCHED_AT: 2026-09-13T14:53:43-03:00
+FETCHED_AT: 2026-09-13T21:11:43-03:00
 SOURCE: 2outube-form
 TRANSCRIPT_LENGTH: 132474
 
