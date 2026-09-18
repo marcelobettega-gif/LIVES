@@ -2,6 +2,15 @@ name: Transcrever última live BTG Trader
 
 on:
   workflow_dispatch:
+    inputs:
+      force_retranscribe:
+        description: "Forçar nova transcrição mesmo se o vídeo já estiver salvo"
+        required: false
+        default: "1"
+        type: choice
+        options:
+          - "0"
+          - "1"
 
   schedule:
     # 08:00 em São Paulo = 11:00 UTC
@@ -31,545 +40,49 @@ jobs:
       - name: Instalar Playwright
         run: |
           python -m pip install --upgrade pip
-          pip install playwright
+          pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
-      - name: Criar script de transcrição BTG
+      - name: Executar transcrição BTG Trader
+        env:
+          CHANNEL_NAME: "BTG Trader"
+          CHANNEL_URL: "https://www.youtube.com/@BTGTrader/streams"
+          CONTENT_KIND: "live"
+          OUTPUT_FILE: "ultima_live_btg.txt"
+          DISCOVERY_MODE: "btg_recent_completed"
+          BTG_MIN_AGE_DAYS: "1"
+          BTG_MAX_AGE_DAYS: "2"
+          FORCE_RETRANSCRIBE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_retranscribe || '0' }}
+          TRANSCRIPT_WAIT_SECONDS: "150"
+          POLL_INTERVAL_SECONDS: "5"
+          MAX_PROVIDER_CYCLES: "2"
+          WAIT_BETWEEN_CYCLES: "20"
+        run: |
+          python transcrever_live_fabio.py
+
+      - name: Formatar transcrição
+        if: always()
+        run: |
+          python formatar_transcricoes.py
+
+      - name: Salvar transcrição no repositório
+        if: always()
         shell: bash
         run: |
-          cat > transcrever_btg_novo.py <<'PYTHON'
-          import re
-          import time
-          from pathlib import Path
-          from datetime import datetime
-          from zoneinfo import ZoneInfo
-
-          from playwright.sync_api import sync_playwright
-
-
-          CHANNEL_URL = "https://www.youtube.com/@BTGTrader/streams"
-          OUTPUT_FILE = Path("ultima_live_btg.txt")
-
-          FUTURE_MARKERS = (
-              "em breve",
-              "programado",
-              "programada",
-              "agendado",
-              "agendada",
-              "estreia em",
-              "estreia marcada",
-              "começa em",
-              "comeca em",
-              "scheduled",
-              "upcoming",
-              "premiere",
-              "premieres",
-          )
-
-          COMPLETED_MARKERS = (
-              "transmitido",
-              "transmitida",
-              "foi transmitido",
-              "foi transmitida",
-              "streamed",
-              "ended",
-              "finalizado",
-              "finalizada",
-              "há ",
-              "ha ",
-              "ago",
-              "ontem",
-              "yesterday",
-          )
-
-
-          def normalize(text):
-              text = text or ""
-              text = text.lower()
-              text = re.sub(r"\s+", " ", text)
-              return text.strip()
-
-
-          def extract_video_id(href):
-              if not href:
-                  return None
-
-              patterns = (
-                  r"/live/([A-Za-z0-9_-]{11})",
-                  r"[?&]v=([A-Za-z0-9_-]{11})",
-              )
-
-              for pattern in patterns:
-                  match = re.search(pattern, href)
-                  if match:
-                      return match.group(1)
-
-              return None
-
-
-          def video_url(video_id):
-              return f"https://www.youtube.com/watch?v={video_id}"
-
-
-          def get_card(link):
-              selectors = (
-                  "xpath=ancestor::ytd-rich-item-renderer[1]",
-                  "xpath=ancestor::ytd-grid-video-renderer[1]",
-                  "xpath=ancestor::ytd-video-renderer[1]",
-                  "xpath=ancestor::ytd-rich-grid-media[1]",
-              )
-
-              for selector in selectors:
-                  try:
-                      card = link.locator(selector)
-                      if card.count() > 0:
-                          return card
-                  except Exception:
-                      pass
-
-              return None
-
-
-          def card_text(link):
-              parts = []
-              card = get_card(link)
-
-              if card is not None:
-                  try:
-                      parts.append(card.text_content(timeout=3000) or "")
-                  except Exception:
-                      pass
-
-                  try:
-                      nodes = card.locator("[aria-label], [title]")
-                      for index in range(min(nodes.count(), 30)):
-                          node = nodes.nth(index)
-
-                          for attribute in ("aria-label", "title"):
-                              try:
-                                  value = node.get_attribute(attribute)
-                                  if value:
-                                      parts.append(value)
-                              except Exception:
-                                  pass
-                  except Exception:
-                      pass
-
-              for attribute in ("aria-label", "title"):
-                  try:
-                      value = link.get_attribute(attribute)
-                      if value:
-                          parts.append(value)
-                  except Exception:
-                      pass
-
-              return normalize(" ".join(parts))
-
-
-          def is_future(text):
-              normalized = normalize(text)
-              return any(marker in normalized for marker in FUTURE_MARKERS)
-
-
-          def age_in_hours(text):
-              """
-              Retorna a idade aproximada da live em horas.
-
-              Exemplos aceitos:
-              - há algumas horas
-              - há 3 horas
-              - há 1 dia
-              - há 2 dias
-              - 3 hours ago
-              - 1 day ago
-              - ontem
-              """
-              normalized = normalize(text)
-
-              if "agora" in normalized or "hoje" in normalized:
-                  return 0
-
-              if "ontem" in normalized or "yesterday" in normalized:
-                  return 24
-
-              if re.search(r"há\s+(?:algumas|poucas)\s+horas", normalized):
-                  return 3
-
-              if re.search(r"ha\s+(?:algumas|poucas)\s+horas", normalized):
-                  return 3
-
-              match = re.search(r"há\s+(\d+)\s+horas?", normalized)
-              if match:
-                  return int(match.group(1))
-
-              match = re.search(r"ha\s+(\d+)\s+horas?", normalized)
-              if match:
-                  return int(match.group(1))
-
-              match = re.search(r"(\d+)\s+hours?\s+ago", normalized)
-              if match:
-                  return int(match.group(1))
-
-              match = re.search(r"há\s+(\d+)\s+dias?", normalized)
-              if match:
-                  return int(match.group(1)) * 24
-
-              match = re.search(r"ha\s+(\d+)\s+dias?", normalized)
-              if match:
-                  return int(match.group(1)) * 24
-
-              match = re.search(r"(\d+)\s+days?\s+ago", normalized)
-              if match:
-                  return int(match.group(1)) * 24
-
-              return None
-
-
-          def appears_completed(text):
-              normalized = normalize(text)
-
-              if is_future(normalized):
-                  return False
-
-              age = age_in_hours(normalized)
-              if age is not None:
-                  return True
-
-              return any(
-                  marker in normalized
-                  for marker in COMPLETED_MARKERS
-              )
-
-
-          def discover_latest_completed_live(page):
-              print(f"Acessando: {CHANNEL_URL}")
-
-              page.goto(
-                  CHANNEL_URL,
-                  wait_until="domcontentloaded",
-                  timeout=90000,
-              )
-
-              page.wait_for_timeout(8000)
-
-              selectors = (
-                  'ytd-rich-item-renderer a[href*="/watch?v="]',
-                  'ytd-rich-item-renderer a[href*="/live/"]',
-                  'ytd-grid-video-renderer a[href*="/watch?v="]',
-                  'a[href*="/watch?v="]',
-                  'a[href*="/live/"]',
-              )
-
-              candidates = []
-              seen_ids = set()
-
-              for selector in selectors:
-                  links = page.locator(selector)
-
-                  try:
-                      count = links.count()
-                  except Exception:
-                      count = 0
-
-                  for index in range(min(count, 200)):
-                      link = links.nth(index)
-
-                      try:
-                          href = link.get_attribute("href")
-                          video_id = extract_video_id(href)
-
-                          if not video_id or video_id in seen_ids:
-                              continue
-
-                          seen_ids.add(video_id)
-
-                          text = card_text(link)
-                          normalized = normalize(text)
-
-                          print(
-                              f"Candidato {len(candidates) + 1}: "
-                              f"{video_id} | {text[:200]}"
-                          )
-
-                          if is_future(normalized):
-                              print("  -> ignorado: evento futuro/agendado")
-                              continue
-
-                          if not appears_completed(normalized):
-                              print("  -> ignorado: não há indicação de live encerrada")
-                              continue
-
-                          age = age_in_hours(normalized)
-
-                          # Quando o YouTube informa a idade, ela é usada
-                          # para escolher a transmissão mais recente.
-                          # Quando não informa, a ordem da página é usada.
-                          sort_age = age if age is not None else 10**9
-
-                          candidates.append(
-                              {
-                                  "video_id": video_id,
-                                  "url": video_url(video_id),
-                                  "text": text,
-                                  "age": age,
-                                  "sort_age": sort_age,
-                                  "page_order": len(candidates),
-                              }
-                          )
-
-                      except Exception as error:
-                          print(f"Aviso ao analisar candidato: {error}")
-
-              if not candidates:
-                  raise RuntimeError(
-                      "Nenhuma live encerrada foi encontrada no canal BTG Trader."
-                  )
-
-              candidates.sort(
-                  key=lambda item: (
-                      item["sort_age"],
-                      item["page_order"],
-                  )
-              )
-
-              chosen = candidates[0]
-
-              print("")
-              print("Live encerrada selecionada:")
-              print(f"VIDEO_ID: {chosen['video_id']}")
-              print(f"URL: {chosen['url']}")
-              print(f"IDADE_APROXIMADA_HORAS: {chosen['age']}")
-
-              return chosen["video_id"], chosen["url"]
-
-
-          def find_input(page):
-              selectors = (
-                  'input[type="url"]',
-                  'input[name*="url"]',
-                  'input[id*="url"]',
-                  'input[placeholder*="YouTube"]',
-                  'input[placeholder*="youtube"]',
-                  'input[placeholder*="Paste"]',
-                  'input[placeholder*="paste"]',
-                  'input[type="text"]',
-              )
-
-              for selector in selectors:
-                  locator = page.locator(selector)
-
-                  try:
-                      count = locator.count()
-                  except Exception:
-                      count = 0
-
-                  for index in range(count):
-                      candidate = locator.nth(index)
-
-                      try:
-                          if candidate.is_visible():
-                              return candidate
-                      except Exception:
-                          pass
-
-              return None
-
-
-          def click_generate(page):
-              patterns = (
-                  re.compile(r"get\s+(free\s+)?transcript", re.I),
-                  re.compile(r"generate\s+transcript", re.I),
-                  re.compile(r"transcribe", re.I),
-                  re.compile(r"gerar\s+transcri", re.I),
-                  re.compile(r"transcri", re.I),
-              )
-
-              for pattern in patterns:
-                  try:
-                      buttons = page.get_by_role("button", name=pattern)
-
-                      for index in range(buttons.count()):
-                          button = buttons.nth(index)
-
-                          if button.is_visible():
-                              button.click(timeout=15000)
-                              return True
-                  except Exception:
-                      pass
-
-              try:
-                  submits = page.locator(
-                      'button[type="submit"], input[type="submit"]'
-                  )
-
-                  for index in range(submits.count()):
-                      button = submits.nth(index)
-
-                      if button.is_visible():
-                          button.click(timeout=15000)
-                          return True
-              except Exception:
-                  pass
-
-              return False
-
-
-          def clean_text(text):
-              text = text or ""
-              text = text.replace("\r\n", "\n")
-              text = re.sub(r"\n{4,}", "\n\n\n", text)
-
-              footers = (
-                  "Works on any YouTube video.",
-                  "Read another video",
-                  "ONE EMAIL, NO SPAM",
-                  "Get transcripts by email",
-              )
-
-              for footer in footers:
-                  position = text.find(footer)
-                  if position >= 0:
-                      text = text[:position]
-
-              return text.strip()
-
-
-          def extract_transcript(page):
-              selectors = (
-                  '[class*="transcript"]',
-                  '[id*="transcript"]',
-                  '[class*="caption"]',
-                  '[id*="caption"]',
-                  "textarea",
-                  "pre",
-                  "article",
-                  "main",
-                  "body",
-              )
-
-              possible_texts = []
-
-              for selector in selectors:
-                  locator = page.locator(selector)
-
-                  try:
-                      count = locator.count()
-                  except Exception:
-                      count = 0
-
-                  for index in range(min(count, 40)):
-                      try:
-                          element = locator.nth(index)
-                          text = element.text_content(timeout=3000) or ""
-                          text = clean_text(text)
-
-                          words = re.findall(r"\b\w+\b", text)
-
-                          if len(text) >= 2000 and len(words) >= 300:
-                              possible_texts.append(text)
-                      except Exception:
-                          pass
-
-              if not possible_texts:
-                  return None
-
-              return max(possible_texts, key=len)
-
-
-          def generate_transcript(page, youtube_url):
-              print("")
-              print("Abrindo o serviço de transcrição...")
-
-              page.goto(
-                  "https://2outube.com/",
-                  wait_until="domcontentloaded",
-                  timeout=90000,
-              )
-
-              page.wait_for_timeout(4000)
-
-              input_box = find_input(page)
-
-              if input_box is None:
-                  raise RuntimeError(
-                      "Campo para inserir o link do YouTube não encontrado."
-                  )
-
-              input_box.fill(youtube_url)
-
-              if not click_generate(page):
-                  raise RuntimeError(
-                      "Botão para gerar a transcrição não encontrado."
-                  )
-
-              print("Solicitação enviada. Aguardando a transcrição...")
-
-              max_wait = 300
-              interval = 5
-
-              for elapsed in range(0, max_wait, interval):
-                  page.wait_for_timeout(interval * 1000)
-
-                  transcript = extract_transcript(page)
-
-                  if transcript:
-                      print(
-                          f"Transcrição obtida após aproximadamente "
-                          f"{elapsed + interval} segundos."
-                      )
-                      return transcript
-
-                  print(
-                      f"Aguardando transcrição... "
-                      f"{elapsed + interval}/{max_wait} segundos"
-                  )
-
-              raise RuntimeError(
-                  "O serviço não retornou uma transcrição válida dentro do prazo."
-              )
-
-
-          def save_transcript(video_id, youtube_url, transcript):
-              fetched_at = datetime.now(
-                  ZoneInfo("America/Sao_Paulo")
-              ).isoformat(timespec="seconds")
-
-              content = (
-                  f"VIDEO_ID: {video_id}\n"
-                  f"URL: {youtube_url}\n"
-                  f"FETCHED_AT: {fetched_at}\n"
-                  f"TRANSCRIPT_LENGTH: {len(transcript)}\n\n"
-                  f"{transcript}\n"
-              )
-
-              temporary_file = Path("ultima_live_btg_nova.txt")
-              temporary_file.write_text(content, encoding="utf-8")
-
-              temporary_file.replace(OUTPUT_FILE)
-
-              print("")
-              print("Transcrição salva com sucesso:")
-              print(OUTPUT_FILE)
-
-
-          def main():
-              with sync_playwright() as playwright:
-                  browser = playwright.chromium.launch(headless=True)
-
-                  context = browser.new_context(
-                      viewport={"width": 1365, "height": 900},
-                      locale="pt-BR",
-                      user_agent=(
-                          "Mozilla/5.0 (X11; Linux x86_64) "
-                          "AppleWebKit/537.36 "
-                          "(KHTML, like Gecko) "
-                          "Chrome/140.0.0.0 Safari/537.36"
-                      ),
-                  )
-
-                  page = context.new_page()
-
-                  try:
-                      video_id, youtube_url = discover_latest_completed_live(page)
-                      transcript = generate_transcript(page, youtube_url)
-                      save_transcript*
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if [ -f ultima_live_btg.txt ]; then
+            git add ultima_live_btg.txt
+          else
+            echo "Arquivo ultima_live_btg.txt não foi gerado."
+          fi
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma transcrição nova para salvar."
+          else
+            git commit -m "Atualiza transcrição da última live BTG Trader"
+            git push
+          fi
