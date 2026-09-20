@@ -1,74 +1,2662 @@
-VIDEO_ID: G9MB9vCWPiw
-URL: https://www.youtube.com/watch?v=G9MB9vCWPiw
-FETCHED_AT: 2026-09-13T21:21:27-03:00
-SOURCE: 2outube-form
-TRANSCRIPT_LENGTH: 19105
+VIDEO_ID: EufCYfvfbr0
+URL: https://www.youtube.com/watch?v=EufCYfvfbr0
+FETCHED_AT: 2026-09-20T09:12:38-03:00
+SOURCE: TubeTranscript
+TRANSCRIPT_LENGTH: 134181
 
-Transcript
-                ITSA4: O Que as Eleições de 2022 Revelam sobre a Itaúsa Agora
-
-                    by Clube dos Dividendos·
-                    3.302 words
-                    ·
-                    21:26 runtime
+Tubetranscript.com
 
 
-                ¶
+                            English
+
+                            Russian
+
+                            Spanish
+
+                            Indonesian
+
+                            Filipino
+
+                            Hindi
+
+                            German
+
+                            French
+
+                            Romanian
+
+                            العربية
+
+                            Dansk
+
+                            Nederlands
+
+                            עברית
+
+                            Italiano
+
+                            日本語
+
+                            한국어
+
+                            Polski
+
+                            Português
+
+                            Svenska
+
+                            Türkçe
+
+                            Tiếng Việt
+
+                            ไทย
+
+                            Українська
+
+                            Bahasa Melayu
+
+                            Ελληνικά
+
+                            Čeština
+
+                            Magyar
+
+                            Norsk
+
+                            Suomi
+
+                            简体中文
+
+                            繁體中文
 
 
-                        ▾
+                                Recursos
 
-                            Copy with timestamps
+                                Sobre nós
 
-
-                        Plain text .txt
-                        Markdown .md
-                        Subtitles .srt
-                        Structured .json
-                        Email it to me .md
+                                Contato
 
 
-                        Loading…
+                                    Recursos
+
+                                    Sobre nós
+
+                                    Contato
 
 
-                Next video
+                    English
+
+                    Russian
+
+                    Spanish
+
+                    Indonesian
+
+                    Filipino
+
+                    Hindi
+
+                    German
+
+                    French
+
+                    Romanian
+
+                    العربية
+
+                    Dansk
+
+                    Nederlands
+
+                    עברית
+
+                    Italiano
+
+                    日本語
+
+                    한국어
+
+                    Polski
+
+                    Português
+
+                    Svenska
+
+                    Türkçe
+
+                    Tiếng Việt
+
+                    ไทย
+
+                    Українська
+
+                    Bahasa Melayu
+
+                    Ελληνικά
+
+                    Čeština
+
+                    Magyar
+
+                    Norsk
+
+                    Suomi
+
+                    简体中文
+
+                    繁體中文
 
 
-                    Working through a stack?
-                    Get this whole channel as one file for your AI — or put your own list in one Batch.
+        document.querySelectorAll('.select-trigger, .burger-trigger').forEach(trigger => {
+            trigger.addEventListener('click', (e) => {
+                const parent = trigger.parentElement;
+                const isOpen = parent.classList.contains('open');
+
+                // Закрыть все открытые
+                document.querySelectorAll('.mob-select, .burger-menu').forEach(el => {
+                    el.classList.remove('open');
+                    el.querySelector('button').setAttribute('aria-expanded', 'false');
+                });
+
+                // Открыть текущий (если был закрыт)
+                if (!isOpen) {
+                    parent.classList.add('open');
+                    trigger.setAttribute('aria-expanded', 'true');
+                }
+            });
+        });
+
+        // Закрыть при клике вне
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.mob-select, .burger-menu')) {
+                document.querySelectorAll('.mob-select, .burger-menu').forEach(el => {
+                    el.classList.remove('open');
+                    el.querySelector('button').setAttribute('aria-expanded', 'false');
+                });
+            }
+        });
+
+        // Обработка выбора в select
+        document.querySelectorAll('.select-dropdown li').forEach(item => {
+            item.addEventListener('click', () => {
+                const value = item.dataset.value;
+                console.log('Выбрано:', value);
+                // Здесь можно обновить скрытый input или state
+            });
+        });
+        const languageCodes = Array.from(
+            document.querySelectorAll('#language-select option'),
+            option => option.value
+        );
+
+        // Function to change language and update cookies
+        function changeLanguage(selectedLanguage) {
+            // Get the existing language from cookies
+            const existingLanguage = getCookie('language');
+
+            // Check if the selected language is different from the existing one
+            if (selectedLanguage !== existingLanguage) {
+                // Send a POST request to update the server's language
+                fetch(`/set-locale?locale=${selectedLanguage}`, { method: 'POST' })
+                    .then(() => {
+                        // The server has updated the language, and it's safe to set the cookie here
+                        document.cookie = `language=${selectedLanguage}; path=/; max-age=${30 * 24 * 60 * 60}`; // Set cookie for 30 days
+
+                        // Preserve the query parameters
+                        const currentUrl = new URL(window.location.href);
+                        const videoId = currentUrl.searchParams.get('v');
+                        const fileVideoId = currentUrl.searchParams.get('id');
+                        const currentPath = window.location.pathname;
+
+                        let newPath;
+
+                        // Known languages list (server-rendered)
+                        const languages = languageCodes;
+                        // Remove any count of leading language segments if present multiple times
+                        const segments = currentPath.split('/').filter(Boolean);
+                        let startIndex = 0;
+                        while (startIndex < segments.length && languages.includes(segments[startIndex])) {
+                            startIndex++;
+                        }
+                        let restPath = '/' + segments.slice(startIndex).join('/');
+                        if (restPath === '//') restPath = '/';
+                        if (restPath === '') restPath = '/';
+
+                        if (videoId) {
+                            newPath = `/${selectedLanguage}/watch?v=${videoId}`;
+                        } else if (fileVideoId) {
+                            newPath = `/${selectedLanguage}/watch?id=${fileVideoId}`;
+                        } else if (!restPath || restPath === '/' || restPath === '') {
+                            newPath = `/${selectedLanguage}`;
+                        } else {
+                            newPath = `/${selectedLanguage}${restPath}`;
+                        }
+
+                        window.location.href = newPath;
+                    })
+                    .catch((error) => {
+                        console.error('Error changing language:', error);
+                    });
+            }
+        }
+
+        // Function to update language selector based on cookies
+        function updateLanguageSelector() {
+            const selectedLanguage = getCookie('language');
+            if (selectedLanguage) {
+                document.getElementById('language-select').value = selectedLanguage;
+            }
+        }
+
+        function openCWS(utm_content, audioToText) {
+            switch(utm_content) {
+                case 'su_banner':
+                    gtag('event', 'redirect_banner_click')
+                    break;
+                case 'header_banner':
+                    gtag('event', 'banner_install_click')
+                    break;
+                case 'side_banner':
+                    gtag('event', 'side_banner_install_click')
+                    break;
+                case 'footer_banner':
+                    gtag('event', 'footer_banner_install_click')
+                    break;
+                case 'medium_banner':
+                    gtag('event', 'banner_medium_install_click')
+                    break;
+                case 'float_btn':
+                    gtag('event', 'widget_install_click')
+                    break;
+                case 'summary':
+                    gtag('event', 'summary_click')
+                    break;
+                case 'no_subtitles':
+                    gtag('event', 'no_subtitles_click')
+                    break;
+                case 'transcript_limit':
+                    gtag('event', 'transcript_limit_install_click')
+                    break;
+                case 'summary_partial':
+                    gtag('event', 'summary_partial_install_click')
+                    break;
+                case 'pro_transcript_error':
+                    gtag('event', 'pro_transcript_error_install_click')
+                    break;
+                default:
+                    break;
+            }
+            gtag('event', 'open_cws', {
+                'cws_utm_content': utm_content
+            });
+
+            const extID = audioToText ? "gfhhgpmndeebbmpojhjpgdpbbapffaka" : "apnedodbofogffiagpekmbeflilkcbgf"
+            window.open(`https://chromewebstore.google.com/detail/youtube-to-text/${extID}?utm_source=tubetranscript&utm_content=${utm_content}`, "_blank")
+        }
+
+        // Event listener for language select change
+        document.getElementById('language-select').addEventListener('change', function () {
+            const selectedLanguage = this.value;
+            changeLanguage(selectedLanguage); // Call the function to change language and update cookies
+        });
+
+        document.querySelectorAll("#mob-language > ul > li").forEach(item => {
+            item.addEventListener('click', (e) => {
+                changeLanguage(item.getAttribute('data-value'));
+            })
+        })
+
+        // Function to get a cookie by name
+        function getCookie(name) {
+            const cookieValue = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+            return cookieValue ? cookieValue[2] : null;
+        }
+
+        // Initialize the language selector and cookies
+        updateLanguageSelector();
+
+        // Automatically add language from cookie to URL only if no leading language exists
+        window.addEventListener('DOMContentLoaded', (event) => {
+            const selectedLanguage = getCookie('language');
+            if (selectedLanguage) {
+                const currentPath = window.location.pathname;
+                const languages = languageCodes;
+                const segs = currentPath.split('/').filter(Boolean);
+                const hasLeadingLang = segs.length > 0 && languages.includes(segs[0]);
+                if (!hasLeadingLang) {
+                    const newPathWithLanguage = `/${selectedLanguage}${currentPath}`;
+                    window.history.replaceState({}, '', newPathWithLanguage);
+                }
+            }
+        });
 
 
-                    Whole channel → one file
-                    Not now
+        Obter acesso rápido
 
 
-0:00 Olá, pessoal. No vídeo de hoje eu vou trazer a atualização semanal clássica aqui do Clube dos Dividendos sobre a Itaúza. A gente vai comentar sobre projeções de preço alvo, trazendo alguns gringos comentando sobre a Itaúza, a atualização do mesmo. Também invadimos aqui preço justo, lapidando somente por fluxo de caixa descontado de 5 a 10 anos. E aí caímos no Brunão aqui. Vou trazer uma análise de fundamentos em gráfico pra gente analisar o momento de compra ou venda da Itaúza. Para diferenciar dos conteúdos anteriores, hoje eu trago lucro por ação, trago também dividen y e uma mistura de ambos junto com evolução ou não dos preços,
-0:38 tá? Ou melhor, né? Ascensão ou queda dos preços. Papo aqui nerds para você que de repente quer acompanhar a Itaú e saber que momento estamos vivendo em relação a esses dois fundamentos. comentamos sobre aceleração versus desaceleração de dividendos. E eu vou finalizar, pessoal, falando sobre 2022 versus 2026. Qual o momento que estamos vivendo se a história rimar? Não me parece ser muito interessante pro comprador. Tudo isso no meu viés de confirmação para dizer que a Itausa acima dos 14, lá vai fumaça, especificamente aí os 15,90 e 16,30 são os meus strikes de venda de call coberta. O de análise técnica no final.
-1:17 Descamer tá na tela. Eu sou Bruno Mazonei. Seja muito bem-vindo aqui ao Clube dos Dividendos. Bom, eu começo com o preçoal, vou aqui na plataforma da Investing. Pessoal, nós temos aqui uma média, o mercado, gringos, brasileiros, research colocando a Itaú em 16,77, o que gera uma margem de segurança versus preço alvo de 18,61%. Esse pessoal eles variam, como diz o outro, em amarelo é a evolução da média, dos preços alvos. em azul é o preço da Itaúza. Então veja que em nenhum momento a Itaúa esteve cara, tá? Então via preço alvo, utilizando aqui os últimos 12 meses, não temos, tá? Os últimos 12 meses, me perdoe, tá? Desde dezembro de2:0124 a gente tem essa média do preço alvo. Não temos a Itaúa em nenhum momento ficando cara, nem mesmo em dezembro de 25, que tudo tava subindo demais, a Itaúza continuou, de certa maneira com uma margem de segurança em relação a preço alvo em 2026. momento que falo com vocês, pessoal, nós temos praticamente 18% ainda de lambuja de retorno. Eu não boto a minha mão no fogo para mais 18% com consistência na Itaúza, porque vocês que acompanham aqui os vídeos semanais sabem que a sazonalidade janeiro a dezembro não suporta um movimento tão grande para aquilo que já aconteceu em 2026. 18.6% é uma alta razoável. Talvez a gente
-2:44 esteja falando já para 2027. Para 2026, eu acho que a R$,90 tá na minha 16,20, no máximo, tá ali no meu alvo que não deve ser ultrapassado, logo que vai balizar as minhas vendas de opção. Mas o fato é 18% de margem de segurança em relação às recomendações. São sete recomendações de compra, zero pessoal, zero recomendação de venda, tá? Tá? E nós temos aqui JP Morgan, Goldman Sax e o Jeffre tudo colocando compra, né? Do preço alvo de 18 passou para 1850 o JP Morgan. Não temos o Gold, não tínhamos o Goldman Sax nos últimos 3 meses com recomendação. A nova recomendação é R$,90.
-3:30 O Jeffre saiu de 13,20 e foi para 16,20, pessoal. Todo mundo aqui pelo menos a R$ 16, tá? A 16,20 é o meu alvo. Então eu tô com o Jeffres aqui. Deixa nos comentários qual é o seu alvo aqui em relação a Itaúza, olhando para no máximo, preço máximo aí até 31 de dezembro de 2026, tá? Utilizando agora preço justo, algumas modelagens de valuations proprietárias aqui da Investing Pro, somente os fluxos de caixa descontado de 5 e 10 anos. A média também tá muito próxima dos 16, né?4:0416,6. Então, vou lá, pessoal. o número mágico aí para 2026 e a depender do cenário macroeconômico também, vou colocar para 2027, é os R$ 15,90 aos 16,20. Agora, adentrando na minha expertise, lembrando que a Investing Pro é parceira do clube. Link eu sempre deixo na descrição, caso você se entusiasme aqui com as funcionalidades da Investin/ Investin Pro. Agora entrando no meu mundo, eu observo o primeiro gráfico de lucro por ação projetado. Aqui não é preço alvo, é lucro por ação que o mercado projeta. Tá projetando R$ 1,72 de lucro por ação, enquanto que a Itaú tá entregando 1,62. O que que eu quero ver nesse gráfico para eu estar
-4:46 otimista? Eu quero ver primeiro tendência de alta. Temos tanto na projeção como na entrega, tá? E se porventura a gente tiver o oposto acontecendo, a projeção cortar de cima para baixo, o que ela tá entregando é um primeiro, pessoal, gatilho fora da análise técnica dos gráficos do Fibonacci, da seja lá o que for, SMC, o que você tem de estratégia gráfica, é um gatilho fundamentalista em um lucro por ação, mas principalmente de quem faz conta, tá? Eh, é um chute porque é projeção, mas é em cima de fundamentos e não em cima de alguma análise técnica, algum gráfico específico, candle, stick, etc. Então, o primeiro gatilho que eu tenho para
-5:28 diminuir o aporte, para vender uma call mais eh tamanho, para comprar uma para quem gosta de comprar né? Ser será pessoal o gráfico de lucro por ação projetado que evolui de três em três meses. Ele carrega os últimos 12 meses e atualizado com o trimestre vigente. O trimestre vigente é o segundo tri. Então, o segundo tri mais três tri anteriores é o que faz essa evolução acontecer. 1,72.
-5:56 Ela tá entregando 1,62. Não me importo muito com o valor aqui absoluto. O que eu quero é tendência. Tendência de alta, ação ainda com potencial de subida. Quedas são oportunidades. Virou o azul sobre o branco e o azul começa a valer menos que o branco, que é o que ela tá entregando nos últimos 12 meses. Bingo, pessoal. É um primeiro gatilho. Então, essa parte aqui do vídeo, talvez de estratégia, não é recomendação, mas é uma estratégia.
-6:21 Quem porventura faz operações com derivativos, opções no caso, não, contratos futuros, pelo amor de Deus, você pode ter um sinal, o Market Brat, o EFR, a Bollinger, sei lá, um monte de coisa você pode ter. Mas na ponta de fundamentos, eu mais gosto, qual é o indicador que eu mais gosto, pessoal? é enxergar o cruzamento do lucro por ação projetado para baixo em relação ao lucro por ação dos últimos 12 meses, venda de call, compra de E o oposto também acontece aqui em julho de 2020, né?
-6:55 Julho de 2020, talvez ali 2021 já rolando. Nós tivemos o lucro por ação projetado já acima do lucro por ação dos últimos tri dos últimos 12 trimestres. Ele começou a subir três, quatro trimestres antes do próprio lucro por ação entregue começar a subir. Então o mercado tende, pessoal, a quem faz conta, principalmente lucro por ação, tende a estar ali três trimestres à frente, quatro trimestres à frente, a depender de quem você fala na Faria Lima, ele vai se gabar ou ela vai se gabar que, ah, eu tô há seis meses na frente, eu tô um ano na frente do que o mercado tá vendo agora, beleza, tá? Eu
-7:35 não vou duvidar, eu não faço conta, eu já pego o indicador aqui se formando e eu tenho esses gatilhos sendo formados. Então, projetado de cima para baixo, venda de call, compra de Projetado de baixo para cima, venda de compra de call. Legal por enquanto, pessoal. Itaú compradora, nível extremo. A gente vai ter em novembro, né, a atualização.
-7:57 Novembro ou outubro, acho que é outubro, né, o próximo resultado. A gente vai ter a atualização aí a desses duas dessas duas pernadas aqui, tá bom? Por hora compradora. Então, ela vai pra eleição, pessoal. Quedas sendo oportunidade. Altas, você, porventura vai ter que gostar de uma certa especulação contra a tendência. Esse gráfico ele mostra, é uma introdução para mostrar, olha, eu acho, tenho certeza, na verdade que as o preço da ação segue o lucro. Então, lucro por ação, a direção é para onde vai a ação. Não, assim, são raros os momentos que a gente passa mais de ano com o lucro por ação subindo e ação
-8:35 caindo. Não, geralmente é um trimestre, dois no máximo que essa simetria acontece e o mercado já pega ou o lucro por ação cai ou a ação sobe para que ambos estejam com a mesma tendência. Já o dividen yeld é um bicho um pouco mais diferente. É o gráfico que vocês estão vendo em verde é o dividen y trimestral, tá? A evolução trimestre trimestre versus o preço, tá? O que que a gente quer ver aqui? A gente quer ver a consonância, né? O lucro por ação para cima e o dividend para cima. Pô, maravilha, tá? rendimento mais retorno, fluxo mais retorno acontecendo junto, fluxo de dividendos mais retorno de
-9:09 lucro por ação subindo, ação vai subir dificilmente a ação vai cair com esses dois conversando. A Itaúa, ela paga aqueles dividendos mensais, aquele JCP de 2 centavos, né? Por isso que vocês enxergam aqui o dividil parecendo um preço de ação assim, né? sempre cede em determinados momentos, que é que são os vales onde ela não paga aquele dividendo adicional, aquele JCP de dois dígitos e aí o dividend cai. O que eu quero mostrar para vocês, o per o cenário de 2018, 2019, a Itaúza chegou, tá tá com a nitidez baixa, peço perdão, mas ela chegou em dezembro de 2018, em junho de 2019 a ter yelds próximo de 10%, entre
-89:53 a 10%. E ela atingiu recentemente, em dezembro de 24, também 10%, atualmente tá nos 8,20. Eu sempre falo isso, mas vou repetir novamente. Olha, a Itaúza não tem consistência de entregar, na sua história dos últimos 20, 30 anos, não tem consistência de entregar 10% de dívida. Então você pode considerar que quando ela bater 10% de dívida ela está barata, tá? É, é um sinal de que ela está ah descontada.
-10:27 Pode ser um sinal que ela está descontada caso ela tenha no preço a queda acontecendo, tá? Caso ela tenha no preço a queda acontecendo. Por quê? Porque em janelas de 2 anos, a Itaúza tem num passado recente, 201819, uma mega distribuição porque não investiu em ninguém, não teve nenhum aporte, a o juros estava, sei lá, alto suficiente para não ter nenhum aporte, ela vai lá e distribuir, tá?
-10:54 Então cuidado com as janelas de 2 anos. o dividendi alto pode enganar e aí sim você tá comprando próximo de um topo ou com uma atratividade pequena, mas via de regra, se o dividend atingir 8 a 10% e os preços estiverem caindo da ação, tende a ser uma baita de uma oportunidade. A última foi em dezembro de 2024, o dividend atingiu 10% e as ações estavam caindo os tais 20, 20 tantos por da máxima, que é o número de ouro. Então, estudos, correlações nunca são causais, né? Não é causa e efeito aqui, mas eu, Bruno Amazônia, adoro fazer isso. Tenho tempo para isso e é
-11:31 basicamente a minha profissão ao criar conteúdo para vocês aqui. Beleza? Bom, agora eu junto os dois ou os três, né? Price action em cima, lucro por ação projetado e dos últimos 12 meses no meio e dividende. Então a gente percebe que a Itaúza aumentou o dividend desde 2024. A gente tem os espasmos aumentando certo? Isso é muito importante. E o lucro por ação também a partir de 2024 começou a subir, né? Então era difícil você não encontrar entre 2023 e 24 uma das melhores oportunidades numa ação vovô que é Itaúza. Dividendo voltou a subir de olho na janela de 2 anos 2019 2018 19. Beleza? Temos, tínhamos na em12:222023 essa janela, né, de mais até 2025, de um dividendo robusto, tá? Lucro por ação tá em alta ou em baixa? Tá em alta. Ótimo. Lá em 2019 a gente não tinha o lucro por ação em alta. O lucro por ação, na verdade, tava cruzando o oposto, né? Tava cruzando de cima para baixo o projetado. Então aqui em 2018, mas principalmente 2019, o dividen ele mais enganou do que ajudou. Foi um bom dividend, mas o lucro por ação, lógico que a pandemia não ajudou também, né?
-12:54 Mas o lucro por ação já estava em queda. A gente pode viver um cenário parelho covid-19 em 2027, pessoal. o lucro por ação cedendo, talvez virando o azul pro a o gremista aí o azul de cima para baixo, cruzando de cima para baixo e o dividen ainda elevado, chamando atenção dos filtros que a gente faz, mas não é um bom momento para você encher a mão na Itaúa, na verdade é um bom momento para você fazer dividendos sintéticos, tá?
-13:24 Então, os dividendos da Itaú estão acelerando aqui em janelas de 12 meses, 2017 para cá, de setembro a setembro, estão acelerando, mas a média não não deixa você ficar muito enganado. É de 71 centavos em janelas de 12 em 12 meses, tá? Esses 71 centavos, pessoal, joga o preço teto lá paraa casa dos seus R$ 11, tá? abaixo dos 12, tô falando de 11,83 de preço teto, concluindo R$ 11,83, 11,90, o dividendo em janelas de 12 meses, num período aí de quase 10 anos, tende a ser na média, pessoal, de 70 centavos. Você exclui a alta de 2018, 2019, você pondera, relativiza, talvez abaixo de 2020,21 e você sai numa média,
-14:18 tá? exclui também um pouco ou lapida apara a alta atual de 2024 e 25, tá? E que também 26 no carrego, é um carrego estatístico robusto. E você fica na média como essa linha pontilhada horizontal nos dá a média de 71 centavos. Aqui, pessoal, tá assim, bom, um pé no chão bem interessante, 71 centavos ano a cada 12 meses do seu aporte você ter essa continha. E pensando nisso, pô, qual que é o desconto? Atualmente em janelas de 12 meses, pessoal, se você olhar nos últimos 12 meses, pô, você vai pegar os dividendos robustos para caramba, né?
-14:58 Mas se você pegar lá nos últimos 5 anos, aí beleza, você começa a ter desconto um pouquinho mais abaixo e você pinguelou o desconto aqui recentemente. A gente tá falando de um preço teto começando em 12,45 para 6%, 9,34 para 8%, 7,47 para 10%. Esse é o gráfico que eu teria ah como sendo o meu principal guia. A última grande atratividade da Itaúza para Proventos se deu de 2021,5, vai, praticamente segundo semestre 2021 até o primeiro tri de 24. Depois do primeiro tri 24, pessoal, a gente consistentemente, aqui é um gráfico sem ajuste, tá? Consistentemente a Itaúza esteve cara pro preço teto atualmente, nessa queda atual aqui, deu uma deu uma
-15:49 beliscada nesse preço teto. E aí faz toda faz todo sentido eu falar para vocês da venda de a chance que ela deu pra gente e a a especulação, a alavancagem, mas óbvio também que por Bazin ela esteve descontada, já não está mais, minha opinião. E os gráficos me ajudam aqui, certo? Na calculadora de renda, pessoal, aqui, se a Itaúa dentro do seu portfólio, ela está posicionada como um ativo para geração de renda e eu distribuo meu portfólio entre proteção, que é a maior parte, renda, a segunda maior parte e tático, a menor parte, trading em afins.
-16:31 Se a Itaúa tá na renda. Bom, vamos fazer uma continha aqui, porque você tem que investir pensando ou baseado em um objetivo específico de provento anual. E utilizando esse objetivo específico, eu diria que numa janela de 5 anos, você ter anualizar os dividendos e, obviamente, deixar eles líquidos, né, já descontados de imposto de renda, você teria que desembolsar ou teve que desembolsar em média R$ 230.000, cerca de R.100 ações. Aqui tá o seu objetivo para receber quanto? R$ 1.000 por mês ou R$ 12.000 ano. Mais bacana falar ano, né? Porque a Itausa não paga mensalmente. Então aqui tá a principal conta do investimento baseado em
-17:14 objetivo na Itaúza. 230.000 investidos é o que você tem que ter ou cerca de 16.000, 16.100 ações aproximadamente. É o que você tem que ter investido, alocado para receber uma renda aí com boa probabilidade de ser certeiro de R$ 12.000. R$ 1000 por ano. Beleza? Feito isso, a gente vai pra sazonalidade, parte mais tática para quem quer aproveitar a volatilidade, para quem quer fazer trading, pessoal, a Itaúza em preto é o retorno do ano de 2026. Em laranjinha aqui, 2022 o retorno nas nas últimas eleições presidenciais.
-17:50 É uma funcionalidade nova que o Edu tirou da cartola lá do scran da bolsa. Muito obrigado, Edu. Pô, você é 10. Veja que pessoal, a história rima, mas não se repete, né? Ou enfim, os dois anos aqui eleitorais, a Itaúza basicamente se movimentou da mesma maneira até junho, tá? Eu não sei se junho foi eh o Vorcaro Day ali, o Dark Horse, não sei, não sei o que aconteceu em junho aqui, mas 2026 em junho, tá? A Itaúa teve uma performance muito legal frente à performance inverter as cores, né? A performance nada boa em 2022.
-18:33 Tá bom? A partir de segunda quinzena de julho, inverte esse papel. 2022 ela subiu sem parar. 2026 ali em julho, agosto, mês desgosto, caiu sem parar. Bateu segunda quinzena de agosto, pessoal. Temos Itaúza em 2026 e Itaúza em 2022 subindo mesma direção. Mas o que importa pro trader, para você que vai especular na Itaúza, é para cá, né? Até o final do ano, novembro, dezembro. Bem, em 2022, pessoal, a história não foi muito legal, tá? Mas pelo menos assim, no curto prazo vai, não foi tão interessante pros comprados, foi mais interessante pros vendidos, tá? 2022 ela cedeu de outubro, então o rally de Natal foi muito rápido, né? Foi de agosto ali,
-19:25 segunda quinzena até novembro. E aí novembro, dezembro realização de lucro retornando aqui basicamente ao início do ano, ou seja, no 0%. Então a sazonalidade, essa rabisqueira toda minha, diz: "Olha, Brunão, é um viés de confirmação. Você que tá pensando em vender sua col coberta sem ser exercido a partir aí dos 14 lavai fumaça, eu especificamente aqui nos strikes de R$,90, 16,30 são os perfeitos. Você tá correto? Tá no ano de eleição, segundo a sazonalidade de retorno. Deixe nos comentários o que que vocês acharam desse estudo. Na parte técnica, pessoal, tá em amarelo os principais pontos do ano, né? Venda de Putin 1236 1219. Duas oportunidades até agora ou três
-20:09 maravilhosas, tá? E até preço teto foi condizente. Já quando olhamos para venda de call, 14:40 começa o 1438 especificamente, ou seja, agora. E se você quiser acreditar numa rompimento de topo, seja por qualquer que seja o viés seu, 15,90, 16,29, pessoal, são aqui os meus principais strikes. É o que eu vou especular colocando 2027, um primeiro trimestre, pelo menos, parelho a esse cenário aqui, ó, tá? Ou se até for de alta, né? Aparelho a esse cenário, rompe máxima e retorna aqui um mzinho, dois meses nos preços. Rompe a máxima, porventura e depois retorna.
-20:59 Esse é o meu movimento base. Quedas são oportunidades por revisito o começo do vídeo. Look por ação projetado e dos últimos 12 meses para cima. Dividild ainda para cima. Portanto, pessoal, curtíssimo prazo, quedas para mim são oportunidades na Itaúza. Comente o que que você acha. Logo abaixo, link do scanner da Bolsa, Parceraço do Clube e também link da Invest em Pro na descrição.
+    if (window.ezstandalone) {
+      ezstandalone.cmd.push(function () {
+        ezstandalone.showAds(101, 118);
+      });
+    }
+
+
+                                Transcrição
+
+
+                                    Pro Transcript
+
+
+                                Resumo
+
+
+                                    Copiar
+                                    Copiar com marcações de tempo
+
+
+                                            Baixar
+
+
+                                            SRT
+                                            VTT
+                                            TXT
+
+
+                                        Compartilhar
+
+
+                                        var a2a_config = a2a_config || {};
+                                        a2a_config.locale = "pt";
+                                        a2a_config.prioritize = [ 'x', 'whatsapp', 'facebook', 'telegram', 'email', 'google_gmail', 'reddit' ];
+
+
+                        00:00
+                        Olá pessoal, muito bom dia, bom início de domingão, bom café da manhã, boa louça, boa caminhada. Tomara que domingão seja ensolarado. Eu sou Bruno Mazone. Esse é o vídeo macroeconômico aqui do Clube dos Dividendos. Todo domingão às 6:11 da matina. Bom, pautas serão diversas, então sempre convido quem é novo, nova aqui no canal, na descrição, no primeiro comentário fixado, você sempre vai ter o nosso roteiro time stamps.
+
+
+                        00:24
+                         Então você pode ir direto pro tema. Hoje vou falar bastante sobre Estados Unidos no no início do vídeo, renda fixa, tanto soberana quanto corporativa. Vou passar por alguns títulos que estão disponíveis na praça para quem quiser se arriscar um pouquinho mais em renda fixa, talvez seja interessante. Tem título pagando mais de 7% em dólar de bancão norte-americano.
+
+
+                        00:45
+                         Depois a gente fala de dólar, calendário, macrobrasil. Vou trazer um gráfico bem interessante sobre o Brasil. E por fim, nossos filtros, ciladas e oportunidades. E no finalzinho a nossa agenda dividendos. O disclaimer tá na tela. Sou Bruno Amazônia. Seja muito bem-vindo aqui o Clube dos Dividendos. Eu começo com esse gráfico, pessoal.
+
+
+                        01:05
+                         Preço de alimento, preço de combustível, preço de energia subindo feito louco, louca nos Estados Unidos. Então esse gráfico mostra o aumento dos preços de milho, trigo, algodão, açúcar, fósforo, a petróleo, gasolina, arroz, diesel, combustível de avião, tudo que você enxofre, gás natural desde o início da guerra Irã, Israel, Estados Unidos.
+
+
+                        01:35
+                         Muito, muito importante aqui, pessoal, olhem o último tema aqui. European natural gas. Então, gás natural para o velho continente, mais do que dobrou desde o início, enxofre tá chegando próximo de dobrar e o aquecimento, tá? G de aquecimento das casas europeias também super super a inflacionado pós início do confronto.
+
+
+                        02:00
+                         Isso aqui é inflação, não tem jeito. Kevin Wash já subiu juros nos Estados Unidos e aos subjuros, a narrativa dos do mercado financeiro, a narrativa dos jornais financeiros, eles sempre vão tentar buscar aquilo que gera mais clique e nós, seres humanos, gostamos de ver sempre a coisa balançando pro lado ruim do que para lado bom, né? A gente nunca vai ouvir falar depois de uma semana, duas semanas consecutivas de chuva aqui no interior paulista, ninguém ouviu falar aí do nível da cantareira, né? deve tá bufando, mas você pode ter certeza que
+
+
+                        02:33
+                        se porventura faltar chuva em algum momento no futuro, vai est lá a cantareira pingando em tudo que é jornal. Então, a gente como ser humano comporta dessa maneira, se comporta dessa maneira e a narrativa dos jornais de boa parte de jornais financeiros nos Estados Unidos já começou a olhar para o aumento de juros do Kevin Wash como sendo potencial efeito colateral de uma de um título como esse.
+
+
+                        03:00
+                         Então, os defs de título privado, empresas declarando que olha, putz, cara, não vou conseguir pagar a minha dívida. Então, muito do que a gente tá vendo também no Brasil começa a pipocar nos jornais financeiros norte-americanos, que é o risco do crédito privado. Empresas que não conseguem arcar com o crédito que ela adquiriu, já estão em 6.
+
+
+                        03:23
+                        3%, segundo a FIT. Então, o crédito privado nos Estados Unidos está em recorde, né, histórico em 6.3%. Dizem que o Armagedon é 8%. a gente vai est olhando ali para uma crise, recessão e etc. Já estamos em 6.3% de empresas declarando que não conseguem pagar os seus empréstimos. Isso no crédito privado norte-americano, sendo que o banqueiro central subiu juros.
+
+
+                        03:51
+                         Então, vejam como agora, provavelmente a narrativa que a gente vai ter e um dos ETFs para se observar ao longo da semana é o ETF dos bancos regionais dos Estados Unidos, KE, porque é ele que provavelmente vai sinalizar com mais sensibilidade um risco, um defô maior, um crescimento no defô do crédito privado norte-americano, tá? Esse cara tá caindo, mas não muito, tá? né? Um sinal fraco de queda depois de uma recuperação de 2022 do último aumento de política monetária, úo último aumento de ciclo, né, de juros nos Estados Unidos.
+
+
+                        04:24
+                        Então, bem importante monitorar o KE, pessoal, para entender como é que tá o mercado de crédito privado nos Estados Unidos, que sim, tá? Tá nervoso e os os jornais financeiros já começam a usufruir e explorar bastante depois do aumento de juros do Kevin Wash. Outra, outro outra fonte de dados que eu acho importante para se observar, quem tá com a locação nos Estados Unidos, tá dolarizado, dolarizar tá correto em fazer em em dividir, espalhar em divisas o seu patrimônio. Eu concordo com você.
+
+
+                        04:55
+                        O fato é que o ciclo da economia americana ou o ciclo das aplicações americanas pode estar mudando de uma década, até mais do que década, 15 anos, onde o S&P500 foi um ótimo investimento, enquanto que a economia real cresceu, mas nada demais, vamos assim dizer. A gente pode estar virando para a economia real, começar a a crescer bastante ao invés do S&P 500.
+
+
+                        05:22
+                         Por quê? Porque as grandes empresas do S&P 500, as 10 maiores empresas do S&P 500 são o motor, a fonte de financiamento de infraestrutura, de inteligência artificial. A Big Beautiful Bill do Donald Trump ajuda, o Genius Act ajudam, tá? Obviamente que o governo, a liquidez que o governo tem gerado e as facilidades ajudam, mas a gente já pode acompanhar nos últimos resultados de Google, Amazon, Meta e AFINs, que essas empresas estão com seu fluxo de caixa livre, começando a embicar pro zero a zero ou até pro negativo.
+
+
+                        06:00
+                         E se nós olharmos para os anos 2000, que teve ali a crise da PONcom, né, as empresas de tecnologia da época da internet, tá, quando pegávamos as 10 maiores empresas naquele período, o retorno, o rendimento, como se fosse dividen y, esse gráfico, esse indicador mostra o rendimento em cima do caixa livre das empresas, que é o free cash flow y ou rendimento de fluxo de caixa livre.
+
+
+                        06:27
+                         Dá na mesma o rendimento durante a bolha, estourando ali nos anos 2000, o rendimento das empresas que estavam ali na casa de 7, 8%, ou seja, elas geravam caixa ali nos anos 2000, na no fim da década de 90, elas geravam caixa, logo esse caixa tinha um retorno em relação ao preço do ativo. Legal, como se fosse um earning y ou um dividend yield.
+
+
+                        06:48
+                         Tem o FCF yeld. Bacana. Saiu aqui de 7% naquele período e quando estourou a bolha para quase zero 1,5. abaixo de 2%. Pessoal, nós estamos vivenciando algo parelho. Depois da década do dinheiro barato, as empresas começaram aos poucos perder esse fluxo de caixa e, principalmente, acelerou nos anos de 2020 para cá, mas 2024, 2022 foi ali quando descobriram o chat GPT.
+
+
+                        07:19
+                         Podemos colocar em 2023, 24, 25, que todos os investimentos em tecnologia, né, em softwares de fronteira, em infraestrutura de IA estão sendo feitos e a gente já consegue capitalizar isso no balanço das companhias. Então, o fluxo de caixa, o retorno do fluxo de caixa das 10 maiores empresas do S&P 500 está se aproximando de 2%.
+
+
+                        07:42
+                         Numa retrospectiva histórica, nos anos 2000, ou melhor, de 1995 a 2000, a gente viu também esse fluxo, esse retorno do fluxo de caixa livre cair de 7%, 7,5% para 1,5. Nós estamos muito próximo dos 2%. No momento que falo com vocês, estamos falando aí de setembro de 2026. Que que isso? O que que isso importa? E eu com isso na minha alocação em S&P500, por exemplo, olha, talvez seja interessante a intensidade dos aportes, talvez diminuir um pouco e valorizar, de repente um ativo mais defensivo, o setor de utilities, o XLU nos Estados Unidos,
+
+
+                        08:22
+                        por que não? Talvez você olhar para uma renda fixa de curto prazo, SGOV, para fazer de caixa para quando e se a sua especulação do S&P 500 ao ver esse gráfico, ajuntar outros estudos, é o é o defô. no mercado de crédito privado, é, seja lá o que for, é a inflação que tá para chegar. Bem, você pode colher frutos positivos da inflação no XLU, que é o ETF de utilities, utilidade pública.
+
+
+                        08:47
+                        E você também pode no ETF de inflação ou, porventura no ETF pós-fixado, tá? O mais tranquilo e mais famoso é o ETF de Tibills, de 1 a 3 meses, que é pré-fixado, mas ele rapidinho já faz o seu rebalanceamento e capta esse aumento dos juros que o Kevin Wash fez. Então são alguns ativos, pessoal, que eu tô comentando para você que não é para sair do S&P500.
+
+
+                        09:10
+                         Estatisticamente não faz o menor sentido porque você acha que vai ter um crash porque tr c gráficos estão mostrando um sinal não muito agradável. É só a intensidade que é o nome do jogo, tá? O que é menos importante do que o quanto, tá? o quanto no mercado financeiro, o quanto no seu portfólio, faz sentido.
+
+
+                        09:28
+                         E aí, como a gente controla o aporte, são uma das poucas coisas que a gente faz, é controlar o aporte, a quantidade, a intensidade. Eu acho que é uma variável que faz sentido psicologicamente e também em um momento onde nós temos a renda fixa, como vou mostrar num gráfico a seguir aqui, no melhor momento nos Estados Unidos, desde 2005, estamos remunerando o tesouro americano tá remunerando você se emprestar dinheiro para ele nos próximos 10 anos ou nos próximos 30 anos, 5% em dólar, nos próximos 30 anos, 5,33, nos próximos 10 5%. % bateu ali a parte a meta
+
+
+                        10:06
+                        psicológica do 5%. Então é um movimento que você não tinha em 2011, 2012, 2013, 14, 15, 16, 17, 18, lá blá. Só foi ter lá no 2005, nos anos de 2000, 2005, sim, o retorno dos juros do do tesouro do me perdoe, das treasuries de 10 anos, dos títulos públicos com vencimento em 10 anos, era de 5% ao ano, voltou a ser de 5%, pessoal.
+
+
+                        10:34
+                         Então faz sentido, é de bom senso você aproveitar que de repente um valuation do S&P 500 pode estar esticado ao Brunão tá falando que vem inflação, Brunão ou alguma outra influência que você goste tá comentando que, ó, seja um pouco mais cético, tá? Eh, bem, diversifique, por que não? Eu acho que faz muito sentido.
+
+
+                        10:54
+                         Esse último gráfico aqui é curiosidade, diversifique onde, né? Para finalizar meu pensamento, pessoal, renda fixa, não mais só renda fixa de longo prazo, pré-fixado, quando falamos de renda fixa a a global, vá para um pósfixado, diminua a duração do ETF que você investe ou do título que você investe para um mês, 2 meses, 3 meses, faça caixa, faça de caixa esse ETF de reserva de oportunidade, por exemplo.
+
+
+                        11:20
+                         Também invista em inflação nas chips, que é o VTIP, no caso, nos Estados Unidos. Esse gráfico acaba sendo curioso, pessoal. Eu trago para vocês aqui o ETF. Foi motivo de vídeo, inclusive no Clube dos dividendos e no clube do ETF, o ETF BW, que é um ETF especificamente que investe em navios tanqueiros. Eu não sei o nome do navio, mas são os navi os navios que transportam barris e petróleo.
+
+
+                        11:43
+                         Esse navio então ganha dinheiro com o preço do frete. Ele cobra ali mais quando a geopolítica tá torta ou quando a seguradora cobre mais para ele passar em determinado estreito. Bem, esse ETF, pessoal, que não tem liquidez, tá? Não é para nós sardinhas, é justamente ali para um, sei lá, para algum head fund que tem a Insider Information ou consegue simplesmente um dinheiro mínimo ali para alocar.
+
+
+                        12:10
+                         Esse cara é o ETF que mais deu retorno ao longo de todo o ano. É o ETF de frete marítimo, especificamente carregando ali petróleo. Então esse é o mundo que vivemos em 2026. Agora nós chegamos no mapa de calor de ILD, né? O mapa de calor de retorno dos títulos públicos soberanos, pessoal. aqui para quem quer mais pé no chão.
+
+
+                        12:31
+                         Então, se você investe nos Estados Unidos, nós temos aí títulos de curto prazo. O o Sgovale vai tá te rendendo ali algo em torno de 3,89% a 4%, 4,08%. Tá? Ah, quando você vai pro cituros de longo prazo, como eu falei, bateu 5% os Estados Unidos hoje. Das economias emergentes de destaque ou economias desenvolvidas, os Estados Unidos é o terceiro país que melhor remunera o seu rentista.
+
+
+                        13:05
+                         O segundo país vai ser a Alemanha. A Alemanha hoje tá pagando, deixa eu ver, cadê a Alemanha? Alemanha, me perdoe. Reino Unido. Reino Unido hoje tá pagando 5,28% ao ano em pounds, em libras esterlinas para você, tá? E o a polyosition do país que mais remunera, que tem maior IUD, é a Índia com 7,06%. Então você compra um título na Índia, 7,06% ao ano é o que você tá recebendo por lá.
+
+
+                        13:34
+                         Eu olharia para quem quer diversificar em a renda fixa soberana, tanto Reino Unido, bolsa de Londres é de fácil acesso pela XTB, pela Interact Brokers, provavelmente pela Avenue também, enfim, deve ter ali a sua corretora de que você mais gosta. Você manda a bala num Treasury que eu não sei como que chama, ah, do Reino Unido ali para 10 anos.
+
+
+                        13:53
+                         Você tá garantido ali 5,28% ao ano em libre exterlina, tá show de bola, tá? E nos Estados Unidos, como eu acabei de falar, cincão, 5%. Você vai financiar uma casa nos Estados Unidos hoje, que geralmente ali vai tá entre 10 e 30 anos de financiamento. Você tá falando aí pro cidadão americano que o Banco Comercial provavelmente vai tá cobrando aí na casa dos seus 7,5, 8% ao ano, coisa que o norte-americano não viu desde 2005, não vê desde 2005, me perdoe, tá? Já no mundo dos títulos corporativos, pessoal, aí é mais arriscado, mas agora o Trading View
+
+
+                        14:28
+                        consegue me organizar aqui os títulos de curto prazo, de longo prazo, que são de dívida corporativa, logo, logo crédito privado, onde o defô tá aumentando, como eu falei para vocês no início do vídeo, né, batendo seus seis pontos lavai fumaça. Bem, se você quiser um título que tá remunerando muito bem e é um título com vencimento curtinho, tá? Eu destaco e tá como destaque aqui também no Trading View, tá? Esse título aqui, ó.
+
+
+                        14:53
+                        Bank of America Corporation, então é do BAC, tá? Tem um vencimento aí para dia 23 de março de 2027, tá? O rendimento até o vencimento tá na casa aí dos seus 7.94%. Quando eu cliquei nesse cara para ver as notas de rating, né, ele não é o triple A, mas também não é B, né? Pela SNP ela ele é a men, pela Moods é A1 e pela fit é w menos, né? como as agências de risco gostam de ficar enchendo, né? Ele é um cara que paga cupom, a gente tá falando aí de um investimento mínimo de $000, cupom de 3,85%.
+
+
+                        15:34
+                        Deixa eu olhar como funciona o fluxo de pagamento. Exatamente. Tá. Exatamente. Esse cupom aí mensal. É isso não. Trimestral. Trimestral. Pelo que eu tô vendo aqui, se eu não falar bobagem para vocês, maio, agosto, novembro. fevereiro aí março fecha, tá? Então você teria ali mais três cuponzinhos para receber mais dois cupons e o e o principal de volta e o último cupom, tá? Tá faltando esses três últimos fluxos de pagamento para quem tá de olho em dívida privada, de bancão, tá? Esse cara aqui não tá com cara que vai te dar dor de cabeça, tá?
+
+
+                        16:12
+                        Não teve mudança aqui de nenhuma agência de risco em relação à nota. Então, continua aí as notas que eu falei para vocês. Nenhum momento do histórico de lançamento do título, né, que é de curto prazo, né, houve mudança. Geralmente título de longo prazo há mais mudanças. Curto prazo não dá tempo, tá? Mas enfim, acho que é interessante, vale a pena aí vocês olharem para quem gosta e quer diversificar, manda bala, tá? Você tem um bancão ah te remunerando bem.
+
+
+                        16:38
+                         O dólar no Brasil. Rápida fala aqui do dólar antes de entrar no segmento de calendário econômico e Brasil. Eu vou falar do dólar e também vou falar sobre EWZ versus S&P500, que eu acho que é no mínimo pertinente eu compartilhar esse gráfico com vocês. Mas antes vamos pro dólar. O dólar, pessoal, é o cara mais chato para trazer novidade.
+
+
+                        16:59
+                         Tá, tá igual a Itaúza, né? não anda, faz muito tempo que tá caranguejando. Então esse cara, se não tá andando, o próximo movimento vai ser extremamente amplo, ou seja, ele vai ficar perigoso. Agora, não é? E que bom, pelo menos uma das variáveis macroeconômicas que impactam a inflação, impactam a a os mercados emergentes, não tá enchendo o saco.
+
+
+                        17:19
+                         Enquanto petróleo, frete, tweet do Trump, geopolítica, putz, clima, tá tudo meio eh fritando a galera, frete, né? Mas o dólar não. Então, pelo menos uma variável bem importante pra nossa inflação, uma variável importante para um setor da bolsa, mas pro pro pra economia como um todo, acaba tendo um impacto forte. Bem, tá quieto.
+
+
+                        17:41
+                         E eu acho que esse cara ainda continua. eleição durante e pós 5,28, 5:35 é o teto. Conforme ele fica quieto, o preço do dólar não se mexe. O meus os meus views, vocês estão vendo essas linhas cinzas que são os meus meus indicadores dinâmicos, eles vão cedendo, vão caindo, caindo. Um tá em 5,36, outro tá em 54,7.
+
+
+                        18:03
+                         O máximo de volatilidade que eu tenho pro dólar, já olhando aí pro pós eleição, é de 5,52. Então, ótimo, meus meus VWAPs estão abaixo do 552. E para baixo, Brunão, 5,10, 5,6, 4,96. Acho muito difícil 2026 performar melhor do que esses três valores aí. A assimetria para mim no dólar, pessoal, infelizmente é para cima. Pelo um simples mecanismo que o Fed voltou a subir juros, tá? Logo, o dólar tende a se valorizar, porque as pessoas agora vão ficar mais assim, mais dispostas a financiar o tesouro a 5% o ano na nas curvas de juros e o Fed voltou a
+
+
+                        18:43
+                        subjuros. É, pode ser que tenha uma atração ali por dólar e essa atração é por renda fixa especificamente. Não estamos falando aqui de magnífica sete. Muito bem, pessoal. Esse é um gráfico polêmico. Eu vou pôr o SNP de vermelho para vocês. Dá uma forçadinha nele. Legal. Brasil inverte. Ew, tudo em dólar aqui.
+
+
+                        19:08
+                         Base ah, percentual histórico desde a criação do EWZ, foi nos anos 2000. Então, tenho dos anos 2000 para cá, vou colocar a legenda para facilitar pra gente, tá? Eu tô compando aqui SPY, que subiu 700% de 2000 para cá, versus o EWZ, que subiu 426% de 2000 para cá. O gráfico mais ou menos mostra, mas eu acho relevante a gente tratar um gráfico com base percentual em contextos recortados, em recortes, melhor dizendo.
+
+
+                        19:37
+                         Vamos pro recorte dos anos 2000 a 2008. Vamos para esse recorte aqui, ó. Bom, legal. Esse é o recorte que eu acho pertinente trazer para vocês, muito pertinente trazer para vocês, porque acaba ah forçando, se quem me acompanha tem bom senso, a não esquecer América Latina, a não esquecer diversificação também emergentes, tá? Eu vou trazer mais uma pitarra, mais uma pitada aqui.
+
+
+                        20:10
+                        Vou adicionar o ILF, que é o ETF da América Latina, e vou adicionar, se eu lembrar aqui, o ticker, o AVWS, eu acho que ele não existia aqui. Ah, infelizmente eu não vou lembrar o ticker querido, tá? Vai ficar para uma próxima que vocês estão vendo aqui na tela. Vou pôr aqui América Latina. Por ela América Latina é azul.
+
+
+                        20:35
+                        Vocês estão vendo na tela? É o contexto dos anos 2000, tá? A 2008, pré-crise. Vamos lá. 2000 a 2008, o SNP, pessoal, subiu 7,22%. Quando eu falei no início do vídeo, a economia real americana talvez tenha maior retorno sobre o investimento do que a economia financeira, essa em P500. É esse gráfico que eu tô dizendo, tá? É nesse gráfico que eu tô dizendo, tá? Porque a gente vai ter empreendimentos, infraestrutura sendo criada na economia real.
+
+
+                        21:06
+                        nos Estados Unidos, que empresas que a gente nem conhece vão se beneficiar e essas empresas não estão no mercado ainda ou não tem a capitalização suficiente, ninguém sabe quem serão, como ninguém sabia que era o Google ou a sei lá, a a Apple, tudo bem, mas o Uber, o Airbnb e todas as empresas que conseguiram criar negócio e fazer receita a partir do advento da internet ou a partir da fibra ótica que foi instalada.
+
+
+                        21:32
+                         E as empresas de fibra ótica, que eram as NVIDS da vida lá, que vendiam infraestrutura ou tecnologia, ninguém conhece, ninguém sabe, nem sei se tá na bolsa ainda. Então é bem importante, um momento bom pra economia real, momento bacana paraa manufatura, talvez não para muito, muito para serviços, né? a gente que tá começando a assinar IAS da vida aí, pô, daqui a pouco a gente tá pagando mais em IAS do que a gente pagava em qualquer outro tipo de assinatura ou qualquer outra dinâmica de trabalho.
+
+
+                        21:56
+                         Então, muito provavelmente a gente pode passar, se você concordar comigo, para uma década ou alguns pares de ano onde manufatura vence serviços. A gente passou uma década, pessoal, de serviços, serviços, serviços. Pode ser que os países ao se reorganizar nas na cadeia nas cadeias de suprimento, ao se reorganizar em defesa, a militarizar-se, militarizar, né, a sua sociedade, isso demande construir coisas em casa, isso demande construir coisas nos amiguinhos que não tem problemas geopolíticos, isso demanda, então, comortes, isso demanda indústria.
+
+
+                        22:33
+                        indústria não é interessante como o serviço pra bolsa. Por que pessoal, a indústria margem é pequena. A não ser que você tenha, que você seja hoje a Nvidia, mas você não tenha dúvida que tem um monte de Nvidíia sendo criada nesse exato momento, porque margem alta e holofot, pessoal, o prego que se destaca é martelado.
+
+
+                        22:53
+                         Então tá todo mundo louco para martelar Nvidia, você não tenha dúvida disso. Então a indústria é difícil no longuíssimo prazo ser a mais valiosa do S&P 500, ser a empresa mais valiosa do mundo. Serviço é mais fácil, tá? Ah, então eu acho que a gente pode viver ali um Estados Unidos interessante na economia real.
+
+
+                        23:11
+                         Empreendimentos na economia real. Bacana. Versus um SP500. É sem graça. Eu ia adicionar Smalc de valor, mas eu, infelizmente, esqueci de salvar o ticker do ETF norte-americano de smallcap de valor. Vai ficar para um próximo vídeo. Eu fiz numa consultoria para um rapaz a recomendação do tal small cap que foi bem, não nesse período, só para vocês terem uma noção de cabeça, eu tenho small cap value do S&P 500 subiu cerca de 170%.
+
+
+                        23:38
+                        Tá? Então, em um período, se você tiver esse contexto de, sei lá, 100500, 2000, 2008, você muito provavelmente vai tentar diversificar a do SNP 500, um Russell 2000, um Dow Jones, um XLU, né? Não sei se eu consigo adicionar aqui o X, não sei se ele existia nesse período, o XLU, que é o ETF de utilities.
+
+
+                        24:01
+                         Você pode brincar com esse cara, você vai ter uma rentabilidade no mesmo período bem melhor. Ah, Bruno, mas não foi América Latina, não. Não foi. Não foi nem o EWZ 528%, nem o ILF 703%. Sim, o ILF é o ETF da América Latina, pessoal, e eu estou otimista com a América Latina. Nada a ver com política, mas sim com geopolítica e sim com geografia mesmo.
+
+
+                        24:25
+                        Estamos aqui amiguinhos de gregos e troianos e por enquanto nenhum tufão, por enquanto nenhum grande terremoto, a não ser a tristeza na Venezuela, né? Obviamente, pô, muito triste, mas principalmente nós aqui embaixo, tá? Brasil, Argentina, o próprio Chile, a Colômbia, São Peru são países que podem se beneficiar dessa nova ordem global.
+
+
+                        24:46
+                         E a gente pode ter sim investimentos sendo pesados aqui, porque somos amiguinhos e podemos ter aqui a a base de indústria de outros países desenvolvidos. Bom, e nós mesmos também, quem sabe, né, nos industrializarmos. Sentorço, tá? Essa é a minha tese aqui como pós-quenesiano, adoraria, né? Mas é muito importante para finalizar essa parte, acho que a parte mais importante do vídeo desse domingão, pessoal, é não tenha preconceito.
+
+
+                        25:14
+                         Eu sei que cada, se no seu portfólio hoje todo ativo você gosta, tá errado. Tem que ter alguém que você tá lá e fala: "M putza, é só para dar aquela correlação negativa, onde um sobe e outro desce. Você tem que buscar um cara estranho e bem o estranho no ninho é o o pode ser a América Latina, pode ser o EWZ, o Ibovespa. Aí você não precisa fazer muita coisa a não ser tá aqui no Brasil e investir na na B3.
+
+
+                        25:37
+                        Beleza? Bom, falei da bonança latina, bonança da economia real versus economia financeira. Agora vamos mudar o jogo. Vamos mudar o jogo. Vamos pro pós 2008. No que eu vou pro pós 2008, pessoal, vou tentar trazer para vocês todo o histórico até o presente momento. Vamos lá pro pós 2008. Se eu conseguir, vamos ver, vamos ver, vamos ver, vamos ver aí. Beleza.
+
+
+                        26:07
+                         Pós 2008, tá aqui, ó. Então, esse é o pós 2008, né? Um pouquinho para lá, um pouquinho para cá. Deixa eu ver. E é aí, ó. Começo em março de 2009, tá? Então aqui o jogo muda. SP milão por XLU 437 EWZ patinhos feios. Qual que é o melhor ativo na opinião do Brunão dentre todos aqui que estão na tela? Mas você não tenha dúvida.
+
+
+                        26:43
+                         É o útil do S&P500 esse cara. Então eu que não quero mudar de patamar, não quero investir em empresas sexis do momento, que é aquela maravilha, não, eu quero mudar de patamar nas minhas nas minhas aplicações financeiras, no trading, aí tudo bem, eu faço as minhas compras de call, eu faço meu swing, meu position trade, aí é um dinheirinho de risco, um dinheiro de trading tático.
+
+
+                        27:04
+                         Agora na minha carteira de longo prazo, pô, eu não tô fora, não sou, não me chama atenção S&P500, por exemplo, apesar de ser o melhor ETF de todos os tempos, pelo menos se pegar ali a rentabilidade nos últimos 100 anos, provavelmente vai ser em P500, foi o melhor. Eu gosto do Tio, que é o cara que vai ser um retorno em vários cenários, ou para não dizer todos os cenários, utilities, pessoal, faça chuva, faça sol, você vai precisar ligar a tomada.
+
+
+                        27:35
+                         na sua casa, a não ser que Adam Smith seja ultrapassado em algum momento com alguma tecnologia nova. E você quer uma hidrelétrica, você quer uma fotovoltaica, você que é uma eólica, uma térmica, uma nuclear, vá pro espaço. Você que distribui gás natural, vá pro espaço, porque agora temos um outro tipo de tecnologia.
+
+
+                        27:53
+                         Enquanto não acontece isso, o Tilits teve um bom retorno no na década dos emergentes e tá tendo um bom retorno nessa década aqui. O importante é dizer que na década dos emergentes, pessoal, o retorno foi muito bom e muito acima do S&P 500. O retorno atual do S&P 500 tá muito bom. Agora você vai se perguntar, Brunão, e pós 2020? Eu utilizei pós 2000 crise.com.
+
+
+                        28:18
+                        Eu utilizei pós 2008, crise do subprime e pós-pandemia. Vamos dar uma olhada pós-pandemia. Vamos lá tentar dar um zoom. Tch tch tch tchum. Pós pandemia tá aqui, ó. Bom, olha só como tá embolado o pós-pandemia. Eu tenho que ser super honesto com vocês e dizer, eu não faço a menor ideia quem vai vencer, tá? O SNP com 235, o América Latina com 200, Brasil com 170, 160, XLU com 90.
+
+
+                        28:49
+                        Pós 2020, então você tem esse quadro aqui, ó. Você vai me perguntar, Brunão, quem que vai, vai ser a década de quem? Não faço ideia. O que um quadro como esse demanda do Sardinha, nós pessoas físicas, pessoal, diversificar bom senso, tá? Não ponha tudo no S&P 500, não ponha tudo no Brasil, não ponha tudo XLU tá aqui de gaiato, né? Não ponha tudo no XLU, não ponha tudo no na América Latina, tá? Ainda não temos um sinal claro, não se preocupe.
+
+
+                        29:23
+                         Eh, eles não andam juntos por muito tempo, não vão andar juntos por muito tempo, não mesmo. Se você quiser segmentar mais uma vez, você pode segmentar com efeito Trump. Se você achar que porventura o Trump vai ser um cara assim divisor de águas pros Estados Unidos, tá? Vai vir democrata, vai vir outro republicano e vai manter mais ou menos o que o Trump tá fazendo.
+
+
+                        29:48
+                         Bem, pessoal, o efeito Trump, ou seja, 2025 tá dando o primeiro sinal. ILF subiu 80% desde 2025. EWZ subiu 77, o SNP subiu 30, o XLU subiu 11, tá? Então aqui temos um sinal de que vai ser a década dos emergentes, n? Podia até voltar, acho que foi 2024, seria mais correto, né? Que foi a eleição, né? Foi novembro de 2024 a eleição, se não tô enganado. Deixa eu vir aqui então.
+
+
+                        30:22
+                        Novembro de 2024. Ah, até tava certo aqui, mais ou menos aqui, assim, ó. Certo. Então, a gente percebe que dependendo da ótica ele vai estar embolado. Dependendo da ótica, a América Latina 2025, como foi um rally forte dos emergentes, que teve ali uma queda do S&P500, a gente tá abrindo vantagem. De 2025 para cá, os emergentes estão rendendo mais ou a América Latina tá rendendo o dobro do S&P 500.
+
+
+                        30:52
+                         É suficiente o sinal? Eu acho que não. Continuo com, né, muito pé no chão. E a diversificação ela é obrigatória em um mundo com a geopolítica tão segmentada, com a geoeconomia tão segmentada e com tendência de se segmentar mais. Estamos vendo extremas dos dois lados, né? Políticas extremas dos dois lados. Então não adianta você achar que tem uma resposta, que tem um ativo que vai vencer o jogo, porque apesar desses 12 meses, últimos 12 meses ou 18 meses, América Latina e Brasil terem respondido muito bem frente ao S&P500, eu acho que
+
+
+                        31:25
+                        não é o suficiente, não foi o suficiente para dizer que os próximos 5 anos a gente vai dar um banho na economia financeira, na aplicação financeira frente o índice mais poderoso do mundo. Beleza, pessoal? Eu gastei um tempão ali. Espero que vocês é tenham entendido mais ou menos o meu racional. Prolixo que sou, às vezes, putz, né? Expliquei, expliquei, não saí do lugar.
+
+
+                        31:47
+                         Base é: não obtenha. Acho que a nossa, a geração que vai pôr dinheiro novo na bolsa, pôr dinheiro novo em aplicações financeiras, e eu me incluo, né? Eu tô colocando ainda dinheiro novo em aplicações financeiras porque eu preciso aumentar meu bolo. O peso de cada aplicação, ele tende a ser cada vez menor, tá? ETF veio para diversificar, então não vou pôr tudo num no não vou apostar no S&P 500, como eh vários dizem para apostar, né? Eu acho que o mundo é melhor que o S&P 500, pode ser melhor que o SP500. A América Latina
+
+
+                        32:18
+                        pode ser muito melhor que o SP500. Então isso demanda você diversificar, ter pesos mais eh ter pesos menores pros ativos que compõem a sua carteira, n? E isso acaba sendo bom senso, né? Bom, vamos lá ao calendário econômico, pessoal. Sexta-feira para mim é o único dia que pra gente, né, Brasil Tupiniquim vai dar uma uma sacudida, porque temos IPCA, tá? Temos a ata do COPOM, mas assim, foi tranquilo o COPOM, não teve nenhum jogo de cintura diferente, o problema foi nos Estados Unidos, problema não, né, a surpresa ou talvez
+
+
+                        32:51
+                        um pouquinho mais de volatilidade foi nos Estados Unidos, tá? Então eu não olharia para isso. Estoques de petróleo acaba sendo importante, mas estão assim terríveis, né? Então a a surpresa pode ser se se houver um incremento de de estoque, mas acho difícil, né? Então é o papo mais interessante, acaba sendo sexta-feira o nosso IPCA.
+
+
+                        33:08
+                         Papo macro, pessoal, rapidinho aqui. Ibovespa versus dívida PIB. Então aquele papo não, Ibovespa não tá subindo por causa do fiscal. É fiscal, mentira. Balela. Tá. O fiscal começou a decolar a partir de 2014, a bolsa começou a decolar a partir de 2016 e desde então, olha, a gente continua decolando independente se o fiscal tá piorando ou não, via indicador dívida PIB, tá? Estamos indo por 70% no dívida líquida PIB, então e a bolsa subindo do mesmo jeito até com uma certa correlação positiva, né? A dívida deu uma amenizada aqui em 2021, ou seja, a
+
+
+                        33:42
+                        gente parou de crescer o endividamento, a bolsa naquele mesmo momento. Aí eu vou vou falar que foi por causa de um de aumento de juros, foi por causa a de de aumento de juros nos Estados Unidos também. E a dívida ela ficou bem mais branda aqui de 2020 a 2022, porque o Roberto Campos pôs o nosso juros em 2%, então, pô, o nosso principal custo é com juros.
+
+
+                        34:05
+                         O juros foi para 2%, o tesouro e a dívida PIB agradeceram bastante, tá? né? O rebote da pandemia foi bem interessante pra atividade econômica. Foi o mundo perfeito aqui, né? Vai ser difícil tão rapidamente a gente enxugar a dívida PIB, a não ser que tenhamos de novo um choque de oferta, um crescimento gigantesco depois dele, tá? Aí juros a 2%.
+
+
+                        34:25
+                         Bom, então não é dívida PIB que a gente tem que olhar bolsa juros, beleza? Juros eu concordo, tá? Quando a gente olha pro juros de 10 anos, a média dos juros de 10 anos, pô, aí a gente tem um pouquinho de noção para onde a a bolsa bai. Deixa eu colocar aqui o juros 10 anos, fica melhor. Tem um pouquinho de noção para onde a bolsa vai.
+
+
+                        34:41
+                         Tende a ser correlação negativa. Juros 10 anos abrindo, bolsa para baixo. Juros 10 anos fechando, bolsa para cima, né? Tende a ser assim. Agora, tem um indicador que é melhor ainda, um indicador que mede o spread entre os juros de 10 anos, que é o mercado que praticamente decide, e os juros de 1 ano, que é o COPOM, é o Banco Central que decide.
+
+
+                        35:04
+                         Esse spread a diferença do quanto tá pagando os 10 anos frente a 1 ano. Se os 10 anos esverem pagando menos do que o de um ano, pessoal, a gente tem o spread negativa, curva invertida. E aí é quando tem um sinal muito bom pra bolsa, que é esse gráfico em azul clarinho. Quem gosta do Market Breath vai ter daqui a pouco, mas esse aqui também seria um bom indicador para você olhar quando esse indicador tiver negativo, ou seja, a os juros de um ano, os títulos de um ano pagando mais do que os de 10, tá? Vou dizer até o número para vocês. Cerca de
+
+
+                        35:34
+                        -1,8 aqui, -1,8 a colar, -2 aqui, -1,6 e -1,30. Então, curva o spread, me perdoe, ficando negativo, pessoal, de 1,5 para mais, tá? Acaba sendo timing interessante pra bolsa, tá? Acaba sendo um time interessante pra bolsa, inclusive em períodos esquisitos, como 2008, como 2016, né? Ah, só não 2020. 2020 foi oposto, tá? Ah, foi bem oposto, inclusive.
+
+
+                        36:06
+                         Então, como estamos hoje, Brunão? Estamos com o spread ah, positivo. Então, tá tudo mais ou menos normal 0,8 positivo. Caso vocês tenham ali tempo e queiram ficar estudando, bem, quando você tiver um spread entre 10 e 1 ano negativo de 1,5 ou menos, pode ser um belo de um gatilho pro seu trade, para seu pra sua alocação de renda fixa, renda variável aumentar, tá? porque a bolsa tende a responder.
+
+
+                        36:30
+                         Ah, tem uma correlação aqui interessante, um estudo que eu fiz recentemente. Market Breath, nós vamos pra semana, provavelmente, pessoal, de lateralização/ra realização. Então, market ele tende a se preparar aqui, a ficar com as três médias entre os 60 e 40. As duas médias rápidas foram pra sobrecompra, vai descer.
+
+
+                        36:48
+                         Eu acho que isso vai acontecer. Mais chance da do Ibovespa lateralizar, cair do que de subir, tá? Se subir, ótimo, vou ficar feliz. Eu acho que o Ibovespa vai cada vez mais agora pré-eleição ser uma história de de pesquisa, mas principalmente uma história micro. Ah, a Multiplan subiu 3% hoje, divulgou JCP. Ah, Fleur um bom resultado.
+
+
+                        37:08
+                         Ah, não sei quem foi muito bem. Então, histórias específicas individuais e não o Bova 11, né? Por isso que me surpreendeu até o BOVA 11 passar do 176. Brasil tá barato? Se você olhar na ótica do Buffet Indicator, né, colocar aqui os desvios, pessoal, tá barato, tá? Já trouxe para vocês aqui abaixo de 40 é barato. Estamos em 38, tá? Não estamos em 2016, que foi 27, não estamos em 2002, que foi 23, não estamos em 2024, que foi 30, é 31, estamos com 36.
+
+
+                        37:40
+                         Então volto aquela velha máxima. Bolsa cair por causa da eleição, por causa do Trump, por causa do petróleo, por causa do dis, por causa do Elninho. Para mim é oportunidade. Bolsa subir, eu não vou ficar com fomo, tá? Porque a gente tem à disposição, renda fixa global ficando boa, renda fixa local ainda maravilhosa. Então eu acho que eu vou ficar mais ansioso se a bolsa cair, porque para mim vai ser oportunidade e as notícias vão ser negativas e eu vou ter que comprar mesmo assim, porque é assim que a gente faz.
+
+
+                        38:06
+                        Então é dessa maneira que eu tô enxergando aí o pré-eleição, independente do candidato que vencer as eleições. Fluxo, pessoal, tá todo mundo esperando na arquibancada, então fluxo gringo não andou. Uma semana onde o fluxo gringo ficou de lado e adivinha o que aconteceu com a bolsa? congelado.
+
+
+                        38:24
+                         Então é, sem assimetria, não tem nada sexy para falar para vocês aqui, pessoal. No BVA me surpreendeu, é um erro meu. Se eu tivesse vendido call coberta, não sei se eu teria feito um primeira um primeiro lucro ao recomprar, mas se tivesse segurado até o exercício, teria que entregar a BOVA, tá? Porque o meu strike era 176, o Bova tá em 182.
+
+
+                        38:43
+                         Se eu acho que o Bova vai fechar o mês abaixo do 176, eu acho. Seria o meu chute, tá? Mas o como foi o vencimento de opções hoje não rolou. Teria que vender uma nova call, tá? Nessa nessa política aí de achar que estamos numa resistência. Quem tá achando o oposto de mim, ou seja, o Ibovespa sobe ou o Ibovespa derrete, eu tô achando que ele vai ficar de lado.
+
+
+                        39:07
+                         Pessoal, ao subir pode dobrar a queda de 17%, tá? E pôr ela para cima, espelhar ela para cima. Vamos lá para 230, 235 pontos, tá? É o seu alvo para 2027. Se você acha que ele derrete, tá, o derretimento ele tá mais fácil de metrificar, tá? Entre 168, tá 146. Mais pessimista, 146, mais moderado ali, 168 ao 161, né? Que é uma mínima atual, inclusive tá muito próxima do 161.
+
+
+                        39:38
+                         Meu view já tá rondando ali em 161,91. Então vou dizer para vocês que tem um combo no 168, 161 e os mais pessimistas lá no 146. Só você tá fora de renda variável nesse momento se você tem esse cenário. Beleza? Então, eh, são temas diferentes, são cenários diferentes e assim você dinamiza o seu aporte, que é todo o tema, né, a temática que eu trago para vocês.
+
+
+                        39:59
+                        Dinamizar, intensificar ou não os aportes é o nosso segredo, é o que a gente controla. Dos índices setoriais, me chamou atenção na semana, pessoal, me chamou atenção setor financeiro subindo, tá? Materiais básicos subindo e imobiliário caindo, tá? imobiliário foi o que mais cedeu. Então aquela aquele vídeo que eu comentei, olha, direcional, trade reeleição do Lula.
+
+
+                        40:26
+                         Ah, a TASA, né, Taurus, pode ser o trade eleição do Flávio, tá? Você fazer um head aí, quer apostar, tanto faz, quem ganha, você vai ganhar um trade aí, provavelmente é você ter uma construtora de baixa renda e talvez a TASA. Eu acho que é a que mais vai pegar ali o gancho do Flávio eleito. Pode ser um R, né? Você tem os dois ali na carteira, tanto faz quem sobe, quem não sobe.
+
+
+                        40:49
+                         Eu diria que a CUI ou a direcional você pode segurar por mais tempo, que elas são boas empresas, pagam dividendos e etc. Já a Tasa essa aí é um pouco mais cíclica, você tem que ter um um alvo bem definido. Indo para ciladas e oportunidades, hoje eu vou mudar, eu vou invadir aqui o scanner da bolsa na aba rankings. E o Edu tem o ranking de earning y, tá? E esse ranking eu fiz mais um filtro pelas top 20 dividendos, que é o IDV.
+
+
+                        41:15
+                         do Edu, tá? Ele faz aqui um ranking de empresas pagadores de dividendos com consistência. E nós temos aqui nesse ranking Basa como Banes, nem conheço Banes, Vulcabraz Direcional, acabei de falar dela, Log, Cambusi, Cesud, tá? CSU, SH, Dexus, Banco ABC, Lojas Henner, Grasin, CPFL, BB Seguridade, Itaúza. Cheio de small cap de valor aqui, né? caps lucrativas que pagam dividendos e os earning y o earning yeld até a log, tá? Deixa eu ver aqui, até até direcional.
+
+
+                        41:51
+                         Então, basa, pomo, banzii, Vucabras e direcional estão com earning ys de 20 ou mais por quem gosta de earning y pls abaixo de cinco, uau, a primeira aqui tá com a base tá com 0,54 de PvP. Ah, então assim, os descontões gigantescos, né? ranking da fórmula mágica, tá? Quem tá em primeiro é a direcional. Direcional aparece em primeiro lugar aqui para mim, tá? Cambus em segundo, Marco Polo em terceiro, CPFL em quarto, tá? Ranking de valor intrínseco, fórmula de Graham, basa, log, BGIP, uma um repeteco aqui.
+
+
+                        42:29
+                         São rankings interessantes para vocês. Faça o convite, acessem aqui a aba rankings no scanner da bolsa. Certo, pessoal? Aí eu vou finalizar com o meu ranking. Então dentro da minha lista que eu tenho no trading, viu, eu sempre vou monitorar as empresas que vocês mais me pedem, mas principalmente as empresas que eu acho interessante, pelo menos o fundamento, não que eu teria, mas que tem fundamentos, OK? E aí, [roncando] que que eu fiz nesse ranking aqui? Eu peguei de cima para baixo as que mais estão caindo a partir de janeiro de 2026. E eu
+
+
+                        42:58
+                        tenho em primeiro lugar Inter, segundo Tristento, terceiro Kepler, interessantíssimas duas, Vucabas, M Dias Branco, BR Partners, Minerva, Direcional, Cogna, Pomo, Roxo, Ferbasa e Lojas Henner. Ó, não vou puxar pra minha sardinha, mas essa lista aqui tá bem interessante, principalmente de seu dinheiro tático para quem quiser investir no longo prazo, pô, não é uma lista que vai fazer isso, né? né? Vai fazer você tomar decisão, mas eu acredito que é uma boa lista para você olhar um dinheiro que vai te render nos
+
+
+                        43:30
+                        próximos 12 meses, bem acima do Ibovespa, bem acima da do Small Caps, bem acima da renda fixa. Bem interessante aqui. Acertou a mão em alguma delas. Ah, não digo dobrar, mas você vai paraa casa aí dos seus 30, 50% nos próximos 18 meses, sem dúvida nenhuma. Tá? Na agenda dividendas, pessoal, eu não tenho novidade.
+
+
+                        43:50
+                         Vamos lá. Dia 21, temos, Copasa, Metisa, vibra. Tudo dia 21. Ambev não tem data de pagamento ainda definida. O maior yeld dessa galera vai ficar com a metiza 90 0.97 1% praticamente de seguido da vibra 08, tá? São 34 centavos pra vibra, são 45 centavos paraa Metiza, 21 centavos para Copasa e 5 centavinhos para a Ambev.
+
+
+                        44:20
+                         Certo, pessoal? E assim eu fecho o nosso vídeo com muita cautela. Nos Estados Unidos deve inflação. Essa inflação pode ser passageira depender do conflito geopolítico? Sim, pode ser passageira, mas não desmonta a necessidade da gente diversificar, principalmente em renda fixa, pósfixada e de curto prazo. Não tenha só o TLT de longo prazo.
+
+
+                        44:42
+                         Em renda variável, aquele gráfico do ILF versus o EWZ, pessoal, aqui é um gráfico de bom senso, tá? Mas não é um gráfico para falar assim: "Meu Deus do céu, que que é isso? Por uma década inteira que o EWZ deu um banho no S&P." É. E depois apanhou feio. Então você tem só vai dinamizando um pouco do aporte e abra talvez ali uma comporta na sua carteira para ter um atacante mais apimentado.
+
+
+                        45:06
+                         Você pode, pessoal, acertar na América Latina 700% em uma década, por exemplo. Tá bom para você, né? Para mim tá bom. tá num ETF que você não precisa nem ficar se preocupando em estudar o valation, estudar empresa por empresa, é bem cômodo alocar. Beleza? Feito isso, obrigado pela companhia. Vejo todos vocês no próximo conteúdo.
+
+
+                                            Resuma qualquer vídeo instantaneamente
+                                            Este recurso foi movido para uma extensão do navegador. Experimente grátis!
+
+
+                                                Adicionar ao Chrome
+
+
+                                                0%
+
+
+                                                Gerando resumo
+
+
+                                                Tentar novamente
+
+
+                                            Este vídeo não tem legendas regulares
+                                            Para obter um resumo, primeiro gere uma Transcrição PRO usando reconhecimento de fala com IA.
+
+                                                Gerar Transcrição PRO
+
+
+                                                O resumo está pronto!
+                                                Obtenha a versão completa – instale nossa extensão do navegador e experimente gratuitamente.
+
+
+                                                    Adicionar ao Chrome
+
+
+                                            Transcrição com IA
+                                            Gere transcrições precisas usando reconhecimento de voz com IA. Funciona com qualquer idioma.
+
+                                                Gerar com IA
+
+
+                                                0%
+
+
+                                                Gerando transcrição
+
+
+                                                Tentar novamente
+
+
+                                            Resuma qualquer vídeo instantaneamente
+                                            Nossa extensão pode gerar transcrições para você usando IA — funciona com qualquer idioma. Experimente grátis com seus primeiros vídeos.
+
+
+                                                Adicionar ao Chrome
+
+
+                                                Copiar
+                                                Copiar com marcações de tempo
+
+
+                                                        Baixar
+
+
+                                                        SRT
+                                                        VTT
+                                                        TXT
+
+
+        Copy link✓Obrigado por compartilhar!Find any serviceAddToAnyMais…
+
+
+            /* General Styles */
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            }
+
+            #transcript-action-panel {
+                display: none;
+                opacity: 0;
+                transition: opacity 0.3s ease-in-out, visibility 0.3s;
+            }
+            #main-transcript:has(div.transcript-content > div.transcript-group-box) #transcript-action-panel {
+                display: block;
+                opacity: 1;
+            }
+
+            .extract-dropdown {
+                display: inline-block;
+            }
+
+            .main-container {
+                padding: 20px;
+                min-height: 60vh;
+            }
+
+            /* Custom Row for Flexbox Layout */
+            .custom-row {
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0 -10px;
+                gap: 24px;
+            }
+
+            /* Custom Columns */
+            .custom-col {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+
+            .custom-col-content {
+                padding: 10px;
+                background-color: #ffffff;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+
+            /* Left Side Styles */
+            .responsive-iframe {
+                position: relative;
+                width: 100%;
+                aspect-ratio: 16 / 9;
+                overflow: hidden;
+                max-width: 100%;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            }
+
+            .responsive-iframe iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+            }
+
+            .share-icons {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+            }
+
+            /* Right Side Styles */
+            .nav-tabs {
+                border-bottom: 1px solid #dee2e6;
+            }
+
+            .nav-tabs .nav-link {
+                font-size: 1.1rem;
+                color: #555555;
+                padding: 16px;
+                transition: color 0.3s;
+            }
+
+            .nav-tabs .nav-link.active {
+                color: #007bff;
+                border-bottom: 3px solid #007bff;
+            }
+
+            .tab-content {
+                padding: 20px;
+                overflow-y: auto;
+                flex-grow: 1;
+            }
+
+            .copy-button-main {
+                background-color: #007bff;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 1rem;
+                padding: 10px 20px;
+                align-self: flex-end;
+                transition: background-color 0.3s;
+            }
+
+            .copy-button-main:hover {
+                background-color: #0056b3;
+            }
+
+            .transcript-content,
+            .summary-content {
+                color: #333333;
+                max-height: calc(100vh - 300px);
+            }
+
+            .transcript-content:not(:has(.install-ext-promo)) {
+                overflow-y: auto;
+            }
+
+            .transcript-container {
+                max-height: calc(100vh - 300px);
+                overflow-y: auto;
+            }
+
+            .transcript-group-box {
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                padding: 15px;
+                margin-bottom: 15px;
+                background-color: #fafafa;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+                position: relative;
+            }
+
+            .transcript-time {
+                font-weight: bold;
+                color: #333333;
+                margin-bottom: 5px;
+            }
+
+            .transcript-text {
+                color: #555555;
+                margin-bottom: 10px;
+                text-align: justify;
+            }
+
+            .copy-button {
+                background-color: #28a745;
+                color: white;
+                border: none;
+                padding: 5px 10px;
+                border-radius: 4px;
+                cursor: pointer;
+                position: absolute;
+                bottom: 15px;
+                right: 15px;
+                transition: background-color 0.3s;
+            }
+
+            .copy-button:hover {
+                background-color: #1e7e34;
+            }
+
+            .loading-text {
+                color: #888888;
+                text-align: center;
+                padding: 20px 0;
+            }
+
+            .progress-container {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+            /* Круговой прогресс бар */
+            .circular-progress {
+                position: relative;
+                width: 200px;
+                height: 200px;
+            }
+
+            .circular-progress svg {
+                width: 200px;
+                height: 200px;
+                transform: rotate(-90deg);
+            }
+
+            /* Фоновый круг */
+            .bg-circle {
+                fill: none;
+                stroke: #34495e;
+                stroke-width: 10;
+            }
+
+            /* Круг прогресса */
+            .progress-circle {
+                fill: none;
+                stroke: #3498db;
+                stroke-width: 10;
+                stroke-linecap: round;
+                stroke-dasharray: 565.48; /* 2 * π * 90 (радиус) */
+                stroke-dashoffset: 565.48;
+                transition: stroke-dashoffset 0.3s ease;
+            }
+
+            /* Класс для мерцания */
+            .progress-circle.pulsing {
+                animation: pulse 1.5s ease-in-out infinite;
+            }
+
+            @keyframes pulse {
+                0% {
+                    stroke: #3498db;
+                    stroke-width: 10;
+                }
+                50% {
+                    stroke: #5dade2;
+                    stroke-width: 12;
+                }
+                100% {
+                    stroke: #3498db;
+                    stroke-width: 10;
+                }
+            }
+
+            /* Текст с процентами */
+            .percent {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 36px;
+                font-weight: bold;
+                color: #354a5e;
+            }
+
+            /* Класс для мерцания текста */
+            .percent.pulsing {
+                animation: text-pulse 1.5s ease-in-out infinite;
+            }
+
+            @keyframes text-pulse {
+                0%, 100% {
+                    opacity: 1;
+                }
+                50% {
+                    opacity: 0.6;
+                }
+            }
+
+            /* Текст загрузки */
+            .progress-loading-text {
+                color: #354a5e;
+                font-size: 18px;
+                margin-top: 20px;
+                text-align: center;
+            }
+
+            .progress-loading-text > span {
+                white-space: pre-line;
+            }
+
+            /* Анимация точек */
+            .dots {
+                display: inline-block;
+                width: 30px;
+                text-align: left;
+            }
+
+            .dots.animating::after {
+                content: '';
+                animation: dots 2s steps(4) infinite;
+            }
+
+            @keyframes dots {
+                0% { content: ''; }
+                25% { content: '.'; }
+                50% { content: '..'; }
+                75% { content: '...'; }
+                100% { content: ''; }
+            }
+
+            /* Custom Column Widths for Desktop */
+            @media (min-width: 992px) {
+                .left-side {
+                    flex: 0 0 35%;
+                    max-width: 35%;
+                }
+
+                .right-side {
+                    flex: 0 0 62%;
+                    max-width: 62%;
+                }
+            }
+
+            /* Responsive Styles for Smaller Screens */
+            @media (max-width: 991.98px) {
+
+                .left-side,
+                .right-side {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                }
+
+                #main-transcript:has(div.transcript-content > div.transcript-group-box) #transcript-action-panel{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                }
+
+                .copy-button-main, .dropdown.extract-dropdown > button{
+                    width: 100%;
+                    text-align: center;
+                }
+
+                .copy-button {
+                    position: static;
+                    display: block;
+                    width: 100%;
+                    margin-top: 10px;
+                }
+
+                .transcript-group-box {
+                    padding: 10px;
+                }
+
+                .nav-tabs .nav-link {
+                    font-size: 1rem;
+                    padding: 8px 8px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .nav-tabs .nav-link {
+                    font-size: 0.95rem;
+                }
+
+                .copy-button-main {
+                    padding: 8px 16px;
+                    font-size: 0.9rem;
+                }
+
+                .copy-button {
+                    padding: 6px 12px;
+                    font-size: 0.85rem;
+                }
+            }
+            @media (min-width: 768px) {
+                .fake-cross {
+                    position: absolute;
+                    top: 3%;
+                    right: 1.8%;
+                    width: 3%;
+                    aspect-ratio: 1 / 1;
+                }
+                .fake-install-ext {
+                    position: absolute;
+                    bottom: 51%;
+                    right: 16%;
+                    width: 22%;
+                    height: 9%;
+                }
+                .fake-install-button {
+                    position: absolute;
+                    bottom: 7%;
+                    right: 9.5%;
+                    width: 29%;
+                    height: 10%;
+                }
+                /* Hide mobile-only elements on desktop */
+                .mobile-only-tab {
+                    display: none !important;
+                }
+            }
+
+            @media (max-width: 768px) {
+                #modal-background {
+                    display: none;
+                }
+            }
+            body:has(.modal-background) {
+                overflow: hidden;
+            }
+
+            .modal-background {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                z-index: 10;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: rgba(0, 0, 0, 0.5);
+                backdrop-filter: blur(5px);
+            }
+            .modal-container {
+                position: relative;
+                max-width: 50%;
+            }
+
+            .modal-container div{
+                cursor: pointer;
+            }
+            .modal-container img{
+                display: block;
+                max-width: 100%;
+                max-height: 100%;
+                height: auto;
+            }
+
+            .promo-title {
+                font-size: 22px;
+                font-weight: 700;
+                color: #1a1a2e;
+                margin: 0 0 8px 0;
+                letter-spacing: -0.3px;
+            }
+
+            .promo-subtitle {
+                font-size: 15px;
+                color: #6b7280;
+                margin: 0 0 24px 0;
+                line-height: 1.5;
+            }
+
+            /* Summary sections styles */
+            .summary-section {
+                margin-bottom: 24px;
+                padding: 16px;
+                background-color: #f8f9fa;
+                border-radius: 8px;
+                border-left: 4px solid #007bff;
+            }
+
+            .summary-section h4 {
+                font-size: 1.1rem;
+                font-weight: 600;
+                color: #1a1a2e;
+                margin: 0 0 12px 0;
+            }
+
+            .summary-section p {
+                font-size: 1rem;
+                line-height: 1.6;
+                color: #333;
+                margin: 0;
+            }
+
+            .summary-section ul {
+                margin: 0;
+            }
+
+            .summary-section ul li {
+                font-size: 1rem;
+                line-height: 1.6;
+                color: #333;
+                margin-bottom: 8px;
+            }
+
+            .summary-section ul li:last-child {
+                margin-bottom: 0;
+            }
+
+            .summary-section code {
+                background-color: #e9ecef;
+                padding: 2px 6px;
+                border-radius: 4px;
+                font-family: monospace;
+                font-size: 0.9em;
+            }
+
+            /* Desktop fade effect for truncated summary - only last words fade */
+            .summary-section.desktop-fade .fade-text {
+                background: linear-gradient(to right, #212529 0%, transparent 100%);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .key-points-section {
+                border-left-color: #28a745;
+            }
+
+            .analogy-section {
+                border-left-color: #ffc107;
+            }
+
+            .definitions-section {
+                border-left-color: #17a2b8;
+            }
+
+            /* Summary error container */
+            .summary-error-container {
+                text-align: center;
+                padding: 20px;
+            }
+
+            .summary-error-container .error-message {
+                font-size: 1.1rem;
+                color: #dc3545;
+                margin-bottom: 20px;
+            }
+
+            /* Summary result scrollable */
+            #summary-result {
+                max-height: calc(100vh - 300px);
+                overflow-y: auto;
+            }
+
+            /* Desktop promo container after partial summary */
+            .desktop-promo-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 24px;
+                margin-top: 20px;
+                background: linear-gradient(135deg, #f8f9ff 0%, #fff 100%);
+                border-radius: 12px;
+                border: 1px solid #e0e6ff;
+            }
+
+            .desktop-promo-container .promo-title {
+                font-size: 18px;
+                font-weight: 600;
+                color: #333;
+                margin: 0 0 8px 0;
+            }
+
+            .desktop-promo-container .promo-subtitle {
+                font-size: 15px;
+                color: #666;
+                margin: 0 0 16px 0;
+            }
+
+            .desktop-promo-container .install-button {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            /* Pro Transcription button styles */
+            .pro-transcription-btn {
+                background: #ff4b33;
+                border: none;
+                color: white;
+                padding: 12px 24px;
+                border-radius: 8px;
+                font-weight: 600;
+                cursor: pointer;
+                transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+            }
+
+            .pro-transcription-btn:hover {
+                background: #e8432e;
+                transform: translateY(-2px);
+                box-shadow: 0 4px 12px rgba(255, 75, 51, 0.4);
+            }
+
+            /* Pro transcription result scrollable */
+            #pro-transcription-result {
+                max-height: calc(100vh - 300px);
+                overflow-y: auto;
+            }
+
+            #pro-transcription-action-panel {
+                margin-bottom: 15px;
+            }
+
+            @media (max-width: 991.98px) {
+                #pro-transcription-action-panel {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                }
+            }
+
+            /* Mobile no subtitles promo */
+            .no-subtitles-mobile-promo {
+                text-align: center;
+                padding: 40px 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .no-subtitles-mobile-promo .promo-title {
+                margin-bottom: 12px;
+            }
+
+            .no-subtitles-mobile-promo .promo-subtitle {
+                margin-bottom: 24px;
+            }
+
+            /* Transcript limit styles */
+            .transcript-limited-wrapper {
+                position: relative;
+                overflow: hidden;
+            }
+
+            .transcript-limit-overlay {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 200px;
+                pointer-events: none;
+                background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 40%, rgba(255,255,255,1) 100%);
+                z-index: 1;
+            }
+
+            .transcript-limit-banner {
+                position: relative;
+                z-index: 2;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 32px 24px;
+                margin-top: -60px;
+                background: linear-gradient(135deg, #fff5f3 0%, #fff 100%);
+                border-radius: 12px;
+                border: 1px solid #ffe0db;
+            }
+
+
+            let savedTranscription = undefined;
+
+            // Geo-limit config
+            const GEO_LIMIT = {
+                isLimitedCountry: false,
+                country: "GB",
+                maxFreeViews: 1,
+                visibleGroups: 2
+            };
+
+            // Ezoic Rewarded ads
+            window.ezRewardedAds = window.ezRewardedAds || {};
+            window.ezRewardedAds.cmd = window.ezRewardedAds.cmd || [];
+            function showRewardedAd(callback) {
+                // showAds declared in header.ejs, reuse here
+                if (showAds) {
+                    if (window.ezRewardedAds.ready) {
+                        window.ezRewardedAds.requestWithOverlay(function (result) {
+                            console.log('Rewarded ad result:', result);
+                            if (result.status) {
+                                // if (result.reward) {
+                                    gtag('event', 'seen_ad_before_transcript', { country: GEO_LIMIT.country });
+                                    callback(true);
+                                // }
+                            } else {
+                                // treat ad load failure as seen to avoid blocking content
+                                gtag('event', 'ad_failed_to_load_before_transcript', { country: GEO_LIMIT.country });
+                                callback(true);
+                            }
+                        },
+                        {},
+                        {alwaysCallback: true, rewardOnNoFill: true});
+                    } else {
+                        callback(true);
+                    }
+                } else {
+                    console.log('Rewarded ads not enabled, skipping ad check.');
+                    // If ads are not shown, set seenAd to true to avoid blocking content
+                    gtag('event', 'skipped_ad_before_transcript', { country: GEO_LIMIT.country });
+                    callback(true);
+                }
+            }
+
+            // localStorage helpers for transcript view counting
+            function getViewsToday(key, today) {
+                try {
+                    const raw = localStorage.getItem(key);
+                    if (!raw) return { date: '', count: 0, videoIds: [] };
+                    const data = JSON.parse(raw);
+                    if (data.date !== today) return { date: '', count: 0, videoIds: [] };
+                    return data;
+                } catch (e) {
+                    return { date: '', count: 0, videoIds: [] };
+                }
+            }
+
+            function recordView(key, videoId, today) {
+                try {
+                    const views = getViewsToday(key, today);
+                    if (views.date === today && views.videoIds.includes(videoId)) return views.count;
+                    const newData = {
+                        date: today,
+                        count: (views.date === today ? views.count : 0) + 1,
+                        videoIds: views.date === today ? [...views.videoIds, videoId] : [videoId]
+                    };
+                    localStorage.setItem(key, JSON.stringify(newData));
+                    return newData.count;
+                } catch (e) {
+                    return 0;
+                }
+            }
+
+            function shouldApplyLimit(key, videoId) {
+                const today = new Date().toISOString().slice(0, 10);
+                const views = getViewsToday(key, today);
+
+                // If user has already viewed transcript for this video today, don't apply limit
+                if (views.date === today && views.videoIds.includes(videoId)) return false;
+
+                if (views.count >= GEO_LIMIT.maxFreeViews) {
+                    // User has already exceeded the limit today
+                    return true;
+                }
+
+                const count = recordView(key, videoId, today);
+                return false;
+            }
+
+            // Build restricted transcript HTML with fade + install banner
+            function buildRestrictedTranscriptHTML(fullHTML) {
+                const tmp = document.createElement('div');
+                tmp.innerHTML = fullHTML;
+                const groups = tmp.querySelectorAll('.transcript-group-box');
+                let partialHTML = '';
+                for (let i = 0; i < Math.min(GEO_LIMIT.visibleGroups, groups.length); i++) {
+                    partialHTML += groups[i].outerHTML;
+                }
+                return `<div class="transcript-limited-wrapper">
+                    <div>${partialHTML}</div>
+                    <div class="transcript-limit-overlay"></div>
+                </div>
+                <div class="transcript-limit-banner">
+                    <h3 class="promo-title">Quer mais transcrições?</h3>
+                    <p class="promo-subtitle">Instale nossa extensão para Chrome — transcrições ilimitadas, resumos e muito mais.</p>
+                    <button class="install-button" onclick="openCWS('transcript_limit')">
+                        <img class="chrome-icon" src="/images/chrome.svg" alt="Add to Chrome" height="20" width="20">
+                        Adicionar ao Chrome
+                    </button>
+                </div>`;
+            }
+
+            $(document).ready(function () {
+                const videoId = "EufCYfvfbr0";
+                const fileVideoId = "";
+                const translateLang = "";
+
+                const apiURL = "https://yt-to-text.com/api";
+                if (fileVideoId) {
+                    // File mode: hide YouTube-specific tabs and poll upload result
+                    $('#videoTab').hide();
+                    pollUploadResult(fileVideoId);
+                    progressCircle.classList.add('pulsing');
+                    percentElement.classList.add('pulsing');
+                    dotsElement.classList.add('animating');
+                    return;
+                } else {
+                    startAnimation()
+                }
+                gtag('event', 'transcription_start_basic');
+                fetch(apiURL + "/v1/Subtitles", {
+                    method: "POST",
+                    body: JSON.stringify({video_id: videoId, ...(translateLang ? { translate_lang: translateLang } : {})}),
+                    headers: {"Content-Type": "application/json", "x-app-version": 1.0, "x-source": "tubetranscript"},
+                }).then(response => response.json()).then(data => {
+                    if (data.data?.transcripts) {
+                        savedTranscription = data.data.transcripts;
+                        const transcript = getHTMLFromRawTranscript(data.data.transcripts, videoId)
+                        const mainTranscriptContent = $('#main-transcript-content');
+
+                        // Geo-limit check (desktop only)
+                        if (GEO_LIMIT.isLimitedCountry && !isMobile()) {
+                            const isRestricted = shouldApplyLimit('tt_transcript_views', videoId);
+                            if (isRestricted) {
+                                mainTranscriptContent.html(buildRestrictedTranscriptHTML(transcript));
+                                $('#transcript-action-panel').hide();
+                                gtag('event', 'transcript_limit_reached', { country: GEO_LIMIT.country });
+                                return;
+                            }
+                            gtag('event', 'transcript_limit_first_view', { country: GEO_LIMIT.country });
+                        }
+
+                        showRewardedAd((passedAdsCheck) => {
+                            if (passedAdsCheck) {
+                                mainTranscriptContent.html(transcript);
+                            }
+                        });
+                        gtag('event', 'transcription_success_basic');
+                    } else {
+                        let message = '';
+                        gtag('event', 'transcription_error_basic', { error_code: data.code || 'unknown' });
+                        if (data.code){
+                            switch (data.code) {
+                                case "NO_SUBTITLES":
+                                    const mainTranscriptContent = $('#main-transcript-content');
+                                    if (isMobile()) {
+                                        // Mobile: show "No subtitles" with "Generate with AI" button
+                                        mainTranscriptContent.html(`
+                                        <div class="install-ext-promo no-subtitles-mobile-promo">
+                                            <h3 class="promo-title">Este vídeo não tem legendas</h3>
+                                            <p class="promo-subtitle">Você pode gerar uma transcrição usando nossa ferramenta de IA.</p>
+                                            <button class="install-button pro-transcription-btn" onclick="switchToProTranscriptionAndStart()">
+                                                Gerar com IA
+                                            </button>
+                                        </div>`);
+                                    } else {
+                                        // Desktop: show extension promo (original behavior)
+                                        mainTranscriptContent.html(`
+                                        <div class="install-ext-promo">
+                                            <h3 class="promo-title">Este vídeo não tem legendas</h3>
+                                            <p class="promo-subtitle">Nossa extensão pode gerá-las para você usando IA — funciona com qualquer idioma.<br/>Experimente grátis com seus primeiros vídeos.</p>
+                                            <button class="install-button" onclick="openCWS('no_subtitles')">
+                                                <img class="chrome-icon" src="/images/chrome.svg" height="20" width="20">
+                                                Adicionar ao Chrome
+                                            </button>
+                                        </div>`);
+                                    }
+                                    return;
+                                case "VIDEO_UNPLAYBLE":
+                                    message = "Infelizmente, este vídeo tem restrição de acesso ou não pode ser reproduzido. Por favor, tente outro vídeo.";
+                                    break;
+                                case "USER_RESTRICTED_ACCESS":
+                                case "AGE_RESTRICTION":
+                                    message = "Este vídeo tem restrições de acesso ou idade. Vídeos privados e com restrição de idade ainda não são suportados. Por favor, tente outro.";
+                                    break;
+                                default:
+                                    message = "Algo deu errado. Tente novamente mais tarde";
+                                    break;
+                            }
+                        }
+                        $('#main-transcript-content').html(`<div class="text-center text-danger">${message}</div>`)
+                    }
+                }).catch(err => {
+                    console.error(err);
+                    gtag('event', 'transcription_error_basic', { error_code: 'exception' });
+                    $('#main-transcript-content').html(`<div class="text-center text-danger">Algo deu errado. Tente novamente mais tarde</div>`)
+                });
+
+                // Fetch data for main transcript, timeline transcript, and summary from the API
+                const hasRedirect = "false";
+                if (hasRedirect === "true" && window.innerWidth >= 768) {
+                    gtag('event', 'redirect_banner_show')
+                }
+
+                // Initialize Bootstrap tabs (handled by Bootstrap, no need for additional code)
+            });
+
+            function downloadSubtitles(format) {
+                if (!savedTranscription) {
+                    return;
+                }
+                function formatTime(seconds, format) {
+                    const date = new Date(seconds * 1000);
+                    const hh = String(Math.floor(seconds / 3600)).padStart(2, '0');
+                    const mm = String(Math.floor((seconds % 3600) / 60)).padStart(2, '0');
+                    const ss = String(Math.floor(seconds % 60)).padStart(2, '0');
+                    const ms = String(Math.round((seconds % 1) * 1000)).padStart(3, '0');
+
+                    const separator = format === 'srt' ? ',' : '.';
+                    return `${hh}:${mm}:${ss}${separator}${ms}`;
+                }
+
+                let content = '';
+                const ext = format.toLowerCase();
+
+                if (ext === 'vtt') {
+                    content = 'WEBVTT\n\n';
+
+                    savedTranscription.forEach((sub, index) => {
+                        const start = formatTime(parseFloat(sub.s), 'vtt');
+                        const end = formatTime(parseFloat(sub.e), 'vtt');
+                        content += `${start} --> ${end}\n${sub.t}\n\n`;
+                    });
+                } else if (ext === 'srt') {
+                    savedTranscription.forEach((sub, index) => {
+                        const start = formatTime(parseFloat(sub.s), 'srt');
+                        const end = formatTime(parseFloat(sub.e), 'srt');
+                        content += `${index + 1}\n${start} --> ${end}\n${sub.t}\n\n`;
+                    });
+                } else if (ext === 'txt') {
+                    content = extractTranscriptFromHTML(true)
+                } else {
+                    throw new Error('Unsupported format. Use "srt" or "vtt" or "txt"');
+                }
+
+                const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
+                const url = URL.createObjectURL(blob);
+
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = `EufCYfvfbr0.${ext}`;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+
+                URL.revokeObjectURL(url);
+            }
+
+            // Helper functions for formatting and grouping transcript
+            function formatTime(seconds) {
+                seconds = parseFloat(seconds);
+                if (isNaN(seconds)) return "0:00";
+                const minutes = Math.floor(seconds / 60);
+                const remainingSeconds = Math.floor(seconds % 60);
+                return minutes + ":" + (remainingSeconds < 10 ? '0' : '') + remainingSeconds;
+            }
+
+            function extractTranscriptFromHTML(withTimecodes){
+                let contentBody = "";
+                const videoId = "EufCYfvfbr0"
+                const url = `https://www.youtube.com/watch?v=${videoId}`;
+                // contentBody += `${document.title}\n`;
+                contentBody += `${url}\n\n`;
+                // contentBody += `![](${url})\n`;
+                contentBody += `Transcript:\n`;
+                let someDiv = document.getElementById("main-transcript-content")
+                Array.from(someDiv.children).forEach(el => {
+                    if (!el) {
+                        return;
+                    }
+                    if (el.children.length < 2) {
+                        return;
+                    }
+                    const timestamp = el.querySelector(".transcript-time").innerText;
+
+                    const text = el.querySelector(".transcript-text").innerText;
+
+                    contentBody += `${withTimecodes ? '(' + timestamp + ') ' : ''}${text}\n`;
+                })
+                return contentBody
+            }
+
+            function copyTranscript(withTimecodes) {
+                const mainTranscript = document.getElementById("main-transcript-content")
+                if (mainTranscript === null) {
+                    copyTextToClipboard("")
+                    return
+                }
+                const contentBody = extractTranscriptFromHTML(withTimecodes)
+                copyTextToClipboard(contentBody);
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Copied!',
+                    text: 'Text copied to clipboard.',
+                    position: 'bottom-end',
+                    timer: 1500,
+                    showConfirmButton: false,
+                    toast: true
+                });
+            }
+
+            function copyTextToClipboard(text) {
+
+                if (!navigator.clipboard) {
+                    fallbackCopyTextToClipboard(text);
+                } else {
+                    navigator.clipboard.writeText(text).then(function () {
+                    }, function (err) {
+                    });
+                }
+                function fallbackCopyTextToClipboard(text) {
+                    var textArea = document.createElement("textarea");
+                    textArea.value = text;
+
+                    // Avoid scrolling to bottom
+                    textArea.style.top = "0";
+                    textArea.style.left = "0";
+                    textArea.style.position = "fixed";
+
+                    document.body.appendChild(textArea);
+                    textArea.focus();
+                    textArea.select();
+
+                    try {
+                        var successful = document.execCommand('copy');
+                        var msg = successful ? 'successful' : 'unsuccessful';
+                    } catch (err) {
+                    }
+
+                    document.body.removeChild(textArea);
+                }
+            }
+
+            function getHTMLFromRawTranscript(rawTranscript, videoId) {
+
+                const scriptObjArr = [], timeUpperLimit = 60, charInitLimit = 300, charUpperLimit = 500;
+                let loop = 0, chars = [], charCount = 0, timeSum = 0, tempObj = {}, remaining = {};
+
+                // Sum-up to either total 60 seconds or 300 chars.
+                Array.from(rawTranscript).forEach((obj, i, arr) => {
+                    if (obj.s !== undefined && obj.t !== undefined) {
+                        obj.start = obj.s;
+                        obj.text = obj.t;
+                    }
+
+                    // Check Remaining Text from Prev Loop
+                    if (remaining.start && remaining.text) {
+                        tempObj.start = remaining.start;
+                        chars.push(remaining.text);
+                        remaining = {}; // Once used, reset to {}
+                    }
+
+                    // Initial Loop: Set Start Time
+                    if (loop == 0) {
+                        tempObj.start = (remaining.start) ? remaining.start : obj.start;
+                    }
+
+                    loop++;
+
+                    const startSeconds = Math.round(tempObj.start);
+                    const seconds = Math.round(obj.start);
+                    timeSum = (seconds - startSeconds);
+                    charCount += obj.text.length;
+                    chars.push(obj.text);
+
+                    if (i == arr.length - 1) {
+                        tempObj.text = chars.join(" ").replace(/\n/g, " ");
+                        scriptObjArr.push(tempObj);
+                        resetNums();
+                        return;
+                    }
+
+                    if (timeSum > timeUpperLimit) {
+                        tempObj.text = chars.join(" ").replace(/\n/g, " ");
+                        scriptObjArr.push(tempObj);
+                        resetNums();
+                        return;
+                    }
+
+                    if (charCount > charInitLimit) {
+
+                        if (charCount < charUpperLimit) {
+                            if (obj.text.includes(".")) {
+
+                                const splitStr = obj.text.split(".");
+
+                                // Case: the last letter is . => Process regulary
+                                if (splitStr[splitStr.length - 1].replace(/\s+/g, "") == "") {
+                                    tempObj.text = chars.join(" ").replace(/\n/g, " ");
+                                    scriptObjArr.push(tempObj);
+                                    resetNums();
+                                    return;
+                                }
+
+                                // Case: . is in the middle
+                                // 1. Get the (length - 2) str, then get indexOf + str.length + 1, then substring(0,x)
+                                // 2. Create remaining { text: str.substring(x), start: obj.start } => use the next loop
+                                const lastText = splitStr[splitStr.length - 2];
+                                const substrIndex = obj.text.indexOf(lastText) + lastText.length + 1;
+                                const textToUse = obj.text.substring(0, substrIndex);
+                                remaining.text = obj.text.substring(substrIndex);
+                                remaining.start = obj.start;
+
+                                // Replcae arr element
+                                chars.splice(chars.length - 1, 1, textToUse)
+                                tempObj.text = chars.join(" ").replace(/\n/g, " ");
+                                scriptObjArr.push(tempObj);
+                                resetNums();
+                                return;
+
+                            } else {
+                                // Move onto next loop to find .
+                                return;
+                            }
+                        }
+
+                        tempObj.text = chars.join(" ").replace(/\n/g, " ");
+                        scriptObjArr.push(tempObj);
+                        resetNums();
+                    }
+                })
+
+                return Array.from(scriptObjArr).map((obj, idx) => {
+                    const t = Math.round(obj.start);
+                    const hhmmss = convertIntToHms(t);
+                    const timeDisplay = videoId
+                        ? `<a href="https://youtube.com/watch?v=${videoId}&t=${t}s" target="_blank">${hhmmss}</a>`
+                        : hhmmss;
+                    const html = `
+                    <div class="transcript-group-box">
+                        <div class="transcript-time">${timeDisplay}</div>
+                        <div class="transcript-text">${obj.text}</div>
+                    </div>`
+                    return html
+                }).join("");
+
+                function resetNums() {
+                    loop = 0, chars = [], charCount = 0, timeSum = 0, tempObj = {};
+                }
+
+                function convertIntToHms(num) {
+                    const h = (num < 3600) ? 14 : 12;
+                    return (new Date(num * 1000).toISOString().substring(h, 19)).toString();
+                }
+            }
+
+            let currentPercent = 0;
+            let animationInterval;
+            let pulsingStarted = false;
+
+            const percentElement = document.getElementById('percent');
+            const progressCircle = document.getElementById('progress');
+            const loadingStatus = document.getElementById('loading-status');
+            const dotsElement = document.getElementById('dots');
+
+            const radius = 90;
+            const circumference = 2 * Math.PI * radius;
+
+            function updateProgress(percent) {
+                percent = Math.min(100, Math.max(0, percent));
+
+                percentElement.textContent = Math.round(percent) + '%';
+
+                const offset = circumference - (percent / 100) * circumference;
+                progressCircle.style.strokeDashoffset = offset;
+
+                if (percent >= 95 && !pulsingStarted) {
+                    pulsingStarted = true;
+                    startPulsing();
+                }
+            }
+
+            function startPulsing() {
+                // Добавляем классы для мерцания
+                progressCircle.classList.add('pulsing');
+                percentElement.classList.add('pulsing');
+                dotsElement.classList.add('animating');
+
+                loadingStatus.textContent = "Quase pronto";
+            }
+
+            function stopPulsing() {
+                progressCircle.classList.remove('pulsing');
+                percentElement.classList.remove('pulsing');
+                dotsElement.classList.remove('animating');
+                pulsingStarted = false;
+            }
+
+            function startAnimation() {
+                currentPercent = 0;
+                updateProgress(0);
+                loadingStatus.textContent = "Carregando";
+                stopPulsing();
+
+                if (animationInterval) {
+                    clearInterval(animationInterval);
+                }
+
+                const targetPercent = 95;
+                const duration = 10000;
+                const interval = 50;
+                const steps = duration / interval;
+                const increment = targetPercent / steps;
+
+                animationInterval = setInterval(() => {
+                    currentPercent += increment;
+
+                    if (currentPercent >= targetPercent) {
+                        currentPercent = targetPercent;
+                        updateProgress(currentPercent);
+                        clearInterval(animationInterval);
+                    } else {
+                        updateProgress(currentPercent);
+                    }
+                }, interval);
+            }
+
+            // ========== File Upload Transcript Polling ==========
+            async function pollUploadResult(fileVideoId) {
+                const apiURL = "https://yt-to-text.com/api";
+                const maxAttempts = 150; // ~10 min
+                const pollInterval = 4000;
+                const largeFileDelay = 15000;
+                const mainTranscriptContent = $('#main-transcript-content');
+
+                const largeFileTimeout = setTimeout(() => {
+                    loadingStatus.textContent = "Arquivo grande. Isso pode levar um pouco mais de tempo.\nObrigado pela sua paciência.";
+                    dotsElement.classList.remove('animating');
+                }, largeFileDelay);
+
+                for (let attempt = 0; attempt < maxAttempts; attempt++) {
+                    await new Promise(r => setTimeout(r, pollInterval));
+                    try {
+                        const resp = await fetch(apiURL + '/p/v1/GetUploadResult', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json', 'X-App-Version': 'tubetranscript' },
+                            body: JSON.stringify({ video_id: fileVideoId }),
+                        });
+
+                        if (resp.status === 404) continue;
+
+                        if (!resp.ok) {
+                            clearInterval(animationInterval);
+                            clearTimeout(largeFileTimeout);
+                            mainTranscriptContent.html(`<div class="text-center text-danger">${"Algo deu errado. Tente novamente mais tarde"}</div>`);
+                            return;
+                        }
+
+                        const data = await resp.json();
+                        const tr = data.transcriptions && data.transcriptions[0];
+                        if (!tr) continue;
+
+                        if (tr.progressPercent !== undefined) updateProgress(tr.progressPercent);
+
+                        if (tr.status === 'READY') {
+                            updateProgress(100);
+                            clearInterval(animationInterval);
+                            clearTimeout(largeFileTimeout);
+                            if (tr.data && tr.data.transcripts && tr.data.transcripts.length > 0) {
+                                savedTranscription = tr.data.transcripts;
+                                mainTranscriptContent.html(getHTMLFromRawTranscript(tr.data.transcripts, ''));
+                            } else {
+                                mainTranscriptContent.html(`<div class="text-center text-danger">${"Algo deu errado. Tente novamente mais tarde"}</div>`);
+                            }
+                            return;
+                        }
+
+                        if (tr.status && (tr.status.startsWith('FAILED') || tr.status === 'CANCELED')) {
+                            clearInterval(animationInterval);
+                            clearTimeout(largeFileTimeout);
+                            mainTranscriptContent.html(`<div class="text-center text-danger">${"Algo deu errado. Tente novamente mais tarde"}</div>`);
+                            return;
+                        }
+                    } catch (e) {
+                        // network error, keep polling
+                    }
+                }
+
+                clearInterval(animationInterval);
+                clearTimeout(largeFileTimeout);
+                mainTranscriptContent.html(`<div class="text-center text-danger">${"A geração do resumo está demorando muito"}</div>`);
+            }
+
+            // ========== Summary API Integration (Mobile Only) ==========
+
+            // Check if device is mobile
+            function isMobile() {
+                return window.innerWidth < 768;
+            }
+
+            // Summary state
+            let summaryLoaded = false;
+            let summaryAbortController = null;
+
+            // Error messages mapping
+            const summaryErrorMessages = {
+                'P_QUEUE_FULL': "Aguarde a conclusão do resumo anterior",
+                'PG_QUEUE_FULL': "O servidor está ocupado, tente novamente mais tarde",
+                'LIMIT_REACHED': "Limite diário atingido. Tente novamente amanhã",
+                'TIMEOUT': "A geração do resumo está demorando muito"
+            };
+
+            // Errors without retry button
+            const noRetryErrors = ['LIMIT_REACHED'];
+
+            // Summary progress elements
+            const summaryPercentElement = document.getElementById('summary-percent');
+            const summaryProgressCircle = document.getElementById('summary-progress');
+
+            function updateSummaryProgress(percent) {
+                percent = Math.min(100, Math.max(0, percent));
+                if (summaryPercentElement) {
+                    summaryPercentElement.textContent = Math.round(percent) + '%';
+                }
+                if (summaryProgressCircle) {
+                    const offset = circumference - (percent / 100) * circumference;
+                    summaryProgressCircle.style.strokeDashoffset = offset;
+                }
+            }
+
+            // Main function to fetch and render summary
+            async function fetchAndRenderSummary(videoId, languageCode = "auto") {
+                const maxAttempts = 60; // 5 minutes max (60 * 5s = 300s)
+                const pollInterval = 5000; // 5 seconds
+                const apiURL = "https://yt-to-text.com/api";
+
+                // Show loading, hide everything else
+                $('#summary-promo').hide();
+                $('#summary-error').hide();
+                $('#summary-pro-required').hide();
+                $('#summary-result').hide();
+                $('#summary-loading').show();
+
+                // Reset progress
+                updateSummaryProgress(0);
+
+                // Create abort controller for cleanup
+                summaryAbortController = new AbortController();
+
+                try {
+                    for (let attempt = 0; attempt < maxAttempts; attempt++) {
+                        const response = await fetch(apiURL + "/p/v1/GetSummary", {
+                            method: "POST",
+                            body: JSON.stringify({ video_id: videoId, language_code: languageCode }),
+                            headers: {
+                                "Content-Type": "application/json",
+                                "X-App-Version": "tubetranscript"
+                            },
+                            signal: summaryAbortController.signal
+                        });
+
+                        const data = await response.json();
+
+                        // API error
+                        if (data.code) {
+                            throw { code: data.code, message: data.message };
+                        }
+
+                        // Check summary status
+                        if (data.summaries && data.summaries[0]) {
+                            const summaryData = data.summaries[0];
+
+                            // Summary is ready
+                            if (summaryData.status === "READY" && summaryData.data) {
+                                renderSummary(summaryData.data, videoId);
+                                gtag('event', 'summary_success_mobile');
+                                return;
+                            }
+
+                            // Update progress if available
+                            if (summaryData.progressPercent !== undefined) {
+                                updateSummaryProgress(summaryData.progressPercent);
+                            }
+                        }
+
+                        // Wait before next poll
+                        await new Promise(resolve => setTimeout(resolve, pollInterval));
+                    }
+
+                    // Timeout after max attempts
+                    throw { code: "TIMEOUT" };
+                } catch (error) {
+                    if (error.name === 'AbortError') {
+                        // Request was aborted, do nothing
+                        return;
+                    }
+                    handleSummaryError(error);
+                }
+            }
+
+            // Simple Markdown parser for summary content
+            function parseMarkdown(text) {
+                if (!text) return '';
+
+                // Escape HTML first to prevent XSS
+                let html = text
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;');
+
+                // Bold: **text** or __text__
+                html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+                html = html.replace(/__(.+?)__/g, '<strong>$1</strong>');
+
+                // Italic: *text* or _text_ (but not inside words)
+                html = html.replace(/(?<!\w)\*([^*]+?)\*(?!\w)/g, '<em>$1</em>');
+                html = html.replace(/(?<!\w)_([^_]+?)_(?!\w)/g, '<em>$1</em>');
+
+                // Inline code: `code`
+                html = html.replace(/`([^`]+?)`/g, '<code>$1</code>');
+
+                // Line breaks
+                html = html.replace(/\n/g, '<br>');
+
+                return html;
+            }
+
+            // Truncate text to first N words with ellipsis
+            function truncateWords(text, wordCount, addEllipsis = true) {
+                const words = text.split(/\s+/);
+                if (words.length <= wordCount) return text;
+                return words.slice(0, wordCount).join(' ') + (addEllipsis ? '...' : '');
+            }
+
+            function truncateWithFade(text, wordCount, fadeWords = 3) {
+                const words = text.split(/\s+/);
+                if (words.length <= wordCount) return text;
+                const visibleWords = words.slice(0, wordCount);
+                const normalWords = visibleWords.slice(0, -fadeWords).join(' ');
+                const fadingWords = visibleWords.slice(-fadeWords).join(' ');
+                return normalWords + ' <span class="fade-text">' + fadingWords + '</span>';
+            }
+
+            // Render summary data
+            function renderSummary(data, videoId) {
+                $('#summary-loading').hide();
+                const isDesktop = !isMobile();
+                const isRestricted = shouldApplyLimit('tt_summary_views', videoId);
+
+                const blockSummary = isDesktop && isRestricted;
+
+                // Summary section - always show
+                if (data.summaryTitle) {
+                    $('#summary-title').text(data.summaryTitle);
+                }
+                if (data.summary) {
+                    if (blockSummary) {
+                        gtag('event', 'summary_limit_reached');
+
+                        // On desktop: show only first few words with fade effect on last words
+                        const truncated = truncateWithFade(data.summary, 40, 4);
+                        $('#summary-text').html(truncated);
+                        $('#summary-section').addClass('desktop-fade');
+                    } else {
+                        gtag('event', 'summary_limit_first_view', { country: GEO_LIMIT.country });
+                        $('#summary-text').html(parseMarkdown(data.summary));
+                    }
+                    $('#summary-section').show();
+                } else {
+                    $('#summary-section').hide();
+                }
+
+                if (blockSummary) {
+                    // On desktop: hide other sections, show promo
+                    $('#key-points-section').hide();
+                    $('#analogy-section').hide();
+                    $('#definitions-section').hide();
+                    $('#summary-desktop-promo').show();
+                    gtag('event', 'summary_partial_desktop');
+                } else {
+                    // On mobile: show all sections
+                    $('#summary-desktop-promo').hide();
+
+                    // Key points section
+                    if (data.keyPointsTitle) {
+                        $('#key-points-title').text(data.keyPointsTitle);
+                    }
+                    if (data.keyPoints && data.keyPoints.length > 0) {
+                        const keyPointsList = $('#key-points-list');
+                        keyPointsList.empty();
+                        data.keyPoints.forEach(point => {
+                            keyPointsList.append($('<li>').html(parseMarkdown(point)));
+                        });
+                        $('#key-points-section').show();
+                    } else {
+                        $('#key-points-section').hide();
+                    }
+
+                    // Analogy section
+                    if (data.analogyTitle) {
+                        $('#analogy-title').text(data.analogyTitle);
+                    }
+                    if (data.analogy) {
+                        $('#analogy-text').html(parseMarkdown(data.analogy));
+                        $('#analogy-section').show();
+                    } else {
+                        $('#analogy-section').hide();
+                    }
+
+                    // Definitions section
+                    if (data.definitionsTitle) {
+                        $('#definitions-title').text(data.definitionsTitle);
+                    }
+                    if (data.definitions && data.definitions.length > 0) {
+                        const definitionsList = $('#definitions-list');
+                        definitionsList.empty();
+                        data.definitions.forEach(def => {
+                            definitionsList.append($('<li>').html(parseMarkdown(def)));
+                        });
+                        $('#definitions-section').show();
+                    } else {
+                        $('#definitions-section').hide();
+                    }
+                }
+
+                $('#summary-result').show();
+            }
+
+            // Handle summary errors
+            function handleSummaryError(error) {
+                $('#summary-loading').hide();
+
+                // PRO_TRANSCRIPT_REQUIRED
+                if (error.code === 'PRO_TRANSCRIPT_REQUIRED') {
+                    if (isMobile()) {
+                        $('#summary-pro-required').show();
+                        gtag('event', 'summary_pro_required_mobile');
+                    } else {
+                        $('#summary-promo').show();
+                    }
+                    return;
+                }
+
+                // Show error message
+                const message = summaryErrorMessages[error.code] || "Falha ao carregar o resumo";
+                $('#summary-error-message').text(message);
+
+                // Show/hide Retry button
+                if (noRetryErrors.includes(error.code)) {
+                    $('#summary-retry-btn').hide();
+                } else {
+                    $('#summary-retry-btn').show();
+                }
+
+                $('#summary-error').show();
+                gtag('event', 'summary_error_mobile', { error_code: error.code || 'unknown' });
+            }
+
+            // Retry summary
+            function retrySummary() {
+                const videoId = "EufCYfvfbr0";
+                summaryLoaded = false;
+                fetchAndRenderSummary(videoId);
+            }
+
+            // Lazy loading: fetch summary when Summary tab is clicked
+            $('#summary-tab').on('shown.bs.tab', function() {
+                if (summaryLoaded) return;
+                summaryLoaded = true;
+                // Hide promo on desktop when loading starts
+                $('#summary-promo').hide();
+                const videoId = "EufCYfvfbr0";
+                fetchAndRenderSummary(videoId);
+            });
+
+            // ========== Pro Transcription API Integration (Mobile Only) ==========
+
+            // Pro Transcription state
+            let proTranscriptionLoaded = false;
+            let proTranscriptionStarted = false;
+            let proTranscriptionAbortController = null;
+            let savedProTranscription = null;
+
+            // Error messages mapping for Pro Transcription
+            const proTranscriptionErrorMessages = {
+                'P_QUEUE_FULL': "Aguarde a conclusão da transcrição anterior",
+                'PG_QUEUE_FULL': "O servidor está ocupado, tente novamente mais tarde",
+                'LIMIT_REACHED': "Limite diário atingido. Tente novamente amanhã",
+                'TIMEOUT': "A transcrição está demorando muito",
+                'FAILED_DOWNLOADING': "A transcrição falhou. Tente outro vídeo",
+                'FAILED_TRANSCRIBING': "A transcrição falhou. Tente outro vídeo",
+                'AUDIO_FORMATS': "A transcrição falhou. Tente outro vídeo"
+            };
+
+            // Errors without retry button
+            const proTranscriptionNoRetryErrors = ['LIMIT_REACHED'];
+
+            // Pro Transcription progress elements
+            const proTranscriptionPercentElement = document.getElementById('pro-transcription-percent');
+            const proTranscriptionProgressCircle = document.getElementById('pro-transcription-progress');
+
+            function updateProTranscriptionProgress(percent) {
+                percent = Math.min(100, Math.max(0, percent));
+                if (proTranscriptionPercentElement) {
+                    proTranscriptionPercentElement.textContent = Math.round(percent) + '%';
+                }
+                if (proTranscriptionProgressCircle) {
+                    const offset = circumference - (percent / 100) * circumference;
+                    proTranscriptionProgressCircle.style.strokeDashoffset = offset;
+                }
+            }
+
+            // Start Pro Transcription (called from button click)
+            function startProTranscription() {
+                if (proTranscriptionStarted) return;
+                proTranscriptionStarted = true;
+                const videoId = "EufCYfvfbr0";
+                fetchProTranscription(videoId);
+                gtag('event', 'pro_transcription_start');
+            }
+
+            // Main function to fetch Pro Transcription via Partner API
+            async function fetchProTranscription(videoId) {
+                const maxAttempts = 120; // 10 minutes max (120 * 5s = 600s)
+                const pollInterval = 5000; // 5 seconds
+                const apiURL = "https://yt-to-text.com/api";
+
+                // Show loading, hide everything else
+                $('#pro-transcription-promo').hide();
+                $('#pro-transcription-error').hide();
+                $('#pro-transcription-result').hide();
+                $('#pro-transcription-loading').show();
+                $('#pro-transcript-error-promo').hide();
+
+
+                // Reset progress
+                updateProTranscriptionProgress(0);
+
+                // Create abort controller for cleanup
+                proTranscriptionAbortController = new AbortController();
+
+                try {
+                    for (let attempt = 0; attempt < maxAttempts; attempt++) {
+                        const response = await fetch(apiURL + "/p/v1/GetTranscripts", {
+                            method: "POST",
+                            body: JSON.stringify({ video_id: videoId }),
+                            headers: {
+                                "Content-Type": "application/json",
+                                "X-App-Version": "tubetranscript"
+                            },
+                            signal: proTranscriptionAbortController.signal
+                        });
+
+                        const data = await response.json();
+
+                        // API error
+                        if (data.code) {
+                            throw { code: data.code, message: data.message };
+                        }
+
+                        // Check transcription status
+                        if (data.transcriptions && data.transcriptions[0]) {
+                            const transcriptionData = data.transcriptions[0];
+
+                            // Check for failed status
+                            if (transcriptionData.status && transcriptionData.status.startsWith('FAILED')) {
+                                throw { code: transcriptionData.status };
+                            }
+
+                            // Transcription is ready
+                            if (transcriptionData.status === "READY" && transcriptionData.data) {
+                                renderProTranscription(transcriptionData.data, videoId);
+                                gtag('event', 'pro_transcription_success');
+                                return;
+                            }
+
+                            // Update progress and status text based on status
+                            const statusTextElement = document.getElementById('pro-transcription-loading-status');
+                            if (transcriptionData.status === "DOWNLOADING" || transcriptionData.status === "CONVERTING") {
+                                // During download/convert, use preparePercent (0-50% of total progress)
+                                if (statusTextElement) {
+                                    statusTextElement.textContent = "Preparando transcrição";
+                                }
+                                if (transcriptionData.preparePercent !== undefined) {
+                                    updateProTranscriptionProgress(transcriptionData.preparePercent * 0.5);
+                                }
+                            } else if (transcriptionData.status === "TRANSCRIBING") {
+                                // During transcription, use progressPercent (50-100% of total progress)
+                                if (statusTextElement) {
+                                    statusTextElement.textContent = "Gerando transcrição";
+                                }
+                                if (transcriptionData.progressPercent !== undefined) {
+                                    updateProTranscriptionProgress(50 + transcriptionData.progressPercent * 0.5);
+                                }
+                            }
+                        }
+
+                        // Wait before next poll
+                        await new Promise(resolve => setTimeout(resolve, pollInterval));
+                    }
+
+                    // Timeout after max attempts
+                    throw { code: "TIMEOUT" };
+                } catch (error) {
+                    if (error.name === 'AbortError') {
+                        // Request was aborted, do nothing
+                        return;
+                    }
+                    handleProTranscriptionError(error);
+                }
+            }
+
+            // Render Pro Transcription result
+            function renderProTranscription(data, videoId) {
+                $('#pro-transcription-loading').hide();
+
+                if (data.transcripts && data.transcripts.length > 0) {
+                    savedProTranscription = data.transcripts;
+                    const transcript = getHTMLFromRawTranscript(data.transcripts, videoId);
+                    $('#pro-transcription-text').html(transcript);
+                    $('#pro-transcription-result').show();
+                    summaryLoaded = false;
+                } else {
+                    // No transcripts in data
+                    handleProTranscriptionError({ code: 'FAILED_TRANSCRIBING' });
+                }
+            }
+
+            // Handle Pro Transcription errors
+            function handleProTranscriptionError(error) {
+                $('#pro-transcription-loading').hide();
+
+                // Show error message
+                const message = proTranscriptionErrorMessages[error.code] || "Falha ao gerar a transcrição";
+                $('#pro-transcription-error-message').text(message);
+
+                // Show/hide Retry button
+                if (proTranscriptionNoRetryErrors.includes(error.code)) {
+                    $('#pro-transcription-retry-btn').hide();
+                } else {
+                    $('#pro-transcription-retry-btn').show();
+                }
+
+                $('#pro-transcription-error').show();
+                $('#pro-transcript-error-promo').show();
+                gtag('event', 'pro_transcription_error', { error_code: error.code || 'unknown' });
+            }
+
+            // Retry Pro Transcription
+            function retryProTranscription() {
+                const videoId = "EufCYfvfbr0";
+                proTranscriptionStarted = false;
+                startProTranscription();
+            }
+
+            // Copy Pro Transcription text
+            function copyProTranscript(withTimecodes) {
+                const proTranscriptContent = document.getElementById("pro-transcription-text");
+                if (proTranscriptContent === null) {
+                    copyTextToClipboard("");
+                    return;
+                }
+
+                let contentBody = "";
+                const videoId = "EufCYfvfbr0";
+                const url = `https://www.youtube.com/watch?v=${videoId}`;
+                contentBody += `${url}\n\n`;
+                contentBody += `Transcript:\n`;
+
+                Array.from(proTranscriptContent.children).forEach(el => {
+                    if (!el || el.children.length < 2) return;
+                    const timestamp = el.querySelector(".transcript-time").innerText;
+                    const text = el.querySelector(".transcript-text").innerText;
+                    contentBody += `${withTimecodes ? '(' + timestamp + ') ' : ''}${text}\n`;
+                });
+
+                copyTextToClipboard(contentBody);
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Copied!',
+                    text: 'Text copied to clipboard.',
+                    position: 'bottom-end',
+                    timer: 1500,
+                    showConfirmButton: false,
+                    toast: true
+                });
+            }
+
+            // Download Pro Transcription subtitles
+            function downloadProSubtitles(format) {
+                if (!savedProTranscription) {
+                    return;
+                }
+
+                function formatTimeForDownload(seconds, format) {
+                    const hh = String(Math.floor(seconds / 3600)).padStart(2, '0');
+                    const mm = String(Math.floor((seconds % 3600) / 60)).padStart(2, '0');
+                    const ss = String(Math.floor(seconds % 60)).padStart(2, '0');
+                    const ms = String(Math.round((seconds % 1) * 1000)).padStart(3, '0');
+                    const separator = format === 'srt' ? ',' : '.';
+                    return `${hh}:${mm}:${ss}${separator}${ms}`;
+                }
+
+                let content = '';
+                const ext = format.toLowerCase();
+
+                if (ext === 'vtt') {
+                    content = 'WEBVTT\n\n';
+                    savedProTranscription.forEach((sub) => {
+                        const start = formatTimeForDownload(parseFloat(sub.s), 'vtt');
+                        const end = formatTimeForDownload(parseFloat(sub.e), 'vtt');
+                        content += `${start} --> ${end}\n${sub.t}\n\n`;
+                    });
+                } else if (ext === 'srt') {
+                    savedProTranscription.forEach((sub, index) => {
+                        const start = formatTimeForDownload(parseFloat(sub.s), 'srt');
+                        const end = formatTimeForDownload(parseFloat(sub.e), 'srt');
+                        content += `${index + 1}\n${start} --> ${end}\n${sub.t}\n\n`;
+                    });
+                } else if (ext === 'txt') {
+                    const videoId = "EufCYfvfbr0";
+                    const url = `https://www.youtube.com/watch?v=${videoId}`;
+                    content += `${url}\n\nTranscript:\n`;
+                    savedProTranscription.forEach((sub) => {
+                        content += `${sub.t}\n`;
+                    });
+                } else {
+                    return;
+                }
+
+                const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = `EufCYfvfbr0_pro.${ext}`;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                URL.revokeObjectURL(url);
+            }
+
+            // Switch to Pro Transcription tab and start generation
+            function switchToProTranscriptionAndStart() {
+                $('#pro-transcription-tab').tab('show');
+                // Small delay to ensure tab is shown before starting
+                setTimeout(() => {
+                    startProTranscription();
+                }, 100);
+            }
+
+
+                Tubetranscript
+
+
+                Tubetranscript.com is not affiliated with YouTube. This tool is meant for educational purposes only.
+
+
+            Audio ToolsMP3 to TextM4A to TextWAV to TextAudio to Text ConverterAudio to TranscriptAudio TranscriberVideo ToolsMP4 to TextTranscribe Video to TextVideo to TranscriptVideo to Text ConverterVideo Transcript Generator
+
+
+            YouTube ToolsYoutube Data ViewerYouTube Title GeneratorYouTube Name GeneratorYouTube Description GeneratorYoutube Tag GeneratorYouTube Video IdeasSubtitling ToolsOpen SRT FileSRT to VTTSRT to ASS​SRT to  TXTLRC to SRTVideo EditingVideo Splitter
+
+
+            RecursosTranscrever vídeo do YouTube em textoBaixar legendas do YouTubeResumir vídeos do YouTubeTranscrição de vídeo do YouTubeExtensõesEmpresaSobre nósContatoPrivacy PolicyTerms and Conditions
+
+
+        Tubetranscript.com | Free YouTube Video Transcription | © 2026. All rights reserved.
