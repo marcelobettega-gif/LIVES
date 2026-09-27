@@ -1,8 +1,8 @@
-VIDEO_ID: EufCYfvfbr0
-URL: https://www.youtube.com/watch?v=EufCYfvfbr0
-FETCHED_AT: 2026-09-20T09:12:38-03:00
+VIDEO_ID: oXI86q-OQhY
+URL: https://www.youtube.com/watch?v=oXI86q-OQhY
+FETCHED_AT: 2026-09-27T11:54:19-03:00
 SOURCE: TubeTranscript
-TRANSCRIPT_LENGTH: 134181
+TRANSCRIPT_LENGTH: 172534
 
 Tubetranscript.com
 
@@ -323,7 +323,7 @@ Tubetranscript.com
                 const languages = languageCodes;
                 const segs = currentPath.split('/').filter(Boolean);
                 const hasLeadingLang = segs.length > 0 && languages.includes(segs[0]);
-                if (!hasLeadingLang) {
+                if (!hasLeadingLang && selectedLanguage !== 'en') {
                     const newPathWithLanguage = `/${selectedLanguage}${currentPath}`;
                     window.history.replaceState({}, '', newPathWithLanguage);
                 }
@@ -371,411 +371,743 @@ Tubetranscript.com
 
 
                         00:00
-                        Olá pessoal, muito bom dia, bom início de domingão, bom café da manhã, boa louça, boa caminhada. Tomara que domingão seja ensolarado. Eu sou Bruno Mazone. Esse é o vídeo macroeconômico aqui do Clube dos Dividendos. Todo domingão às 6:11 da matina. Bom, pautas serão diversas, então sempre convido quem é novo, nova aqui no canal, na descrição, no primeiro comentário fixado, você sempre vai ter o nosso roteiro time stamps.
+                        Olá, pessoal. Muito bom dia, bom domingão. Seja bem-vindo aqui ao nosso vídeo macroeconômico. Todo domingão aqui no Clube dos Dividendos e lá no Clube do ETF também. Eu, Bruno Mazoni, acabo gravando os principais acontecimentos na ótica macro, tá? E também siladas e oportunidades, um pouquinho de fluxo, dólar, saldo na B3 do fluxo estrangeiro, a gente vai atualizar curva de juros, Estados Unidos, Nvidia, Bovespa, como vocês estão vendo aí, versus o indicador do medo que eu chamei aqui, que seria o DXY mais os rendimentos dos títulos de
 
 
-                        00:24
-                         Então você pode ir direto pro tema. Hoje vou falar bastante sobre Estados Unidos no no início do vídeo, renda fixa, tanto soberana quanto corporativa. Vou passar por alguns títulos que estão disponíveis na praça para quem quiser se arriscar um pouquinho mais em renda fixa, talvez seja interessante. Tem título pagando mais de 7% em dólar de bancão norte-americano.
+                        00:36
+                        10 anos dos Estados Unidos. A gente vai falar sobre essa correlação com o Ibovespa, como tá na tela. Vamos falar sobre dólar também junto com essa correlação pra gente se preparar nas alocações aí para quem é tático, olhando para as eleições e para quem é investidor de longo prazo, faz a casadinha ali com posição tática e posição de longo prazo para dar um pouquinho mais de consistência nos aportes novos durante esse período de volatilidade.
 
 
-                        00:45
-                         Depois a gente fala de dólar, calendário, macrobrasil. Vou trazer um gráfico bem interessante sobre o Brasil. E por fim, nossos filtros, ciladas e oportunidades. E no finalzinho a nossa agenda dividendos. O disclaimer tá na tela. Sou Bruno Amazônia. Seja muito bem-vindo aqui o Clube dos Dividendos. Eu começo com esse gráfico, pessoal.
+                        01:00
+                         Ele aqui, eleições nos Estados Unidos, guerra, conflito, curvas de juros abrindo no mundo inteiro. E a gente começa com o panorama de mercado. Antes de rodar o disclaimer, pessoal, a newsletter tá na descrição para vocês baixarem gratuitamente. Só pedir para mim autorização lá no nosso Google Drive. E também o vídeo é longo.
 
 
-                        01:05
-                         Preço de alimento, preço de combustível, preço de energia subindo feito louco, louca nos Estados Unidos. Então esse gráfico mostra o aumento dos preços de milho, trigo, algodão, açúcar, fósforo, a petróleo, gasolina, arroz, diesel, combustível de avião, tudo que você enxofre, gás natural desde o início da guerra Irã, Israel, Estados Unidos.
+                        01:17
+                         Quem tá na curto aí de tempo, toma o seu café na sua corrida, na sua louça, no início do seu domingão, que provavelmente vai est bem ensolarado. Tô gravando sábado e tá ensolarado. Todo o roteiro do vídeo que é longo, passa de uma hora vira e mexe. Todo o roteiro vai est na descrição, junto com o link dos nossos parceiros, como também no primeiro comentário fixado. Certo? Vamos lá.
 
 
-                        01:35
-                         Muito, muito importante aqui, pessoal, olhem o último tema aqui. European natural gas. Então, gás natural para o velho continente, mais do que dobrou desde o início, enxofre tá chegando próximo de dobrar e o aquecimento, tá? G de aquecimento das casas europeias também super super a inflacionado pós início do confronto.
+                        01:41
+                         O disclaimer tá na tela. Eu sou Bruno Mazonei. Seja muito bem-vindo aqui ao clube. Bom, começo com os com o panorama semanal, pessoal. O que que mais se destaca aqui? Aumento do pedido de prêmio para financiar a máquina pública, não só nos Estados Unidos, mas no mundo inteiro. Então, as curvas de juros longas, aquela que praticamente precifica o custo do dinheiro para as empresas, muitas vezes também precifica o custo do dinheiro pra pessoa física, o custo do dinheiro para alguns empréstimos.
 
 
-                        02:00
-                         Isso aqui é inflação, não tem jeito. Kevin Wash já subiu juros nos Estados Unidos e aos subjuros, a narrativa dos do mercado financeiro, a narrativa dos jornais financeiros, eles sempre vão tentar buscar aquilo que gera mais clique e nós, seres humanos, gostamos de ver sempre a coisa balançando pro lado ruim do que para lado bom, né? A gente nunca vai ouvir falar depois de uma semana, duas semanas consecutivas de chuva aqui no interior paulista, ninguém ouviu falar aí do nível da cantareira, né? deve tá bufando, mas você pode ter certeza que
+                        02:12
+                         Ah, muito valiosos, não hipotecários, que a gente vai para 30 anos, mas empréstimos de 10 anos a gente pode estar falando de aquisição de algum bem. Esse custo tá ficando mais caro, mais caro, mais caro. Semana sim, semana também. Qual foi o gatilho da semana que passou, tá? Semana que passou, qual foi o gatilho paraa abertura de juros nos Estados Unidos? Foi o PIB, foi o Donald Trump, foi o Kevin Worsh, foi conflito geopolítico? Não necessariamente, pessoal.
 
 
-                        02:33
-                        se porventura faltar chuva em algum momento no futuro, vai est lá a cantareira pingando em tudo que é jornal. Então, a gente como ser humano comporta dessa maneira, se comporta dessa maneira e a narrativa dos jornais de boa parte de jornais financeiros nos Estados Unidos já começou a olhar para o aumento de juros do Kevin Wash como sendo potencial efeito colateral de uma de um título como esse.
+                        02:38
+                        Quarta-feira da semana passada nós tivemos um PMI, que é uma informação de mercado, um dado de mercado que outrora não tinha protagonist protagonismo nenhum, na semana passada ganhou esse protagonismo. O que que é o PMI? É uma pesquisa feita com gerentes de compra, com empresários sobre como é que tá a economia ali, como é que tá a sua posição em relação ao otimismo ou pessimismo para com a sua empresa na economia.
 
 
-                        03:00
-                         Então, os defs de título privado, empresas declarando que olha, putz, cara, não vou conseguir pagar a minha dívida. Então, muito do que a gente tá vendo também no Brasil começa a pipocar nos jornais financeiros norte-americanos, que é o risco do crédito privado. Empresas que não conseguem arcar com o crédito que ela adquiriu, já estão em 6.
+                        03:04
+                         E é um dado de setembro que saiu já na quarta-feira e veio um dado muito acima. Então, atividade econômica com uma perspectiva, uma perspectiva, uma pesquisa dizendo que a atividade econômica em setembro está pujante. Isso fez com que curvas de juros nos Estados Unidos abrissem, tá? Isso é muito importante. Junto com pedido de desemprego menor do que esperado, Estados Unidos está rodando, pessoal, com o crescimento do PIB nominal, inflação mais atividade econômica.
 
 
-                        03:23
-                        3%, segundo a FIT. Então, o crédito privado nos Estados Unidos está em recorde, né, histórico em 6.3%. Dizem que o Armagedon é 8%. a gente vai est olhando ali para uma crise, recessão e etc. Já estamos em 6.3% de empresas declarando que não conseguem pagar os seus empréstimos. Isso no crédito privado norte-americano, sendo que o banqueiro central subiu juros.
+                        03:31
+                         Esse é o crescimento do PIB nominal na casa dos seus 5%. E o PIB potencial dos Estados Unidos, aquele que exclui a inflação, tá na casa. Isso é uma estimativa. Economistas todos, né, sempre fazendo ali as suas continhas para uma previsão futura, roda na casa dos seus dois a 2,5%. Então, pros Estados Unidos crescer sem gerar inflação, tem que crescer por volta dos seus 2 a 2,5%.
 
 
-                        03:51
-                         Então, vejam como agora, provavelmente a narrativa que a gente vai ter e um dos ETFs para se observar ao longo da semana é o ETF dos bancos regionais dos Estados Unidos, KE, porque é ele que provavelmente vai sinalizar com mais sensibilidade um risco, um defô maior, um crescimento no defô do crédito privado norte-americano, tá? Esse cara tá caindo, mas não muito, tá? né? Um sinal fraco de queda depois de uma recuperação de 2022 do último aumento de política monetária, úo último aumento de ciclo, né, de juros nos Estados Unidos.
+                        03:59
+                        Como o PIB nominal pega o crescimento mais a inflação, pessoal está na casa dos seus 5%. A inflação dos Estados Unidos tá rodando ali nos seus três, até um pouquinho abaixo, um pouquinho acima, vai depender ali da métrica que você usa. Então, vamos assim dizer que os Estados Unidos está no limite para gerar inflação e esse limite de crescimento.
 
 
-                        04:24
-                        Então, bem importante monitorar o KE, pessoal, para entender como é que tá o mercado de crédito privado nos Estados Unidos, que sim, tá? Tá nervoso e os os jornais financeiros já começam a usufruir e explorar bastante depois do aumento de juros do Kevin Wash. Outra, outro outra fonte de dados que eu acho importante para se observar, quem tá com a locação nos Estados Unidos, tá dolarizado, dolarizar tá correto em fazer em em dividir, espalhar em divisas o seu patrimônio. Eu concordo com você.
+                        04:21
+                        Então, a narrativa, então, não tem nada a ver. Óbvio que sempre vai ter a ver tudo. Economia não é não não se existe nada na economia isolado, tá? Mas na Faria Lima deles por lá, o Wall Street, o que mais fez preço, qual foi a narrativa que colou para que os bond vigilantes, aquele pessoal que exige mais prêmio para financiar a dívida pública, de fato viesse com força, tá? foi justamente a atividade econômica doméstica dos Estados Unidos, rodando acima ou ali no limite do seu PIB potencial. Isso então gera, de certa
 
 
                         04:55
-                        O fato é que o ciclo da economia americana ou o ciclo das aplicações americanas pode estar mudando de uma década, até mais do que década, 15 anos, onde o S&P500 foi um ótimo investimento, enquanto que a economia real cresceu, mas nada demais, vamos assim dizer. A gente pode estar virando para a economia real, começar a a crescer bastante ao invés do S&P 500.
+                        maneira uma cresciflação, né, que é mais ou menos o meu cenário pros próximos 2 a 3 anos. Não é uma STG inflação, onde a atividade econômica é anêmica, perto da inflação. Então os investidores acabam alocando o recurso, olhando mais paraa escassez, mais paraa inflação do que para crescimento. Eu não acho que é esse o cenário de curto prazo, 2 anos para adiante.
 
 
-                        05:22
-                         Por quê? Porque as grandes empresas do S&P 500, as 10 maiores empresas do S&P 500 são o motor, a fonte de financiamento de infraestrutura, de inteligência artificial. A Big Beautiful Bill do Donald Trump ajuda, o Genius Act ajudam, tá? Obviamente que o governo, a liquidez que o governo tem gerado e as facilidades ajudam, mas a gente já pode acompanhar nos últimos resultados de Google, Amazon, Meta e AFINs, que essas empresas estão com seu fluxo de caixa livre, começando a embicar pro zero a zero ou até pro negativo.
+                        05:20
+                         O cenário de curto prazo é muito provavelmente um crescimento real muito pequeno, mas ainda um crescimento suficientemente alto em relação à inflação, logo um crescimento real, que os alocadores de recurso ficam uma hora ou outra em temas de renda variável, tá? e uma hora ou outra aproveitando de olho nos títulos públicos, mundo afora, porque os rendimentos, a gente entra numa era, pessoal, inaugura uma era de título público nos Estados Unidos, pagando 5% ao ano.
 
 
-                        06:00
-                         E se nós olharmos para os anos 2000, que teve ali a crise da PONcom, né, as empresas de tecnologia da época da internet, tá, quando pegávamos as 10 maiores empresas naquele período, o retorno, o rendimento, como se fosse dividen y, esse gráfico, esse indicador mostra o rendimento em cima do caixa livre das empresas, que é o free cash flow y ou rendimento de fluxo de caixa livre.
+                        05:52
+                         Se vai ser um retorno nominal, se vai ser um retorno real, só a inflação dirá, mas 5% já é um número que salta. Somente lá em 2007 nós tínhamos 5% de retorno nominal ou de retorno nos ys de 10 anos. Voltamos a ter esse regime. E eu vou comentar bastante no vídeo de hoje, mas entenda que a narrativa, ao menos da semana passada pra abertura de juros, não foi diesel, não foi petróleo, não foi fertilizante como sendo o grande propor abrir juros, e sim atividade econômica doméstica nos Estados Unidos.
 
 
-                        06:27
-                         Dá na mesma o rendimento durante a bolha, estourando ali nos anos 2000, o rendimento das empresas que estavam ali na casa de 7, 8%, ou seja, elas geravam caixa ali nos anos 2000, na no fim da década de 90, elas geravam caixa, logo esse caixa tinha um retorno em relação ao preço do ativo. Legal, como se fosse um earning y ou um dividend yield.
+                        06:26
+                        O que que isso gera, pessoal? qualquer indicador de atividade econômica para semana que vem temos payroll. Vai ser uma semana pesada de dados econômicos. Eu vou mostrar o calendário para vocês. Qualquer indicador de atividade econômica gringa, principalmente Estados Unidos, que venha a Migué, que venha fraco, desmonta a curva de juros, provavelmente, porque a curva de juros deu um kick a mais para cima devido ao interno norte-americano e não [roncando] a toda a loucura externa, que poxa, teria que ser um vídeo macro só para
 
 
-                        06:48
-                         Tem o FCF yeld. Bacana. Saiu aqui de 7% naquele período e quando estourou a bolha para quase zero 1,5. abaixo de 2%. Pessoal, nós estamos vivenciando algo parelho. Depois da década do dinheiro barato, as empresas começaram aos poucos perder esse fluxo de caixa e, principalmente, acelerou nos anos de 2020 para cá, mas 2024, 2022 foi ali quando descobriram o chat GPT.
-
-
-                        07:19
-                         Podemos colocar em 2023, 24, 25, que todos os investimentos em tecnologia, né, em softwares de fronteira, em infraestrutura de IA estão sendo feitos e a gente já consegue capitalizar isso no balanço das companhias. Então, o fluxo de caixa, o retorno do fluxo de caixa das 10 maiores empresas do S&P 500 está se aproximando de 2%.
+                        06:58
+                        falar. Então vocês estão vendo o verdinho ali no panorama que é Bonds e USA 10 years subindo 4.71% loucura fechando aí a semana 518 520 517 tá o S&P 500 subiu junto subiu 1.37% então cresciflação e ainda não estagflação. Talvez a esta inflação nem venha, tá? Se o crescimento conseguir ser robusto suficiente, acompanhado de produtividade, talvez o PIB potencial americano suba de 2,5 para 3, quem sabe, tá? Ou talvez com o geopolítico, o externo, aliviando, a gente torce, cruza os dedos, vai ser ótimo pro mundo inteiro, tá? Talvez é
 
 
                         07:42
-                         Numa retrospectiva histórica, nos anos 2000, ou melhor, de 1995 a 2000, a gente viu também esse fluxo, esse retorno do fluxo de caixa livre cair de 7%, 7,5% para 1,5. Nós estamos muito próximo dos 2%. No momento que falo com vocês, estamos falando aí de setembro de 2026. Que que isso? O que que isso importa? E eu com isso na minha alocação em S&P500, por exemplo, olha, talvez seja interessante a intensidade dos aportes, talvez diminuir um pouco e valorizar, de repente um ativo mais defensivo, o setor de utilities, o XLU nos Estados Unidos,
+                        uma pressão no diesel, uma pressão nos alimentos, uma pressão futura de inflação que vai vi, né, pessoal? Vai vi. Foi o tema dos últimos vídeos. Vai vir essa inflação de alimentos. Olha só, se a gente tirar um coelho da cartola, tá bom? Porque vai vir. Só se a roada começar a trabalhar nas fazendas. E aí a gente por algum motivo, se bem que o salário de quem trabalha no agro lá na terra não é algo que vai conseguir deflacionar o preço dos alimentos.
 
 
-                        08:22
-                        por que não? Talvez você olhar para uma renda fixa de curto prazo, SGOV, para fazer de caixa para quando e se a sua especulação do S&P 500 ao ver esse gráfico, ajuntar outros estudos, é o é o defô. no mercado de crédito privado, é, seja lá o que for, é a inflação que tá para chegar. Bem, você pode colher frutos positivos da inflação no XLU, que é o ETF de utilities, utilidade pública.
+                        08:10
+                        Fertilizante sim, diesel sim. Enfim, aqui foi o papo dos últimos dois vídeos. Então a gente tá vendo SNP subindo, Bonds abrindo, VIX aliviando. Não muito, mas certamente aliviou abaixo dos 20. É sempre muito bom para um cenário de curva de juros abrindo. Em um mundo de stag inflação, você pode ter certeza que o SNP estaria caindo e que o VIX estaria subindo.
 
 
-                        08:47
-                        E você também pode no ETF de inflação ou, porventura no ETF pós-fixado, tá? O mais tranquilo e mais famoso é o ETF de Tibills, de 1 a 3 meses, que é pré-fixado, mas ele rapidinho já faz o seu rebalanceamento e capta esse aumento dos juros que o Kevin Wash fez. Então são alguns ativos, pessoal, que eu tô comentando para você que não é para sair do S&P500.
+                        08:36
+                         Eu vou trazer para vocês num dos primeiros slides aqui, muita conexão com os Estados Unidos, tá? Eu vou dar protagonismo e depois a gente pula para Brasil. Ouro cedendo, Brasil junto. Então, correlação ouro Brasil, ouro emergentes, pessoal, não necessariamente ouro emergentes, porque a gente tem Coreia do Sul, a gente tem outros emergentes que estão conectados com tese de crescimento econômico, tecnologia, entenda-se alguns países asiáticos ali com a grande destaque pra Coreia do Sul, mas o Brasil, o EWZ e o ouro, ó, estão
 
 
-                        09:10
-                         Estatisticamente não faz o menor sentido porque você acha que vai ter um crash porque tr c gráficos estão mostrando um sinal não muito agradável. É só a intensidade que é o nome do jogo, tá? O que é menos importante do que o quanto, tá? o quanto no mercado financeiro, o quanto no seu portfólio, faz sentido.
+                        09:07
+                        juntinho. Então, ouro meio miguer, Brasil meio miguer. para baixo. Difícil o Brasil ir muito bem para cima. Estamos em um período já quase eleitoral, né? Então, mais uma semaninha aí, pessoal. Hum. Não tem muito o que fazer. Ah, então a gente vai dizer que já tá no preço eleições, né? Vamos ter vários, várias, creio, né, que teremos várias pesquisas. Traders, show de bola.
 
 
-                        09:28
-                         E aí, como a gente controla o aporte, são uma das poucas coisas que a gente faz, é controlar o aporte, a quantidade, a intensidade. Eu acho que é uma variável que faz sentido psicologicamente e também em um momento onde nós temos a renda fixa, como vou mostrar num gráfico a seguir aqui, no melhor momento nos Estados Unidos, desde 2005, estamos remunerando o tesouro americano tá remunerando você se emprestar dinheiro para ele nos próximos 10 anos ou nos próximos 30 anos, 5% em dólar, nos próximos 30 anos, 5,33, nos próximos 10 5%. % bateu ali a parte a meta
+                        09:32
+                        Investidores, pessoal, é a hora do caixa, é a hora da ordem limitada, é a hora de você pegar o prêmio que hoje na Itaúa tá tá de 40 centavos para você vender sua call, você vender sua A depender do seu cenário, se é para cima ou para baixo, aproveita, joga esse prêmio dobro para cima que a robozada vai te pegar, porque a VOL vai aumentar sem que o fundamento mexa nem um pouco proporcional a VOL.
 
 
-                        10:06
-                        psicológica do 5%. Então é um movimento que você não tinha em 2011, 2012, 2013, 14, 15, 16, 17, 18, lá blá. Só foi ter lá no 2005, nos anos de 2000, 2005, sim, o retorno dos juros do do tesouro do me perdoe, das treasuries de 10 anos, dos títulos públicos com vencimento em 10 anos, era de 5% ao ano, voltou a ser de 5%, pessoal.
+                        10:00
+                         Então, vou aumentando. Talvez você não queira participar do mercado de ações, queira participar do mercado de derivativos, de opções para comprar mais barato, para vender mais caro. Utilizem e abusem. É um momento de quatro em qu anos que a gente tem para ver uma Itaúza, olha, uma opção no dinheiro, talvez na Itaúza chegue a R$ 1 de tão maluco que o mercado pode ficar com a volatilidade implícita na Itausa, imagina só, tá? Isso vai dar o quê? vai dar uns 8% de y, sei lá, num prêmio, num strike específico. Bom, bolsas mundiais,
 
 
-                        10:34
-                         Então faz sentido, é de bom senso você aproveitar que de repente um valuation do S&P 500 pode estar esticado ao Brunão tá falando que vem inflação, Brunão ou alguma outra influência que você goste tá comentando que, ó, seja um pouco mais cético, tá? Eh, bem, diversifique, por que não? Eu acho que faz muito sentido.
+                        10:31
+                        pessoal, o que que nós temos aqui de destaque, tá? Eu falei da Coreia do Sul, truco, tá? Nos emergentes que vocês viram que foram muito melhor do que o EWZ, ó, quem foi muito bem na semana aqui, México, Taiwan, Singapura, Emirados Árabes. Eh, não sei se Emirados Árabes é é considerado emergência, então pula ali, tá? Mas olha, México, Taiwan, Singapura, Japão foi o grande destaque da semana.
 
 
-                        10:54
-                         Esse último gráfico aqui é curiosidade, diversifique onde, né? Para finalizar meu pensamento, pessoal, renda fixa, não mais só renda fixa de longo prazo, pré-fixado, quando falamos de renda fixa a a global, vá para um pósfixado, diminua a duração do ETF que você investe ou do título que você investe para um mês, 2 meses, 3 meses, faça caixa, faça de caixa esse ETF de reserva de oportunidade, por exemplo.
+                        10:56
+                         Então veja aqui uma semana asiática, de certa maneira, com o México roubando ali uma medalha de prata e, ó, quase chegando no Japão. Os piores da semana a gente tem Brasil, a gente tem África do Sul, a gente tem Chile, Indonésia, Turquia, Israel. Então, veja aí Brasil, África do Sul, Chile caindo bastante ao longo da semana. Foi uma semana que na no bloco das comortes, pessoal, teve o petróleo acalmando aquela, né? Petróleo bateu os $, dá uma acalmada, alguma outra narrativa aparece, dá uma segurada, enquanto consistentemente a gente vê diesel para cima, diesel para
 
 
-                        11:20
-                         Também invista em inflação nas chips, que é o VTIP, no caso, nos Estados Unidos. Esse gráfico acaba sendo curioso, pessoal. Eu trago para vocês aqui o ETF. Foi motivo de vídeo, inclusive no Clube dos dividendos e no clube do ETF, o ETF BW, que é um ETF especificamente que investe em navios tanqueiros. Eu não sei o nome do navio, mas são os navi os navios que transportam barris e petróleo.
+                        11:34
+                        cima, diesel para cima. Diesel é inflação. Quanto mais tempo o diesel ficar alto, mais a inflação começa a ganhar tentáculos, reverberar em várias indústrias. Tá? É do alimento. É tudo que tem roda, tá? Então tem analista, eu que consumi podcasts para variar nerdes que sou. Fico consumindo podcast e do pessoal Doomnen Gloom, né? Aquele pessoal que acredita que vai ter algum crack e vai, né? a economia vai embicar para baixo por alguns meses.
 
 
-                        11:43
-                         Esse navio então ganha dinheiro com o preço do frete. Ele cobra ali mais quando a geopolítica tá torta ou quando a seguradora cobre mais para ele passar em determinado estreito. Bem, esse ETF, pessoal, que não tem liquidez, tá? Não é para nós sardinhas, é justamente ali para um, sei lá, para algum head fund que tem a Insider Information ou consegue simplesmente um dinheiro mínimo ali para alocar.
+                        12:05
+                         Eles têm falado que o diesel nos patamares atuais é quase é quase que impossível de não reverberar na inflação, por exemplo, dos serviços da Amazon. E aí uma das analistas que eu ouvi podcast, tô dando risada, mas talvez seja uma realidade daqui a do anos, é que muito provavelmente se o diesel continuar alto por muito tempo, devido aí os conflitos ah tendo uma postergação maior, as pessoas nos Estados Unidos, porventura vão mudar um pouquinho do hábito, né? Vão pedir menos coisas delivery porque são mais caras e vou começar a consumir
 
 
-                        12:10
-                         Esse cara é o ETF que mais deu retorno ao longo de todo o ano. É o ETF de frete marítimo, especificamente carregando ali petróleo. Então esse é o mundo que vivemos em 2026. Agora nós chegamos no mapa de calor de ILD, né? O mapa de calor de retorno dos títulos públicos soberanos, pessoal. aqui para quem quer mais pé no chão.
+                        12:38
+                        mais coisas em casa, tentar trazer alguns serviços que outrora era fora de casa, que demandava trânsito, né? demandava logística para evitar a logística, tá? Então, e isso, logística, logística, logística é um tema importante para quem aloca nos Estados Unidos. É um setor que tá apanhando porque o diesel tá caro, então talvez seja um setor eh estratégico para quem acha que a guerra acaba e aí você vai ter ali boas empresas para se alocar no setor de logística que estão todas apanhando devido ao custo fixo aumentar.
 
 
-                        12:31
-                         Então, se você investe nos Estados Unidos, nós temos aí títulos de curto prazo. O o Sgovale vai tá te rendendo ali algo em torno de 3,89% a 4%, 4,08%. Tá? Ah, quando você vai pro cituros de longo prazo, como eu falei, bateu 5% os Estados Unidos hoje. Das economias emergentes de destaque ou economias desenvolvidas, os Estados Unidos é o terceiro país que melhor remunera o seu rentista.
+                        13:08
+                        E aqui no Brasil também não é diferente, tá? olhar para uma JSL, por exemplo, se você acha que o diesel despenca em algum momento, esse vai e vem do petróleo, pessoal, o mercado de diesel tá dando de ombros, tá? O diesel continua alto. Trouxe no vídeo anterior o preço, 6 o galão lá e subindo. Então isso na Califórnia deve est $ provavelmente.
 
 
-                        13:05
-                         O segundo país vai ser a Alemanha. A Alemanha hoje tá pagando, deixa eu ver, cadê a Alemanha? Alemanha, me perdoe. Reino Unido. Reino Unido hoje tá pagando 5,28% ao ano em pounds, em libras esterlinas para você, tá? E o a polyosition do país que mais remunera, que tem maior IUD, é a Índia com 7,06%. Então você compra um título na Índia, 7,06% ao ano é o que você tá recebendo por lá.
+                        13:32
+                        Então você tem muita inflação sendo empilhada na economia americana. Sei que o SNP tá subindo pelas magníficas sete, mas não deixe de diversificar em setores defensivos. É utilits, energia, é uma small cap ali para dar um e uma salgada ali, uma pimentada na sua na sua carteira. Se você porventura acha que o diesel é para baixo, olhe as empresas de logística, sem a menor dúvida.
 
 
-                        13:34
-                         Eu olharia para quem quer diversificar em a renda fixa soberana, tanto Reino Unido, bolsa de Londres é de fácil acesso pela XTB, pela Interact Brokers, provavelmente pela Avenue também, enfim, deve ter ali a sua corretora de que você mais gosta. Você manda a bala num Treasury que eu não sei como que chama, ah, do Reino Unido ali para 10 anos.
+                        14:01
+                         Mas foi uma semana muito boa pro cobre, o que é esquisito para mim, porque o Chile caiu. Então, olhar pro Chile e ver porque que caiu, talvez seja uma oportunidade. Café é a grande deflação do ano e depois o açúcar subindo 6.8, gado subindo para caramba. Então assim, inflação pessoal de alimentos, eu não iria contra alimentos, tá? Simplesmente não iria contra alimentos.
 
 
-                        13:53
-                         Você tá garantido ali 5,28% ao ano em libre exterlina, tá show de bola, tá? E nos Estados Unidos, como eu acabei de falar, cincão, 5%. Você vai financiar uma casa nos Estados Unidos hoje, que geralmente ali vai tá entre 10 e 30 anos de financiamento. Você tá falando aí pro cidadão americano que o Banco Comercial provavelmente vai tá cobrando aí na casa dos seus 7,5, 8% ao ano, coisa que o norte-americano não viu desde 2005, não vê desde 2005, me perdoe, tá? Já no mundo dos títulos corporativos, pessoal, aí é mais arriscado, mas agora o Trading View
+                        14:23
+                         queda de uma SLC, queda da Brasil Agro, de certa maneira, eh, aqui no Brasil pode ser interpretado como falta de fertilizantes para daqui em algum tempo, mas eu ainda assim acho uma grande oportunidade. Bom, tá aqui, pessoal, a gente cai agora pros Estados Unidos rapidinho vou trazer para vocês, vamos migrar pra tela cheia. Que que esse gráfico mostra? Que os Estados Unidos é crescendos para você que tá achando que a inflação vai vir.
 
 
-                        14:28
-                        consegue me organizar aqui os títulos de curto prazo, de longo prazo, que são de dívida corporativa, logo, logo crédito privado, onde o defô tá aumentando, como eu falei para vocês no início do vídeo, né, batendo seus seis pontos lavai fumaça. Bem, se você quiser um título que tá remunerando muito bem e é um título com vencimento curtinho, tá? Eu destaco e tá como destaque aqui também no Trading View, tá? Esse título aqui, ó.
+                        14:47
+                         Por quê? O lucro por ação das empresas verde, subindo como se não houvesse amanhã. como se não houvesse amanhã. O SNP500 tá sambando, né? Recentemente não conseguiu ali encarar altas consistentes, tá ali num tá em alta peroroma útil, diminuiu bastante a volupia e o preço lucro cedendo, tá? Eu vou mostrar o gráfico da Nvidia, vai ilustrar até melhor o fato de que ainda nós temos no passado, nos últimos 12 meses, lucro por ação das empresas subindo, tá? em níveis estelares, então não tem bolha, tá? Ainda não tem bolha. Para quem é está
 
 
-                        14:53
-                        Bank of America Corporation, então é do BAC, tá? Tem um vencimento aí para dia 23 de março de 2027, tá? O rendimento até o vencimento tá na casa aí dos seus 7.94%. Quando eu cliquei nesse cara para ver as notas de rating, né, ele não é o triple A, mas também não é B, né? Pela SNP ela ele é a men, pela Moods é A1 e pela fit é w menos, né? como as agências de risco gostam de ficar enchendo, né? Ele é um cara que paga cupom, a gente tá falando aí de um investimento mínimo de $000, cupom de 3,85%.
+                        15:24
+                        pessimista, é mais fácil nos Estados Unidos comprar o CDI, comprar a abertura de juros e não vender a bolsa. Quem tá pessimista nos Estados Unidos tem que usar o Playbook Brasil. Compra lá, não precisa comprar dólar, né? Mas aqui compra-se dólar e CDI. Nos Estados Unidos compra-se CDI norte-americano, já tá interessante, tá abrindo, não para de abrir a curva de juros.
 
 
-                        15:34
-                        Deixa eu olhar como funciona o fluxo de pagamento. Exatamente. Tá. Exatamente. Esse cupom aí mensal. É isso não. Trimestral. Trimestral. Pelo que eu tô vendo aqui, se eu não falar bobagem para vocês, maio, agosto, novembro. fevereiro aí março fecha, tá? Então você teria ali mais três cuponzinhos para receber mais dois cupons e o e o principal de volta e o último cupom, tá? Tá faltando esses três últimos fluxos de pagamento para quem tá de olho em dívida privada, de bancão, tá? Esse cara aqui não tá com cara que vai te dar dor de cabeça, tá?
+                        15:46
+                         e porventura diversifica o S&P 500, porque de fato os fundamentos não mostram que estamos ah ruins ou em bolha, tá bom? Esse gráfico é do Jim Bianco. Eu gosto muito do Jim Bianco. Ah, eu é um dos podcasts que eu assisto, que eu ouço toda a santa semana. E esse gráfico é um pouco, vamos dizer assim, e tem muita história, né? Porque em 1971 foi a primeira vez, né, com o grande calote que o presidente Nixon deu no mundo de tirar a correlação, o lastro do ouro em cima do dólar e assim criou-se a moeda fiduciária de fato. O dólar se
 
 
-                        16:12
-                        Não teve mudança aqui de nenhuma agência de risco em relação à nota. Então, continua aí as notas que eu falei para vocês. Nenhum momento do histórico de lançamento do título, né, que é de curto prazo, né, houve mudança. Geralmente título de longo prazo há mais mudanças. Curto prazo não dá tempo, tá? Mas enfim, acho que é interessante, vale a pena aí vocês olharem para quem gosta e quer diversificar, manda bala, tá? Você tem um bancão ah te remunerando bem.
+                        16:26
+                        transformou em uma moeda fiduciária de fato, tá? De lá para cá, nós tivemos de 1980 a 2020, como já mostrei diversas vezes aqui no clube, o gráfico do rendimento dos títulos públicos de 10 anos nos Estados Unidos, que no regime de 1980 pós Nixon eh 1981 pós crise petróleo, o Nixon acabou com a correlação em 71.
 
 
-                        16:38
-                         O dólar no Brasil. Rápida fala aqui do dólar antes de entrar no segmento de calendário econômico e Brasil. Eu vou falar do dólar e também vou falar sobre EWZ versus S&P500, que eu acho que é no mínimo pertinente eu compartilhar esse gráfico com vocês. Mas antes vamos pro dólar. O dólar, pessoal, é o cara mais chato para trazer novidade.
+                        16:55
+                         De 71 a 81, o nós tivemos os juros americanos subindo para caramba. Foi o período do Paul Walker, foi o período de inflação pós-guerra, foi o período onde petróleo era escasso no mundo inteiro e os Estados Unidos era net, né? Ele era importador, não era exportador. De 1981 a 2020, globalização acelerou muito.
 
 
-                        16:59
-                         Tá, tá igual a Itaúza, né? não anda, faz muito tempo que tá caranguejando. Então esse cara, se não tá andando, o próximo movimento vai ser extremamente amplo, ou seja, ele vai ficar perigoso. Agora, não é? E que bom, pelo menos uma das variáveis macroeconômicas que impactam a inflação, impactam a a os mercados emergentes, não tá enchendo o saco.
+                        17:15
+                         Nos anos 2000 foi o ouro da globalização, mas ela iniciou ali, tá? em 1980 acelerou bastante e acabou sendo oficializada a mundo afora pósqueda do muro muro de Berlim em 90 em 891 ali, né? Bom, desse regime globalização, nós tivemos juros no mundo inteiro saindo de 15% nos Estados Unidos, 16% nos Estados Unidos, 15.84 e em 1981 a 0,52 em 2020.
 
 
-                        17:19
-                         Enquanto petróleo, frete, tweet do Trump, geopolítica, putz, clima, tá tudo meio eh fritando a galera, frete, né? Mas o dólar não. Então, pelo menos uma variável bem importante pra nossa inflação, uma variável importante para um setor da bolsa, mas pro pro pra economia como um todo, acaba tendo um impacto forte. Bem, tá quieto.
+                        17:42
+                         Pessoal, o ser humano precifica dinheiro há, sei lá, 5000 anos atrás, desde a Mesopotâmia lá, tinha gente precificando dinheiro. Em nenhum momento dos últimos 5000 anos, nós tivemos dinheiro negativo ou dinheiro a zero. Então, se você olhar para uma discrepância, para um experimento fora do comum em termos de retorno de renda fixa, principalmente no mundo desenvolvido, o experimento se deu de 2010 a 2020, onde os juros estiveram zero negativo no Japão ou muito próximo de zero na Europa, no Bloco Europeu e nos Estados Unidos. Esse foi o diferente 2010, 2020
 
 
-                        17:41
-                         E eu acho que esse cara ainda continua. eleição durante e pós 5,28, 5:35 é o teto. Conforme ele fica quieto, o preço do dólar não se mexe. O meus os meus views, vocês estão vendo essas linhas cinzas que são os meus meus indicadores dinâmicos, eles vão cedendo, vão caindo, caindo. Um tá em 5,36, outro tá em 54,7.
+                        18:24
+                        e eu sei, eu comecei na bolsa em 2010, eu tô com 36 anos. Boa parte do pessoal que tá voando no mercado aí tem 10 anos a mais do que eu. Vamos colocar que eles começaram em vez de 2010, em anos 2000, tá? Ou até um pouquinho antes, um pouquinho depois. Esse pessoal que começou nos anos 2000, eles até lembram de uns juros de 10 anos, de um título público pagando 5% nos Estados Unidos.
 
 
-                        18:03
-                         O máximo de volatilidade que eu tenho pro dólar, já olhando aí pro pós eleição, é de 5,52. Então, ótimo, meus meus VWAPs estão abaixo do 552. E para baixo, Brunão, 5,10, 5,6, 4,96. Acho muito difícil 2026 performar melhor do que esses três valores aí. A assimetria para mim no dólar, pessoal, infelizmente é para cima. Pelo um simples mecanismo que o Fed voltou a subir juros, tá? Logo, o dólar tende a se valorizar, porque as pessoas agora vão ficar mais assim, mais dispostas a financiar o tesouro a 5% o ano na nas curvas de juros e o Fed voltou a
+                        18:49
+                        Eles até lembram, mas eles estavam no começo da carreira. Boa parte dos traders, boa parte dos influenciadores que ficam cornetando aqui em mercado para vocês faz ideia. Chegou em 2015, 2014, 2012, 2010, que nem eu, e o juros já era zero ali. Pós o negócio ficou muito próximo de zero. Acostumou-se em falar em pressão de grana, acostumou-se a ter o Fed como principal driver de mercado, liquidez, quantitativas easy, aquela coisa toda.
 
 
-                        18:43
-                        subjuros. É, pode ser que tenha uma atração ali por dólar e essa atração é por renda fixa especificamente. Não estamos falando aqui de magnífica sete. Muito bem, pessoal. Esse é um gráfico polêmico. Eu vou pôr o SNP de vermelho para vocês. Dá uma forçadinha nele. Legal. Brasil inverte. Ew, tudo em dólar aqui.
+                        19:18
+                         Tá bem? O normal melhor, a média dos juros americanos de 10 anos de 1971, Nixon dando calote até 2026, a média é de 5,18% ao ano. Nós, ah, me perdoe, pessoal, me perdoe. A média tá aqui, 5,18 é o atual, a média é de 5,91%. Tá? Então, pega lá o pico da crise da inflação, pega o vale, né, a zerada de 2020 dos juros de 10 anos.
 
 
-                        19:08
-                         Base ah, percentual histórico desde a criação do EWZ, foi nos anos 2000. Então, tenho dos anos 2000 para cá, vou colocar a legenda para facilitar pra gente, tá? Eu tô compando aqui SPY, que subiu 700% de 2000 para cá, versus o EWZ, que subiu 426% de 2000 para cá. O gráfico mais ou menos mostra, mas eu acho relevante a gente tratar um gráfico com base percentual em contextos recortados, em recortes, melhor dizendo.
+                        19:48
+                        média 5.91. Um desvio padrão para baixo 2.79, um desvio padrão para cima, 9.04. Por que que isso importa, Bruno? Maneira pelo qual eu leio o mercado. Estatística é muito mais relevante do que achômetro, certo? Então nós temos média, um desvio para baixo, um desvio para cima, é o que eu preciso.
 
 
-                        19:37
-                         Vamos pro recorte dos anos 2000 a 2008. Vamos para esse recorte aqui, ó. Bom, legal. Esse é o recorte que eu acho pertinente trazer para vocês, muito pertinente trazer para vocês, porque acaba ah forçando, se quem me acompanha tem bom senso, a não esquecer América Latina, a não esquecer diversificação também emergentes, tá? Eu vou trazer mais uma pitarra, mais uma pitada aqui.
+                        20:09
+                         Você tá pessimista com Estados Unidos, juros, guerra, seja lá o que for, tá? É um momento interessante. Vai ser um momento interessante de maneira pragmática, independente se você esquerda, direita, diagonal, centro, etc. É um momento pragmático importante você comprar um TLT, um ETF de pré-fixado de longo prazo, de 20, 30 anos, como TLT é, quando e se os juros americanos chegar por ventura a 9.04%.
 
 
-                        20:10
-                        Vou adicionar o ILF, que é o ETF da América Latina, e vou adicionar, se eu lembrar aqui, o ticker, o AVWS, eu acho que ele não existia aqui. Ah, infelizmente eu não vou lembrar o ticker querido, tá? Vai ficar para uma próxima que vocês estão vendo aqui na tela. Vou pôr aqui América Latina. Por ela América Latina é azul.
+                        20:38
+                        Você tá comprando um desvio padrão dos últimos 40 e tanto, mais do que 40 anos, né? Não, nos últimos 40 anos, né? Vamos pôr quase 50 aí, porque não vai chegar a 9% em 2027. Vai demorar um pouco mais do que isso, assim espero. Ah, mas seria o momento de você falar assim: "Caramba, nos últimos cinquentinha a gente tem um desvio padrão para cima, sendo 9%, o Fed Fantá quase, tá na hora de comprar pré-fixado.
 
 
-                        20:35
-                        Vocês estão vendo na tela? É o contexto dos anos 2000, tá? A 2008, pré-crise. Vamos lá. 2000 a 2008, o SNP, pessoal, subiu 7,22%. Quando eu falei no início do vídeo, a economia real americana talvez tenha maior retorno sobre o investimento do que a economia financeira, essa em P500. É esse gráfico que eu tô dizendo, tá? É nesse gráfico que eu tô dizendo, tá? Porque a gente vai ter empreendimentos, infraestrutura sendo criada na economia real.
+                        21:05
+                        " Esse é o cenário do cara mais pessimista, da investidora mais, né, cética com a economia a economia atual. Se você é um cara meio do caminho, opa, já tá chegando. A hora de você comprar um TLT tá muito perto. Que hora é essa? Intervalo de 575 6. O intervalo de 550 575. Quando o Kevin WH subir até lá, já tá na hora de você de você chegar e falar assim: "Ó, o Brunão vem batendo na tecla de pós fixado.
 
 
-                        21:06
-                        nos Estados Unidos, que empresas que a gente nem conhece vão se beneficiar e essas empresas não estão no mercado ainda ou não tem a capitalização suficiente, ninguém sabe quem serão, como ninguém sabia que era o Google ou a sei lá, a a Apple, tudo bem, mas o Uber, o Airbnb e todas as empresas que conseguiram criar negócio e fazer receita a partir do advento da internet ou a partir da fibra ótica que foi instalada.
+                        21:35
+                        Brunão vem batendo na atleta de, ó, traga a sua carteira de renda fixa global pro curto prazo, para um mês, 3 meses, S Gov, que é o ETF de curtíssimo prazo das TBS. Diversifiquem pós-fixado mundo afora, Flua corporativo e também soberana, porque tem muita empresa emitindo dívida. Porque estamos em um regime aí de queima de caixa devido aos investimentos de inteligência artificial, blá blá blá blá blá.
 
 
-                        21:32
-                         E as empresas de fibra ótica, que eram as NVIDS da vida lá, que vendiam infraestrutura ou tecnologia, ninguém conhece, ninguém sabe, nem sei se tá na bolsa ainda. Então é bem importante, um momento bom pra economia real, momento bacana paraa manufatura, talvez não para muito, muito para serviços, né? a gente que tá começando a assinar IAS da vida aí, pô, daqui a pouco a gente tá pagando mais em IAS do que a gente pagava em qualquer outro tipo de assinatura ou qualquer outra dinâmica de trabalho.
+                        22:02
+                         Porém, pô, o Dim Bianco trouxe aqui pra gente uma estatística que eu deveria ter já pego para vocês, porque eu tenho acesso a esse gráfico. Metade do caminho entre 1980 a 2020, pessoal, é 5.90%. Então, o regime atual com, eu vou trazer já o G, o GDP now, né, o PIBAL dos Estados Unidos, o PIB agora do Atlanta de Fed, sendo 5% atualmente, juro, se você acha que juro de 10 anos tem que tá no mesmo patamar do PIB nominal, inflação mais crescimento, pessoal, tá normal.
 
 
-                        21:56
-                         Então, muito provavelmente a gente pode passar, se você concordar comigo, para uma década ou alguns pares de ano onde manufatura vence serviços. A gente passou uma década, pessoal, de serviços, serviços, serviços. Pode ser que os países ao se reorganizar nas na cadeia nas cadeias de suprimento, ao se reorganizar em defesa, a militarizar-se, militarizar, né, a sua sociedade, isso demande construir coisas em casa, isso demande construir coisas nos amiguinhos que não tem problemas geopolíticos, isso demanda, então, comortes, isso demanda indústria.
+                        22:35
+                         Juro dos 10 anos americano em 5:20 tá super normal, não é para gerar recessão, principalmente com o PIB crescendo 5%. Então vou lá, né? Quem quer comprar bonds americanos, o TLT, olha, não falta muito, tá? Não falta muito. Estamos em 5:20, a curva deve chegar ali a aproximadamente 5,75, 5,90 para o seu cenário de moderado. Não tô nem otimista, nem pessimista.
 
 
-                        22:33
-                        indústria não é interessante como o serviço pra bolsa. Por que pessoal, a indústria margem é pequena. A não ser que você tenha, que você seja hoje a Nvidia, mas você não tenha dúvida que tem um monte de Nvidíia sendo criada nesse exato momento, porque margem alta e holofot, pessoal, o prego que se destaca é martelado.
+                        23:02
+                         O mundo vai continuar prosperando. Patati Patatá. R, a curva batendo. Talvez seja ali o seu gatilho pragmático para falar. É, vou comprar um TLTzinho aqui, vou aumentar a mão no TLT que o Brunão falou me serviu até até então para eu diversificar meu portfólio de renda fixa na gringa, mas agora eu vou fazer um trade de renda fixa na gringa e vou comprar pré pré-longo, TLT, o mais famoso deles e ainda te paga dividenda por mês.
 
 
-                        22:53
-                         Então tá todo mundo louco para martelar Nvidia, você não tenha dúvida disso. Então a indústria é difícil no longuíssimo prazo ser a mais valiosa do S&P 500, ser a empresa mais valiosa do mundo. Serviço é mais fácil, tá? Ah, então eu acho que a gente pode viver ali um Estados Unidos interessante na economia real.
+                        23:33
+                         O oposto, pô, o Kevin Wash tá sendo leniente com a inflação e, sei lá, ele em algum momento, nos próximos 3 anos, 5 anos, ele baixar os juros para o desvio padrão de baixo, 2.79%. Você fala assim: "Hum, chegamos a 2.79%, esquece o TLT, vende o TLT, vamos voltar pro Sgov, pro VTIP, né, que é inflação, pro Floa, pro TFLO, enfim, tem um monte de ETF aí.
 
 
-                        23:11
-                         Empreendimentos na economia real. Bacana. Versus um SP500. É sem graça. Eu ia adicionar Smalc de valor, mas eu, infelizmente, esqueci de salvar o ticker do ETF norte-americano de smallcap de valor. Vai ficar para um próximo vídeo. Eu fiz numa consultoria para um rapaz a recomendação do tal small cap que foi bem, não nesse período, só para vocês terem uma noção de cabeça, eu tenho small cap value do S&P 500 subiu cerca de 170%.
+                        24:02
+                         H, de curto prazo ou pós fixado. Póx fixado não tem muito não, mas de curto prazo tem. Beleza, pessoal? Créço pro Jim Bianco aí. Sigam o Deb Bianco. É um cara que eu gosto bastante, pelo menos. Ele tem o o Ai, caramba, o podcast dele que eu ouço toda semana chama Cognitive Disscident, tá? É muito bom, muito bom. meia horinha, toda sexta, todo sábado ou sexta-feira, quem é nerds aí no café vai escutando.
 
 
-                        23:38
-                        Tá? Então, em um período, se você tiver esse contexto de, sei lá, 100500, 2000, 2008, você muito provavelmente vai tentar diversificar a do SNP 500, um Russell 2000, um Dow Jones, um XLU, né? Não sei se eu consigo adicionar aqui o X, não sei se ele existia nesse período, o XLU, que é o ETF de utilities.
+                        24:30
+                         Em vez de escutar eu tagarelar, porque eu só falo de domingo, vocês, eu recomendo vocês escutarem o de Bianco de sabadão, tá bem? Aqui é um papo mais tático para você que tá no SPY, você que tá no SNP500, simplesmente, né, a velocidade do crescimento do CAPEX, do dispendio de capital das principais empresas do mundo hoje, Oracle, Microsoft, Google, Meta, Amazon, a velocidade tá diminuindo, tá? 2026, pessoal, segundo o consenso, vai ser o pico.
 
 
-                        24:01
-                         Você pode brincar com esse cara, você vai ter uma rentabilidade no mesmo período bem melhor. Ah, Bruno, mas não foi América Latina, não. Não foi. Não foi nem o EWZ 528%, nem o ILF 703%. Sim, o ILF é o ETF da América Latina, pessoal, e eu estou otimista com a América Latina. Nada a ver com política, mas sim com geopolítica e sim com geografia mesmo.
+                        25:04
+                         800 bilhões, creio eu, não chega a ser tri, acho que é bi, né? É exatamente. 800 bi de dólar serão gastos esse ano. Um aumento de 94% em relação ao ano passado que foi de 412 BI. O número nominal, óbvio, vai aumentar, vai para um tri em 2027. Data centers e afins aqui, tá bom, pessoal? Capex das das cinco grandes empresas aí, tecnologia, o ano que vem vai atingir o tri.
 
 
-                        24:25
-                        Estamos aqui amiguinhos de gregos e troianos e por enquanto nenhum tufão, por enquanto nenhum grande terremoto, a não ser a tristeza na Venezuela, né? Obviamente, pô, muito triste, mas principalmente nós aqui embaixo, tá? Brasil, Argentina, o próprio Chile, a Colômbia, São Peru são países que podem se beneficiar dessa nova ordem global.
+                        25:30
+                         Pode ser uma baita de uma propaganda de um Wall Street Journal, por exemplo, mas a velocidade, segundo o mercado, ela fez pico em 2026. O que que significa, pessoal? O que que a bolsa precifica, principalmente uma bolsa de crescimento como S&P 500, precifica a primeira derivada, o número nominal,  um lucro trilionário, etc. Pô, chama atenção, mas a velocidade do crescimento, já que temos muito crescimento para que esse valuation seja aceito pelo mercado, a velocidade importa muito.
 
 
-                        24:46
-                         E a gente pode ter sim investimentos sendo pesados aqui, porque somos amiguinhos e podemos ter aqui a a base de indústria de outros países desenvolvidos. Bom, e nós mesmos também, quem sabe, né, nos industrializarmos. Sentorço, tá? Essa é a minha tese aqui como pós-quenesiano, adoraria, né? Mas é muito importante para finalizar essa parte, acho que a parte mais importante do vídeo desse domingão, pessoal, é não tenha preconceito.
+                        26:00
+                         É a segunda derivada e, ó, é essencial. Então, a velocidade parece que teve seu pico, a gente vai diminuir e 2028 vai diminuir mais um pouquinho, chegando ali em 1.3 B. Namorem muito, né? fiquem bastante, tenham bastante afinidade com velocidade de crescimento de CAPEX de grandes empresas, pessoal, porque ela pode indicar o mercado de trabalho caindo, a atividade econômica, dando uma estagnada e aí o mercado de repente vê no preço lucro, o lucro ceder, enquanto o preço fica lá em cima por um tempo e a gente vê o oposto, né? o o preço do lucro
 
 
-                        25:14
-                         Eu sei que cada, se no seu portfólio hoje todo ativo você gosta, tá errado. Tem que ter alguém que você tá lá e fala: "M putza, é só para dar aquela correlação negativa, onde um sobe e outro desce. Você tem que buscar um cara estranho e bem o estranho no ninho é o o pode ser a América Latina, pode ser o EWZ, o Ibovespa. Aí você não precisa fazer muita coisa a não ser tá aqui no Brasil e investir na na B3.
+                        26:33
+                        saltar porque o lucro cedeu e não porque o preço necessariamente caiu. Esse é o momento onde todo mundo que tá na praia fica peladão ali, né? Então tome cuidado você focar muito em empresas de crescimento quando a curva de investimento, que é o que justifica essa empresa de cri crescimento, ela cai, ela estiver caindo, tá? Aqui é o site do Federal Reserve do do Banco Central Americano de Atlanta, que é famoso por criar e alimentar todo santa semana, todo santo mês a gente tem atualizações aqui de artigos, etc. O ah
 
 
-                        25:37
-                        Beleza? Bom, falei da bonança latina, bonança da economia real versus economia financeira. Agora vamos mudar o jogo. Vamos mudar o jogo. Vamos pro pós 2008. No que eu vou pro pós 2008, pessoal, vou tentar trazer para vocês todo o histórico até o presente momento. Vamos lá pro pós 2008. Se eu conseguir, vamos ver, vamos ver, vamos ver, vamos ver aí. Beleza.
+                        27:10
+                        toda semana tem, né? Incrível. O GDP now que é o PIB agora, tá? tá em 5%, mas é um PIB nominal, junta a inflação com a estimativa de crescimento. Bingo, você tem aqui toda semana o DDP now, que é o PIB aí semal bem interessante, né? Quem sabe o Brasil daqui uns anos também não tem uma uma concorrência aí para FGV ou a própria FGV e os outros institutos aí, o o IBGE, etc.
 
 
-                        26:07
-                         Pós 2008, tá aqui, ó. Então, esse é o pós 2008, né? Um pouquinho para lá, um pouquinho para cá. Deixa eu ver. E é aí, ó. Começo em março de 2009, tá? Então aqui o jogo muda. SP milão por XLU 437 EWZ patinhos feios. Qual que é o melhor ativo na opinião do Brunão dentre todos aqui que estão na tela? Mas você não tenha dúvida.
+                        27:36
+                        , conseguem trazer para eh conseguem ter braço suficiente para trazer dados com uma atualização tão frenética assim, né? Sempre importante. Então, tá em 5%, pessoal. O custo do dinheiro tá em c em 25. Vamos lá, né? Eh, tá mais ou menos ali, né? Então vocês podem baixar o PDF. Se eu lembrar, eu deixo para vocês na descrição a fonte, mas é só colocar Atlanta Fed GDP Now. Vocês vão chegar ah nesse PDF.
 
 
-                        26:43
-                         É o útil do S&P500 esse cara. Então eu que não quero mudar de patamar, não quero investir em empresas sexis do momento, que é aquela maravilha, não, eu quero mudar de patamar nas minhas nas minhas aplicações financeiras, no trading, aí tudo bem, eu faço as minhas compras de call, eu faço meu swing, meu position trade, aí é um dinheirinho de risco, um dinheiro de trading tático.
+                        28:04
+                         É gratuito, tá bom, pessoal? É gratuito. Ele voltou a subir, tá? teve uma um aumento substancial e como eu falei para tentar fechar os Estados Unidos, o mercado precificou a um aumento da curva de juros, é uma abertura de juros, porque acha que tá crescendo mais do que o potencial. Eh, vamos começar a falar do iato do produto nos Estados Unidos também.
 
 
-                        27:04
-                         Agora na minha carteira de longo prazo, pô, eu não tô fora, não sou, não me chama atenção S&P500, por exemplo, apesar de ser o melhor ETF de todos os tempos, pelo menos se pegar ali a rentabilidade nos últimos 100 anos, provavelmente vai ser em P500, foi o melhor. Eu gosto do Tio, que é o cara que vai ser um retorno em vários cenários, ou para não dizer todos os cenários, utilities, pessoal, faça chuva, faça sol, você vai precisar ligar a tomada.
+                        28:25
+                         Pode ser que a Foreia Lima já tá, já, né, colocou uma lavagem cerebral na gente aqui no Brasil. É, lá também pode-se ter a mesma perspectiva. E eu falei que ia fechar Estados Unidos, minto, né? Vamos falar da Nvidia, o que que não é uma bolha. aqui a Nvidia. Então, vejam que o preço subiu. Aqui eu tenho desde 2011, pessoal, o preço da Nvidia e o preço lucro projetado.
 
 
-                        27:35
-                         na sua casa, a não ser que Adam Smith seja ultrapassado em algum momento com alguma tecnologia nova. E você quer uma hidrelétrica, você quer uma fotovoltaica, você que é uma eólica, uma térmica, uma nuclear, vá pro espaço. Você que distribui gás natural, vá pro espaço, porque agora temos um outro tipo de tecnologia.
+                        28:47
+                         Legal projetado porque sempre exclui ali não recorrentes. A Nvidia esteve na sua maior bolha, tá, em dois períodos, 20189, tá? e 202122, onde a Nvidia esteve negociando assim 88 vezes lucro, nada mais e nada menos 88 vezes lucro. Pós aperto monetário do Federal Reserve, pessoal, a Nvidia se transformou numa veg, começou ali a ter um um preço lucro projetado entre 20 a 40, 25 a 35, 18 a 30.
 
 
-                        27:53
-                         Enquanto não acontece isso, o Tilits teve um bom retorno no na década dos emergentes e tá tendo um bom retorno nessa década aqui. O importante é dizer que na década dos emergentes, pessoal, o retorno foi muito bom e muito acima do S&P 500. O retorno atual do S&P 500 tá muito bom. Agora você vai se perguntar, Brunão, e pós 2020? Eu utilizei pós 2000 crise.com.
+                        29:25
+                         E aí eu trago para vocês toda a expansão do preço lucro da Nvidia de 2011, tá? Até 2022, a expansão dela junto com os preços. Mas o o lucro e me perdoe, os preços expandiram muito mais do que o lucro. Então de 2011 a 2022, a Nvidia teve uma expansão no preço muito maior do que no lucro. Por isso que ela saiu de 10 vezes lucro para 88 vezes lucro.
 
 
-                        28:18
-                        Eu utilizei pós 2008, crise do subprime e pós-pandemia. Vamos dar uma olhada pós-pandemia. Vamos lá tentar dar um zoom. Tch tch tch tchum. Pós pandemia tá aqui, ó. Bom, olha só como tá embolado o pós-pandemia. Eu tenho que ser super honesto com vocês e dizer, eu não faço a menor ideia quem vai vencer, tá? O SNP com 235, o América Latina com 200, Brasil com 170, 160, XLU com 90.
+                        29:52
+                        Porém, a partir do aperto monetário do Fed de 2022, tá? Então, vou traçar aqui para vocês. A partir de 2022, a Nvidia continua subindo nos preços, certo? porém sem ter expansão de múltiplo. Então, todo urso da Nvidíia apanhou, porque as quedas que a Nvidia teve aqui, independente se foram grandes ou pequenas, só deixaram ela barata, mais barata, porque ela começou a ter uma compressão de múltiplo, porque os preços não subiram o suficiente quanto o lucro subiu.
 
 
-                        28:49
-                        Pós 2020, então você tem esse quadro aqui, ó. Você vai me perguntar, Brunão, quem que vai, vai ser a década de quem? Não faço ideia. O que um quadro como esse demanda do Sardinha, nós pessoas físicas, pessoal, diversificar bom senso, tá? Não ponha tudo no S&P 500, não ponha tudo no Brasil, não ponha tudo XLU tá aqui de gaiato, né? Não ponha tudo no XLU, não ponha tudo no na América Latina, tá? Ainda não temos um sinal claro, não se preocupe.
+                        30:30
+                         Qual que é o sinal aqui para você? Então, amarelo, provavelmente, como já foi uma tese de inteligência artificial, está sendo, na verdade, a tese de inteligência artificial, o motin atual, quando e se ela engordar no múltiplo, a não ser que ela invente a próxima tecnologia pós inteligência artificial, ela esteja também na, né, na polyposition ali, pô, não sei se isso já aconteceu na história, ah, num próximo ciclo ciclo tecnológico e de inovação, a mesma empresa do anterior ser protagonista, Ah, bem, se ela for, esquece que eu tô falando, mas se ela não for a
 
 
-                        29:23
-                         Eh, eles não andam juntos por muito tempo, não vão andar juntos por muito tempo, não mesmo. Se você quiser segmentar mais uma vez, você pode segmentar com efeito Trump. Se você achar que porventura o Trump vai ser um cara assim divisor de águas pros Estados Unidos, tá? Vai vir democrata, vai vir outro republicano e vai manter mais ou menos o que o Trump tá fazendo.
+                        31:03
+                        protagonista do próximo ciclo de narrativa, de crescimento, inovação e afins, saiba, pessoal, o engordar do preço lucro projetado é o seu sinal para você e diminuir a exposição. Eu coloco aqui três quadrantes, como se fosse de média, desvio padrão. Então, a média é de 30 vezes lucro, 30,8 vezes lucro, de 2011 a 2022 como mínima e máxima.
 
 
-                        29:48
-                         Bem, pessoal, o efeito Trump, ou seja, 2025 tá dando o primeiro sinal. ILF subiu 80% desde 2025. EWZ subiu 77, o SNP subiu 30, o XLU subiu 11, tá? Então aqui temos um sinal de que vai ser a década dos emergentes, n? Podia até voltar, acho que foi 2024, seria mais correto, né? Que foi a eleição, né? Foi novembro de 2024 a eleição, se não tô enganado. Deixa eu vir aqui então.
+                        31:29
+                         A média é de 30,8 vezes lucro. Nós estamos hoje negociando no primeiro quarto de desconto, 25%, certo? 18,22 vezes, estamos negociando a 18,76. Então você comprar Nvidia hoje, se você acredita que ainda temos 1 2 anos de capex crescendo o suficiente para justificar a Nvidia ser uma empresa de crescimento, pessoal, empresa de crescimento você pode pagar até os 40 vezes lucro aí, que na história do mundo é mais ou menos comum, mas abaixo dos 15 vezes lucro, com certeza, se você acha que inteligência artificial vai ainda
 
 
-                        30:22
-                        Novembro de 2024. Ah, até tava certo aqui, mais ou menos aqui, assim, ó. Certo. Então, a gente percebe que dependendo da ótica ele vai estar embolado. Dependendo da ótica, a América Latina 2025, como foi um rally forte dos emergentes, que teve ali uma queda do S&P500, a gente tá abrindo vantagem. De 2025 para cá, os emergentes estão rendendo mais ou a América Latina tá rendendo o dobro do S&P 500.
+                        32:05
+                        ser a principal narrativa em 2027, em 2028, vamos pôr só 2027, pagar 15 vezes lucro da Nvidia me parece um ótimo negócio. Estamos negociando a 18. Agora sim, fechei Estados Unidos. Vamos para o calendário econômico, pessoal. Semana pesada, tá? Semana bem pesada no calendário econômico. Saibam disso. Uma semana que importa bastante, por quinta-feira, tá, minto, n? O PMI industrial fez bastante barulho na semana passada.
 
 
-                        30:52
-                         É suficiente o sinal? Eu acho que não. Continuo com, né, muito pé no chão. E a diversificação ela é obrigatória em um mundo com a geopolítica tão segmentada, com a geoeconomia tão segmentada e com tendência de se segmentar mais. Estamos vendo extremas dos dois lados, né? Políticas extremas dos dois lados. Então não adianta você achar que tem uma resposta, que tem um ativo que vai vencer o jogo, porque apesar desses 12 meses, últimos 12 meses ou 18 meses, América Latina e Brasil terem respondido muito bem frente ao S&P500, eu acho que
+                        32:36
+                         Vamos olhar esse PMI aqui. Pode fazer barulho também. O industrial é importantíssimo, tem o ISM, que é o mais importante, tá? É a é a empresa que o mercado tem mais credibilidade, enxerga mais credibilidade, é o PMI ISM, então ele vai sair às 11 horas da quinta, mas o principal, né, é o é o bolo ali, né, que é sexta, porque temos o mercado de trabalho, é o payrollow, taxa de desemprego, e inflação de salário ou não, a gente vai ter isso lá, beleza? Então, muito importante, sexta-feira vai chacoalhar, talvez quinta chacoalhe também. Ah, importante também tava
 
 
-                        31:25
-                        não é o suficiente, não foi o suficiente para dizer que os próximos 5 anos a gente vai dar um banho na economia financeira, na aplicação financeira frente o índice mais poderoso do mundo. Beleza, pessoal? Eu gastei um tempão ali. Espero que vocês é tenham entendido mais ou menos o meu racional. Prolixo que sou, às vezes, putz, né? Expliquei, expliquei, não saí do lugar.
+                        33:11
+                        esquecendo, sabia que quarta-feira era muito importante. Então, nós temos aqui tão importante quanto sexta, pessoal, às 9:30, na quarta-feira que vem, dia 30, nós temos o PCI, que é a métrica que por hora é a que dirige as grandes eh os grandes estudos do Banco Central, tá? Então é o é o IPCA deles gurmetizado que eles mais gostam de utilizar.
 
 
-                        31:47
-                         Base é: não obtenha. Acho que a nossa, a geração que vai pôr dinheiro novo na bolsa, pôr dinheiro novo em aplicações financeiras, e eu me incluo, né? Eu tô colocando ainda dinheiro novo em aplicações financeiras porque eu preciso aumentar meu bolo. O peso de cada aplicação, ele tende a ser cada vez menor, tá? ETF veio para diversificar, então não vou pôr tudo num no não vou apostar no S&P 500, como eh vários dizem para apostar, né? Eu acho que o mundo é melhor que o S&P 500, pode ser melhor que o SP500. A América Latina
+                        33:35
+                         Embora o CPI seja importante, o PCI também é. E até mais. Então saiba que quarta-feira inflação, quinta-feira nós temos eh seguro desemprego. Dá uma olhadinha aqui para esse cara. Se cai muito, tá? Se menos pessoas estão pedindo seguro desemprego, mais aquecimento econômico, a gente pode manter. Quarta-feira tem inflação e petróleo, estoque de petróleo.
 
 
-                        32:18
-                        pode ser muito melhor que o SP500. Então isso demanda você diversificar, ter pesos mais eh ter pesos menores pros ativos que compõem a sua carteira, n? E isso acaba sendo bom senso, né? Bom, vamos lá ao calendário econômico, pessoal. Sexta-feira para mim é o único dia que pra gente, né, Brasil Tupiniquim vai dar uma uma sacudida, porque temos IPCA, tá? Temos a ata do COPOM, mas assim, foi tranquilo o COPOM, não teve nenhum jogo de cintura diferente, o problema foi nos Estados Unidos, problema não, né, a surpresa ou talvez
+                        33:58
+                         Então, inflação PIB atrasado, não sei se faz muito preço, não diria, tá? Mas inflação PMI e payrollow, pessoal, é uma semana pesada pros Estados Unidos. Brasil pode navegar tranquilamente, a depender de uma pesquisa X, a depender [roncando] de uma bomba Y do Vorcaro e afins. Então, acho que Brasil a gente mais ou menos que anda com as próprias pernas, mas aos alocadores gringos, talvez aí empresas que estão dolarizadas, que uma veg, uma Suzano e Patati, Patatá, pode ter uma volatilidade monstra na semana que vem, tá? Monstra na semana que vem de olho em
 
 
-                        32:51
-                        um pouquinho mais de volatilidade foi nos Estados Unidos, tá? Então eu não olharia para isso. Estoques de petróleo acaba sendo importante, mas estão assim terríveis, né? Então a a surpresa pode ser se se houver um incremento de de estoque, mas acho difícil, né? Então é o papo mais interessante, acaba sendo sexta-feira o nosso IPCA.
+                        34:29
+                        renda fixa americana. Pode ser uma grande semana. Se de repente ah você tiver procurando um bond para investir, você pode ter na semana que vem 5,30, 5,40 nas Fed Funds, na, me perdoe, nos treasuries. Imaginou, 40 em dólar sem risco. Meu Deus, 5,40% em dólar sem risco. É, me parece bem chamativo.
 
 
-                        33:08
-                         Papo macro, pessoal, rapidinho aqui. Ibovespa versus dívida PIB. Então aquele papo não, Ibovespa não tá subindo por causa do fiscal. É fiscal, mentira. Balela. Tá. O fiscal começou a decolar a partir de 2014, a bolsa começou a decolar a partir de 2016 e desde então, olha, a gente continua decolando independente se o fiscal tá piorando ou não, via indicador dívida PIB, tá? Estamos indo por 70% no dívida líquida PIB, então e a bolsa subindo do mesmo jeito até com uma certa correlação positiva, né? A dívida deu uma amenizada aqui em 2021, ou seja, a
+                        34:56
+                         Bom, vamos agora pro Macrobrasil. Macril continua uma bagunça, né? Então eu não sei se no futuro alguém vai cobrar esse gráfico que eu tô mostrando para vocês, que eu bato na tecla sempre, pessoal. Então aqui nós fizemos um aumento de juros nesse período aqui muito cavalar, né? Como vocês estão vendo aqui, um aumento de juros na mesma magnitude.
 
 
-                        33:42
-                        gente parou de crescer o endividamento, a bolsa naquele mesmo momento. Aí eu vou vou falar que foi por causa de um de aumento de juros, foi por causa a de de aumento de juros nos Estados Unidos também. E a dívida ela ficou bem mais branda aqui de 2020 a 2022, porque o Roberto Campos pôs o nosso juros em 2%, então, pô, o nosso principal custo é com juros.
+                        35:16
+                         Isso foi 2024, tá? Segundo semestre. Fizermos um aumento de juros. Azul é a Selic. Verde são a média dos juros de 10 anos e a média dos juros de 1 ano, tá? Então a gente fez um aumento de juros na mesma magnitude maior, magnitude maior do que 2021, que tínhamos uma inflação em vermelho de dois dígitos. Então foi a mesma magnitude de aumento de juros por uma inflação.
 
 
-                        34:05
-                         O juros foi para 2%, o tesouro e a dívida PIB agradeceram bastante, tá? né? O rebote da pandemia foi bem interessante pra atividade econômica. Foi o mundo perfeito aqui, né? Vai ser difícil tão rapidamente a gente enxugar a dívida PIB, a não ser que tenhamos de novo um choque de oferta, um crescimento gigantesco depois dele, tá? Aí juros a 2%.
-
-
-                        34:25
-                         Bom, então não é dívida PIB que a gente tem que olhar bolsa juros, beleza? Juros eu concordo, tá? Quando a gente olha pro juros de 10 anos, a média dos juros de 10 anos, pô, aí a gente tem um pouquinho de noção para onde a a bolsa bai. Deixa eu colocar aqui o juros 10 anos, fica melhor. Tem um pouquinho de noção para onde a bolsa vai.
-
-
-                        34:41
-                         Tende a ser correlação negativa. Juros 10 anos abrindo, bolsa para baixo. Juros 10 anos fechando, bolsa para cima, né? Tende a ser assim. Agora, tem um indicador que é melhor ainda, um indicador que mede o spread entre os juros de 10 anos, que é o mercado que praticamente decide, e os juros de 1 ano, que é o COPOM, é o Banco Central que decide.
-
-
-                        35:04
-                         Esse spread a diferença do quanto tá pagando os 10 anos frente a 1 ano. Se os 10 anos esverem pagando menos do que o de um ano, pessoal, a gente tem o spread negativa, curva invertida. E aí é quando tem um sinal muito bom pra bolsa, que é esse gráfico em azul clarinho. Quem gosta do Market Breath vai ter daqui a pouco, mas esse aqui também seria um bom indicador para você olhar quando esse indicador tiver negativo, ou seja, a os juros de um ano, os títulos de um ano pagando mais do que os de 10, tá? Vou dizer até o número para vocês. Cerca de
-
-
-                        35:34
-                        -1,8 aqui, -1,8 a colar, -2 aqui, -1,6 e -1,30. Então, curva o spread, me perdoe, ficando negativo, pessoal, de 1,5 para mais, tá? Acaba sendo timing interessante pra bolsa, tá? Acaba sendo um time interessante pra bolsa, inclusive em períodos esquisitos, como 2008, como 2016, né? Ah, só não 2020. 2020 foi oposto, tá? Ah, foi bem oposto, inclusive.
+                        35:42
+                        Então para essa magnitude de aumento de inflação dos seus quatro para seus cinco e alguma coisinha, nós subimos ainda mais os juros. Então, não sei se a história vai cobrar os banqueiros centrais, metade Roberto Campos, metade Galipolo. Não sei se a história vai eh elogiar, porque a inflação vai subir e juros vai decolar.
 
 
                         36:06
-                         Então, como estamos hoje, Brunão? Estamos com o spread ah, positivo. Então, tá tudo mais ou menos normal 0,8 positivo. Caso vocês tenham ali tempo e queiram ficar estudando, bem, quando você tiver um spread entre 10 e 1 ano negativo de 1,5 ou menos, pode ser um belo de um gatilho pro seu trade, para seu pra sua alocação de renda fixa, renda variável aumentar, tá? porque a bolsa tende a responder.
+                         Não sei, né? O que nós temos hoje é muita pressão, tá? Muita pressão nas empresas por um uma doença que não pediu um remédio tão intenso assim, pelo menos não por hora. Nós temos, nós estamos completando, pessoal, 3 anos de inflação entre seis, vamos colocar seis, tá? Mas não chegou a seis, mas vamos lá, entre 6 e 3,5, né? Que é esse período aqui, ó, entre 6 e 3,5.
 
 
-                        36:30
-                         Ah, tem uma correlação aqui interessante, um estudo que eu fiz recentemente. Market Breath, nós vamos pra semana, provavelmente, pessoal, de lateralização/ra realização. Então, market ele tende a se preparar aqui, a ficar com as três médias entre os 60 e 40. As duas médias rápidas foram pra sobrecompra, vai descer.
+                        36:35
+                         Vou colocar 3 anos que nós estamos com esse regime de PCA a mais acumulado. Legal, 3 anos. E a gente teve essa alta. Isso daqui pra nossa dívida PIB é uma facada, né? Não tenha dúvida disso. Então, não sei se a história vai cobrar ou não, mas nada me tira da cabeça que nós já chegamos no 5.92% que o Fed ainda não chegou ah no título, né, no no na política monetária.
 
 
-                        36:48
-                         Eu acho que isso vai acontecer. Mais chance da do Ibovespa lateralizar, cair do que de subir, tá? Se subir, ótimo, vou ficar feliz. Eu acho que o Ibovespa vai cada vez mais agora pré-eleição ser uma história de de pesquisa, mas principalmente uma história micro. Ah, a Multiplan subiu 3% hoje, divulgou JCP. Ah, Fleur um bom resultado.
+                        37:02
+                         A gente tá bem acima, inclusive, mas é o Brunão falando. E para quebrar uma narrativa, pessoal, independente de quem vence as eleições, temos o primeiro turno, pode se falar de fiscal, pode se falar de pesquisa, seja o que for, mas pro ano que vem, pro seu eh modos operand aí como investidor, pessoal, a dívida PIB em roxo e o Ibovespo.
 
 
-                        37:08
-                         Ah, não sei quem foi muito bem. Então, histórias específicas individuais e não o Bova 11, né? Por isso que me surpreendeu até o BOVA 11 passar do 176. Brasil tá barato? Se você olhar na ótica do Buffet Indicator, né, colocar aqui os desvios, pessoal, tá barato, tá? Já trouxe para vocês aqui abaixo de 40 é barato. Estamos em 38, tá? Não estamos em 2016, que foi 27, não estamos em 2002, que foi 23, não estamos em 2024, que foi 30, é 31, estamos com 36.
+                        37:22
+                        Quando o Banco Central ele é leniente com a inflação, quando o Banco Central ele é leniente com com a inflação, é, o tombini não subiu porque tinha que subir, etc, etc, etc. Bolsa é inflação mais margem. Quando o B o o Banco Central ele é conservador e ele sobe, ele é rockh, sobe os juros, mantém o juro real, bolsa é juros, tá? Bolsa também continua sendo inflação mais margem, mas principalmente juros.
 
 
-                        37:40
-                         Então volto aquela velha máxima. Bolsa cair por causa da eleição, por causa do Trump, por causa do petróleo, por causa do dis, por causa do Elninho. Para mim é oportunidade. Bolsa subir, eu não vou ficar com fomo, tá? Porque a gente tem à disposição, renda fixa global ficando boa, renda fixa local ainda maravilhosa. Então eu acho que eu vou ficar mais ansioso se a bolsa cair, porque para mim vai ser oportunidade e as notícias vão ser negativas e eu vou ter que comprar mesmo assim, porque é assim que a gente faz.
+                        37:53
+                         Então o regime ruim pra bolsa é subida de juros. Esse é o pior regime. Dívida PIB escalando, pessoal, não sei se é porque o mundo inteiro tá assim ou se simplesmente o dinheiro está onde o fiscal está ligado, tá? Então o fiscal serve como impulsionador de bolsa de inflator de ativos de risco, principalmente no mundo desenvolvido, mas no Brasil de certa maneira, como esse gráfico mostra também.
 
 
-                        38:06
-                        Então é dessa maneira que eu tô enxergando aí o pré-eleição, independente do candidato que vencer as eleições. Fluxo, pessoal, tá todo mundo esperando na arquibancada, então fluxo gringo não andou. Uma semana onde o fluxo gringo ficou de lado e adivinha o que aconteceu com a bolsa? congelado.
+                        38:15
+                         Então a dívida PIB só saltou de 2016 para cá, uma rápida queda aqui com calotes ou não, com juros a 2% ajudando ou não. Independente disso, pessoal, veja que para onde um foi, o outro foi atrás também, tá? Então, sempre para ter ali paura de investir ou não, olhe para juros. Por hora não olhe pro fiscal, porque as empresas vão ser inflação mais margem, as empresas são também juros.
 
 
-                        38:24
-                         Então é, sem assimetria, não tem nada sexy para falar para vocês aqui, pessoal. No BVA me surpreendeu, é um erro meu. Se eu tivesse vendido call coberta, não sei se eu teria feito um primeira um primeiro lucro ao recomprar, mas se tivesse segurado até o exercício, teria que entregar a BOVA, tá? Porque o meu strike era 176, o Bova tá em 182.
+                        38:41
+                        Então, problema para as empresas é recessão, é juros alto, não é fiscal. Embora que ah, o Ibovespa não tá subindo fiscal, truco, tá? Pelo menos o histórico que diz que é o contrário. Notícias, pessoal. Bima disse que imposto de renda em ETFs de crédito privado deve ser de 15%. Baita notícia para mim.
 
 
-                        38:43
-                         Se eu acho que o Bova vai fechar o mês abaixo do 176, eu acho. Seria o meu chute, tá? Mas o como foi o vencimento de opções hoje não rolou. Teria que vender uma nova call, tá? Nessa nessa política aí de achar que estamos numa resistência. Quem tá achando o oposto de mim, ou seja, o Ibovespa sobe ou o Ibovespa derrete, eu tô achando que ele vai ficar de lado.
+                        39:03
+                         Se isso de fato virar lei, quero pra Júlia Leugoy e também pro analista e consultor CVM, Geraldo Burrigo. Sou aluno dele do projeto Stop Loss de ETFs. Me eduquei sobre ETFs via o Geraldo, via o Lucas e o Cobori. Eu não me lembro o primeiro nome do Cobori, mas enfim. São os três caras que eu escolhi ali para para me educar sobre ETF.
 
 
-                        39:07
-                         Pessoal, ao subir pode dobrar a queda de 17%, tá? E pôr ela para cima, espelhar ela para cima. Vamos lá para 230, 235 pontos, tá? É o seu alvo para 2027. Se você acha que ele derrete, tá, o derretimento ele tá mais fácil de metrificar, tá? Entre 168, tá 146. Mais pessimista, 146, mais moderado ali, 168 ao 161, né? Que é uma mínima atual, inclusive tá muito próxima do 161.
+                        39:27
+                         Recentemente fiz o curso, eu participo lá da comunidade da stop loss deles. Baita notícia aqui, tá? Porque aí a gente ganha o LFIX, por exemplo, que eu sou acionista, o LFIN, a gente ganha o NLFA, a gente ganha alguns ETFs. Aqui é a minha tabelinha de ETF de renda fixa, tá? Vamos lá pros ETFs de letra financeira, tá? Provavelmente deve ter sendo alguém deve ter mais ETFs, tá? Eu tenho aqui três que eu monitório Lifim, NL, FA e o Lfix.
 
 
-                        39:38
-                         Meu view já tá rondando ali em 161,91. Então vou dizer para vocês que tem um combo no 168, 161 e os mais pessimistas lá no 146. Só você tá fora de renda variável nesse momento se você tem esse cenário. Beleza? Então, eh, são temas diferentes, são cenários diferentes e assim você dinamiza o seu aporte, que é todo o tema, né, a temática que eu trago para vocês.
+                        39:58
+                         Eu sou acionista do Lfix, tá? Esses caras aqui, pessoal, no ano eles estão rendendo aqui cerca de 10, 8,90 a 10,50%. Eu tentei ser acionista do Alifim, não consegui. Esse cara aqui cronicamente vai render mais do que o NLFA e do que o LIX. O Lfix principalmente porque é o mais conservador, tá? O Lif pega bancos menores também.
 
 
-                        39:59
-                        Dinamizar, intensificar ou não os aportes é o nosso segredo, é o que a gente controla. Dos índices setoriais, me chamou atenção na semana, pessoal, me chamou atenção setor financeiro subindo, tá? Materiais básicos subindo e imobiliário caindo, tá? imobiliário foi o que mais cedeu. Então aquela aquele vídeo que eu comentei, olha, direcional, trade reeleição do Lula.
+                        40:24
+                         Letras financeiras é basicamente um intermédio entre bancos ali, um um título entre bancos, vamos assim dizer, que geralmente paga CDI mais spread. Então a gente tá falando aí de 100,9 do CDI, esse pessoal rendendo em média, 100 v alguma coisa do CDI rendendo em média e hoje tem 25% de imposto. Se vier para 15, pessoal, mais um um grupo, tá? Esse aqui não tem inflação, é simplesmente CDI.
 
 
-                        40:26
-                         Ah, a TASA, né, Taurus, pode ser o trade eleição do Flávio, tá? Você fazer um head aí, quer apostar, tanto faz, quem ganha, você vai ganhar um trade aí, provavelmente é você ter uma construtora de baixa renda e talvez a TASA. Eu acho que é a que mais vai pegar ali o gancho do Flávio eleito. Pode ser um R, né? Você tem os dois ali na carteira, tanto faz quem sobe, quem não sobe.
+                        40:54
+                         Mais um grupo que pode, né? Eu acho que todas as letras financeiras aqui desses três índices de referência, desses três ETFs, são atreladas ao CDI. tem letra financeira e PCA+ eu creio que sim, mas eu não conheço aqui ETF que invista nelas, tá? Aqui geralmente é CDI mais spread, então é mais um grupo de ETF de renda fixa que pode competir com os Smart SELIC, né? Os caras de 15% de imposto, os eh LFTBs, os CEDBs, os GPS, os POSBs, os AUPOS da vida.
 
 
-                        40:49
-                         Eu diria que a CUI ou a direcional você pode segurar por mais tempo, que elas são boas empresas, pagam dividendos e etc. Já a Tasa essa aí é um pouco mais cíclica, você tem que ter um um alvo bem definido. Indo para ciladas e oportunidades, hoje eu vou mudar, eu vou invadir aqui o scanner da bolsa na aba rankings. E o Edu tem o ranking de earning y, tá? E esse ranking eu fiz mais um filtro pelas top 20 dividendos, que é o IDV.
-
-
-                        41:15
-                         do Edu, tá? Ele faz aqui um ranking de empresas pagadores de dividendos com consistência. E nós temos aqui nesse ranking Basa como Banes, nem conheço Banes, Vulcabraz Direcional, acabei de falar dela, Log, Cambusi, Cesud, tá? CSU, SH, Dexus, Banco ABC, Lojas Henner, Grasin, CPFL, BB Seguridade, Itaúza. Cheio de small cap de valor aqui, né? caps lucrativas que pagam dividendos e os earning y o earning yeld até a log, tá? Deixa eu ver aqui, até até direcional.
+                        41:26
+                         Interessante notícia, não sei se vai ser de fato, tá? Uma curiosidade aqui, o melhor Smart SELIC no ano deve ser o LFTB, porque é o único que tá desde o início do ano, né? Tá com 10,09% de retorno. O LFM tá com 10,52% de retorno, então 0,50 a mais para vocês terem uma noção da atratividade ou não. Mas se o imposto for equiparado, bingo, me parece ser bem interessante.
 
 
                         41:51
-                         Então, basa, pomo, banzii, Vucabras e direcional estão com earning ys de 20 ou mais por quem gosta de earning y pls abaixo de cinco, uau, a primeira aqui tá com a base tá com 0,54 de PvP. Ah, então assim, os descontões gigantescos, né? ranking da fórmula mágica, tá? Quem tá em primeiro é a direcional. Direcional aparece em primeiro lugar aqui para mim, tá? Cambus em segundo, Marco Polo em terceiro, CPFL em quarto, tá? Ranking de valor intrínseco, fórmula de Graham, basa, log, BGIP, uma um repeteco aqui.
+                        Dividendos, pessoal, até preciso fazer vídeo da Home, tá? Tá? Não sei se vai dar tempo. A, a Celesc e a Blau anunciaram Proventos. Eu vou dar destaque pra Rome, que é que eu mais gosto. Aprovou 26 milhões de JCP, equivalente aí a 28 centavos por ação. Data corte dia 29 de setembro, tá? Ah, o pagamento realizado até 31/2027.
 
 
-                        42:29
-                         São rankings interessantes para vocês. Faça o convite, acessem aqui a aba rankings no scanner da bolsa. Certo, pessoal? Aí eu vou finalizar com o meu ranking. Então dentro da minha lista que eu tenho no trading, viu, eu sempre vou monitorar as empresas que vocês mais me pedem, mas principalmente as empresas que eu acho interessante, pelo menos o fundamento, não que eu teria, mas que tem fundamentos, OK? E aí, [roncando] que que eu fiz nesse ranking aqui? Eu peguei de cima para baixo as que mais estão caindo a partir de janeiro de 2026. E eu
+                        42:13
+                        A Celesc é a mesma coisa. Um ótimo dividendo, né? R$ 2,11 aqui para a preferencial, 1,92 para a ordinária. Nós temos aí data corte dia 30 de setembro, baita dividendo aqui. E a primeira parcela vai ser paga dia 30 de junho, 27, a segunda 30 de dezembro de 27. A blau vai o valor pago. A blau já foi, né? Eu acho que é a blau acho que é só o anúncio de um pagamento, tá? Não, não, não, não.
 
 
-                        42:58
-                        tenho em primeiro lugar Inter, segundo Tristento, terceiro Kepler, interessantíssimas duas, Vucabas, M Dias Branco, BR Partners, Minerva, Direcional, Cogna, Pomo, Roxo, Ferbasa e Lojas Henner. Ó, não vou puxar pra minha sardinha, mas essa lista aqui tá bem interessante, principalmente de seu dinheiro tático para quem quiser investir no longo prazo, pô, não é uma lista que vai fazer isso, né? né? Vai fazer você tomar decisão, mas eu acredito que é uma boa lista para você olhar um dinheiro que vai te render nos
+                        42:47
+                         As ações passarão a ser negociadas ex dia 30. Ah, vamos ver aqui. É, não fala, não fala o, a base é dia 29 de setembro, mas engraçado, não fala quanto por ação. Então, fiquei aqui, fui surpreendido pela Infomin não tem o valor por ação. Vou dar destaque pra Home, pessoal. Home que tá com preço justo, médio na plataforma da IAES, plataforma parceira, assim como todas as outras parceiras aqui do clube.
 
 
-                        43:30
-                        próximos 12 meses, bem acima do Ibovespa, bem acima da do Small Caps, bem acima da renda fixa. Bem interessante aqui. Acertou a mão em alguma delas. Ah, não digo dobrar, mas você vai paraa casa aí dos seus 30, 50% nos próximos 18 meses, sem dúvida nenhuma. Tá? Na agenda dividendas, pessoal, eu não tenho novidade.
+                        43:15
+                         Link na descrição com os cupons, tá? Ou já tá embedado ali o desconto no link. Tá com alvo em 10,05, preço justo, médio de 3 m, Gordon, Grahan e Bazin. Nós temos aqui 60% de margem de segurança na home. É uma das empresas que eu monitoro, tá? É microcap, legal, mas é uma das empresas que com certeza eu monitoro, vai ter dataacorte.
 
 
-                        43:50
-                         Vamos lá. Dia 21, temos, Copasa, Metisa, vibra. Tudo dia 21. Ambev não tem data de pagamento ainda definida. O maior yeld dessa galera vai ficar com a metiza 90 0.97 1% praticamente de seguido da vibra 08, tá? São 34 centavos pra vibra, são 45 centavos paraa Metiza, 21 centavos para Copasa e 5 centavinhos para a Ambev.
+                        43:42
+                         Olhando pro macro Brasil, agora olhando também pra renda variável, não só pra renda fixa, como é que fomos na semana passada em relação ao market, em relação ao termômetro de mercado. Saímos de 53, terminamos em 55. Bolsa de lado, pessoal. Basicamente isso, bolsa de lado. Nada de novo no fronte. Semana do primeiro turno, então imagina, né? Tá perfeito ali. Eu continuo achando.
 
 
-                        44:20
-                         Certo, pessoal? E assim eu fecho o nosso vídeo com muita cautela. Nos Estados Unidos deve inflação. Essa inflação pode ser passageira depender do conflito geopolítico? Sim, pode ser passageira, mas não desmonta a necessidade da gente diversificar, principalmente em renda fixa, pósfixada e de curto prazo. Não tenha só o TLT de longo prazo.
+                        44:02
+                        Independente de Flávio ou Lula, teremos que votar em um em outro no segundo turno para quem não vai eh não votar, né, anular e etc. Pessoal, eu não acho que a bolsa para baixo deixa de ser oportunidade. Eu vou ficar cético com bolsa para cima, talvez em um momento ali específico, queira vender uma col, algo nesse sentido, principalmente no meu portfólio, tá? Mas bolsa cedendo, é, eu acho mais oportunidade, tá? Então, aimetria da nossa bolsa para o evento primeiro turno é se ela cair, eu acho mais oportunidades. Se ela subir, toca o
 
 
-                        44:42
-                         Em renda variável, aquele gráfico do ILF versus o EWZ, pessoal, aqui é um gráfico de bom senso, tá? Mas não é um gráfico para falar assim: "Meu Deus do céu, que que é isso? Por uma década inteira que o EWZ deu um banho no S&P." É. E depois apanhou feio. Então você tem só vai dinamizando um pouco do aporte e abra talvez ali uma comporta na sua carteira para ter um atacante mais apimentado.
+                        44:36
+                        barco ali, vai cerceando, escolhendo empresas, fazendo stock picking. Quem investe em ETF mantém aí a disciplina dos aportes, porque não é ali o grande o grande evento, tá? Eu acho que o grande evento desse fim de ano é olhar curva de juros americana, tá? Ela que vai ditar o regime que a gente vai ter em relação à atratividade.
 
 
-                        45:06
-                         Você pode, pessoal, acertar na América Latina 700% em uma década, por exemplo. Tá bom para você, né? Para mim tá bom. tá num ETF que você não precisa nem ficar se preocupando em estudar o valation, estudar empresa por empresa, é bem cômodo alocar. Beleza? Feito isso, obrigado pela companhia. Vejo todos vocês no próximo conteúdo.
+                        45:03
+                         5%, 5,5, 5,30, 6% vai ser a renda fixa americana. Hum. Começa a ser bem atraente, né? O que que isso vai fazer com os ativos de risco global? Eu acho que é lá que tá todo o sinal holofote. Aqui para dentro, pessoal, por primeiro turno toca o balde. Eu acho que caiu ainda é a oportunidade, tá? Caiu ainda a oportunidade. Fluxo de investimento estrangeiro.
+
+
+                        45:24
+                         Em setembro nós temos 9.7 B de entrada. Bom, não teve ainda a zerada dos 18 bi de saída em agosto, mas mostra, pessoal, que quedas na bolsa geram oportunidade, principalmente na ótica do gringo, que é o cara que movimenta mais a nossa bolsa. Então, ele saiu da bolsa, bolsa cedeu ou ele já voltou, tá? já tá comprando, raspando taxa ali.
+
+
+                        45:47
+                         Então é importante que esse fluxo ele volte assim que tenhamos um mês de queda ou dois meses de queda, esse fluxo se acumule. A alta do Ibovespa está com 3.4%, lembrando que em agosto, pessoal, o Ibovespa saiu no 0 a zer. Então, apesar da saída do fluxo enorme de agosto, o Ibovespa se segurou, tá? Esse pode ser um sinal de interpretação ruim para dinheiro novo.
+
+
+                        46:10
+                        Estamos devendo uma queda depois de uma uma super saída de fluxo. Isso você pode argumentar uma queda mais forte. Eu quis dizer, né? No ano a gente saiu lá de abril de 70 quase bi de acúmulo de fluxo estrangeiro, estamos aqui em 24. Então o estrangeiro tá saindo da bolsa em um ano de eleição e não entrando na bolsa.
+
+
+                        46:30
+                        Importante a partir do dia 20 de agosto, os estrangeiros aumentaram o fluxo, saíram, o saldo, saíram de 10 bi para 26 bi, mas não é um aumento vertiginoso como foi porventura no início de 2026, pré-guerra, tá? Nós teve um aumento muito forte e a bolsa seguiu, o gráfico é bem correlacionado positivamente, né? Conclusão em relação ao Bova.
+
+
+                        46:58
+                         Pessoal, eu não me sinto confortável investir no Bova, né? Eu prefiro ir para setores e se por e assim porventura até segmentar ainda mais fazer stock picking. A Brasil tá bem stock picking nesse momento, tá? Lembrando que o Brasil economicamente não tem uma recessão desde 2016, estamos indo para 2026.
+
+
+                        47:18
+                         Então, opa, já tá legal, né? Pô, a gente tá há 10 anos sem ter um grande BAC. que lógico que 2020 foi um negócio meio esquisito, mas não dá para se considerar como 2015, 16 ali, né? Foi realmente uma reessão doméstica nossa. Então eu fico, né, aproveitando o préfixado por hora, o CDI por outra, investindo em ações que eu acho que vão ter IPCA + 8, IPCA + 9 de tier.
+
+
+                        47:41
+                         É mais ou menos uma demanda o Brasil estudo. Não dá para comprar o índice brasileiro e abraçar, tá? O Bova 11, apesar de não ter conseguido renovar a máxima pós abril, não tá em quedas homéricas, né? Não é 2021, 2022 pro Bovo A1. Beleza? O buffet indicator para contrapor o meu ceticismo, esse cara aqui tá descontadíssimo, tá? Você tá falando de um buffet indicator abaixo de 40%, abaixo da média desde 2001.
+
+
+                        48:12
+                         Então a média vai tá aqui na casa dos seus 36 aproximadamente, tá? Nós estamos falando de um, me perdoe, a média vai tá na casa dos seus 46 e nós estamos hoje em 38, né? Então, abaixo da média. Eu acredito que se você gosta desse indicador, capitalização de mercado dividido por PIB, tá? Você vai ter esse indicador mostrando para você um certo desconto, tá? Um bom desconto.
+
+
+                        48:35
+                        Inclusive, nossa bolsa representando aí cerca de 38% ah de PIB. Ah, temos o buffet dizia abaixo de 40 já é desconto. Então, tudo abaixo de 40 a gente pode considerar que é um desconto. Corneto Corneto Corneto fluxo estrangeiro. Pessoal, mas só quero fazer uma rápida parada, tá? Eh, me perdoe, eu corneto a Faria Lima muito aqui, né? Os fundos da Faria Lima, os gestores, a narrativa.
+
+
+                        49:05
+                         Já falei várias vezes que a Faria Lima é uma das grandes responsáveis pela não extinção dos papagaios, né? Porque o que um fala, o outro vai lá e repete igual e nem, enfim, faz a sua própria pesquisa às vezes. Então, mas também tem um lado da Faria Lima que eu não comento aqui, eu vira e mexe e não comento, que é o lado do investidor que aloca em fundos ativos e que de ações e que, pô, qualquer ruidinho já tira, saca essa grana.
+
+
+                        49:30
+                         O fluxo para fundos de ações ativos, não ETFs, para fundos de ações ativos. Fundos de ações, então a gente tá falando renda variável. Esse cara aqui tomou um saque em 2025 de 51 bilhões, tá? Eh, o melhor período para esse pessoal foi de 2017 a 2020, tá? Positivo, positivo, positivo. Então, você que tá na sua small cap, você na microcap e que fala assim: "Caramba, não sobe minha cogna, minha, sei lá, Magalu, etc.
+
+
+                        50:02
+                        " Essas empresas, felizmente ou infelizmente, elas dependem de oxigênio desse pessoal aqui, ó. E esse pessoal pós 2020, pessoal, sinto muito, tá? Não teve fluxo. A indústria de fundia ação é só saque desde 2020. Ah, 2021 positivo 5 B, 2023 positivo 4,5 B. Mas veja só assim, a saída de 2025 foi o foi assim renda e ninguém fala, tá? Por é algo que está indo para outro lugar.
+
+
+                        50:31
+                         Se eu colocar aqui a indústria de ETF é o oposto. A indústria de ETF cresceu em 2025, 23 B. E esse ano aqui tá indo para seus 41 B. Então é uma onda que não tem volta mais. Porém quem investe em ações especificamente por hora, não são os ETFs de renda fixa. Quem tá captando é ETF de não são os ETFs de renda variável. Quem tá captando é ETF de renda fixa.
+
+
+                        50:53
+                         FIDIC e ETF de renda fixa é a captação ali que mais tá rolando. Então precisa ter uma entrada em renda variável também pra gente considerar a ETF uma continha importante pra bolsa e não só importante pro tesouro. Bom, agora vamos ser um pouco nerdes aqui para vocês. Estamos indo pra parte final do vídeo. Bova 11 versus o indicador entre aspas do medo.
+
+
+                        51:14
+                         Que indicador que é esse? DXY em vermelho e curva de 10 anos em azul. curva de 30 anos, me perdoem em azul, tá? Eu pus 10 anos, mas errei, tá? É 30 anos aqui. Eh, falha minha, pessoal. Que que eu quero mostrar para vocês, pessoal? Qual que é a combinação que o Ibovespa tolera para subir, para render, tá? é a combinação dos juros americanos, do custo do dinheiro lá ficando mais caro, como foi dos anos 2000 aos anos 2006, 2007, me perdoe.
+
+
+                        51:43
+                         Então, o custo do dinheiro ficando mais caro, curva de 10 anos, de 30 anos subindo versus o dólar ficando mais fraco. Então, a o elo mais importante para se enfraquecer e para que a gente receba fluxo é o dólar ficar fraco. Esse é o elo mais importante. Se o dólar ficar lateral, já ajuda. O Ibovespa consegue subir mesmo com o dólar lateral, com os títulos públicos americanos laterais também.
+
+
+                        52:09
+                         Agora, o dólar se fortalecendo e a curva abrindo é ruim, pessoal. O que tem que acontecer é a curva abre um pouquinho porque a atividade econômica lá tá mais quente que o esperado. A atividade econômica mais quente que o esperado demanda um juros maior. Legal. Atividade mais quente é mais comortes. Pô, tese de emergentes também. Legal.
+
+
+                        52:29
+                         Agora, quando o DXY tá forte, a atividade tá forte, pessoal, a gente pode dizer que a renda fixa americana está sugando liquidez do mundo. E não é o caso por hora. Nós tivemos um um leilão do tesouro de eh para títulos de 5 anos do na semana passada, que o Scott Bestent não foi muito bem sucedido, tá? Então assim, a curva tá abrindo, mas os investidores estão dizendo: "É, abre mais.
+
+
+                        52:58
+                         Por enquanto eu vou comprar ouro, vou investir emergência, vou investir no Google, mas não vou simplesmente alocar na sua dívida. Quando chegar esse período onde a renda fixa ficar muito atraente e ela começar a sugar até liquidez do S&P 500, pessoal, aí é o sinal grandíssimo de alerta. por hora. A gente tá tendo só um ajuste dessa curva para com o crescimento nominal que eu passei para vocês recentemente e convenhamos, a curva está na média nos últimos 40, 50 anos.
+
+
+                        53:28
+                         Passou dos R$,90, pessoal, é o gráfico mais importante do vídeo de hoje, aquele do Jim Bianco. Pode ser o seu momento de comprar pré-fixado americano por hora? Eu acho que não, tá? Eu acho que você vai ter que tomar ainda a marcação a mercado. E o dólar é muito importante que ele fique anêmico, não suba, nem caia, fica de lado, tá? Porque a gente também é uma economia exportadora.
+
+
+                        53:47
+                         Então, dólar de ladinho, tá ótimo. 480, 5,20. Tomara que seja essa a volatilidade do dólar pro próximo ano. Torço muito para isso, mas é importante dizer, o BOVA subiu, tá? Porque o DXY desabou, a curva de juros abriu e o o o Ibovespa continua subindo, tá? Eu continuo achando que pré-eleições, pessoal, falando agora de preço, 176 é um bom strike de venda de call para quem tem posição no Bova, tá? Não é recomendação, mas eu tô bem cético em relação ao rally do Ibovesa.
+
+
+                        54:18
+                         Agora o rally aconteceu, Dane-se o que eu acho, tá? A gente vai para 235 pontos. Seria a minha opinião técnica, análise técnica. Para baixo é que a minha simetria é mais bacana, é mais oportunidade. Aí eu falo que do 161 ao 146 seria ali o prime, né? Uma compra descontada devido a um evento que nada tem a ver com a bolsa, minha opinião, que são as eleições brasileiras.
+
+
+                        54:43
+                         Que que tem a ver com a nossa bolsa? Juros americano e juros nossos, tá? Juros o Galiplo, tá nem aí paraas eleições e no Fed tão tão pouco, tá? Então são os dois ah temas ou eventos que nós temos que realmente perceber, olhar, estudar para definir apetite pelo Ibovespa. Agora o dólar, né? O nosso dólar aqui, o SDBRL, nosso câmbio versus o mesmo indicador, tá? Tá? Então o nosso câmbio ele aliviou bastante com a queda do DXY, né? E aliviou mesmo com a abertura da curva de juros, né? Nosso câmbio, ele aliviou bastante, bem parecido. Então esse acompanhar esse
+
+
+                        55:23
+                        indicador aqui eu acho chave, pessoal, porque se nós olharmos pros últimos 40 anos, vou voltar a repetir, a curva de juros americana, ela só voltou pro normal. Então ela não tá tirando dinheiro de emergentes, de renda variável emergentes, de renda fixa emergentes, tão pouco, né? Talvez comece a tirar a partir dos R$,90.
+
+
+                        55:42
+                         Deixa esse questionamento para vocês, tá? É um papo nerds, papo chato para quem gosta de macro, pô, é um prato cheio, né? Para mim, pelo menos, eu fiquei eh abismado com o gráfico simples do Jim Bianco. Geralmente coisa simples é aquela que são aquelas que realmente eh são práticas operacionais, operacionalizar operacionalizáveis por nós.
+
+
+                        56:03
+                         Então aquele gráfico vai virar de cabeceira pro meu TLT, trade do TLT futuro, por exemplo. Pô, bateu R$,90 ali do Fed do dos Treasuries. Eu falar: "Cara, eu acho que esses bonds vigilantes vão falar assim, ó: "Pede é tesouro, deixa comigo agora. Eu compro tudo. Pode lançar, pode emitir que eu tô comprando 90, 6%.
+
+
+                        56:26
+                         Pá, tá bem bacana. Veremos, veremos. Ou será o primeiro desvio padrão lá nos. Deixa no comentários para vocês aí. Fala assim: "Vou comprar TLT, vou investir TLT quando os treasuries estiverem a 875, a 9. Pô, aí você tá sendo mais pessimista, porém pragmático. Primeiro desvio padrão. Ah, não. Já no 5,75, volto pro pré-fixado.
+
+
+                        56:54
+                         Brunão, esses pós aí que você falou, eu diminuo a exposição neles. Ponho o dinheiro, diminuo não, né? Só começa a pôr dinheiro novo no pré-fixado. Aí você rebalanceia por aportes, que é sempre muito bacana, mais bacana para quem investe longo prazo. Pô, são teses e papos para um futuro, talvez próximo. Eu torço que não. Ah, vamos lá.
+
+
+                        57:13
+                         Semana passada, pessoal, quem mais subiu? Temos aqui de destaque JSL, né? Eu falei para vocês do diesel, etc. Jsl subiu semana passada. Quem caiu semana passada? Putz, HRO Gasil, eu gravei sobre a Ipera, pessoal. E uma notícia assim, Hydrogasil tomou uma pancada no Mercado Livre, né? Mercado Livre começou a vender remédios com receita, não só remédios simplesinhos.
+
+
+                        57:39
+                         Ah, agora temos também como comprar, sei lá, Rocutan na no mercado, no mercado financeiro, na Mercado Livre. Bom, caramba, é uma competição, cara. É ótimo pra hipera, minha opinião. Ótimo para fabricante de medicamentos. E essa foi, esse foi meus posts aqui no canal Clube dos Dividendos. Eu fiz um post na AVA posts lá, correm lá porque eu tô postando quase que diariamente em sites que muitas vezes não viram vídeos, fica só pro post.
+
+
+                        58:07
+                         Eu falei: "Ó, Ipera talvez se beneficie". Ah, eu me me fugiu o nome de outra fabricante aqui menorzinha, talvez se beneficie, tá? Da Profama, será que ela fabrica também? Enfim, fabricantes se beneficiem porque elas elas eles ganham mais um distribuidor, né? e um monstro de distribuidor que entrega até em uma hora aqui no Sudeste.
+
+
+                        58:25
+                         Pô, melhor ir pedir para entregar do que ir pra farmácia muitas vezes. Mas enfim, vamos ver se impacta de fato os resultados da Ipera ou das fabricantes, tá? Eu acho que vai outra discussão para vocês comentarem ali no na aba de comentários. Eu postei sobre a Ipera e falo que a Ipera tá lateral. Ela aparece o Banu desde 2016, não cresce.
+
+
+                        58:48
+                         Mesmo com as as aquisições recentes, aí a Ipera não consegue crescer. Então, será que tá aqui o destrave pra Ipera decolar? Pessoal comprando de Doril a Ieno até como eu falei, Rocutan. É que o Rocutan ela não produz, então não adianta nada. Mas enfim, uns remédios que ela produz que precisa de receita, ela também pode vender no Mercado Livre.
+
+
+                        59:09
+                         Agora, enfim, deixo aí o meu comentário. Vamos pro que mais interessa, né? Queras do ano, continua Porto Belo que me enche um saco por causa da secretária do Porto Belo da do R, né? Porto Belo é fico por aqui, pessoal. Por hora, pago em menos. Caiu para caramba, né? Então é natural. É nada demais aqui para mim. Beleza, vamos agora pros destaques setoriais.
+
+
+                        59:35
+                         Então, semana passada, olhando pros destaques aqui agora com vocês, pessoal, eu não tenho nenhum grande insite, tá? Eh, o que eu tenho de insite é até dei um, tá? Petróleo caiu, né? Então, materiais básicos, eu não sei se materiais, não sei se foi petróleo aqui, porque materiais básicos eu acho que entra em indústria, industrial, mas foram os dois índices que deram uma escorregada.
+
+
+                        59:57
+                        É, eu não tenho nenhum grande destaque, tá? Me parece que todo mundo caiu junto. A locação tática no Ibovespa continuo gostando mais da SLC. Porém, o BTG tem esse estudo aqui nesse dashboard muito bacana que mostra que o principal índice, né, o setor, me perdoe, atraente para a locação, né, que está descontado e com revisões de preço lucro ou de lucro, tá? me perdoem, revisões de lucro por ação ou lucro positivas é o setor de aluguel de carros.
+
+
+                        1:00:34
+                         Esse é o setor mais atraente e o menos atraente é utilities, tá? Então você tem aqui, né, o espelhamento do mais atraente. Nós temos revisões positivas pro lucro e diversos outros também tem, tá? Mas principalmente esse cara aqui é o que mais tem potencial. Então você na localiza aí, talvez você que é do trading seja interessante e você investidor de longo prazo também pode olhar, tá? Eh, comparando o estudo do BTG com a média histórica do preço lucro agora, tá? Preço lucro forward, que eu tenho utilizado bastante para vocês aqui, que é o preço lucro projetado,
+
+
+                        1:01:11
+                        nós temos em relação à média, varejo tá negociando hoje a 8,6 vezes lucro projetado e a média é de 23. 24 xzes lucro. Então assim, estamos até acho que eu posso aumentar aqui. Posso, quando eu coloco aqui a a o máximo do estudo, que eu não sei quanto tempo engloba, mas com certeza no mínimo 10 anos, pessoal, nós temos aqui logística e aluguel de carro, varejo e educacional.
+
+
+                        1:01:42
+                         Educacional, pessoal, está hoje negociando a quatro vezes lucro projetado. Eu acho que é o menor, acho, não é o menor, tá? E a média de 14,6, certo? Você pode dizer que a média dos últimos 10, 15 anos foi bombada por causa do FI, mas ainda assim quatro vezes lucro projetado. Pessoal, educação, se você acertar a mão ali e acreditar que os juros vão ser cortados, olha, eu acho que tem uma grande expansão de múltiplo aqui.
+
+
+                        1:02:09
+                         Não precisa nem melhorar os resultados, tá? Basta só expandir o preço para aceitar até os 14 aí. Uau, bastante, né? Ah, então consumo vareja clássico, papel e celulose também um bom desconto, né, Suzano, Clabin Irani na média aí de sete, na média, me perdoem, né, negociando a 7.6 vezes lucro o setor, a média de 16.
+
+
+                        1:02:32
+                         Então, Clabim, Suzano, irania aqui, educação, ser idux, Cogna, seriam os grandes destaques. E quem tá caro, acho que vamos falar de utilities aqui, né? Tá negociando hoje a 14,6 vezes lucro, a média é de 10,5, tá? Então, utilities é o mais caro nesse momento. Eh, seria a minha opinião. Qu Ah, eu eu trouxe um destaque, pessoal, que eu achei interessante do setor de tecnologia, né? O BTG tem um setor de tecnologia.
+
+
+                        1:03:07
+                         Aí, estudando esse setor de tecnologia, porque hoje está negociando a em média 12,7 vezes lucro e a média histórica é de 21. Então, de novo, né, você só por expansão de preço, sem expandir fundamentos, você poderia ter aqui quase que 100% de retorno, né? Então, me chamou atenção. Aí eu fui ver quem que é o setor tecnologia. O setor de tecnologia para o BTG é a Intobrass, a Loca Web ou LWSA, a BMOB e a Totus.
+
+
+                        1:03:34
+                         E dentre esse, pessoal, a Intelbrass é o menor preço sobre lucro do BTG. Então o earnings aqui quando eu uso no trading, viu, isso é importante. Quando eu uso o price price to earnings forward, que vocês viram ali na análise da NVIDIA, o trading view ele pega consenso igual a invest e do lucro e não é uma casa específica.
+
+
+                        1:03:59
+                        Aqui no caso é o BTG. O E que vocês estão vendo é o E projetado do BTG de earnings, de lucro, tá? Então saiba, né? O BTG projeta hoje a distância entre preço e a o múltiplo preço e lucro projetado para os próximos 12 meses tá em 7,7 vezes da Intebraça. A Intebras que tem aqui um peso de 16% nesse setor de tecnologia.
+
+
+                        1:04:22
+                         Ah, então é a mais barata. Acha você? Olha que um juros baixo faz, pessoal, com o múltiplo do setor tecnologia, tá? Nós tivemos 2018, 2019, juros reais de 1%, 2% e 2020 a 20 a 22 ali parte de 22 negativo, tá? Então, juros negativos, juros reais negativo é esse pessoal que sobe mais fluxo dos fundos de ação. Então, a gente tem que juntar esse quebra-cabeça que não é muito complexo, eu vou estar aqui sempre para cornetar ah para se ter um boom, né? Já que eu utilizei bastante a a research do BTG, qual que é a carteira de small caps
+
+
+                        1:04:58
+                        deles, né? Segundo eles lá, consumo e varejo, tecnologia educacional, é que tem uma grande potencial de retorno. Será que a carteira recomendada deles que é tão famosa, vai ter alguma empresa desse setor? Olha quem entrou em de agosto para setembro, Cosan Panel, quem saiu? Copasa e pague menos. A carteira hoje, pessoal, é composta todo mundo com 10%.
+
+
+                        1:05:22
+                         Banco Inter, Smart Fit, Sanepar, eu esqueci. Horizon, eu creio. Horizon, creio eu que chama, me perdoe. Três tentos. Tenda. Uau. Tenda. Aqui é uma aposta de manutenção, provavelmente do Partido dos Trabalhadores, tá? Bemob, Ocean Pack, Panvel, Farmácia, deve ter apanhado e CZ. Tá, faz sentido CZ porque, né, agora temos o BTG como sócio aqui também.
+
+
+                        1:05:49
+                         Enfim, essa é a carteira Small Caps do BTG, tá? quem mais tá apanhando na carteira e sinceramente é uma grande oportunidade para mim seria a três tento. Tá caindo aqui 12%. Banco Inter tem vídeo no canal pessoal também. Baratíssimo o Banco Inter. Se não me fala a memória, o poxa vida, que patrocina meu digníssimo palestra Itália agora. O Nubank.
+
+
+                        1:06:14
+                         O Nubank negocia hoje, se não me falha memória, 14 a 16 vezes lucro projetado, tá? Tirando os recorrentes, os não recorrentes. Já o Banco Inter seis, tá? Então o Banco Inter realmente tá bem barato se você considerar que é uma empresa de crescimento, tá? Siladas e oportunidades. Prosseguindo, nós vamos ter o quê? Empresas próximas das mínimas dos últimos 30 dias, pessoal. Positivo.
+
+
+                        1:06:38
+                        Não sei porque que não tá na tecnologia também ali, né? Ah, Copasa. Copasa. Interessante, hein? Auren. Bem interessante. Mínimas de 90 dias. Rumo Rome. Ah, Rome tem dividendos e tá na mínima dos últimos 90 dias. Uma simetria para essa semana aqui, pessoal. Home. Eu vou tentar tirar da cartola um vídeo, tá bom? Sobre a home.
+
+
+                        1:07:02
+                         Empresas mais distantes da M 200, tá? A, minha querida, a maior posição minha desse ano. Fleuri. Poxa, aqui foi um acerto. Olha, muita sorte, né? Quando a gente acerta, geralmente é mais sorte do que competência. Quando a gente erra, é competência. Ah, fleuri. Então, fleuri. Pessoal, para quem não tá tão otimista, eu tô na aba otimista.
+
+
+                        1:07:25
+                         Eu vendo qual na flori quando? Tá 28, R$ 29. Antes disso, talvez nos 26, vou pensar, mas é mais pros 28 do que os 29, pros 29 do que os R$ 26, tá? E eu já me alavanquei em calls longas, já lucrei meus 300%, já joguei no meu pós B1, já joguei recentemente a minha, o meu exercício na Porto, que é uma Fleuri mais antiga minha, né, em termos de rentabilidade, joguei minha Porto para a e tá com cara que eu vou jogar um pouquinho pra Clabim, porque a Porto eu fui exercido em uma call, então deu R$ 5800, R$ 6.000, algo nesse sentido. Eu vou
+
+
+                        1:08:04
+                        dividir, tá? Um teco na Clabin, um teco na Eng, Clabin anêmica e a caindo. Ai para mim, no meu mundo, é a grande assimetria desse finalzinho de setembro para vender Então tô vendendo vendi para para novembro a um preço e vendi e tô pendurado a um preço mais gordinho na estratégia de tipo, teremos eleições, os prêmios vão ficar gordos, mesmo em ações vovôs.
+
+
+                        1:08:32
+                         Itaú são duas, por exemplo, tá? Mas Fleuri de fato, pessoal, esticou, né? É a ação hoje mais esticada em relação à média de 200. Então, comprar Fleur hoje, eh, você tá comprando uma empresa esticada para longuíssimo prazo, tanto faz, mas para quem é mais tático, quer carregar por 5 anos, por 3 anos, é, tá complexo, tá? A não ser que você tenha afinidade com opções, você pode até comprar ou vende  no dinheiro ali.
+
+
+                        1:09:00
+                         E já sabendo que, já sabendo não, né, já tendo um plano de saída. o meu 28 e 29, eu tiro bastante Fleuri. Por que você tira bastante Florir? Porque ela não é a minha dividendeira. Quem é dividendeira na minha carteira são os ETFs de renda fixa e são os fundos imobiliários, tá? Eu não tenho BB Seguridade, eu não tenho nenhuma companhia que é ali predominantemente dividend y que não é muito a minha estratégia.
+
+
+                        1:09:23
+                         Eu gosto de um ganho de capital versus a um dividendo maior, mas por gostar mais de ganho de capital, eu vou lá no Multiplan, eh, na Aura, na Porto, ah, o, vamos ver se eu lembro uma de cabeça aqui, tá? Mas enfim, eu vou nessas empresas que são mais ou menos B3, mais ou menos interessantes em dividendos, mas quando há uma janela de alta na bolsa, elas batem as empresas interessantes em dividendos, as BB Seguridades da vida.
+
+
+                        1:09:51
+                         E a Porto é um é um é um exemplo disso daí, né? E aí eu tenho que podar um teco e trazer pro HGLG que tá martelado, né? Então, meus fundos imobiliários é ali da minha carteira, o balde de renda. Às vezes eu decido se vai num ETF de renda fixa. Agora, muito cômodo para fazer dividendo ativo.
+
+
+                        1:10:12
+                         Então, ETF de renda fixa, eu vou lá e quando eu precisar podo um teco e pego o dividendo quando eu quiser, né? e também dos fundos imobiliários, que aí o dividendo é passivo todo santo mês, tá? E os o fundo, a classe fundo imobiliário não tá aqui nos meus vídeos, mas ela é uma baita de um de uma oportunidade. Se você acha que o nosso juro real de 10 vai cair para seis, que seria o nosso neutro, tá? E é a minha tese, por isso que fundo imobiliário é interessante aportar até mais do que ações se você tiver sua carteira de renda a a variável
+
+
+                        1:10:48
+                        com os as duas classes até o chegar ali uns 5,5 6% de juro real. Chegou, hum, aí eu já tô fora. Aí eu prefiro CDI ah, do que fundo imobiliário por uma carteira de renda, por exemplo. Isso tudo pra renda, né? Por isso que eu divido. Fundo imobiliário é uma coisa, ações é outra. Não tem nada a ver na minha concepção de divisão de portfólio de renda variável.
+
+
+                        1:11:15
+                         Os dois, tá? Ações eu tenho, opções, eu tenho ganho de capital. Fundos imobiliários, eu não tenho ganho de capital. Patrimônio limbo, renda todo mês. Ações, patrimônio e renda. Então, ações é o melhor produto de todos os tempos. ETF é o melhor produto para formar ali uma rede mais de proteção do seu patrimônio, porque você diversifica mais fácil.
+
+
+                        1:11:40
+                        Ações é o melhor produto para quem tem tempo, para quem quer ali, de repente no mercado financeiro alcançar uma dobrada de capital, a mudar o patamar financeiro em ciclos importantes, tá? Eh, sempre acho que mercado financeiro ajuda, não tem que ser o seu principal, sua principal fonte de receita.
+
+
+                        1:12:00
+                         Mas aí é uma briga enorme, tá? Eu tô cansado de ver engenheiro indo para Faria Lima, né? Eu acho que faz um muito mal pro país, mas eh mercado financeiro de 2010 para cá faz sentido valorizar o melhor o mercado financeiro ser valorizado, ser colocado no pedestral, um CNPI como eu, às vezes ser melhor remunerado do que um engenheiro, simplesmente porque a gente viveu numa numa num regime de juros muito baixos e numa expansão enorme do crédito privado, do mercado financeiro, de ativos financeiros.
+
+
+                        1:12:39
+                         Mas o certo para uma economia mais saudável é o oposto. Você da que aplica na economia real. Economia real tem que crescer muito junto até se você é mais queiniziano como eu, né, você até tem que tentar fazer o que o Trump fala lá, né? A Main Street ser um pouquinho mais atraente do que Wall Street. A gente tá há 10, 15 anos onde o Wall Street é atraente.
+
+
+                        1:13:02
+                         É Nvidia, aí depois é a Google, aí depois é Microsoft e os investidores ganhando ganhando dinheiro. Mas e o trabalhador ou o cara que tá na economia ah real? Ele aproveitou os juros baixos. Agora a gente tá vivendo a juros altos lá ou mais altos. Então há um desafio muito grande, né, de tentar equilibrar.
+
+
+                        1:13:24
+                         Coisa que o Donald Trump tá tentando nos Estados Unidos, né, tentando trazer ali a manufatura um pouquinho, ser um pouquinho mais atraente e que a China fez tão bem, né? A China já é o oposto até tá desequilibrada em pontos de manufatura, não sabe a onde pôr coisa, onde, né, exportar, porque valorizou muito a manufatura.
+
+
+                        1:13:44
+                         Isso traz uma sociedade não só financeiramente desenvolvida como a China está, mas economicamente desenvolvida como a China é. Solta um chinês lá sem Wi-Fi, sem calculadores, sem nada. ele vai se virar muito melhor do que eu e muito melhor que o norte-americano. Talvez melhor do que um japonês. Eu não digo, mas talvez melhor do que um europeu, do que um alemão, né? Solta um japonês no meio do nada, sem Wi-Fi, sem calculadora, ele vai conseguir se virar porque são economias ou culturas.
+
+
+                        1:14:17
+                        Sul-coreano também, um nórdico, muito provavelmente também. São sociedades economicamente fortes, né? Tem tutano. Nosotros aqui, tirou o aplicativo do cidadão, vai passar fome, muito provavelmente. Ah, e eu incluso, né? Porque a gente virou uma economia de serviços e talvez financeiramente bem, mas economicamente um trash, né? Por isso que as pessoas estão em dúvida se vai pra academia ou não, né? se vai pr pra faculdade ou não, porque tá se ganhando muito dinheiro utilizando coisas que são nos dadas aqui, né? Eh, enfim, aqui é uma parte
+
+
+                        1:14:57
+                        filosófica minha do final do vídeo. Não sei porque eu entrei nela, mas voltando e finalizando esse vídeo longo para vocês, pessoal, com a nossa agenda dividendos. Home é o grande destaque que eu dou, mas a Celesc é o principal, é o principal y se não me fal memória. Não, não. Principal y é a Home.
+
+
+                        1:15:15
+                         Uau! A home realmente tá amassada, hein? Eu preciso fazer um vídeo da Home urgente, interesse próprio. Olha só a home, pessoal, destaque aqui, tá? Data corte de 29, pagamento dia 31 até dia 31. Ainda tá a definir pagamento, né? Até dia 31 de dezembro de 2027, 23 líquido. O preço atual de R$ 6,33. Esse Y é de 3.65%. Preço lucro os últimos 12 meses, oito vezes. PvP 047.
+
+
+                        1:15:45
+                        Dívida nenú de média dos últimos 3 anos, 7.93, nos últimos cinco nove. É esses preços atuais. Hum. Vou fazer um vídeo da home. Beleza, pessoal. Essa parte final do vídeo, já que tá um pouco filosófica, primeiro eu faço o refaço o convite para vocês. A newsleter vai est na descrição, pede para mim a permissão, eu libero para vocês no meu drive.
+
+
+                        1:16:08
+                         Eu não tô utilizando o seu e-mail para nada. Talvez no futuro eu crie uma newsletter minha. Se eu tiver força mental e braço para isso, mas você não vai receber nada a nenhuma venda casada, porque você tá me pedindo a permissão no Google Drive. E uma opinião, eu no o YouTube plataforma agora falando como criador de conteúdo, até foi um comentário aqui de um dos inscritos do canal e um dos vídeos, é que pô, tá muito tá mudando muito esse mundo de YouTube.
+
+
+                        1:16:37
+                         E confesso, né, eu eu mantenho a mesma o mesmo tipo de modos operand de conteúdo desde que eu cheguei aqui no YouTube 2018, tá? E porventura eu tô enxergando que, pô, não tá tendo mais inscritos, pelo menos o crescimento do canal já não existe há algum tempo. E também agora visualizações também tá embaixo.
+
+
+                        1:16:57
+                         Não sei se de repente já tem muito criador ou se de repente eu tô, eu acho que eu não mudei, mas eu mudei. Para quem assiste os meus vídeos de domingo, eu acho que vocês são uma parte de quem tá aqui como inscrito e que visualiza meus vídeos mais quente, vamos assim dizer, mais próxima de mim, que gostam desse conteúdo mais longo.
+
+
+                        1:17:15
+                         não é fácil digerir esse conteúdo mais longo. Então vou pegar primeiro o feedback de vocês, porque mesmo que de repente o canal venha para baixo ou acabe o meu ciclo aqui como criador de conteúdo, para mim foi super prazeroso. Quero continuar, não sei se vai rolar e vai depender muito de da resposta de vocês, etc.
+
+
+                        1:17:34
+                         Mas se porventura vocês tiverem um feedback, fala sempre: "Brunão, putz, tá muito longo." Eu tenho percebido que tá muito longo os vídeos. É culpa minha, obviamente, mas também do fato de que eu tô utilizando várias plataformas aqui. Eu adoro plataforma, né? sempre tento trazer elas como parceiro, inclusive do clube.
+
+
+                        1:17:50
+                         É interessante na parte de de profissionalização aqui da do canal, mas para mim também, né? Porque eu tento eu tento recebo eh ofertas também para para assinar, às vezes até nem preciso pagar para assinar. Então, pô, para mim é sensacional. Mas os vídeos estão ficando mais longos. Ah, o conteúdo eh não vale mais a pena.
+
+
+                        1:18:11
+                         Ah, os as IAS já fazem o seu trabalho. Então, pô, talvez você queira mudar. a, os temas, as temáticas do seu dos seus vídeos. Ah, porventura eu gostaria que você melhorasse a parte de membros, né? Até assino, mas, pô, você podia fazer isso, aquele outro. Ah, pessoal, sejam criativos, mas também honestos e honestas, né? Porventura.
+
+
+                        1:18:32
+                         Eu gosto tanto de gravar, que é até algo e, vamos dizer assim, mais, poxa, egoísta meu, porque eu uso as gravações para aprender, mas principalmente para fixar algumas ideias. da home, por exemplo. Cara, eu tô me beneficiando do próprio conteúdo que eu tô criando, mas eu quero pegar o feedback de vocês.
+
+
+                        1:18:49
+                         Então, eu quero dizer só que eu provavelmente vou continuar postando um vídeo ou outro, se porventura o YouTube ruir aqui, o canal, né, deixar de crescer e aí, sei lá, não ser algo mais que possa ser a um empresinha, né, vamos assim dizer, né, um empreendimento. Vou acabar transformando 100% em hobby, mais ou menos hoje, né, 50, mas acabo transformando 100% em hobby.
+
+
+                        1:19:11
+                         que então sair da plataforma dificilmente irei, tá? Mas eu queria dar uma uma voz para vocês que me acompanham aqui, principalmente de domingo, porque de repente a opinião que vocês têm fala assim: "Pô, Brunão, acerta isso, melhora aquilo, olha aquele determinado canal". Então, deixem nos comentários aqui canais onde tem conteúdo que vocês gostam, mas de repente prefeririam ou acham que eu deveria seguir a mesma o mesmo tipo de roteiro, eu não faço, né? Mas o mesmo tipo de conteúdo, porque, pô, estamos chegando no final do ano, tô
+
+
+                        1:19:43
+                        há 10 anos aqui no YouTube já. Então, pô, eu acho que tem muita gente boa, melhor do que eu, inclusive fazendo conteúdos. Então, já não tenho aquela causa como bom ariano, preciso de uma causa para fazer as coisas. Eu não tenho aquela causa mais de estar aqui, porque o YouTube tá muito bem, né? Tem muita gente, é mulherada agora também criando conteúdo no mercado financeiro, tá bacana para caramba.
+
+
+                        1:20:04
+                         Então, já não tenho como lá em 2016, pô, tinha muito picareta. Sinceramente, 2016,1 que eu pensei, que eu comecei a a trazer aqui os meus vídeos, cara, tinha muito picareta. Agora não, agora tá legal para caramba, pô. Tem muita gente boa no YouTube para para mercado financeiro ou pelo menos para pr essa parte mais de portfólio, a investimento, cultura de investimento, né? Para trading, essas coisas, deve ter um monte de picareta ainda.
+
+
+                        1:20:29
+                         Mas enfim, isso daí sempre vai ter. Mas fechando, se tiverem algum feedback construtivo para melhorar a experiência de vocês que seguem, são mais fiéis aqui aos vídeos de domingo, coloca para mim nos comentários: "Brunão, faz mais isso, faz menos aquilo". Também pode falar: "Brunão, continua fazendo". Aí, ó. Pô, visualização, Danice, para mim, de fato, não é simplesmente um danice, mas é bem danice.
+
+
+                        1:20:55
+                         É quase 100% danis, assim, porque, pô, para mim é legal, eu gosto de fazer. Não é um negócio que eu acordo e falo: "Caramba, tem que compartilhar o meu, a minha análise aqui". Não, eu desde 2021 não trabalho em research. Então, para mim, pô, YouTube é bem mais divertido. Mas enfim, deixa um comentário construtivo, eu vou ler todos os comentários.
+
+
+                        1:21:13
+                         É um objetivo meu zerar os comentários do do canal. Então, dá like pelo menos em todos que aí eu zero e aí eu recomeço a cuidar, a responder um por um. Mas esse vídeo em específico aqui, eu vou ter um pouquinho mais de paciência para ler e para entender, porque serão os feedbacks que provavelmente vão moldar, provavelmente não, irão moldar os conteúdos, senão desse fim de ano, porque já estamos no fim, naquela resolução 2027 vão ser os conteúdos que moldarão, vão ser os comentários que moldarão o tipo de conteúdo. Então deixa a referência de
+
+
+                        1:21:44
+                        canal, se você puder, referência de conteúdo, link específico do conteúdo que você gostar e que acha que eu devo produzir parecido, demanda de serviço. Então, Brunão, para membro, pô, abre isso, abre aquilo, tá? Tudo, tudo que vocês quiserem descarregar, né? Porque, pô, eu vou receber com com bons olhos, críticas pesadas, manda bala, porque, pô, não levo um desaforo. Manda bala.
+
+
+                        1:22:08
+                         E eu vou ser um cara super ah simpático aí para responder. Não se preocupe. Mesmo em períodos eleitorais, por favor, votem, né? Eh, e é isso. E é isso. Vejo vocês no vídeo de domingo da Itaúza e ao longo da semana que vem, semana carregada de dados de Ah, mercado. Então, se eu tivesse que colocar para vocês o que mais importa paraa semana que vem, começa com quarta inflação nos Estados Unidos, mas finaliza com sexta, principalmente Brasil, não.
+
+
+                        1:22:37
+                         Brasil isentaço, principalmente para investimentos nos Estados Unidos, investimentos fora do Brasil, investimentos dolarizados. Semana que vem é chave. Você pode abocanhar uma abertura muito bacana dos juros e de repente para você já fazer sentido pegar um bonde corporativo ou pegar um bonde ah de soberano do do tesouro americano.
+
+
+                        1:22:59
+                         Pode acontecer, tá? Um bom pico ali e você abocanhar 5:30, 5,40, 5,60. Já pensou? Meu Deus, eh, você não quer ter 560 sem risco ao ano pros próximos 10 anos em dólar? acho que é bacana. Mas desculpa o palavrão aqui, pessoal.
 
 
                                             Resuma qualquer vídeo instantaneamente
@@ -1488,8 +1820,8 @@ Tubetranscript.com
 
             // Geo-limit config
             const GEO_LIMIT = {
-                isLimitedCountry: false,
-                country: "GB",
+                isLimitedCountry: true,
+                country: "US",
                 maxFreeViews: 1,
                 visibleGroups: 2
             };
@@ -1596,7 +1928,7 @@ Tubetranscript.com
             }
 
             $(document).ready(function () {
-                const videoId = "EufCYfvfbr0";
+                const videoId = "oXI86q-OQhY";
                 const fileVideoId = "";
                 const translateLang = "";
 
@@ -1743,7 +2075,7 @@ Tubetranscript.com
 
                 const link = document.createElement('a');
                 link.href = url;
-                link.download = `EufCYfvfbr0.${ext}`;
+                link.download = `oXI86q-OQhY.${ext}`;
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
@@ -1762,7 +2094,7 @@ Tubetranscript.com
 
             function extractTranscriptFromHTML(withTimecodes){
                 let contentBody = "";
-                const videoId = "EufCYfvfbr0"
+                const videoId = "oXI86q-OQhY"
                 const url = `https://www.youtube.com/watch?v=${videoId}`;
                 // contentBody += `${document.title}\n`;
                 contentBody += `${url}\n\n`;
@@ -2353,7 +2685,7 @@ Tubetranscript.com
 
             // Retry summary
             function retrySummary() {
-                const videoId = "EufCYfvfbr0";
+                const videoId = "oXI86q-OQhY";
                 summaryLoaded = false;
                 fetchAndRenderSummary(videoId);
             }
@@ -2364,7 +2696,7 @@ Tubetranscript.com
                 summaryLoaded = true;
                 // Hide promo on desktop when loading starts
                 $('#summary-promo').hide();
-                const videoId = "EufCYfvfbr0";
+                const videoId = "oXI86q-OQhY";
                 fetchAndRenderSummary(videoId);
             });
 
@@ -2409,7 +2741,7 @@ Tubetranscript.com
             function startProTranscription() {
                 if (proTranscriptionStarted) return;
                 proTranscriptionStarted = true;
-                const videoId = "EufCYfvfbr0";
+                const videoId = "oXI86q-OQhY";
                 fetchProTranscription(videoId);
                 gtag('event', 'pro_transcription_start');
             }
@@ -2543,7 +2875,7 @@ Tubetranscript.com
 
             // Retry Pro Transcription
             function retryProTranscription() {
-                const videoId = "EufCYfvfbr0";
+                const videoId = "oXI86q-OQhY";
                 proTranscriptionStarted = false;
                 startProTranscription();
             }
@@ -2557,7 +2889,7 @@ Tubetranscript.com
                 }
 
                 let contentBody = "";
-                const videoId = "EufCYfvfbr0";
+                const videoId = "oXI86q-OQhY";
                 const url = `https://www.youtube.com/watch?v=${videoId}`;
                 contentBody += `${url}\n\n`;
                 contentBody += `Transcript:\n`;
@@ -2613,7 +2945,7 @@ Tubetranscript.com
                         content += `${index + 1}\n${start} --> ${end}\n${sub.t}\n\n`;
                     });
                 } else if (ext === 'txt') {
-                    const videoId = "EufCYfvfbr0";
+                    const videoId = "oXI86q-OQhY";
                     const url = `https://www.youtube.com/watch?v=${videoId}`;
                     content += `${url}\n\nTranscript:\n`;
                     savedProTranscription.forEach((sub) => {
@@ -2627,7 +2959,7 @@ Tubetranscript.com
                 const url = URL.createObjectURL(blob);
                 const link = document.createElement('a');
                 link.href = url;
-                link.download = `EufCYfvfbr0_pro.${ext}`;
+                link.download = `oXI86q-OQhY_pro.${ext}`;
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
@@ -2660,3 +2992,9 @@ Tubetranscript.com
 
 
         Tubetranscript.com | Free YouTube Video Transcription | © 2026. All rights reserved.
+
+
+            Privacy Preferences
+            We and our partners share information on your use of this website to help improve your experience. For more information, or to opt out click the Do Not Sell My Information button below.
+            Consent
+            Do Not Sell My Information
