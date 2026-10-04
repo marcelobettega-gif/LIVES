@@ -1,6 +1,6 @@
 VIDEO_ID: Ir8dALr-e-4
 URL: https://www.youtube.com/watch?v=Ir8dALr-e-4
-FETCHED_AT: 2026-10-04T10:29:04-03:00
+FETCHED_AT: 2026-10-04T13:12:10-03:00
 SOURCE: TubeTranscript
 TRANSCRIPT_LENGTH: 132753
 
