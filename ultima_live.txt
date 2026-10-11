@@ -1,6 +1,6 @@
 VIDEO_ID: ofMb8Xi3vHw
 URL: https://www.youtube.com/watch?v=ofMb8Xi3vHw
-FETCHED_AT: 2026-10-11T08:08:23-03:00
+FETCHED_AT: 2026-10-11T13:56:27-03:00
 SOURCE: 2outube-form
 TRANSCRIPT_LENGTH: 94151
 
