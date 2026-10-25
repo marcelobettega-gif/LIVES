@@ -1,6 +1,6 @@
 VIDEO_ID: bYukeBvSvts
 URL: https://www.youtube.com/watch?v=bYukeBvSvts
-FETCHED_AT: 2026-10-25T09:27:23-03:00
+FETCHED_AT: 2026-10-25T12:11:56-03:00
 SOURCE: 2outube-form
 TRANSCRIPT_LENGTH: 140182
 

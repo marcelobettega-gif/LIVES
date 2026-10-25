@@ -1,8 +1,8 @@
 VIDEO_ID: Uwp-ox7_8FA
 URL: https://www.youtube.com/watch?v=Uwp-ox7_8FA
-FETCHED_AT: 2026-10-25T09:35:53-03:00
+FETCHED_AT: 2026-10-25T12:19:55-03:00
 SOURCE: TubeTranscript
-TRANSCRIPT_LENGTH: 147395
+TRANSCRIPT_LENGTH: 147686
 
 Tubetranscript.com
 
@@ -2764,3 +2764,9 @@ Tubetranscript.com
 
 
         Tubetranscript.com | Free YouTube Video Transcription | © 2026. All rights reserved.
+
+
+            Privacy Preferences
+            We and our partners share information on your use of this website to help improve your experience. For more information, or to opt out click the Do Not Sell My Information button below.
+            Consent
+            Do Not Sell My Information

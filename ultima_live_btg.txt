@@ -1,8 +1,8 @@
 VIDEO_ID: 7E0_mqY4ZIA
 URL: https://www.youtube.com/watch?v=7E0_mqY4ZIA
-FETCHED_AT: 2026-10-25T09:31:38-03:00
+FETCHED_AT: 2026-10-25T12:15:56-03:00
 SOURCE: TubeTranscript
-TRANSCRIPT_LENGTH: 222906
+TRANSCRIPT_LENGTH: 223197
 
 Tubetranscript.com
 
@@ -3596,3 +3596,9 @@ Tubetranscript.com
 
 
         Tubetranscript.com | Free YouTube Video Transcription | © 2026. All rights reserved.
+
+
+            Privacy Preferences
+            We and our partners share information on your use of this website to help improve your experience. For more information, or to opt out click the Do Not Sell My Information button below.
+            Consent
+            Do Not Sell My Information
