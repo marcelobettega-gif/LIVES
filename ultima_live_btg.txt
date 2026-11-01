@@ -1,8 +1,8 @@
 VIDEO_ID: 2_LIK7fdlXw
 URL: https://www.youtube.com/watch?v=2_LIK7fdlXw
-FETCHED_AT: 2026-11-01T11:33:13-03:00
+FETCHED_AT: 2026-11-01T14:22:38-03:00
 SOURCE: 2outube-form
-TRANSCRIPT_LENGTH: 79667
+TRANSCRIPT_LENGTH: 80095
 
 Transcript
                 SALA AO VIVO | Copa BTG Trader + Mercado em tempo real
@@ -43,6 +43,8 @@ Transcript
                     Whole channel → one file
                     Not now
 
+
+            try{var k="2_LIK7fdlXw",f=JSON.parse(localStorage.getItem('2t_free')||'null'),d=new Date().toISOString().slice(0,10);if(!localStorage.getItem('2t-ent')&&!localStorage.getItem('2t-pass')&&!localStorage.getItem('2t-batch')&&f&&f.d===d&&f.v&&f.v.length>=1&&f.v.indexOf(k)<0){document.documentElement.classList.add('tx-hold');setTimeout(function(){document.documentElement.classList.remove('tx-hold')},5000)}}catch(e){}
 
 7:42 O mercado mudou, a forma de investir também. [música] No Brasil, a classe de ETF soma mais de 860.000 investidores. Na PTG Asset, somos pioneiros. [música] Já são mais de 35 ETFs no portfólio com mais de [música] 20 bilhões em patrimônio e mais de 120.000 investidores, com produtos versáteis, eficientes e [música] acessíveis. Btg Pactual Asset Management, para quem espera mais de seus investimentos. Para revolucionar o futuro do mercado financeiro, é preciso ser rápido, tecnológico e dinâmico, buscando sempre a nossa melhor versão, a evolução do trading.
 8:42 Não é lógica. Fala galerinha, bom dia a todos. Como vocês estão? Tudo certo? Tudo em ordem? Galera, me confirmem se vocês estão conseguindo me ver, se vocês estão conseguindo me ouvir aqui, por favor.
