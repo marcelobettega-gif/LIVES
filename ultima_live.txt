@@ -1,8 +1,8 @@
 VIDEO_ID: 63nZdNLzxoY
 URL: https://www.youtube.com/watch?v=63nZdNLzxoY
-FETCHED_AT: 2026-10-30T14:53:26-03:00
+FETCHED_AT: 2026-11-01T11:32:46-03:00
 SOURCE: 2outube-form
-TRANSCRIPT_LENGTH: 100417
+TRANSCRIPT_LENGTH: 100845
 
 Transcript
                 Fechamento de Mercado 29-10-26 LILY34 GGBR4 EMBJ3 NEXT34 NIKE34 PETR4 WEGE3 AXIA3 VALE3 ITUB4 WIN
@@ -44,6 +44,8 @@ Transcript
                     Whole channel → one file
                     Not now
 
+
+            try{var k="63nZdNLzxoY",f=JSON.parse(localStorage.getItem('2t_free')||'null'),d=new Date().toISOString().slice(0,10);if(!localStorage.getItem('2t-ent')&&!localStorage.getItem('2t-pass')&&!localStorage.getItem('2t-batch')&&f&&f.d===d&&f.v&&f.v.length>=1&&f.v.indexOf(k)<0){document.documentElement.classList.add('tx-hold');setTimeout(function(){document.documentElement.classList.remove('tx-hold')},5000)}}catch(e){}
 
 2:02 É.
 4:05 >> É.
