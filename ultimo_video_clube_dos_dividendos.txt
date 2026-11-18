@@ -1,8 +1,8 @@
-VIDEO_ID: 8pNdlVm4oso
-URL: https://www.youtube.com/watch?v=8pNdlVm4oso
-FETCHED_AT: 2026-11-15T15:16:34-03:00
+VIDEO_ID: RSsCFy5I918
+URL: https://www.youtube.com/watch?v=RSsCFy5I918
+FETCHED_AT: 2026-11-18T09:56:55-03:00
 SOURCE: TubeTranscript
-TRANSCRIPT_LENGTH: 128684
+TRANSCRIPT_LENGTH: 109674
 
 Tubetranscript.com
 
@@ -374,371 +374,199 @@ Tubetranscript.com
 
 
                         00:00
-                        Olá, pessoal. Muito bom dia. Vamos dar início aqui ao nosso vídeo macroeconômico da semana, todo domingo às 6:11 no Clube dos Dividendos e às 20:11 lá no Clube do ETF. Panorama semanal macroeconômico. Hoje pautas diversas, Estados Unidos, DXY, dólar, dólar, dólar, principal motorista dos ativos de risco.
+                        Olá, pessoal. Tudo bem? Papo do vídeo de hoje vai atualizar os resultados do Banco Bradesco. BBDC 3, BBDC 4 vai ser papo do vídeo, tanto na parte de fundamentos, uma rápida atualização. O foco fica em dividendos, o foco fica em valuation. Tá barato, tá caro? Qual que é a margem de segurança? Eu vou tentar trazer para vocês uma estratégia para se olhar um preço de segurança.
 
 
                         00:23
-                         Então vou focar um pouquinho no dólar. Vou trazer para vocês um ETF para quem é ágil, tem afinidade com hedge, proteção, quer especular junto à moeda norte-americana. Mas a gente vai falar desse lado das oportunidades, a minha carteira, como que ela performou, como é que ela está, se eu vou aportar mais ou não depois de alguns dos ativos ter reportado o resultado.
+                         Até lá, os aportes estão liberados. Vai ser papo do vídeo de hoje e vai ser uma provocação para vocês nos comentários. O disclaimer tá na tela. Eu sou Bruno Mazzoni, seja muito bem-vindo. Aqui é o Clube dos Dividendos. A gente começa com a carteira de crédito expandida, resultado do terceiro trimestre 2026. Você tá pagando no Bradescão um banco que cresce em 11,1% ao ano a sua carteira de crédito.
 
 
-                        00:43
-                         E falo desse lado das oportunidades lá no final, assim como a nossa digníssima agenda de dividendos, market breadth, rotação setorial. Pessoal, bastante tempo a variar. Então na descrição e no primeiro comentário fixado eu vou deixar para vocês o roteiro. O disclaimer está na tela. Eu sou Bruno Mazzoni. Seja muito bem-vindo aqui ao Clube ou aos Clubes.
+                        00:46
+                        Vai crescer também a inadimplência? Eu comento no gráfico a seguir. Mas isso aqui é importante, pessoal. O setor bancário financeiro e aqui eu vou ter que fazer um paralelo com o Banco do Brasil, é um setor extremamente consolidado. Então é um rouba monte. É igual a Faria Lima, tá? Difícil expandir mercado, muito fácil trocar ali o cliente, trocar de casa ano sim, ano também.
 
 
-                        01:01
-                        Pessoal, hoje tem merchã para tudo que é lado aqui porque estamos em novembro. Então vou falar de três parceiros aqui que estão com Black Friday ativada já, tá? O primeiro deles é o Scanner da Bolsa. A newsletter que eu utilizo aqui para os vídeos macroeconômicos é do Edu do Scanner da Bolsa.
+                        01:09
+                         Por isso é importante saber. Quando um deles cai, tá? A chance de se recuperar é de certa maneira tranquila, porque os quatro principais bancos, os três principais bancos, os cinco principais bancos têm ali cartucho para queimar. Eles podem errar uma vez, duas vezes, três vezes que ainda tem dinheiro guardado suficiente para se recuperar.
 
 
-                        01:19
-                         A gente faz junto, mas 99.9% é feito por ele, que inclusive o link vai estar na descrição para vocês assinarem a newsletter. É gratuito. Mas a plataforma do Scanner, que tem o market breadth, tem diversas outras funcionalidades que eu vou explorar aqui no vídeo de hoje. Essa sim você tem que assinar e dar uma força lá para o Edu.
+                        01:28
+                         É o que eu imagino que vai acontecer com o Banco do Brasil, é o que aconteceu com o Bradesco e talvez se você mudar de indústria, mas também colocar uma indústria muito consolidada, que é de bebidas, Ambev. Quando a Heineken chegou em 2016 17, se não me engano, 2017, errou ali por um, dois anos até se adaptar e aí sim voltar a crescer sua receita.
 
 
-                        01:35
-                        Está com 40% de desconto. É o primeiro merchã. O segundo é o pessoal da Minimal Vestimenta. Então mulherada que quer presentear os homens aí, aproveitem. Você compra três camisetas, ganha a quarta mais a carteira. E a partir de R$800 investidos utilizando o cupom Clube Dividendos, na descrição e no primeiro comentário fixado, você ganha um voucher para concorrer a uma Mercedes C200.
+                        01:49
+                         E competitividade não falta para Ambev, assim como também não falta para o Bradescão. Então carteira de crédito subindo, bacana. Aqui a gente não tem nada para corneta. A corneta, como é de realidade quem acompanha dados de mercado financeiro, dados da economia, é endividamento das famílias. É um endividamento também das pessoas jurídicas.
 
 
-                        02:00
-                         Se eu conseguir a máquina aqui para vocês. E finalizo o round aqui de publicidades para vocês, que é o pessoal da Investing Pro. Essa sim, parceira já também de longa data, assim como o Scanner da Bolsa. Ao longo da Black Friday, ah, ao longo do mês de novembro inteiro, pessoal, 55% off mais 15 utilizando o meu cupom Clube.
+                        02:10
+                         É a pressão da política monetária. Por isso, quando a gente olha para PDD, que é a carteira de crédito em atraso acima de 90 dias, aquela que vai para leilão, aquela que o governo promete ali refinanciar e que de tempos em tempos há sim acordos gigantescos sendo feitos para pelo menos o principal mais um crédito ali mais um juros específicos ser pago para o banco, ele reaver algum tipo de grana que tá aqui alocada como PDD.
 
 
-                        02:22
-                         Todas as informações na descrição e no primeiro comentário. Lembrando que a Investing Pro acabou de lançar os seus gráficos, o Live Charts. Muito boa funcionalidade. Logo logo tem vídeo tutorial aqui no clube. Bom, agora eu avanço, pessoal, para falar do panorama. Então nós tivemos uma semana bem verdinha aí, né? VIX cedendo. Só que o VIX cedeu e nós tivemos os bonds dos Estados Unidos ou a curva dos Estados Unidos subindo.
+                        02:36
+                         Esse é o gráfico, pessoal. Acima de cinco a barata voa no total. As pessoas físicas estão indo para 6 %, 5,8 %. Então, sem dúvida nenhuma, é o desenrola um, dois, três, quatro, cinco, seis, sete, 10 se precisar para conter essa inadimplência. Aqui, pessoal, é o cerne da indústria bancária financeira. O que que eu tenho que dizer para vocês e acho que já é de bom senso.
 
 
-                        02:49
-                         Então o papo vai ser dólar, o papo vai ser DXY e o papo vai ser renda fixa americana para dar start aqui no vídeo. Por quê? O DXY, pessoal, no mundo subiu 1%, 1,11%. O dólar aqui se valorizou 2,98%. Então onde está o perigo? Está no dólar, porque lá fora a onda ou a tendência é de valorização do dólar frente às principais moedas do globo.
+                        03:03
+                         A indústria no Brasil é extremamente consolidada. Diferente da dos Estados Unidos, por exemplo, que tem lá os seus bancos regionais, a gente tem fintex regionais do setor financeiro que podem sim ah balançar e quebrar. Agora, Bradesco, Itaú, Santander, Banco do Brasil, Banrisul e afins, pessoal, esses difícil.
 
 
-                        03:10
-                         Na descrição também vou Na descrição não, pessoal, nos cards aqui, ó. Eu gravei hoje é sabadão, dia 14, mas ontem, sexta, dia 13, eu gravei o vídeo da da BBC da do Banco do Brasil, o terceiro dele, e também gravei um vídeo com o título provavelmente vai ser o maior risco para a bolsa brasileira hoje. E eu falo muito do DXY.
+                        03:26
+                         Então, pela memória ser mais recente de hiperinflação, década de 90, quebradeira, o setor se consolidou e eles são muito fortes. Então, eles aguentam um ano, dois anos talvez de inadimplência explodindo e os seus balanços sendo deteriorados. As Basileias de 2008 para cá melhoraram devido à crise subprime. Então, o setor que já era consolidado e já era resiliente no Brasil pegou de carona a crise de 2008 e ficou ainda mais resiliente, tá? Ainda mais resiliente.
 
 
-                        03:32
-                         Então falo sobre coeficiente de correlação, falo sobre drawdown. Eu vou tatear no vídeo de hoje, mas caso você queira ali tomar um um um um banho de dólar, tá? O vídeo que eu deixo nos cards aqui para vocês fala só sobre dólar e por que que a gente tem que monitorar como um um ativo de risco para esse ano, aqui finalzinho 2026, mas principalmente 27. Voltamos aqui.
-
-
-                        03:54
-                         Então dólar é o grande protagonista, pessoal. E quando nós temos renda fixa americana ou dólar sendo exigido, alguém precisa ser liquidado. O petróleo, o ouro, bitcoin, são os ativos que via de regra disputam com dólar, disputam com os treasuries americanos nos últimos no pós-pandemia. E aí se nós olharmos para o ouro, queda de 4%. Legal.
+                        03:57
+                         Então, é assim, é um é um risco inadimplência sem dúvida nenhuma, mas a chance é muito maior de estourar em bancos menores do que no Bradescão, do que no Itaú, do que Santander. Tá, até pode estourar neles, né, como PJ estourou uma Casas Bahia, PJ estourou Americanas, etc., mas eles demoram o quê? Dois, três anos para conseguir se recuperar.
 
 
                         04:19
-                        Se a gente avançar aqui no conteúdo de hoje e vai falar daqui a pouco de commodities, mas eu já trago para vocês aqui, o petróleo caiu 2,33%. Se eu tivesse o bitcoin espalhado aqui, ou ele foi medíocre ou ele caiu ao longo da semana. Quem acompanha o bitcoin, deixe nos comentários. Inclusive se você quiser que eu adicione o bitcoin aqui nos vídeos macro, pessoal, comenta, tá? Eu estou conversando com o pessoal da Binance, sou cliente da Binance e talvez até traga a Binance para cá porque eles abriram o Binance Stocks. Então de
+                         E aí eu dei um exemplo de de uma outra indústria que no Brasil também é mega consolidada no nome da Ambev. Beleza? Então é um risco, sem dúvida nenhuma é, pessoal, a gente tem que ficar de olho sim, porém o que se vier um soluço, esse soluço vocês já estão vacinados para quem investe na bolsa de 2020 para cá, principalmente no Bradescão, foi um principal protagonista, talvez ali o Santander também, esse soluço pode passar por dois, três anos e já se recuperar.
 
 
-                        04:49
-                        repente ali é um aquecimento para eu saber se algum dividendeiro aqui tem posição em criptoativo ou algum macro trader aqui tem posição em bitcoin ou cripto ou afinidade, simpatia pela Binance. Na semana passada, como curiosidade, pessoal, a Índia foi a ação foi o ação foi o a bolsa que mais subiu, Emirados Árabes, Indonésia.
+                        04:43
+                        Diferente de uma small cap ah, do setor de varejo que às vezes passa cinco, 10 anos muitas vezes e acaba nem se recuperando e perdendo o CDI cronicamente. O Bradescão não está nessa categoria, pelo menos é a minha opinião, tá bom, pessoal? Bom, aí eu trago a evolução dos resultados. Que que a gente vê aqui? O projetado para o final do ano uma receita com intermediação financeira passando dos seus 300, tá? Um valor que é muito significativo de 300 bilhões, pessoal, é muita coisa, tá? É muita coisa, tá? Não não não não tem como não dizer. Um lucro
 
 
-                        05:12
-                         Então petróleo para baixo. Nós tivemos tech, mas principalmente Ásia que depende de petróleo para cima. Colômbia tá aqui também, uma exportadora, então precisava ver aqui se tem algum alguma notícia específica a da Colômbia e as piores bolsas. Nós tivemos Malásia, Hong Kong, Filipinas, Vietnã e China, tá? Também Ásia aqui compondo as piores bolsas.
+                        05:17
+                        projetado de 26 bi, tá? E uma previsão de perdas. Vamos vamos dar uma olhada aqui, ó. 2020, vamos pegar 2022, né? 2022 a 2026, os últimos quatro trimestres sendo 2026, tá faltando o quarto, uma um crescimento da receita com intermediação financeira, né, na segunda derivada de 18% ao ano. Um ótimo crescimento para um bancão, tá? 18% é um bom número.
 
 
-                        05:34
-                         Eu não sei [roncando] onde o Brasil está aqui, não consigo pescar. Tá aqui, ó, bum. Brasil 0,78, muito provavelmente essa valorização foi em dólar, tá? De commodities, pessoal, eu estou muito contente com a SLC. Vou comentar logo logo para vocês, mas a gente não tem commodities nesse mar turbulento de curva de juros americano e sobe e fecha.
+                        05:42
+                        Provisão de perdas, mesmo período. Vamos dar uma olhadinha. O crescimento é de 5% Então essa é a derivada que a gente tem que acompanhar. A provisão tá subindo? Sim, porém a intermediação financeira tá tá subindo mais em termos relativos, tá? Em percentual, em crescimento, que é o que mais precifica ações, pessoal, não é um valor absoluto e sim a taxa de crescimento desse valor absoluto ou de desse valor absoluto.
 
 
-                        05:54
-                        A gente não tem commodities como protagonista. Eu não quero deixar de estar posicionado no agro por por várias maneiras, por várias causas, mas eu não quero. Ah, porque a agora é de que o arrefecimento do El Niño fez com que as empresas do agro, vai fazer com que as empresas do agro recebam fluxo. Pessoal, eu duvido.
+                        06:09
+                         O lucro, tá? Ah, tá crescendo 6.3% considerando aí todo o segundo, né? O primeiro e o segundo aperto monetário, né? Tô pegando aqui de 2022 a 2026 que eu acho que é um bom período. Olhar para PDD é relevante. Esse PDD tá vermelho faz um bom tempo. Aqui no Fundamentei a gente tem a classificação de vermelho acima de 100 %, né? Então a gente percebe [roncando] que não tem jeito de baixar desse 100 %. Seria ótimo.
 
 
-                        06:15
-                        Truco. Vou até 12, né? Que um analista da Faria Lima no ar condicionado, que mal e mal sabe consertar um ar condicionado, sabe do El Niño, sabe do arrefecimento ou da vida ali da da empresa de empresas conectadas com o setor agro. Elas serão protagonistas no vídeo de hoje. Eu vou trazer o índice agro, que não é muito conhecido da B3, e a gente vai dar uma olhadinha na carteira desse índice.
+                        06:34
+                         Aqui é quanto que o banco fica provisionando ali do seu lucro, mais de 100 % do seu lucro hoje é provisionado, tá tá tá congelado para pagar, né? Ou para cobrir o rombo dos devedores duvidosos e aí vocês podem colocar aqui a inadimplência over 90, né? Depois de 90 dias. É um banco que aumentou o seu payout recentemente, foi para 69 %.
 
 
-                        06:40
-                        Agora, eu olhando para tudo o que tá acontecendo no Golfo, acho que o petróleo é estocável, como nossa ex-presidenta Dilma falava, olha, o petróleo o o o o vento é é vai ser estocado e de fato ela estava certa que logo logo a gente vai conseguir estocar vento como energia. O petróleo dá para ser estocado, tá? Agora, fertilizantes, insumos agrícolas e afins, pessoal, esse não.
+                        06:56
+                         Então quem apanha primeiro se as condições deteriorarem, pessoal, é o dividendo. O dividend yield hoje tá na sua máxima, tá? É o maior dividend yield dos últimos 12 meses desde 2012 com 9.31 %. Então saiba quem que pode apanhar é dividendos. Eu vou trazer, tá? No final do vídeo esse gráfico para a gente estudar um pouquinho de dividendos.
 
 
-                        07:06
-                        Porque o fertilizante até pode ser estocado, mas o plantio São Pedro determina a a períodos específicos e como a guerra tá se o conflito, a problemática no Golfo se estende, alguns plantios se ferraram, seja no seu custo ou seja na produtividade. Deixaram de comprar o fertilizante os fazendeiros mais humildes e aí a produtividade vai ser menor de países mais humildes, por exemplo, tá? Então não para mim preços de alimento é batata, literalmente, que vai dar uma subidinha.
+                        07:16
+                        Fique comigo aqui até o final. Agora a gente cai na parte de valuation. Eu começo com o BBDC3. Rapidinho, pessoal, nesse momento, de acordo com o preço lucro projetado, você tá pagando o menor lucro por cota, o menor lucro por ação, cerca de um uma projeção de cinco vezes, lá? 4.95. Eu tenho a mínima da mínima, isso foi em dezembro de 2020 em dezembro de 2024 4.50.
 
 
-                        07:41
-                        Dólar para cima, poxa, aí só atenua a economia sofrendo, a economia real, né? Sofrendo com preços mais altos. O Brasil até por um fenômeno do El Niño ser mais benéfico para aqui, o hemisfério sul, hemisfério sul não, na região sul e sudeste do Brasil, tá indo muito bem de chuva, mas a região norte e nordeste muito mal.
+                        07:46
+                         Então assim, tá faltando muito pouco para você pagar um 2024 segundo semestre. Já estamos abaixo de 2021, 22, 23, já estamos abaixo de 2018, 19, já estamos abaixo de 2016, tá? Para para para não falar bobagem vamos dar uma olhadinha no múltiplo de 2016. Foi 5.48. Hoje você tá pagando 4.95. É lucro tira não recorrentes. Eu estou preferindo utilizar e só como projeção de preço teto ou de margem de segurança, pessoal, para você que gosta de múltiplo de valuation, lucro sendo ali o denominador, R$ 25,71 é simplesmente a BBDC3 voltando a negociar um preço lucro projetado,
 
 
-                        08:03
-                         Então a ver, tá? Onde as fazendas da SLC, por exemplo, que eu tô posicionado, estão geograficamente conectadas, não tá esse todo. Então isso vai precisar ser repassado. E esse fluxo de capital para se proteger dessa inflação de alimentos, acho que vai atingir empresas conectadas ao segmento, tá? Então por isso que eu quero estar.
+                        08:30
+                        certo? Futuro 12 meses de 9,47 vezes que no histórico de 2007 para cá é a média. A média é 9.47. Diversas vezes o investidor pagou 9,47 vezes lucro, tá? Ao longo de toda a alta de 2009 a 2020, tá? Depois a queda de 2020 para cá o investidor, esse é um gráfico sem ajuste, por isso que ele está caindo de 2020 para cá com certa consistência, tá bom, pessoal? Tirei os dividendos aí do preço, tá? Para tentar achar o múltiplo de valuation mais agradável e de fato descontado.
 
 
-                        08:21
-                         Eu escolhi a SLC porque para mim é a mais redonda, tá? Não a composição gráfica dela não é não era a que tava gritando desconto, mas é a mais redonda no balanço e no potencial recuperação. Já chego nela, mas de olho nas commodities, pessoal, apesar de sinais mistos. A soja subiu 3,5 o milho subiu um, mas o café caiu dois, o o minério caiu um, o cobre caiu dois.
+                        09:07
+                         Ele de 2000 o múltiplo, né? De 2008 até 2024, pessoal, o múltiplo mais, assim, aguardado pelos investidores para alocar era um múltiplo de sete vezes, preço lucro projetado. Só que de 2023 para cá, 2024, perdão, para cá a gente tombou mais um pouco pela deterioração dos resultados, pode ser, tá? Pela estratégia equivocada de 2021 a 24, pode ser. E o mercado pagou 4,50.
 
 
-                        08:45
-                        Quais são as commodities que me interessam? E eu sempre sempre não, né? Já venho falando para vocês há um bom tempo. Tá aqui, ó. Soja, milho, trigo, café, açúcar, até o gado aqui são commodities agrícolas, alimentos, alimentos, alimentos. Porque aqui está um nicho ou um subsegmento de commodities que o Golfo realmente causou um pipinaço, tá? Se a gente vai tirar a energia do sol ou de Marte, beleza.
-
-
-                        09:11
-                         Mas insumos agrícolas, esse, pessoal, já foi, tá? O que aconteceu no Golfo não tem volta, eh e vai reverberar. É por isso que eu quero me posicionar como defesa, na verdade, porque quando eu for na gôndola do mercado eu vou apanhar e o que eu tô ganhando no mercado financeiro provavelmente com a SLC só vai repor, né? Mas enfim, vamos seguir aqui.
-
-
-                        09:30
-                         Esse é o principal motorista de risco, pessoal. Esse é o principal gráfico do vídeo de hoje e também do do vídeo que eu coloquei aqui para vocês nos cards para quem for nerd e tiver tempo para assistir sobre dólar, que é a força do dólar, DXY, dólar index ou Dixie versus as moedas do G8. Não é versus o ouro, não é versus o Bitcoin.
-
-
-                        09:48
-                         Então aqui é o mundinho das moedas fiduciárias. O dólar perde valor de 1980 para cá, principalmente porque aqui estamos falando de Nixon, aqui estamos falando do término do padrão ouro, estamos falando do principal calote do governo americano. E aí o dólar ah consistentemente perdeu valor, só que teve fases de ganho, de valor frente outras moedas.
+                        09:33
+                         Então eu cravo que entre sete e 4,5 e, pessoal, você está desde 2007 para cá você está pagando bem. E você pode levar, carregar esses aportes com essa intensidade até os 9,47. Passou dos 9,5 você de fato até poderia compartilhar com vocês os momentos onde ele negociou com preço lucro em torno de 12 ou mais, preço lucro projetado, a gente vai perceber que você pegou ali topos de mercado ou no mínimo lateralizações onde o CDI, o IAB provavelmente vão ter rendido mais, aquela coisa de investidor de valor que acha que tem coisa justa e coisa cara, a
 
 
                         10:11
-                         Então moeda fiduciária deixa de ter lastro em algo que tá debaixo da terra, né? E acaba tendo o lastro na confiança. A confiança, pessoal, é bacana, tá dando certo desde 1980, só que o problema é que as moedas perdem valor no longo prazo frente ao ouro, frente talvez Bitcoin, frente a ativos que você não consegue imprimir ou que tem alguma coisa debaixo da terra dizendo, olha, eu tô aqui, tá? Esse é meu valor.
+                        coisa justa/cara no Bradescão está de 9,5 vezes lucro para cima, projetado. Hoje estamos a cinco vezes, vai 4,95. Então eu considero desconto, margem de segurança até os 25 e 71, pessoal. Hoje negociando a 13,44. Então acho que está descontado em um cenário moderado para otimista. Passando para o BBDC4 agora e não três, que é o mais líquido, com opções, etc, pessoal, é a mesma coisa.
 
 
-                        10:35
-                         Não é confiança, não é algo intangível, né? É, esse é o pepino talvez das moedas fiduciárias nesse exato momento. Mas aqui estão os principais ciclos de, ah, vamos dizer, valorização do dólar frente moedas do G8 e desvalorização do dólar frente moedas do G8. Quando esse cara cai, emergentes sobem. E aqui eu quero só fazer um resumo no vídeo utilizando um indicador, tá? O vídeo que eu vou deixar no card aqui para você, eu discorro um pouco mais.
+                        10:41
+                         Qual a diferença? É que no BBDC4, por uma ironia aqui dos dividendos pagos e também pela volatilidade ser maior devido à liquidez ser maior e o mercado de opções também existir, a gente tem o nível atual de 2026, no mesmo nível de 2025 e no mesmo nível de 2016. Então BBDC4 somente três vezes, contando atualmente, chegou a ser negociado a um múltiplo de 5,3 a 4,9 vezes lucro.
 
 
-                        10:59
-                         Aqui no vídeo macro, pessoal, como é só um tema dentre outros, eu vou dizer, coeficiente de correlação do DXY, esse esse gráfico que vocês estão vendo. Quando esse gráfico cai, o dólar perde força frente moedas do G8. Quando esse gráfico sobe, o dólar ganha força, se valoriza frente moedas do G8. E aqui eu peguei esse índice então, DXY, e fiz uma apliquei o coeficiente de correlação com o EEM, que é um ETF de mercados emergentes que investe em economias emergentes, não só no Brasil, mas nos emergentes como um todo. E a gente pode
+                        11:12
+                         Então não tem como eu dizer para vocês, pessoal, está caro. Não está. Aqui não é lucro do retrovisor, aqui é o lucro que o mercado projeta, tá? Já contando política monetária, eleições, patati, patatá, um monte de coisa aqui. Esse tem uma essa análise tem uma validade até o próximo resultado. Então eu coloco para vocês que dos 13,18 aos 11,96 é a mínima de 2024, provavelmente o múltiplo se os preços chegarem até lá estará nos mesmos patamares de 2024.
 
 
-                        11:31
-                        ver que aquela correlação maravilhosa para gestores e também para sardinhas, né? A gente sempre quer compor um portfólio onde o um ativo frente outro tem correlação negativa. A perfeita é menos um. E a gente percebe aqui que por várias vezes o DXY teve uma correlação menos um com os mercados emergentes.
-
-
-                        11:52
-                         E é isso que eu quero chamar a atenção. Mais à frente, eu acabo colocando para vocês aqui também já 2000 1995 para frente, o mesmo gráfico do DXY, só para elucidar rapidinho, para dizer, olha, 2008 o dólar se valorizou, crise global. 2009 marolinha. Opa, 2010 o dólar voltou a se valorizar. Bolsa já começou a lateralizar.
+                        11:41
+                        Você acha que 2024 foi uma oportunidade? Você acha que 2016 foi uma oportunidade? Bingo, tá? Tá tá é a oportunidade na frente do seu clique aí. Nunca é recomendação aqui no clube, mas como eu sempre trago estatística, pessoal, está aqui, tá? E os gráficos estão sem ajustes hoje, simplesmente para tirar o efeito do dividendo ah, vamos dizer assim, bombado com com esteroides aí de 2025, tá? Então estou tentando estou tentando tirar esse movimento de 2025 a 26, né? Esse movimento de avanço dos dividendos por causa da taxação nova, beleza? Feito
 
 
                         12:16
-                         Lembra aí quem estava investido no Bova? O Bova lateralzão aqui já, né? 2011, tá? Uma alta da bolsa que foi seguido no próprio 2011 com o fundo do dólar e a bolsa cai. 2013 o dólar dá uma sossegada, a bolsa continua ali tentando testar a máxima, lateralizando. Foi aquele período de 2011 a 2014 que a bolsa ficou de lado.
+                        isso, no Bradesco 4, pessoal, para pular para análise de dividendos e preço alvo, me perdoe, se o Bradesco 4 negociar a 10,20 vezes lucro, 10,30 vezes lucro, ele chegou na sua média de 2008 para cá, tá? Então eu diria que você tem uma margem de segurança até os R$ 89 centavos hoje negociando a 14 e lá vai fumaça.
 
 
-                        12:39
-                         De repente, 2014 bom, tá? Essa alta grotesca do dólar, nem preciso dizer o que fez com o petróleo. O DXY, pessoal, tem uma correlação negativa com os mercados emergentes, mas eu até falhei ali. Eu poderia ter colocado também o coeficiente de correlação com o CRB, que é um [roncando] dos principais índices de commodities mais amplos ali.
+                        12:38
+                         Então temos uma bela margem, né? Falando em margem, utilizando aqui o gráfico da Investing Pro, pessoal, que agora tá alocada na investing.com, mas já já vai para a Investing Pro, que é o Live Charts, onde eu posso adicionar aqui indicadores de fundamentos ao price action. O que que nós temos aqui? Em azul, BBDC4 negociando a 14,44 nesse momento.
 
 
-                        13:00
-                         E vocês iam ver que DXY para cima, CRB para baixo. O único momento esquisito esquizofrênico nos últimos 20 30 anos foi justamente o período de 2020 a 21 e meio 22, onde DXY e commodities foram para cima, DXY e emergentes subiram. Ali foi esquisito. E vocês podem ver os balanços das empresas cíclicas aqui no Brasil foi maravilhoso, porque elas exportaram em dólar, onde o dólar estava se valorizando e a commodity.
+                        12:57
+                         Em amarelo, acho que aqui bege, não sei, é a evolução da média do preço justo pelos modelos, não é analista preço alvo, é preço justo modelo. E olhando para o upside então do preço justo, nós temos aqui 23,81% em relação à média ah do preço justo, esse é o upside, 23,8 pessoal, tá? Dos 14,40 aos 17,88 preço justo da Invest.
 
 
-                        13:26
-                        Além dos incentivos fiscais pós e durante pandemia fizeram que com que todo mundo aceitasse o preço. Então, se você olhar o balanço da Vale, balanço da Gerdau, balanço da SLC, da Brasil Agro, todo mundo todos os balanços maravilhosos. Mas digo, todo mundo hoje todo mundo o mercado hoje fala muito da bolha de IA.
+                        13:21
+                        Os analistas, lembrando que a Investing só cobre analista gringo, o upside é de 38,5 por cento. Então para preço justo, 23, para analista, 38. Então há essa margem aí para você. Eu compartilho sempre o preço justo, eu acho mais fidedigno, 17,88 e a gente pode ver que no no passado recente o Bradesco em azul, né, esteve algumas vezes acima do preço justo da média, né? E depois caiu, né? Então é um é uma boa resistência aqui, é uma boa margem de segurança essa média do preço justo.
 
 
-                        13:45
-                        Mas pessoal, nós tivemos uma bolha de commodities rápida, grotescamente ágil, muito mais pela oferta do que pela demanda, mas também por demanda, tá? Devido à reabertura dos mercados. Essa bolha tá tá reverberando hoje, tá estourando, tá? Ah, mas é a bolha imobiliária na China, é a bolha da IA nos Estados Unidos.
+                        13:55
+                        Obrigado à Investing Pro por ter adicionado esse histórico, né, de de média de preço justo. Isso ajuda demais a dar credibilidade, ou não, né, para essa informação. Aqui à direita eu tô adicionando nos vídeos a pergunta clássica para 2027, né, para o nosso mundo aqui, que pergunta essa que eu fiz para o Warren AI.
 
 
-                        14:03
-                         Bem, é a bolha do agronegócio aqui no Brasil. Não porque o empresário do agro ele é ruim, ele não é um cara hábil. Não, não, é porque simplesmente esses dois anos 2020 22 foram loucos, né? E aí você faz planejamentos parelhos, né? Acreditando que isso vai se continuar ou vai pelo menos atenuar, mas não muito. Poxa, 2022 para cá é o oposto, tá? Desinflou todos os preços de commodities, tirando ali talvez o café em determinado momento por causa da intempérie climática, o azeite por causa da intempérie climática, o petróleo por causa da geopolítica, ou
+                        14:15
+                        Qual é o dividendo por ação projetado das ações do Bradesco para o ano 2027, janeiro a dezembro? A projeção do consenso é de 1,49 R$ 1,49 1,50 por ação para tanto BBDC3 como 4, o valor é idêntico nas duas classes. Esta é uma projeção da Finbox baseada no consenso da Capital IQ, que é da S&P, né? Não o consenso bruto dos analistas.
 
 
-                        14:32
-                        seja, temas que de fato eh não são muito controláveis assim, mas de maneira geral o índice ah de commodities tá lateral, com trimestres de queda, trimestres de alta, mas sem tendência de alta mais. Aqui eu só quero destacar, 2014 terrível, 2016 maravilhoso, queda do dólar. 2018 bolsa para cima e dólar para cima, tá? Também foi um momento ali que para nós foi peculiar.
+                        14:41
+                        E os dados foram consultados dia 16 de novembro. Pô, legal, né? Banco Bradesco 14,52 mais ou menos, dividendo por ação projetado para 2027 é de 1 e 49. O yield atual tá na casa aí dos 9,2. BBDC3 13,44 DPS também de 1,49 o yield é 1 9,1%. Deixem nos comentários se vocês concordam. A Warren AI faz uma tabelinha, né, das informações, crescimento modesto, yield implícito.
 
 
-                        14:56
-                         Falei de 2020 2022, mas 2018 também. E aqui nós tivemos PEC dos eh dos precatórios, me perdoe, que nós tivemos reforma ah da previdência, tivemos reforma trabalhista, tivemos ah teto dos gastos, eleição pró mercado, né, do Bolsonaro ali em 2018, e mesmo assim, pessoal, o dólar subiu, tá? O dólar subiu. Então assim, esse cara é o grande motorista do câmbio.
+                        15:13
+                         É muito legal essa informação da inteligência artificial acoplada nos preços. Lembrando que a Invest Pro tá na Black Friday. O link tá na descrição, super desconto de 55%. Utilize o cupom clube. Agora avançamos de plataforma parceira para outra, que também tá na Black, que é o scanner, pessoal. Todas as plataformas parceiras em desconto de Black estão na descrição e no primeiro comentário fixado.
 
 
-                        15:19
-                         Às vezes ele bate ah na nossa bolsa, mas assim, temos alguns espasmos que a bolsa andou sem necessariamente o DXY, DXY, me perdoe, ah fazer a direção oposta, mas é raro. Como aquele índice de correlação ali acabou provando para a gente que ele não, assim, nenhum momento, para não dizer em nenhum, poucos momentos, inclusive o atual, ele fica positivo.
+                        15:36
+                        A gente vai para uma tabelinha de preço teto. Vamos consultar ela. Períodos de últimos 12 meses, últimos 3 anos e últimos 5 anos. Analisando ali os dividendos líquidos, nós temos de 7% a 9,17. Preço teto de 17 a 22. Margem de segurança então em relação ao preço de tela entre 19% até 52, né? Eu ficaria com os últimos 5 anos.
 
 
-                        15:43
-                         Esse índice de correlação é consistentemente negativo, tá? Então agora ele é perigoso porque o dólar tá subindo e emergentes de certa maneira tiveram estão tendo ali um cenário positivo nos últimos 12 a 24 meses, tá? Então alguém tá mentindo, é o dólar tá mentindo, vai voltar a cair, ou os emergentes que estão mentindo. Eu não vou apostar que o cenário base é 2020 2022, tá? É é complexo ali.
+                        16:01
+                         É o mais vovô, é o mais pé no chão, menorzinho deles aqui, 17,30 preço teto BBDC4. Olhando para a evolução em janelas, que eu gosto muito, pessoal, de olhar a janela de dividendos de 12 em 12 meses, qual foi o dividendo médio distribuído, a gente chega a uma média de 1 2 centavos. Tira 6%, vamos para casa dos 17.
 
 
-                        16:08
-                        Então aqui eu trago o gráfico para finalizar para vocês que se o DXY subir, pessoal, olha, pode ser bolsa para cima, mas com certeza é dólar para cima. Não tem como o nosso câmbio não acompanhar, tá? Por mais que venha aí um super reforço fiscal, ou um arrocho fiscal, um um um ajuste fiscal, se chame como quiser, o bombeiro que for, voltem para 2018.
+                        16:25
+                         Então 17 me parece um bom preço teto para a estratégia de dividendos. Bom preço teto para a estratégia, lembrando que o Bradescão tem dividendo todo santo mês. O maior deles vem em junho e em dezembro, geralmente, tá? Fazendo a calculadora de dividendos, pessoal, na verdade calculadora de renda, né? Não calculadora necessariamente de dividendos.
 
 
-                        16:30
-                         Nós tínhamos ali tudo perfeito para o fiscal, assim, ou pelo menos todas as medidas e credibilidade, Meirelles, patati patatá e mesmo assim o dólar decolou. Eu nem preciso falar de 2020 que o Roberto Campos Neto colocou a Selic a 2% o que fez, né? Aí o dólar tem mais para decolar ainda. Mas enfim, vamos seguir.
+                        16:41
+                         Se eu quiser uma renda mensal de cincão, né? Quanto que eu teria que investir numa janela estudada de 5 anos, anualizando esses dividendos, quanto que eu teria que investir em cada bancão aqui, ó? O Banco do Brasil em crise, mas se olharmos para os últimos 5 anos, é o que menos exigiu capital para chegar a um dividendo por ação de R$ 5.
 
 
-                        16:52
-                         Então agora falando sobre o dólar, pessoal, dólar Brasil, nosso câmbio, o USDBRL, infelizmente esse cara vai arder, tá? E vai trazer inflação, principalmente de alimentos também, tá? Então o como o dólar ele decolou eu não tenho nada nos 5,70, tá? Eu só vou ter resistência técnica nos 5,89 e aqui você pode utilizar um indicador de drawdown, caso você opere dólar futuro, não recomendo.
+                        17:03
+                        000 mês, tá? Por ação não, né? Na posição de R$ 5.000, você precisava de 575.000, cerca de 38.000 ações. Bradescão vem logo na sequência com 58.000 ações, R$ 840.000. Banrisul, R$ 850.000, 66.000 ações. ABC, 41.000 ações, quase 1 milhão. 1 milhão Santander, 36.500 ações. BBAS, 1 milhão, cerca de 112.000 ações. E terminamos com o Itaú, 31.
 
 
-                        17:18
-                         Fique comigo aqui que eu vou falar de um ativo muito mais vovô e muito mais fácil de se fazer hedge e de se proteger carteira do com no apostando no dólar. Mas esse cara o nosso câmbio sempre que ele caiu de de sempre não, de da pandemia para cá quedas de 16 a 20% sinalizaram fundos no câmbio. Então não é o contrato futuro o tipo de produto mais interessante para nós sardinhas falarmos assim, pô, vou pôr um 1 a 3% 1 a 5% do meu capital de renda variável, vou pôr em contrato futuro do dólar para me defender dessa alta.
+                        17:36
+                        200 ações, cerca de 1.300. Pause o vídeo. Essa é a calculadora renda com essa média de janela, 5 anos. Se eu for para a janela dos últimos 3 anos, vai mudar a dança das cadeiras aqui e os valores também. Média dos últimos 12 meses, sem dúvida nenhuma, muda bastante. E veja que nos últimos 12 meses todo mundo distribuiu mais dividendos, tirando o Banco do Brasil, que é o patinho feio.
 
 
-                        17:56
-                        tem rolagem, tem ajuste, é um grandessíssimo pé no saco. Contrato futuro não foi feito para sardinha, não foi feito para pessoa física, mas hoje é barato e é muito divulgado e tem um monte de viciado. Quando você entra no site de uma corretora em vez de ver lá opções, ver lá ações de dividendos, eh renda fixa a com qualidade, você vai ver o quê? Corretagem zero zero, RLP e contrato futuro, que é tudo o que você não deve comprar ou especular.
+                        17:58
+                         Então é muito legal olhar essas três janelas, pessoal. Tudo isso está à disposição no scanner da bolsa, link na descrição. Fecho o vídeo dizendo, tirando o ajuste do banco do do Bradescão, pessoal, olhando para a evolução 2020 para cá, que muita volatilidade, né? 2020 para cá, nós tivemos pré-pandemia o maior yield registrado nos últimos 6 anos.
 
 
-                        18:25
-                         Mas, enfim, é como funciona. Então, eu não acho que contrato futuro é legal, só estou aqui para dizer eh o o alvo é 5,89 e aqui eu nem estou usando o dólar futuro, estou usando o Forex, né, o USD BRL. Quando eu vou, aí sim, para um ativo mais vovô, pessoal, e esse ativo vovô ele pode ter rentabilidade de de jovem, tá? Porque o pós eleição desse ativo tá lhe dando algo em torno de 13% tá? 13,45% de retorno, que é um ETF que vai estar conectado ali, sim, o ETF compra cotas de mercado futuro do DXY, tá? Mas você está aqui no mercado à
+                        18:19
+                         Foi um yield de 10,99% isso ali em janeiro de 2020, tá? Com a queda para março de 2020 a gente conseguiu manter esse dividendo entre 8 e 10, só que aí 2021 o dividendo caiu para caramba e vocês sabem muito porque aperto monetário, patati patatá, tivemos ali uma dor de cabeça. Ele passou alguns anos entregando um dividendo mixuruca até que veio a o Casas Americanas, dificultou mais um pouquinho e foi ali em 2024 que as coisas começaram a a melhorar.
 
 
-                        19:02
-                        vista, tá? Então, é muito mais tranquilo, tá? O problema aqui vai ser spread, o problema aqui vai ser liquidez, porque acabou de chegar na bolsa, né, o IPO foi feito aqui em dezembro, mas esse é um produto simpático à pessoa física, e não contrato futuro. Contrato futuro é pesado, literalmente pesado para pessoa física.
+                        18:50
+                         A média de 2021 a 2024, pessoal, foi baixa, mas ainda assim esteve ali entre 3,5 e 6% tá? Atualmente nós tivemos descontos sendo protagonizados pelo estudo do indicador em julho de 24, em dezembro de 2024, janeiro até maio de 25, onde o dividend yield da da do preço que você pagou ali tava pagando no dia, né, no mês, no ano chegou estava remunerando entre 8,5 a 11. Atualmente, pessoal, 10,40.
 
 
                         19:22
-                         E você pode aplicar o mesmo estudo que eu fiz para o câmbio, tá? Você pode aplicar para esse ETF, tá? Esse ETF aqui do IPO para cá performou 10 a 7% de drawdown, indicou ali as principais compras. Você pode importar o drawdown do nosso câmbio, que não é de 7 a 10, né, é de 16 a 20, para num futuro, de repente, quando o Dólar X11 cair 17 a 20, né, deixa eu ver de novo aqui para não falar bobagem, é, 16,70 a 22, você vai lá e pum, aloca.
+                         Ah, o payout aumentou. Sim, tá? Então esse 10,40 é um pouco inflado, eu acho que vai ceder para os seus 6,5 a 8,5? Provavelmente, mas é um bom yield, tá? Então o preço cair atualmente gera também esse tal desconto que na estratégia de dividendos acho que tá cravado ali R$17 como preço teto, tá? Acho que R$17 é um é um bom senso bacana para vocês que estão acreditando em um cenário mais 2014 a 16 principalmente em 2015 16, né, você pode baixar para os 15 e hoje negociando a 14,50 você ainda tem essa margem de segurança. Lembrem-se,
 
 
-                        19:55
-                         Como a sua alocação é em ouro, como a sua alocação é em bitcoin, você dá uma beliscada caso você a considera a moeda fiduciária do tio Sam uma um ativo de proteção. Então, não dá para ultrapassar 3 5% ah do seu portfólio de renda variável. E eu já avanço, pessoal, não vale a pena você ser holder nesse tipo de ativo, tá? Nem no ouro e nem no bitcoin no bitcoin não vou não tenho competência, mas ouro e dólar, por exemplo, são ativos de ah defesa, ativos de proteção, você tem que comprar quando o negócio tá caindo, tá? Quando o negócio tá caindo. Só faz
+                        19:54
+                        pessoal, de 2010 a 2016 a bolsa lateralizou e caiu. 2014 a 16 caiu, 2010 a 2014 lateralizou. Bancos lateralizaram com leve inclinação de alta, ou seja, eles disputaram bem com CDI e IMA-B, tá? Quem apanhou foi o resto, foram as cíclicas, as commodities e as small caps ali em 2015 16 com a recessão, mas bancos foram resilientes.
 
 
-                        20:30
-                        sentido assim, porque no longo prazo o seu CDI, o seu IMAB vai dar um, assim, um banho de rentabilidade frente esse esse ETF, por exemplo, frente ao dólar. Para finalizar, o tio Sam, aquele gráfico de cabeceira que é bem convencional aqui nos vídeos macroeconômicos, que eu comento, olha, pessoal, essa é a curva de juros, essa é a, me perdoe, é o retorno dos títulos de 10 anos dos Estados Unidos, voltou a subir por narrativas diferentes.
+                        20:19
+                         Então não é porque a bolsa lateraliza que você vai deixar de ter ali um certo carinho com bancos. Quem quiser diversificar vai para o ETF, né? Tem vários ETFs de bancos hoje, tá? O Eu posso citar alguns aqui, se vocês quiserem, deixem nos comentários. Mas o Bradescão para mim tem essa atratividade de retorno anual em proventos e também atratividade pelo múltiplo projetado.
 
 
-                        20:57
-                         Uma hora é a narrativa do petróleo, outra hora é a narrativa da atividade econômica, outra hora é a narrativa de que as Big Techs estão lançando dívida e o Tesouro não tá conseguindo captar porque o pessoal tá comprando dívida Big Tech, dívida corporativa e não dívida soberana. Cada hora tem um um balão de ensaio ali para tentar colar uma narrativa e dizer, olha, o regime mudou.
+                        20:41
+                         Não tô olhando para Não olhei para o retrovisor, olhei para o consenso dos próximos 12 meses. Vantagem? Tira não recorrentes. Desvantagens de lucro projetado? É que muitas vezes o consenso tá errado, tá? E tem surpresas na atividade econômica ou no resultado, de repente aí uma nova Americanas. Certo? Se você gostou, pessoal, confira o link dos parceiros que estão na descrição.
 
 
-                        21:18
-                        De fechamento de curva de juros que nós tivemos de 1980 a 2020, agora é de abertura barra eu acredito que logo logo teremos uma estabilização, mas não um fechamento. Então esse regime impõe o quê? Títulos de curto prazo, pode ser pré-fixado, mas de curto prazo. Inflação, pode ser também, embora eu prefira investir numa utility, vai pagar aí inflação mais margem, ah, mas principalmente pós-fixada, para você não ter marcação a mercado.
-
-
-                        21:46
-                         E aqui eu falo do FLUA, do FLO, eu esqueci, TFLO, eu acho, né? O Floating Rates, S Gov, V TIP. E cuidado, né, com a rentabilidade do TLT. O TLT cada vez é mais tático, né? Você pode comprar depois de um drawdown, você pode vender aqui depois que ele subiu XY %, mas não montar uma posição holder no TLT. Você pode passar ali 5, 10, não sei quanto tempo vai durar esse regime de curvas de juros, não só dos Estados Unidos, mas do mundo inteiro, nervosas, fechando três meses, abrindo três meses, fechando seis meses, abrindo seis meses. E aí quem tem
-
-
-                        22:21
-                        marcação a mercado, títulos pré-fixados longos, apanha e apanha feio. No Brasil, no Brasil, a gente tem o juro real na casa do chapéu. Saiu, saiu mais uma inflação, uma inflação abaixo do consenso. A gente tem aqui as expectativas fazendo muito mais barulho, tá? Agora, essas expectativas ganharam um, assim, um fator positivo para os pessimistas, né? Que é o câmbio.
-
-
-                        22:46
-                        Então o câmbio começa a ter revisões para cima e vai começar a ter revisões para cima no Boletim Focus. Revisões grotescas para cima a gente deve imaginar para o câmbio. Ah, é 5,49 5,50? É nessa casa aí, pessoal, que a gente deve ter revisões do Focus para o verdinho, que é o câmbio e é o grande perigo. Tá? Então a Selic estava sendo revisada para baixo.
-
-
-                        23:11
-                        Vermelho. Agora com o câmbio para cima, pessoal, né? Por quê? Porque a inflação tende também em algum momento a começar a ser revisada para cima. Então é preciso que o DXY, motorista dos ativos de risco, acalme. Tá, pessoal? É muito necessário que ele acalme. Vamos ver nos próximos capítulos, toda semana estamos aqui.
-
-
-                        23:34
-                        E falando de Brasil, agora falando de títulos públicos, falando de retorno de títulos públicos, com a inflação implícita de 7%, pessoal, e o IPCA voltando a pagar 7,68 e o pré-fixado voltando a pagar 15,30 não dá para dizer que você que tá para se aposentar aí nos próximos 5 anos não, não tem uma Disneylândia na sua frente.
-
-
-                        23:57
-                        Tá? É isso aqui. Pré-fixado do quinzão, IPCA mais 7 ponto lá vai fumaça. Tá? Concordo? Não, não concordo, mas olha aqui do lado direito. Curva de juros nos Estados Unidos. Decolou. Pressionando, já estamos falando aí de títulos IPCA, ah, IPCA. Dólar mais 5,5 ao ano. Títulos soberanos dos Estados Unidos. Então eu diria que o mundo de renda fixa tá maravilhoso.
-
-
-                        24:25
-                         O mundo de equities, semana passada eu comentei, pesos iguais, valor sobre crescimento, eu acho que é, nesse momento, bom senso. Qual foi o meu bom senso pós eleições? Eu tenho trazido para vocês aqui esse acompanhamento. Essas foram as minhas posições, SLC, Ferbasa, Xvol, Itaúsa e IRFM, HGL HGLG e a Engie, tá? A Engie, inclusive, vou vender mais aqui, porque ela voltou a cair.
-
-
-                        24:50
-                         Eu já lucrei com a primeira venda, vou vender de novo. IRFM, Itaúsa, ah, Itaúsa, HGLG e Engie são holder, é, empresas de longo prazo que eu tenho, pessoal. Agora, IRFM, Xvol, Ferbasa e SLC é trade, tá? É tático. Grande surpresa que eu tive com a SLC, boa surpresa eu tive com a Ferbasa, nada mais do que eu já esperava no Xvol, né? Então, subiram aqui quase dois dígitos esse pessoal todo e eu tenho alvos específicos que para você, membro, recebeu esses alvos, tá, pessoal? Então, estou bem contente, não saí em nada, nada eu saí, a não ser as opções de
-
-
-                        25:26
-                        Engie e de Itaúsa, que eu vou ter que relançar. No caso da Itaúsa, vai ser call, provavelmente, e no caso da Engie, vai ser novamente tá? Está bem interessante, tomara que eu eu seja bem sucedido, mas essa foi a carteirinha, pessoal, da operacionalização do meu racional, tá? E eu posso adicionar outras empresas? Posso, tá? Mas nesse momento estou cuidando dessas que já estou com retorno muito interessante, mas eu quero um pouquinho mais.
-
-
-                        25:50
-                         Veremos como que eu vou fazer essa gestão. Espero que o mercado volte a cair para eu voltar a comprar mais calls da Ferbasa, para eu voltar voltar a comprar mais ações da SLC e para eu voltar [roncando] a comprar mais cotas do Xvol e do próprio IRFM, tá? Do próprio IRFM eu pretendo comprar mais um pouco, que é a ETF de pré fixada aqui no Brasil, que tem uma dinâmica diferente do dos Estados Unidos.
-
-
-                        26:11
-                         Aqui a gente está com o juro real de 10, lá está longe de ter juro real desse tamanho. O diferencial de juros entre Estados Unidos e Brasil ou Brasil e Estados Unidos, pessoal, pós eleição voltou para a média, tá? Então, assim, é um bom momento para pensar em renda fixa brasileira exclusivamente? Ainda não, por isso que a disputa do CDI, o CDI ganha a disputa, está renda fixa Estados Unidos também.
-
-
-                        26:34
-                         Então falei aqui renda fixa Brasil, abril, bacana, 15% IPCA mais sete, mas saiba, pessoal, tem dólar mais cinco, dólar mais cinco e meio talvez semana que vem, dólar mais seis daqui um mês. Então não torre todo o seu capital em renda fixa brasileira nesse rally, entre aspas, de Natal, nesse fim de 2026, porque você pode beliscar, quem sabe em janeiro, talvez, assim, muito difícil, né, em dezembro, um dólar mais seis com dívida soberana.
-
-
-                        27:00
-                         Se você for para uma dívida corporativa, dólar mais seis e meio, sete lá nos Estados Unidos, uma debênture, uma senior note de alguém famoso lá, grande. Então eu não queimaria ou não utilizaria meu caixa, que queimar é pejorativo, né, em renda fixa Brasil. Pessoal, mudando aqui agora para para agenda de calendário econômico, nada de interessante, tá bom, pessoal? Mais interessante para nós aqui é ver quais serão os próximos balanços de ensaio ou bombeiros que virão para socorrer a medida fiscal ou um plano fiscal para o Brasil em 2027. Esse é o principal ah
-
-
-                        27:36
-                        tema que nós temos. Sentimento de mercado, saímos de 11 para 17. Então estamos barato ainda pelo market breath aqui do Scanner. Lembrando, links todos, pessoal, na descrição, Scanner, Investing, o próprio Carteira Fundos que eu não falei, o I Ações que eu também não falei que porque não tem aqui merchan, pelo menos não fui avisado dos merchans para a Black Friday, mas na descrição tem todos os parceiros, as plataformas, principalmente plataformas, e novidades recentes aí com a Minimal Club, né? Tô com a camisa da Minimal
-
-
-                        28:03
-                        aqui, vestimenta muito bacana. Novidade, nunca fiz publicidade para vestimenta, mas é assim que acontece. Então deixo para vocês todas as informações na descrição. Estamos descontados ainda. O fluxo estrangeiro, pessoal, deixa eu colocar aqui para vocês o fluxo estrangeiro depois do market breath.
-
-
-                        28:25
-                         Então esse é o market breath lá do Scanner da Bolsa, aquele momento maravilhoso onde as três médias mergulharam aqui no 20%, apenas 20% das ações no gráfico diário do Ibovespa estão negociando acima das médias de 20, 50 das três médias. Então é um momento sublime para quem gosta de trading. E eu mostrei a minha carteira vovô, com rentabilidade estratosférica ali.
-
-
-                        28:47
-                         Creio que se você se arriscou um pouquinho mais, aquela rentabilidade vovô que eu mostrei ali, né, a sua carteira tá muito melhor do pós eleição. Até deixe nos comentários como é que foi a sua alocação. É um momento de desconto? É um momento de desconto, pessoal. Aqui eu trago o Bova versus o Market Bread, só que eu só utilizo aqui no gráfico do Market Bread a média de 200, que hoje tá em torno de 30% 31%.
-
-
-                        29:12
-                         Apenas 31% das ações estão negociando acima da média de 200 períodos, tá? Do 40% para baixo, pessoal, eu mostro pelas bolinhas quando tocou 40% e eu mostro nas linhas verticais, tá? Quando de fato mergulhou abaixo de 20%. Abaixo de 20% para traders é um backtest assim maravilhoso, né? Você para perder dinheiro aqui é muito difícil, tá? Na parte compradora.
-
-
-                        29:37
-                         Foram poucos momentos de 2020 para cá, estamos falando aí de um, dois, três, quatro, cinco e agora é o sexto, né? Então eu tô circulando aqui para vocês que para trader precisaria ver aqui quantos por cento na média, um alvo, né? Aí é estudo de trading system, tá? Mas eu diria, você vender bolsa quando o Market Bread tá no verde é uma bobagem enorme, tá? Você vai vender barato.
-
-
-                        30:02
-                        Beleza? Pelo menos isso. Então nós estamos agora saindo do verde. Quando chegarmos no vermelho, pessoal, aí eu vou falar para você, manda bala, tá? Você quer comprar sua vai tá comprando ensolarada, tá? Vai tá comprando baratinha. É isso que você quer. Agora você tá comprando caro para caramba. Vender sua call não tá legal.
-
-
-                        30:21
-                        Beleza? Então a gente ainda tá descontado a ver pro alvo do Bova, tá? Hoje eu vou ficar mais focado no Market Bread. Semana que vem eu atualizo o alvo do Bova. No no vídeo passado tinha lá os pontos específicos, tá? Eu mantenho todos aqueles, pessoal, mas eu vou olhar principalmente, como eu não estou pulsado no Bova, eu quero ver esse cara aqui, pelo menos, chegar no 60% a média de 200.
-
-
-                        30:45
-                         Estamos em 30, então dá para dobrar essa valorização ainda. E quando a gente olha para o market breadth para os setores, small caps 21% média de 200, tá? Então é o que eu tô colocando aqui. Financeiro 24% commodities 29, energia elétrica 25, utilidade pública 25, consumo e varejo 24, industrial 27, imobiliário não tem nenhuma, pessoal. Nenhuma empresa está acima da média de 200.
-
-
-                        31:12
-                         Então assim, a bolsa tem mais para respirar, independente da narrativa externa, é para um movimento técnico, uma desculpa técnica eu poderia dizer para vocês. Agora o avanço fluxo estrangeiro, pessoal. Olha, 5 bi negativo é o que estamos desse fluxo estrangeiro. Nada de novo no front. Então o gringo diminui a venda, certo? Diminuindo a venda, quem sabe vira positivo.
-
-
-                        31:33
-                        Mas estamos com 27 bi, quase 28 no ano, tá ok de saldo positivo do investidor estrangeiro. Quando a gente põe a sardinhada, pessoal, não sei se o meu canal, assim como os outros influenciadores, estão criando monstros, né? Mas a sardinhada comprou a bolsa, a gente e comprou bem. Olha só o dia específico de maior fluxo da sardinhada, pessoal.
-
-
-                        31:57
-                        Foi justamente aqui, ó, no dia da queda. Depois continuou as compras aqui com uma menor intensidade. Então buy the dip é a filosofia da sardinhada. Parabéns, eu acho, né? Quem sabe estejamos certo, porque eu também comprei e mostrei para vocês ali o que comprei. A na gringa muito se falou pré eleições que o gringo estava comprando call, né? E realmente estava comprando call, essa linha verde mostra o saldo de calls.
-
-
-                        32:25
-                        Aí passou o segundo turno, pessoal. Olha só a a desmontagem de posição em relação a toda a compra de call. E a compra de pessoal, diminuiu pós eleição. Então nós temos as calls em níveis estratosféricos ainda, se considerarmos ali os últimos três meses, de agosto para cá, e as puts diminuindo. Ou seja, esse fundo, pessoal, não tá renovando vendas.
-
-
-                        32:52
-                         As puts não estão sendo compradas. As calls, a gente pode dizer que também não, tá? Mas não há um sinal de, ah, joguei a toalha. Então a gente pode olhar o open interest do EWZ como um termômetro. Olha, não há um sinal claro de volta das compras, por isso não queime todo o seu caixa agora, mas se por ventura a gente tiver uma beliscada aqui para cima, bom, esse sinal virá.
-
-
-                        33:15
-                        Certo? Avançando. O o múltiplo do Ibovespa, pessoal, 10 vezes lucro no equal weight, né? Tá com 10 vezes lucro, o pico lá em 2023 foi de 17 vezes lucro, tá OK ali, tá com o earning yield de 9.49. Ah, tá interessante, pode ficar um pouco mais? Pode, tá? Por isso que eu utilizei três tranchas, né, tranches, não não gastei todo meu caixa nas na quinta-feira pós ali Suno o Buffett indicator tá na casa, deu 36% pessoal, tão barato quanto esteve em 2016.
-
-
-                        33:52
-                         Em 2016 chegou a 30%, nós estamos aqui entre 33 e 35. Então é um momento, é um indicador que já assemelha a os as precificações atuais a 2016. Os setores na semana, pessoal, eu dou destaque para o meu, então aqui um pouco de viés de confirmação, o agro. Setor do agronegócio, eu já vou chegar no índice para vocês. É o cara que subiu, mas aqui SLC Futebol Clube, tá? Subiu, tá? Tá caindo no ano, beleza, mas é um cara que teve um retorno muito melhor do que o financeiro, muito melhor do que o materiais básicos, melhor do que boa parte da bolsa. Então eu acho que tem uma
-
-
-                        34:28
-                        rotação acontecendo. Agro será bem visto. E se nós olharmos para o desempenho dos últimos dois anos, né? O setor do agronegócio, pessoal, é um um dos setores que mais caem, que ou que caem. Aluguel, saúde, varejo e cripto estão caindo mais, mas o agro também. E vocês olharem dentro do setor do agronegócio, quais são as empresas que compõem o índice, vocês podem visitar a índice agronegócio B3 e agro B3.
-
-
-                        34:56
-                         A carteira atualizada de 16/11, tá? Já estamos Ah, vai atualizar 16/11? Hum, entendi. Vai renovar a carteira então semana que vem. Poxa vida, que data, hein? Ah, mas por enquanto nós temos três tentos, até Ambev tá aqui no agro, né? Então assim, é um setor amplo. Açaí, Camil, Dexco, tá nesse setor do agronegócio.
-
-
-                        35:16
-                         Então assim, não é bem bem agro, né? Mas é um setor interessante que eu acho que se você fazer um stock picking aqui com essa narrativa agro, você vai se dar bem, tá? Eu escolhi por hora a SLC, eu não sei se a Ferbasa tá aqui. Não, a Ferbasa não está aqui. Eu escolhi a Ferbasa de cíclica e a SLC. Deixe nos comentários se você escolheu alguma, mas conheça aqui o índice I Agro B3.
-
-
-                        35:39
-                        Ciladas e oportunidades, maiores quedas na semana passada. Nós tivemos Cruzeiro do Sul, deixa eu ver aqui, Melnick, vocês podem olhar, como eu falei ali, o Imob apanhando, São Martinho voltou a cair, Banco do Brasil teve três vídeos aqui no canal. Então São Martinho, Banco do Brasil, Ah, é. São Martinho, Banco do Brasil e Melnick, quem gosta de construtoras.
-
-
-                        36:01
-                         No ano, quem mais apanha, eu tenho destaque talvez CSN, né? Com certeza CSN tá apanhando quase 60% no ano, pessoal. Então ali a fezinha da cíclica CSN. No screen da bolsa, quando eu utilizo aqui o filtro dividendos, pessoal, top 20 dividendos no ranking de performance, eu trago para vocês o contexto de 2026, tá? O filtro por 2026.
-
-
-                        36:25
-                         Quem que nós temos aqui? BR Partners, caiu para caramba BR Partners, né, pessoal? Então tá interessante também. Lave, Marco Polo, Cirela, Direcional, muita imobiliária, né? Construtora. Direcional, Lojas Renner, Grazziotin, Bradescão, Sesudi ou SSI eh CSU, Card System, eu não sei qual que se mudou o nome. CPFL e O que vocês acharam dessa carteirinha aí pró dividendos que o filtro do scanner da bolsa nos mostra? As empresas mais distantes da média de 200, ou seja, que podem cair mais porque a distância é para cima. A gente está falando de
-
-
-                        36:58
-                        Embraer, Fleury, Suzano, Caixa e Gerdau. Para baixo, que eu acho mais interessante, vamos lá. Tenda, AP Vida, Cogna, Natura. Natura eu vou dar uma olhada essa semana. CSN, Usiminas, Vivara, BBAS, Banco do Brasil, Cosan e Marcopolo, tá? Dessas daqui eu vou destacar a Natura. Dá uma olhada no gráfico como é que está.
-
-
-                        37:21
-                        Me interessa qual os longas na Natura. Ações mais alocadas pelos fundos com maior destaque, com maior retorno no ano de 2026. A gente tem Petro, Alos, Localiza, Suzano, Axia, Copasa, Vale, Equatorial e Prio. São as top 10 dos fundos aí, tá? 35 fundos selecionados com melhor performance. A agenda de dividendos, pessoal, nós vamos ter aí para a semana que vem Alos, só Alos, né? Dia 19.
-
-
-                        37:49
-                        É, dia 19. Alos com 29 centavos, 1% de yield. E assim eu fecho mais um vídeo macro, pessoal. Agradeço a companhia de vocês. Deixe os comentários, like, compartilha, cornete. Semana que vem a gente está junto todos os dias. Certo? Um grande abraço, um bom domingão para vocês aí. Tchau, tchau.
+                        21:03
+                         Vejo todos vocês no próximo conteúdo. Tchau, tchau.
 
 
                                             Resuma qualquer vídeo instantaneamente
@@ -1559,7 +1387,7 @@ Tubetranscript.com
             }
 
             $(document).ready(function () {
-                const videoId = "8pNdlVm4oso";
+                const videoId = "RSsCFy5I918";
                 const fileVideoId = "";
                 const translateLang = "";
 
@@ -1706,7 +1534,7 @@ Tubetranscript.com
 
                 const link = document.createElement('a');
                 link.href = url;
-                link.download = `8pNdlVm4oso.${ext}`;
+                link.download = `RSsCFy5I918.${ext}`;
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
@@ -1725,7 +1553,7 @@ Tubetranscript.com
 
             function extractTranscriptFromHTML(withTimecodes){
                 let contentBody = "";
-                const videoId = "8pNdlVm4oso"
+                const videoId = "RSsCFy5I918"
                 const url = `https://www.youtube.com/watch?v=${videoId}`;
                 // contentBody += `${document.title}\n`;
                 contentBody += `${url}\n\n`;
@@ -2316,7 +2144,7 @@ Tubetranscript.com
 
             // Retry summary
             function retrySummary() {
-                const videoId = "8pNdlVm4oso";
+                const videoId = "RSsCFy5I918";
                 summaryLoaded = false;
                 fetchAndRenderSummary(videoId);
             }
@@ -2327,7 +2155,7 @@ Tubetranscript.com
                 summaryLoaded = true;
                 // Hide promo on desktop when loading starts
                 $('#summary-promo').hide();
-                const videoId = "8pNdlVm4oso";
+                const videoId = "RSsCFy5I918";
                 fetchAndRenderSummary(videoId);
             });
 
@@ -2372,7 +2200,7 @@ Tubetranscript.com
             function startProTranscription() {
                 if (proTranscriptionStarted) return;
                 proTranscriptionStarted = true;
-                const videoId = "8pNdlVm4oso";
+                const videoId = "RSsCFy5I918";
                 fetchProTranscription(videoId);
                 gtag('event', 'pro_transcription_start');
             }
@@ -2506,7 +2334,7 @@ Tubetranscript.com
 
             // Retry Pro Transcription
             function retryProTranscription() {
-                const videoId = "8pNdlVm4oso";
+                const videoId = "RSsCFy5I918";
                 proTranscriptionStarted = false;
                 startProTranscription();
             }
@@ -2520,7 +2348,7 @@ Tubetranscript.com
                 }
 
                 let contentBody = "";
-                const videoId = "8pNdlVm4oso";
+                const videoId = "RSsCFy5I918";
                 const url = `https://www.youtube.com/watch?v=${videoId}`;
                 contentBody += `${url}\n\n`;
                 contentBody += `Transcript:\n`;
@@ -2576,7 +2404,7 @@ Tubetranscript.com
                         content += `${index + 1}\n${start} --> ${end}\n${sub.t}\n\n`;
                     });
                 } else if (ext === 'txt') {
-                    const videoId = "8pNdlVm4oso";
+                    const videoId = "RSsCFy5I918";
                     const url = `https://www.youtube.com/watch?v=${videoId}`;
                     content += `${url}\n\nTranscript:\n`;
                     savedProTranscription.forEach((sub) => {
@@ -2590,7 +2418,7 @@ Tubetranscript.com
                 const url = URL.createObjectURL(blob);
                 const link = document.createElement('a');
                 link.href = url;
-                link.download = `8pNdlVm4oso_pro.${ext}`;
+                link.download = `RSsCFy5I918_pro.${ext}`;
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
@@ -2623,3 +2451,9 @@ Tubetranscript.com
 
 
         Tubetranscript.com | Free YouTube Video Transcription | © 2026. All rights reserved.
+
+
+            Privacy Preferences
+            We and our partners share information on your use of this website to help improve your experience. For more information, or to opt out click the Do Not Sell My Information button below.
+            Consent
+            Do Not Sell My Information

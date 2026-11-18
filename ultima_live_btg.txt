@@ -1,8 +1,8 @@
-VIDEO_ID: 4wTuIX-5Wcg
-URL: https://www.youtube.com/watch?v=4wTuIX-5Wcg
-FETCHED_AT: 2026-11-15T15:12:22-03:00
+VIDEO_ID: 9nz8J0do2aQ
+URL: https://www.youtube.com/watch?v=9nz8J0do2aQ
+FETCHED_AT: 2026-11-18T09:52:47-03:00
 SOURCE: TubeTranscript
-TRANSCRIPT_LENGTH: 155895
+TRANSCRIPT_LENGTH: 160300
 
 Tubetranscript.com
 
@@ -373,796 +373,808 @@ Tubetranscript.com
                                         a2a_config.prioritize = [ 'x', 'whatsapp', 'facebook', 'telegram', 'email', 'google_gmail', 'reddit' ];
 
 
-                        00:03
-                        O mercado mudou, a forma de investir também. No Brasil, a classe de ETF soma mais de 860.000 investidores. [música] Na PTG Asset, somos pioneiros. Já são mais de 35 ETFs no portfólio com mais de 20 [música] bilhões em patrimônio e mais de 120.000 investidores. Com produtos versáteis, eficientes e acessíveis.
+                        08:05
+                        Fala galerinha, bom dia, bom dia, bom dia a todos. Como vocês estão? Tudo certo? Tudo em ordem? Galera, me confirmem aqui se vocês estão conseguindo me ouvir, se vocês estão conseguindo me ver. Deixa eu ver aqui, deixa eu abrir a live. Deixa eu ver aqui. Cadê? Cadê? Tô perfeito. Acho que vocês estão me ouvindo super bem.
 
 
-                        00:31
-                         BTG Pactual Asset Management, para quem espera mais de seus investimentos. Para revolucionar o futuro do mercado financeiro, é preciso ser rápido, tecnológico e dinâmico, buscando sempre a nossa melhor versão, a evolução do trading. Não é lógica. E aí, pessoal, tudo bem? Bom dia,
+                        08:47
+                         Vocês estão me ouvindo? Só tá meio baixinho, né? Confirmem para mim se vocês estão me ouvindo eh baixinho. Se não tiver, a gente já começa a tocar aqui e vamos embora. Tá su Quem desde quando acer tá? Então aqui a gente faz assim e vamos
 
 
-                        11:27
-                        galera. Como que vocês estão? Tudo joia? Desculpa o atraso, acabei saindo ali do morning call direto para cá. Como que vocês estão? Confirme para mim, por favor, se vocês estão me ouvindo, se vocês estão me vendo. É, não, o Juquira ele acabou não conseguindo hoje por conta de um evento que tá tendo, mas é isso, galera.
+                        09:55
+                        embora. Deixa eu dar uma atualizada aqui no chat. Boa. Fala Itítalo. Ai, fala Glaus. Bom dia. Fala Weber. Eber, fala, Moisés, Carlão tá aí no chat também. Como que vocês estão, pessoal? Tudo certo? Tudo em ordem? Contem para mim como foi o final de semana de vocês. Deu tudo certo? Tá, agora foi. Deixa eu mandar lá no connect que já estamos ao vivo também.
 
 
-                        11:59
-                         Como que vocês estão? Tudo joia? Beleza? Bom dia, Éber, bom dia, Aruan. Bom dia, Mauro, bom dia, Flávio. Galera, se vocês puderem já deixar o like, eu agradeço demais. Isso ajuda a gente para caramba. Isso faz com que o YouTube espale mais o nosso trabalho, com que a gente apareça em mais lugares. E eu agradeceria demais se vocês puderem dar essa moral pra gente, tá? Vou mandar um bom dia para todos vocês no Connect.
+                        10:54
+                        que desde você se fom trader já Tá, já estamos ao vivo na sala do BTG Trader. Boa. Mandei lá no connect para vocês. Foi ótimo. Glauso, que que você fez?
 
 
-                        12:30
-                        Mandar aqui, ó. Bom dia. Bom dia, pessoal. Estamos ao vivo na sala do BTG Trader. Mandei lá para vocês. Vou mandar alguns estudos aqui também sobre o índice. A gente consegue acompanhar primeiramente, [roncando] vamos lá. Índice futuro falhou o rompimento da média móvel de 200 períodos. está mais lateralizado. Não temos um viés definido para o dia.
+                        11:56
+                        Conta pra gente. Fala, Vitão, como que você tá, meu querido Danilo. Pô, que beleza, hein, Danilo? Mais um dia aqui no chat. E aí, galerinha? Contem para mim como foi o final de semana de vocês. Fala, Glaus. Bitcoin não tá caindo, ele está despencando. Exatamente, meu amigo. Cara, esse Bitcoin aqui tá triste, tá? Vou deixar assim, ó, para irmos acompanhando essa queda aqui.
 
 
-                        13:34
-                        O próximo suporte é a faixa do 172 435 e 0,5% de queda em 171.905. As próximas resistências são a faixa do ajuste em 172.830 830 e a média móvel de 200 períodos em 173 e 300. Mandei lá para vocês. Confirmem para mim, por favor, se vocês conseguiram ver no connect. Bom dia, Glaue. Bom dia, Mauro. Bom dia, Moisés. Bom dia, Ítolo.
+                        12:32
+                         Por enquanto, pessoal, eu acredito ser um pouco complicado fazer alguma coisa aqui nesse nesse Bitcoin. Eu sei que tá caindo, sei que tá fácil da gente falar assim: "Ah, vai cair, vai continuar caindo". Mas no geral, pessoal, vendendo esses patamares aqui é realmente bem difícil. Quando a gente olha lá fora, a gente já vê Bitcoin perdendo ali só média de semanas, sua média móvel de 50 semanas aqui já vem perdendo forte.
 
 
-                        14:23
-                         E turma, posso pedir um outro favor para vocês ou não? Eu acabei de apresentar o Morning Call do BTG Pactual. tá ali com Thiago Salomão. E eu queria pedir uma força para vocês. Se vocês puderem vir aqui nos comentários e deixar um comentário, eu agradeço demais. Me fala aí, por favor, o que que vocês acharam, o que que vocês, se vocês gostaram, não gostaram.
+                        13:06
+                         a gente vê eh praticamente aqui a gente consegue ver no Bitcoin, pessoal, uma espécie de figura de de oco, né, onde a gente tem ombro, cabeça a ombro e 100% do movimento para baixo é a extensão desse dessa figura, tá? [roncando] E ele tá chegando já no seu alvo da figura. Esse é o grande ponto. Fala Guim Monteiro.
 
 
-                        14:51
-                        Me fala aí, por favor. Eu agradeceria demais, demais e demais se vocês deixarem um comentário aí sobre minha participação. Isso pra gente aqui é muito importante, tá? Queria que tivesse pelo menos, sei lá, 15 pessoas comentando. Pode ser? Posso contar com vocês ou não? A gente faz tudo isso de graça. Ia ser muito, muito bom.
+                        13:46
+                         Bom dia, meu querido. Bom dia. Fala Glaus. Mar não saí com as amigas. Tanto é que essa fotinha é de sábado. Uma amiga só mudou o fundo. Que isso, hein, Glaus? Eu não consigo ver sua foto. Não consigo ver. Fala, Carlão. tava comprado no Bitcoin quando ele fala Vitão. É, eu acho difícil sim, Moisés, ele romper de primeira assim um 1% de baixa.
 
 
-                        15:16
-                         Vocês iam ajudar muito a valorizar meu trabalho aqui. Fechado. Daqui a pouco eu vou olhar os comentários para ver se vocês comentaram, hein? Que horas começam? Morning do BTG começa às 8:30. Eu geralmente tô lá às terças e quintas. Eh, mas hoje eu acabei fazendo a sexta-feira também. Boa. Então, o índice tá um pouco mais lateralizado.
+                        14:36
+                        Mas eu tô gostando dessa venda aqui do dos juros. Deixa eu só ver se ele vai continuar caindo aqui. Qualquer coisa, a gente vai ter que vender isso aqui mais forte. Ка.
 
 
-                        15:45
-                         O dólar, eu vou mandar um estudo de dólar para vocês ali também. Deixa eu mandar lá. O dólar futuro ainda pressionado após o pregão de ontem. As médias móveis de 8 e 21 períodos. estão alinhadas para cima. E nesse momento o preço faz uma tentativa de superar a máxima do pregão anterior. As próximas resistências são 0,5% de alta. em 5.
+                        16:09
+                        Então, vamos lá. Boa. Vamos lá. Então, pessoal, o dia hoje ele começa de uma forma relativamente diferente, né? Dia 16 de novembro, segunda-feira. Segunda-feira. E assim, olhando pros pros principais acontecimentos que podem movimentar o mercado, que podem movimentar o mercado aqui e lá fora também, porque é importante a
 
 
-                        16:42
-                        688 e 1% de alta. Os próximos suportes são a média móvel de 21 períodos. Em 5.667. e o fundo anterior em 5.653. Fechado. E aí, pessoal, queria só pedir dois minutinhos para vocês. Vou só pegar um café e uma água, que eu ainda não tive tempo de fazer isso, e já volto aqui. Fechado. Me deem 2 minutos, por favor. Fala galerinha, bom dia, bom dia, bom
+                        17:13
+                        gente sempre, não, não vou falar antecipar, mas é sempre muito importante a gente ah entender o que que tá acontecendo no macro para trazer essa essa essa intuição aqui pro pro Brasil, né? Antes de tudo, pessoal, um esclarecimento eh importante aqui, né? A gente tem os números eh brasileiro, eh Joy Street, eh todos ali a gente leva em consideração o fechamento da sexta-feira, porque a gente não teve pregão no final de semana, né? Ã, já no mercado internacional, segunda-feira com alguns movimentos relativamente diferentes, tá?
 
 
-                        22:42
-                        dia. Como que vocês estão? Tudo certo? Tudo em ordem? Galera, me confirmem aqui se vocês estão conseguindo me ver, se vocês estão conseguindo me ouvir. Eu acho que agora tá melhor, né? Me confirmem aqui, por favor. Boa. Agora vocês estão me vendo agora. Foi, né? Foi. Boa. E aí, como que vocês estão, galerinha? Bem demais? Tudo certo? Tudo em ordem? [tosse] Deixa eu só ver o negócio aqui.
+                        17:49
+                        Mas vamos lá. No pré-mercado, pessoal, eh, o cenário ele é mais misto no dia de hoje, tá? A gente tem Nasdak e recuando cerca de 0,92, SP500 caindo próximo de 0,35, enquanto Down Jones ali [roncando] apresenta uma queda de praticamente no 0 a Z0, não vou nem falar queda aqui, mas é mais no 0 a zer na Europa, mercados operam próximo da estabilidade com uma variação de queda entre 05, 010, mas apresentando o movimento como um todo mais misto, mas todos mais para baixo, tá? E temos uma segunda-feira bastante movimentada, né? Hoje [roncando] a gente
 
 
-                        24:40
-                        Boa galerinha. Ponto importante aqui. Juros vem apresentando movimento de queda. Tô gostando dessa dessa tentativa de continuidade de movimento de baixa aqui do do dólar. Eu vou já aproveitar aqui, já vou vender essa doletinha. Pô, eu quero resolver o dia rápido hoje. E quero resolver o dia rápido hoje, mas hoje eu eu não tradei, mas como é? Ah, você tá vendida no 5659 ou se tá comprada no 5659? Não entendi.
+                        18:28
+                        teve IGP10 já logo pela manhã. A gente teve também ã o IB eh IBCBR, que é praticamente a brevia do do nosso PIB, né? >> [roncando] >> Deixa eu só ajustar aqui. Isso foi às 9 horas da manhã, então agora a pouco. E caramba. E às 2 horas da tarde ainda, pessoal, a gente tem discurso de wash do wash nos Estados Unidos.
 
 
-                        25:30
-                        Bom, enquanto isso, pessoal, fala Ítalo, fala Moisés, fala Anthony, bom dia, bom dia, bom dia. Ah, você tá com alvo no 59, pô. Belear, eu tô com minha parcial ali, 10 pontinhos para baixo. Vamos embora. Tamos junto aqui. Caramba, meu. Agora só que eu vi o horário. Nossa, mano, já são 9:40, cara. Que isso? O dia hoje nem começou e já tá já é 9:40, já 10 horas já.
+                        19:11
+                         E amanhã a gente também tem Senado eh volta ao centro das voltando ao centro das atenções ali com votação destaque ali projeto de ajuste fiscal no Brasil. Então a gente vai passar por esses assuntos, entender ali o que pode realmente fazer diferença no nos nossos nossos trades, né, ao longo da semana. Bom, começando aqui com o cenário, deixa eu colocar aqui, ó, com cenário brasileiro, o assunto que que vai atravessar agora é realmente o projeto do ajuste fiscal. Nossa, nada.
 
 
-                        26:05
-                         Daqui a pouco a abertura do mercado à vista. Deixa eu ver o que que a gente vai ter hoje de notícia. A gente já teve vendas no varejo, a gente tem dado de inflação IPP antes de de preço ao produtor. Lá nos Estados Unidos a gente tem núcleo IPP. >> Tá bom. Boa, juros aqui abr ganhando força aqui na queda, tá virando bastante.
+                        19:40
+                        Ele aprovou o texto base por 45 a 31 votos, mas eh mas ainda não terminou a a votação, então ainda faltam quatro destaques eh que serão analisados amanhã, terça-feira, dia 17. E a atenção do governo, ela é encaminhar o texto pra câmera. Ã isso ainda esta semana, tá? Então o, é importante lembrar que o projeto ainda não virou lei e continua sujeito a algumas mudanças, tá? Galera, deixa eu só fazer um negócio aqui.
 
 
-                        26:46
-                         A gente olha pelo próprio 37, olha o próprio 29, todos ali apresentando uma continuidade de movimento de baixa. Eu vou permanecer vendido aqui no no dólar. Nossa primeira parcial segue o 59, tá? Eu vou até colocar um pouquinho antes porque temos abertura. Deixa eu ver. Não é muito antes. Não gostei. Colocar 9 pontos e meio de parcial. Vamos ver.
+                        20:15
+                         Eu preciso colocar essa operação para vocês, ó. Eu esqueci como que eu compartilho essa ordem mesmo. Calma aí, pessoal. Deixa só ver como que eu compartilho essa ordem aqui. Lembrei. Tá. Deixa eu só mandar essa
 
 
-                        27:19
-                        >> Opa, obrigado, cara. Certo? E no índice, pessoal, a gente sai comprado alvo ali no 1735 como a primeira parcial, zona da nossa V, opa, da nossa média móvel de 200 períodos, tá? E aqui olhando em gráficos maiores, pessoal, olhando pro gráfico de 15 minutos, a gente já começa a ver um o índice ali voltando a ganhar força acima das suas médias, tá? Tá? Então ele volta a trabalhar acima da média móvel de 21, de 50 e de 200 períodos, tá? No gráfico de 30 minutos, a gente tem a média móvel de de 50 períodos ali na máxima do dia.
+                        21:24
+                        operação ali para vocês compartilhar. M. Tá? Então vamos continuar aqui, pessoal, só para só precisava mandar essa operação lá para vocês, para vocês não ficarem sem operação. Mas então, começando aqui pelo Brasil, então foi o que a gente falou, a gente tem aprovação, a gente tem o o destaque ali projeto de ajuste fiscal que tá sendo, que já passou pro Senado aprovando texto base ao longo dessa última semana, mas essa próxima semana a gente ainda tem alguns ã temos algumas etapas ainda, né? O projeto ele pode passar pela câmera essa semana.
 
 
-                        28:02
-                        Então já teve uma pequena defesa. Acredito que caso a gente venha ver ele ganhando força ali na cima daquele patamar, fica bem interessante. Mas o que a o que abre, né, espaço pra gente ver uma possibilidade de continuidade desse movimento de alta, seria o rompimento aqui das médias em gráficos mais longos, tá? Então a gente pode ver o de 120 minutos, a gente olha o de 240, todos ali, caso ganhe essa máxima do dia, a gente passa a ter uma convergência das médias móveis eh para cima, tá? E em gráficos maiores também.
+                        22:29
+                        E quais são os principais questionamentos, né? Primeiro, eh, foram incluídas novas exceções ali no corte de benefícios eh tributários, envolvendo setores como tecnologia da informação, semicondutores e desoneração da folha, né? Também afirma também tivemos ali a ampliação do corte de benefício de 10 para 20%, ã, que não foi incorporada nos cálculos, né? E além disso, eh, a gente teve uma inconsistência ali na margem de 100 bilhões, ã, da chamada regra de ouro, né, que ela acabou sendo mantida, mesmo com uma com a retirada da autorização
 
 
-                        28:37
-                        Então a gente passa ter uma convergência de vários gráficos ao mesmo tempo. Isso é bem interessante. Ó o homem. Que isso, cara? Ó. Ah, já peguei dois de uma vez aqui. Ô, mas eu acho que eu peguei igual. Que isso? Eu quero mais um aqui, ó, que eu vou trocar o meu, hein. Que isso, cara? Essa aqui eu não tava esperando não. Ó lá. [risadas]
+                        23:10
+                        para desvincular os 40% dos recursos, né? Então, a gente teve essa autorização, né? Eh, essa autorização, no entanto, ela pode voltar ali por meio de uma emenda da oposição e pelo levantamento ali que a gente tem visto no mercado, eh, está entre 32 bilhões e 37 bilhões do impacto estimado viriam de aumento da da de arrecadação, né? Do lado do governo, pessoal, do lado do governo, a gente teve o ministro do planejamento, né, o Moret, rebatendo que chamou de informações falsas sobre o projeto, né, então a Lula, né, tá em viagem, então o Alkim tá
 
 
-                        35:47
-                        Boa galerinha, continua posicionado aqui. Dólar praticamente no nosso 0 a zer. Índice também no nosso 0 a zer. Não, não desenvolveu ainda. Vamos aguardar. Talvez agora na abertura do mercado a vista a gente possa ter um movimento mais acelerado aqui. Vamos ver. Uma volatilidade a gente sabe que tem. A gente sabe que ainda tem IPP hoje, então 10:30 da manhã temos índic índice de preço ao produtor lá no nos Estados Unidos.
+                        23:54
+                        assumindo nesse a presidência nesse momento e e o mercado, as avaliações elas são bem diferentes, tá, galera? Só avisar o negócio para vocês. Eu vou ter que sair dessa operação do dólar e acabei de entrar em uma do índice aqui, tá? Isso por o mercado, o índice, ele acabou de testar um uma um retorno ali pra média mó da média móvel de 200 períodos, tá? Então, como ela falhou, eu acabei vendendo e esse dólar aqui acaba indo contra essa nossa posição.
 
 
-                        36:17
-                        Já já tivemos aqui vendas do varejo que vieram praticamente vieram acima do esperado, na verdade tá um pouco acima do esperado, mas não trouxe tanta volatilidade assim não. Tá a segue posicionado aqui no Bitcoin. Não fiz nada ainda. Bitcoin sem grandes posições. Fala o apo apunt. Olha, vou te falar, não foi uma semana muito fácil não, tá? Acredito que o único dia que tenha sido, que foi realmente mais tranquilo foi na segunda-feira, se eu não me engano.
+                        24:26
+                         Então, tô zerando aqui esse dólar e não vou continuar enquanto ele não perder esse patamar aqui, tá? Nosso stop do índice seria a o ganho ali da média móvel de 200 períodos, tá? E esse dólar aqui eu só vendo se ele voltar a perder esse pivô. Tá bom? Fechado. Então, só continuando aqui, pessoal, eh a gente tem um ajuste fiscal ali que ele pode ficar dentro da banda na meta mais dificilmente no centro, né? E a dívida ela pode chegar realmente a 85 88.
 
 
-                        37:04
-                         É segunda-feira que ele deu aquela esticada, deu um baita de movimento de alta. Depois na terça-feira foi um dia bom também de queda no índice. Depois ficou o mercado ele andou e ficou muito lateral ao longo do dia. Então foi não não vou falar que foi uma semana fácil não, mas segunda e terça foram foram dias mais tranquilos. Agora quarta, quinta e hoje a gente vai ver como que vai ser hoje.
+                        25:05
+                        5 bilhões e desculpa, 85.5% do PIB em 2027. Mas a gente tem alguns economistas ali também considerando que o projeto ele aponta por uma direção correta, né? Mas existe uma ressalva bem importante, é que o texto ele não resolve o problema dos gastos obrigatórios, tá? Eh, então a gente tem algumas críticas sobre esse sobre esse esse ajuste, mas a gente segue ainda vem no mercado um pouco mais otimista com isso, né? Ah, acredito que esse seja o ponto mais relevante aqui pra gente, tá? Deixa eu só colocar aqui a nossa
 
 
-                        37:28
-                         Mas foi não foi uma semana fácil, não, tá? [roncando] Fala, não, não é que eu recebi dois chocolates, eu peguei, eu peguei sem ver, entendeu? Aí agora estou com, ó, aqui, ó, ó. Passa inveja, inveja para você. Tô brincando. Calma, galera. Eles estão negociando chocolate. Que isso, cara? Calor. Boa, galera. Índice.
+                        25:45
+                        compartilhar aqui. Índice abriu com forte queda, chegando próximo a 1% de baixa no dia. back desse movimento não não foi preservado dando início sendo somente um repique. Movimento vem dedor, abrindo espaço para continuidade do movimento vendedor. Nossa
 
 
-                        38:08
-                         Então, apresentando o índice de movimento de alta. O que que eu vou fazer? Essa parcial, eu vou tirar um pouquinho mais acima. Vou fazer assim, ó. Aqui eu tiro dois lá em cima. 0% de alta, eu tiro o resto. Dia três. Fala, Lucão. Bom dia, meu querido. Bem demais, galera. Tô gostando dessa venda do índice, tá? Ah, nosso stop do índice vai ficar na máxima do dia.
+                        26:50
+                        parcial está em na mínima do dia. está na mínima do dia com a próxima referência em um e-mail de baixa. Stop acima da média móvel de 200 períodos. Deixa eu só colocar aqui. Boa. Então, continuando aqui, pessoal,
 
 
-                        39:12
-                         dar uma parcial em 3% de baixa e tentar buscar os 4% de baixa no dia, tá? Que a gente tira 10 só. Fala, Marcelão. Bom dia, meu querido. Bem demais, então tudo certo. [roncando] 12R Trading, bom dia. Bom dia, galera. vocês que estão chegando agora, não já vai deixando o like aqui pra gente na forma de vocês contribuírem pra pro time, né, também até pelo uma forma de engajamento, uma forma de vocês também espalharem esse conteúdo aqui para outras pessoas.
+                        28:06
+                        eh a gente, então assim, o principal fator pro pro mercado brasileiro hoje e para essa semana é a escalada do pacote fiscal, tá? Isso tende a ganhar mais força ao longo da semana. Mas indo aqui paraos Estados Unidos, pessoal, onde a gente tem, a gente continua vendo a política monetária sendo um dos principais motores aqui do do mercado, principais gatilhos de movimento aqui.
 
 
-                        39:59
-                        Boa, Kirá. Valeu, meu querido. Boa dólar aqui então começando a
+                        28:33
+                        Tivemos ali na sexta-feira bolsas americanas com desempenho dividido, então Nasdak 1%. SNP 040 de queda, ã, e o Down Jones ali também. Uma pequena alta, mas assim, bem moderado esse movimento, tá? No caso do indicadores econômicos que teremos pela semana aqui, a gente tem a divulgação do índice de preço ao produtor, o PPI de outubro, indicador ã subiu ali cerca de 03 mês, acumulando 6.5 5 em 12 meses.
+
+
+                        29:06
+                         Expectativas estavam mais altas, portanto os números vieram um pouco mais abaixo do esperado. Ã, e nos títulos do tesouro americano, o rendimento de 2 anos ficou em 4.86, tá? Enquanto de 10 anos chegou ali a 5.15 contra 5.12 anteriormente, tá? Já o índice dólar, então dxy subiu cerca de 0.23. E aqui, pessoal, a gente precisa prestar bastante atenção ao que tá acontecendo com juros americanos, tá? O mercado ele tá aumentando suas apostas em novas altas pelo Federal Reserve e vale lembrar que essas probabilidades são implícitas nos preços negociados nesse
+
+
+                        29:48
+                        momento, tá? Ou seja, não são previsões oficiais do Banco Central, tá? para dezembro, o mercado ele precifica 94% eh de probabilidade de uma alta de pon 25 pontos percentuais e 5.2% de uma alta ã de 5%. E para janeiro, probabilidade ali de juros chegarem ali na faixa de 4.25 a 4,5 já estando em 73.9 contra 65.
+
+
+                        30:20
+                        3 anteriormente, tá? para março temos a possibilidade dos juros atingirem a faixa de 4,50. Eh, então tem aumentado as a as apostas de alta de juros, tanto para janeiro como para fevereiro, eh, desculpa, como para março, tá? Ou seja, as apostas e uma política monetária mais restritiva estão aumentando e o Bank of America, inclusive passou a esperar três altas consecutivas de dezembro até março.
+
+
+                        30:51
+                         E o discurso dos dirigentes do Fred vão ajudar a gente ali a entender essa preocupação. Na sexta-feira, Jefferson afirmou que a inflação ela continua significativa e acima da meta de 2%. Tivemos Corins também falando de uma trajetória mais gradual, enquanto o GSB eh utilizou uma expressão de direção errada, tá? Disse que também inflação é o principal problema e que considera muito provavelmente uma elevação dos juros na nesses próximos dias, tá? Então, a gente tem uma uma uma aposta, né, de inflação, eh, não voltando ali
+
+
+                        31:29
+                        para 2% em 2027 e também vê a possibilidade de elevação pro Fed, tá, galera? Então, a gente saiu, ainda bem que a gente saiu do dólar aqui, hein? Deixa eu só tirar aqui essa operação. Certo? Então, eh, após esse discurso, a gente tem a gente tem alguns compromissos, né, pessoal, importantes para acompanhar ao longo dessa semana.
+
+
+                        32:06
+                         Na quarta-feira a gente terá a divulgação ali da ata da reunião de outubro do Federal Reserve. E na ocasião o Banco Central ele manteve os juros entre 3,75 e 4% com dois votos favoráveis a uma alta de 0,25, tá? E hoje às 2 horas da tarde a gente tem discurso do Worsh com foco em produtividade de emprego e um evento importante porque é um evento importante porque o mercado ele tá tentando entender até onde pode ir o aperto monetário americano, tá? Então é um ponto super importante que devemos levar em consideração ainda no dia de hoje,
+
+
+                        32:41
+                        tá? Às 2 horas da tarde, galerinha. Um ponto importante aqui também, tá? Índice, a gente já colocou o stopin no preço, tá? O stop game não, o stop loss está no preço já. Tá bom? E um outro destaque que temos ainda nos Estados Unidos é a questão da NVAS. As ações caíram 2% na sexta-feira. Eh gente sabe que, pô, esses pô, tá difícil aqui.
+
+
+                        33:39
+                        A gente sabe muito bem que Nvidia tem passado por um momento relativamente turbulento, né, galera? Não é por nada não, mas eu quero continuar nessa venda aqui desse desse índice, tá? Ele pegou nosso nosso stop no zero aqui. Eu não quero ficar sem posição, quero ficar vendido aqui. Se bem que os juros pararam de cair.
+
+
+                        34:29
+                        Eu vou esperar um pouco, tá pessoal? Eu vou esperar um pouco. Bom, a gente sabe que que Nvid já tem passado por um momento relativamente conturbado, né? Eh, a gente teve a saída do CEO, ã, que vai prestar ali depoimento reservado a parlamentares. Temos uma petição pedindo ali seu retorno, reunindo 115.
+
+
+                        34:53
+                        000 1 assinaturas com apoio do Elon Musk também. Enquanto isso, a empresa procura um sucessor, né? Segundo o Financial Times, chegou ali a sondar o o Ren Hass e atual comandante da RM da ARM, né? Mas o evento mais importante pros investidores vai ser o balanço que vai sair na terça-feira depois do fechamento do mercado, tá? O consenso eh de lucro para ação ajustado está entre 2 e 47, tá? E esse resultado ele vai ser super importante para avaliar não apenas o o o desempenho da empresa, mas também o apetite ali dos investidores pelo setor
+
+
+                        35:31
+                        de inteligência artificial, tá? Tá? Então pessoal, a gente pulou fora aqui do do índice. Eu já continuo aqui eu falando sobre commodities. A gente só precisa ajustar essa posição, tá? Não gostei de ter saído desse mercado não. Jurrios voltando a acelerar o movimento de baixa. Isso aqui atraia mais compra para esse mercado, tá? Boa. Então, galera, tô gostando de ver
+
+
+                        39:09
+                        essa venda aqui no dólar, tá? Boa. Vamos embora. Quem não arrisca não petisca. Então aqui a gente faz assim. Venda dandoleta. Stop curto, tá? Calma aí que eu preciso colocar essa operação aqui para vocês que é um um 100 e 20. Boa. Mandei para vocês então as duas operações, hein, pessoal. Dólar aqui não quis dar continuidade no movimento de
+
+
+                        40:13
+                        alta. A gente vê juros apresentando uma queda relevante, tá? A curva já virou bastante, então a gente vende aqui imagem da janela. A gente manda a análise para vocês aqui. Então vamos lá. Dólar testou pela segunda vez o patamar de 1% de alta de 1% de alta do dia em próximo A 57 1 2 571 2 apresentando a falha e dando a característica de topo
 
 
                         41:19
-                        apresentar o movimento de queda. Nossa parcial ali está em 9,5 9 pontos e meio. Em 59,5 é o nosso alvo aqui, tá? >> [tosse] [roncando] >> Boa, galera. No Internacional aqui, deixa eu só atualizar a página no Internacional. Então, a gente tem petróleo apresentando um movimento bem mais lateral, tá? O último movimento foi de alta, mas quando a gente olha no agregado, a gente tá vendo uma melhora estrutural, mas nesses últimos minutos aqui mais lateral, a gente olha pro ouro
+                        duplo. a perda da sua VAP, abre espaço para o ativo. Voltar para a aceleração da queda em direção à sua mínima do dia em 5.9. Opa 90 próximo da média móvel de 21 períodos também. O rompimento nos leva para o fechamento de sexta-feira em 5.683. Fechou.
 
 
-                        42:23
-                        e pra prata, apresentando um movimento bem tímido ainda, tá? Enquanto DXY também mais lateral, apesar de uma pequena movimentação de alta, ele segue mais lateral, apresentando até a falha na continuação desse movimento, desse último movimento comprador, tá? Vamos ver agora. Não tem porque a gente stopar, tá pessoal? Por enquanto.
+                        42:33
+                        Tô peg. Beleza. Então vendemos aqui, tá pessoal? Certo? Então aqui só para voltar, pessoal, pro lado das commodities, pro lado das commodes. A gente tem um petróleo ali fechando sexta-feira em no 0 a 0, praticamente. Nessa segunda a gente tem a uma queda próxima ali a 08 a 07 no dia de hoje.
 
 
-                        42:44
-                         Deixa o stop ali garantido acima dos patamares, longe das regiões. Caso ele venha a ganhar força contra a nossa posição, a gente vai ter que sair logo na abertura desse mercado à vista, tá? Marlo, que faz para achar que nó vem fazendo bons três no dólar ultimamente? Sim, mercado tá bem mais, não vou falar técnico, tá? Mas sim, galera tem feito uma grana esses últimos dias, mas não tá fácil não.
+                        43:35
+                         Então a gente tem ouro perdendo força e vem ganhando, [roncando] vem perdendo mais força ainda. E assim, a gente tem algumas especulações falando sobre o branch ali abaixo de $ encontrando uma sustentação no cenário de excesso de oferta em relação a a ao PEP, mas a gente sabe que os riscos eles continuam presentes, tá? E aqui entra uma uma questão geopolítica muito importante, tá? que é obviamente estreito de Ormuso, Oriente Médio.
 
 
-                        43:14
-                        Tá difícil de identificar tendência, tá difícil de identificar a lateralidade. Não tá muito fácil não esses dias, cara. Ontem foi esse meu dia, cara. Boa. Olhando aqui pro Avista, pessoal, quando a gente olha para Petro, Petro apresentando um movimento mais de queda mesmo, tá? >> Vale mais lateral. Itube apresentando movimento de alta bem forte, tá bem interessante essa abertura aqui para
+                        44:29
+                        Certo. E e assim, né, pessoal, por que que a gente vem falando disso, né? A gente sabe que o est de Ormouso é uma rota bem estratégica pro transporte mundial ali de petróleo [roncando] e qualquer escalada nessa região, ela pode afetar a oferta e a logística e consequentemente o preço direto ali da commodity da commodity, tá? Mas é importante separar as informações confirmadas aqui das das declarações e relatos que ainda não foram verificados, tá? É sempre muito importante a gente fazer esse double check em relação aos
 
 
-                        44:20
-                        ver BBDC aqui mais lateral, tá? Deixa eu colocar aqui. lá que tô rodando negócio aqui que o
+                        45:03
+                        dados que a gente recebe, tá? No caso do minério de ferro, ã, também tá negativo no dia de hoje. Então, a gente tem um contrato em Dalian próximo ali a 3% de queda, aproximadamente isso. E na sexta-feira o minério já havia caído, né? Então a gente vê uma continuidade desse movimento. Vale acompanhou parcialmente esse movimento na sexta-feira, então Vale fechando com quase 1% de baixa no dia.
 
 
-                        53:28
-                        sistema de pau. >> Tá >> por isso que eu te pedi para você pegar. >> É, eu só preciso soltar umas operações ali que saiam. fazer isso. Eu tenho que atualizar um negócio lá também. Quando terminar isso, você me dá um toque. Fala galera, tá me ouvindo? Uai, tava sem áudio. Mentira que tava sem áudio. Não, não é possível, galera.
+                        45:34
+                         Ã, mas assim, né, para ouro e outros produtos, a gente não tem tanta previsibilidade nesses últimos minutos, tá? Nesses últimos momentos. Até a gente olha o ouro, o ouro tá tá caindo, ele vem caindo com uma forte queda, mas assim, nesses últimos minutos aqui mais lateral de fato, mas assim, né, pessoal, voltando aqui pro Brasil, os futuros a gente tem um movimento diferente da ao longo da da curva, né, o contrato eh de juros futuros ali de janeiro para 2028 tá próximo de 14.28.
 
 
-                        53:53
-                        Acabei saindo aqui do dólar. Dólar voltando a ganhar bastante força na alta. Enquanto isso, a gente colocou nosso stop do índice. Já stop game, não, né? a gente já coloca nosso nosso stop no preço, tá? Mas olha, tô achando que esse dólar tá demasiadamente esticado, tá? Não acredito que ele ainda possa voltar.
+                        46:07
+                        H, e assim, a gente sabe muito bem que a gente teve uma pequena alta no no vencimento para 2028, enquanto os demais contratos eles apresentam mais queda, tá? No geral, sobre a CELIC, a gente tem dois números, tá? A gente tem dois números ã que é a taxa meta, que é o 13.75, que é definida, que foi definida ali pelo cupom no dia 4 de novembro.
 
 
-                        54:17
-                        A gente não tem o movimento de força aqui nos nos juros. Não teve tanto motivo para esse dólar aqui cair, é, subir, tá? Eu vou até deixar uma venda. Eu vou até deixar uma venda aqui, porque ele pode até deixar um topo duplo aqui para nós nesse topo, tá? Tava no mudo, Mauro. Pô, galera, mas aí, vocês estão me ouvindo agora, né? Vocês têm alguma dúvida? Tá tudo certo? Tudo em ordem? Eu não estou gritando, apenas frisando.
+                        46:35
+                         Só que assim, a gente já tem uma algumas outras projeções acompanhadas ã por casa de análise, até mesmo aqui com uma projeção de alta para essa Selíquica aqui ainda para esse ano. As apostas elas ainda estão baixas, mas já existem alguns comentários sendo realizados em relação a essa essa esse aumento, tá? Em relação a esse aumento. Calma aí.
 
 
-                        54:49
-                         Ô, que isso, Gláus? Cara, calma. Você é brava, cara. Você é brava. Fala, Carlos. Bom dia, meu querido Simone. Bom dia. Bom dia, Marn. Bom dia. A hora pro day trade. Podes analisar? Claro. Agora day trade. Vamos lá nos 5co minutinhos. Pô, tô gostando aqui desse movimento de aura nos 5 minutos, tá? Compra acima de 1771, pô.
+                        47:16
+                        Só ajustar o negócio aqui. Galera, ponto importante aqui abertura
 
 
-                        55:24
-                         Fica bem legal, tá? Eu vou até deixar aqui um day trade no hora. Fala, Júlio. Que beleza, hein, cara? Um salário mínimo no dólar em 5 minutos. Você é fera demais, cara. Que que você fez? Você fez a compra? Fez essa essa venda? Que que você fez? Conta para mim. Galera, índice próximo do nosso preço já
+                        48:22
+                        do mercado à vista. Agora tá só tô ajustando o negócio. Tá? Então aqui só para continuar, pessoal, paraa gente fechar esse bloco Жи Tá? Então aqui, pessoal, pra agenda do
 
 
-                        56:58
-                        de parcela. Tchau. Eu vou, tô subindo aqui a nossa venda para esse dólar. Tô pensando realmente nessa venda do dólar, tá pessoal? Falhando a continuação do movimento de alta, rompendo aqui, ganhando força abaixo da zona do seu da zona de maior acúmulo parcial ali no patamar de 69 e tentar buscar lá a mínima. do dia, 22 pontos abaixo.
+                        50:11
+                        dia de hoje, a gente já teve o o o IBCBR, tivemos o GPM também. H, às 2 horas a gente tem o discurso ali de WH nos Estados Unidos. Isso e e e depois do fechamento do dia de hoje, a gente tem a divulgação ali dos resultados de Pagbank e XP, tá? Portanto, essa semana a gente tem algumas alguns eventos críticos, né? Então as atenções ali são voltadas para cinco grandes assuntos, que o primeiro é o ajuste fiscal no Senado, a sinalizações do Federal Reserve, balanço da Nvidia, risco geopolíticos envolvendo petróleo e os indicadores econômicos
 
 
-                        57:31
-                         Na verdade, vou até descer buscar ver o app de ontem. Boa, galerinha. Então, estamos comprados aqui em aura, tá? Vamos buscar ali o patamar de 1499. Boa. Tô vendido então aqui no no dólar, tá pessoal? Topo duplo. Falha falha ali na na manutenção acima do patamar de maior acúmulo do dia. Índice subindo, sem força aqui no juro.
+                        50:54
+                        brasileiros, tá? Então, brasileiros. Então, em resumo, a gente começa a semana atento à questão situação fiscal brasileira e a perspectiva de juros americanos mais altos, tá? Temos também a a a sensibilidade em relação ao comportamento das commodites e o que deve orientar o mercado essa semana é questão de dólar, juros e e qualquer outra notícia aí que possa sair, que possa impactar bastante, tá? No geral, o a gente tem um mercado aqui brasileiro apresentando uma retomada do movimento comprador. Já estamos aqui com o nosso
 
 
-                        58:09
-                         Juros até mesmo caindo. Tá boa. E mercado acionário aqui abrindo bem, pessoal. >> [suspirando] >> Ó lá, que beleza de venda no dólar, hein? Vamos. Vou tirar uma parcial no 69, tá? Boa. Parcial no índice, buscando sua máxima aqui do dia. Estamos recuperando o nosso loss que a gente teve ali no começo do dia.
+                        51:29
+                        stopin no zero, tá? Já estamos aqui com o nosso stop game no zero. Opa, a gente tem o nosso stop game agora já no zero. Nossa primeira parcial vai ser nesse patamar aqui de 173 400, tá? Isso aqui dá 350 pontos no índice, tá pessoal? Deixa eu só dar uma reatualizada aqui na página.
 
 
-                        59:00
-                         Na doleta como que estamos na doleta também. Beleza. Ai, cara, deixa eu fazer o seguinte aqui, ó. Tô mandando lá no connect para vocês, tá, pessoal? Cadê aqui, ó? compartilhar. Aqui, após a falha no movimento vendedor, o índice voltou a ganhar força
+                        52:10
+                         Acabei me perdendo um pouco no no chat e apareceu algumas coisas aqui para para resolver rapidinho. Acabei me perdendo um pouco. Mas galera, vocês se vocês tiverem alguma dúvida, me mandem mensagem aqui, tá? Vocês querem saber de mais alguma coisa? Fiquem à vontade. Stop aqui já tá no zero. Estamos vendidos no dólar. Dólar com topo mais baixo que o anterior.
 
 
-                        1:00:06
-                        acima das suas médias de 21 e 50 períodos. No gráfico de 5 minutos, a manutenção acima da média de 200, o rompimento, na verdade, o rompimento da média de 200 períodos Abre espaço para maior aceleração movimento comprador
+                        52:46
+                         Dá para vender até de novo quem quiser, tá? Eu vou até mandar para vocês. Fechou? Deixa eu dar uma voltada aqui no chat, pessoal. Ó lá, Juros voltando a apresentar um movimento de queda relevante. Bom dia. Mais alguém aqui usa tal. Fala filho Puxel. Cadê o Oto? Oto, ele tá em uma outra área aqui do banco. Ele, se eu não me engano, ele foi pro WM.
 
 
-                        1:01:16
-                        em direção à sua máxima do dia como primeiro alvo e 05% em seguida. Galera, parcial no Opa, no dólar também, tá? Boa. Tô mandando aqui para vocês, pessoal. Ó, mandei lá no connect. Nosso próximo alvo aqui no índice é o patamar de 0,5% de alta. Vou colocar até um pouquinho mais baixo aqui que praticamente a zona de máxima do dia de ontem, tá? 620 pontos, nosso stop gain
+                        53:59
+                        Alguém sabe como posso colocar barra? Ô, Moisés, aqui, ó, barra de estudos aqui na vertical. Aqui, ó. Ó, você vai pegar aqui no reloginho, no canto esquerdo da sua tela superior. Você vai clicar aqui no reloginho, vai descer uma aba e aí você coloca o barra de estudo aqui, ó. Fala, analítica. Bom dia, meu querido.
 
 
-                        1:02:21
-                        já está no zero, então nossa operação não sai mais no negativo e no dólar também, tá? Deixa eu só ajustar aqui o dólar pra gente conseguir mandar a imagem certa. Compartilhar a imagem. Darl formou [roncando] um topo duplo junto com a poque do dia. trabalhando no movimento comprador e dando início a um movimento de baixo.
+                        54:31
+                        Galera, eu tô tirando a parcial do do índice aqui mesmo, tá? tá defendendo essa média móvel de 200 períodos. Já colocamos alguma coisa aqui no bolso, né? Não vamos deixar voltar não. Fala Luca, bom dia. Fala Márcio, bom dia. Deis caindo o Ítalo. Sim, Deis fechando, cara. Isso aí. Boa. Bom dia. Bom dia. Beleza, galera.
 
 
-                        1:03:20
-                        A parcial da operação já foi realizada. E o próximo alvo, olhamos para a mínima do dia aproximadamente 5651 e vapor em 5645. Boa. Mandei aqui para vocês, pessoal. Primeiro teste do índice. Então, 173 400. Doleta, já estamos com com
+                        55:27
+                         Então, stop game aqui no zero do ít. Vale lembrar que a gente já tirou nossa primeira parcial. Dólar aqui ainda não apresentou uma queda igual juros vem apresentando. Vamos ver. Tá, todos os juros aqui na mínima do dia, acredito que a doleta ainda possa voltar. Meu stop loss aqui dessa operação, ela tem que ser obrigatoriamente acima da média móvel, da média móvel, não, da zona de 05% de alta no dia, tá? Se ela romper ali, a gente vai ter que pular fora e não tem muito o que fazer.
 
 
-                        1:04:28
-                        já estamos aqui com stop no preço, tá bom? De entrada. [roncando] Boa. Então, pessoal, vamos ver aqui se
+                        56:04
+                        Fala, Raíça. Explica essa inversão de mão no índice. Vamos lá. A gente pegou essa venda, a gente, eu coloquei ela no zero praticamente, na verdade ela caiu, quase tirou nossa parcial e aí ah, coloquei o stop game, o stop no zero. Quando ti, ele voltou a ganhar força acima da média da da suave do dia e ganhando força também, ganhando rompimento ali do último pivô que ele tinha apresentado, ele volta a apresentar pra gente uma possibilidade de retomada no movimento comprador.
 
 
-                        1:06:01
-                        esse dólar perde esse patamar 64. Boa, galera. Vem descendo o stopin aqui
+                        56:34
+                        Então a gente teve falha no movimento de baixa, o ativo retomando a cima da sua VOAP e ganhando força acima do pivô que ele tinha deixado anteriormente. Outro ponto importante é um fundo menor que o fundo anterior. Isso abre espaço pra gente ver uma inversão do movimento da queda pra alta, buscando ali limites e testes em regiões de de resistência, tá? H, como ele ganhou, voltou a ganhar força, a gente já coloca o stop game no zero.
 
 
-                        1:07:18
-                        do dólar pra gente não deixar essa operação perder no Bitcoin. Então, a gente conseguiu vender. Vamos ver se a gente tirou. Deixa eu colocar aqui, ó. Okay. Saiu da venda do índice. Foi top. Sim, da venda do índice ou da venda do dólar. Eu tô vendido no dólar. >> [roncando]
+                        57:08
+                         E assim, é importante lembrar, pessoal, que a gente tá na hora do mercado, tá? Tá no momento ali do [roncando] mercado à vista, tá? Abertura da vista. Então, é sempre importante a gente proteger o que a gente fez até o momento, tá? É possível que esse índice futuro chegue no 73, mas ele tá no 173 400. Beleza.
 
 
-                        1:12:14
-                        >> Galerinha, É o seguinte, tá? Essa manutenção do do índice aqui acima de 17 173 400 é bem legal para nós, tá? Eu vou manter essa compra aqui. Próxima parcial, opa, próxima parcial é somente ali no na zona de 5% de alta, mais conhecida como máxima do dia de ontem também, tá? E o dólar também. 12 pontinhos no dólar.
+                        58:36
+                        Ô Caio, assim, eu particularmente não gosto de cozê, tá? Não é um ativo que eu gosto de de indicar, mas assim não há não tem como negar que esse movimento de alta ele foi realmente surpreendente, né? 41 46% de alta em menos de 20 dias de negociações é [roncando] é muita coisa. E assim para ele fechar o gap do dia 5, nossa, ele ainda tem que subir mais 60% do dia 5, não, nos R$ 5, sei lá.
 
 
-                        1:12:39
-                        Vou tentar tirar essa uma parcial do dólar na mínima do dia, tá? >> [suspirando] >> Fala, Glausin. Tá namorando no trader? Que beleza, hein? Pô, você é de São Paulo, você vai lá no sumit hoje, não vai? no sumit da analógica que tá rolando. No. Boa, Gustavão. Pegou 15 pontos no dólar,
+                        59:12
+                         Eu acho na minha visão, tá, galera? De aqui acelerando ainda mais movimento de baixo. Vou vender mais se ele ganhar força abaixo da zona de maior acúmulo do dia, tá? Beleza, por enquanto, pessoal. Alguma dúvida? Tudo certo? Tudo em ordem? Bom dia. Quais parâmetros usado para uma
 
 
-                        1:13:42
-                        na venda. Que beleza, hein? Acabando aqui. >> Tranquilo. >> Uhum. Boa. Ittalo. 08 é sua é sua parcial ou é a sua saída total? Gustavo Leite Brusco a primeira petx. Boa. Onde que ficou a primeira petx? Manda aqui pra gente no chat. Deixa eu até ver aqui já. Análise petax. Primeira Petax ficou no 80 64. Uai, não entendi se tá comprado ou tá vendido.
+                        1:00:17
+                        possível liquidação no mini índice? Como assim? Não entendi essa pergunta, Renzo. Você quer parâmetros usados para uma possível Mas do quê? Você quer para, você quer entrada, saída, você quer stop, você é isso que você quer, ó? Vamos lá. Eh, uma possível reversão. Se ele voltar a ganhar força abaixo de 173 e 15, ele pode abrir espaço para testar o novo pivô, o último pivô de 172, tá? E assim, eu particularmente não me saída da da venda, ó, eu colocaria como alvo inicial zona de 1% de de baixa no dia, tá? patamar ali ele se aproxima
 
 
-                        1:14:55
-                        Porque ele tá baixo já da primeira Petax. Galera, tô antecipando aqui essa parcial do do índice. Tá fechado. Antecipei. Ah, já saiu, pô. Boa. Antecipei aqui a saída do índice. O índice ganhando força. Vamos ver como tá Petro. Petro abrindo no 0 a zer. Tá, pessoal. Ó, tô descendo stopin aqui também. do do dólar.
+                        1:01:02
+                        de 1 7 2 400 aproximadamente, tá? Galera, dólar ganhando essa máxima aqui do dia, não tem que fazer, vai ter que pular fora do trade, tá? Boa doletinho aqui, pessoal. Dois stops
 
 
-                        1:16:09
-                        Boa, dólar perdendo aqui os a sua abertura do dia. Nossa próxima parcial do dólar, mínima do dia 53, tá? >> Entrou, >> galerinha, vou entregar vocês aqui em boas mãos. Eu tenho que resolver umas coisas ainda agora na parte da manhã. Coxinha tá entrando aqui com vocês. Enquanto isso, eu permaneço vendido no dólar, comprado no índice e deixa andar.
+                        1:02:17
+                        aqui a gente já levou, tá? Vou dar uma segurada aqui no trade. Mercado dólar, até mesmo não respeitando muito bem aqui o movimento dos do dos juros no dia. Não me limita a comprar, tá? Mas eu tô fora por enquanto. E o índice aqui apresentando pra gente a aproximação do nosso stop, nosso stop game por enquanto.
 
 
-                        1:16:34
-                        Fechou? E aí, pessoal, tudo bem? Tô de volta aqui com vocês, galera. O índice segue acelerando o movimento, superando a máxima do pregão anterior nesse momento. Resistência que a gente tem 1% de alta lá em 174500, dólar falhando o rompimento desse topo e querendo acelerar esse movimento de queda.
+                        1:03:02
+                        E ó, já tô fisando, tá pessoal? Não tenho problema de vender de novo esse esse dólar aqui, principalmente se ele apresentar a falha na continuação do movimento comprador. Topo triplo aqui, teoricamente, perdendo a poque do dia, eu vendo de novo. Não tenho problema nenhum de fazer isso. Ó lá que movimento tem feito aqui. Nie.
 
 
-                        1:16:55
-                         Por enquanto é isso que a gente tá observando, OK? Ah, enfim, tava comprado aqui no índice, acabei já fazendo a parcial e saindo. Próximo objetivo lá no topo anterior. De maneira geral, mercado americano reagindo bem. A gente teve a divulgação do PPI agora mesmo e aí o SP deu essa disparada. Só para vocês terem uma noção, o PPI veio, o PPI veio em 0.3, projeção de 0.
+                        1:04:47
+                        Fala, Edson. Bom dia, meu querido. Tudo certo? Que beleza de trade no índice, hein? E tô vendendo de novo esse dólar. Vamos só esperar ver se ele vai defender essa essa poque aqui do dia. >> [roncando] >> Fala, fala Glau para mim o dólar tá
 
 
-                        1:17:25
-                        4 4 anterior aqui em 1.4. Beleza? Então, por enquanto é isso que a gente viu nesse momento, tá? Comentem aí para mim o que que vocês estão posicionados, o que que vocês estão operando. Nova York abriu? Não, Nova York abre às 11:30, tá? às 11:30 [roncando] e o dólar aparentemente com topo duplo aqui.
+                        1:06:30
+                        zoadinho, mas é alta. Entendi. Bom, eu tô sem operação aqui no dólar, esperando só ele dar uma equalizada. Tô subindo aqui esse nosso stop game do índice, tá? Fala, Edson JBS. Boa. Vamos lá. Eh, JBS, pessoal, olhando mais no curto prazo, a gente vê um movimento muito mais lateral do que com uma possibilidade ou tendências aqui
 
 
-                        1:18:07
-                         Vamos ver se vai dar continuidade no movimento de queda. Pode deixar, Gustavo. Mas é isso, pessoal. O que que vocês estão operando no dia de hoje? como que vocês estão posicionados. Fiquem à vontade para contar aí pra gente. Tô aqui, galera. Tão me ouvindo?
+                        1:07:35
+                        sendo criada, tá? Fala, Raíça, já vejo JN Vídeo, tá? Só terminar aqui JBS. Entretanto, quando a gente olha mais no curtíssimo prazo, a gente vê o ativo apresentando pra gente topos e fundos mais altos que os anteriores. Isso dá espaço pra gente ver uma reaceleração do movimento comprador.
 
 
-                        1:20:16
-                        Beleza, Coinho? Estou indo para 2000 pontos de índice. Boa. É, eu vou tentar fazer uma compra mais atrasada no índice, tá? Eu sei que eu tô atrasado e naturalmente eu vou tentar me defender o mais rápido possível. No caso do dólar também eu vou fazer a venda na perda dessa abertura também já um pouco atrasado, mas enfim, tentativa de recuperação aqui no índice. Deixa eu ver.
+                        1:07:58
+                         Entretanto, a gente tem alguns patamares que devem ser rompidos. Inicialmente a gente tem a média móvel de 200 períodos, mas o ponto mais relevante de rompimento é 72.76, tá? Esse patamar é o mesmo patamar que foi defendido em junho, em julho, em agosto, foi defendido em outubro e foi defendido em novembro também, tá? Então, o grande ponto aqui de calibragem em relação à JBS, onde a gente precisaria ver um rompimento e determinante aqui pra próxima tendência é o 72.76.
 
 
-                        1:20:54
-                         O Marlon tinha mandado algum trade para vocês? Não, né? É, eu vou, cara, deixa eu tentar mandar essa compra no índice antes. Problema é que tá bem atrasado, né? Eu vou mandar no connect lá para vocês, mas eu vou reforçar o cuidado. Да. Mandei lá para vocês, tá? E no caso do dólar, vamos ver se ele vai perder essa abertura ou não.
+                        1:08:33
+                        Olhando [roncando] no gráfico semanal, eu acho bem mais interessante o fato dele ter defendido duas vezes aqui a média móvel de 200 períodos, 200 semanas. Isso realmente é relevante. Ah, e abre espaço pra gente ver uma reaceleração do movimento comprador. Gosto disso aqui, tá? O que que eu utilizaria se eu fosse você? Então, o rompimento aqui da média móvel de de 50 períodos semanal junto com a diária de 200 períodos aumentaria a mão em 72.
 
 
-                        1:21:54
-                         A gente tá num cenário de dólar mais forte, o que é sempre um desafio, né? se o mercado vai continuar lateral ou não. Tá beleza, Gláus? Boa. Parabéns. Parabéns. Mas é isso, pessoal. Nesse momento, YouTube superando ali 1,18, Vale subindo 0,30, Axia subindo 0,99. Sabespindo 1,11 nesse momento em Braer caindo cerca de 0.43 nas maiores altas de BOV hoje CZAN BF subindo 377 subindo 377 Redidor 3,50 Tenda subindo 3,29, Cela subindo 268.
+                        1:09:06
+                        76 e o meu alvo aqui é inicialmente 84.72, cerca de 14 a 15% aqui no Opa. H, na compra, tá? E aqui de Nvidíia, pessoal, vai lembrar que a gente tem divulgação de resultados ali de Nvidia, onde Nvidia tem passado por um movimento eh turbulento, digamos assim, com alguns escândalos ali do do CEO, que também foi afastado do cargo.
 
 
-                        1:22:51
-                         nas maiores quedas, CSN caindo 2,60, SEIN caindo 207, Banco do Brasil caindo 61 e B3 caindo aí cerca de 1%. Fechado. Então, por enquanto é isso que a gente tá olhando aqui. Ibov subindo 043, tá? E Bob ficou um pouco mais lateral nos últimos três ou quatro pregões e hoje vem tentando recuperar. A gente tem aí um range de volatilidade entre o 173 e o 169, tá? Vamos ver se a gente pode ter o o breakout aqui dessa desses últimos quatro desses últimos quatro pregões aqui.
+                        1:09:40
+                        Entretanto, a gente tem ali ah alguns investidores e pessoas envolvidas ali pedindo um, fizeram abaixo assinado pra volta dele logo após o perdão da sua esposa. Entretanto, quando a gente olha aqui de forma do do no gráfico, né, a gente vê um movimento realmente mais esticado para baixo, tá? Não, não vou falar que ele já chegou ali num patamar relevante, mas o movimento a gente ainda não vê a presença de indicadores que mostram para nós uma reversão dessa baixa para alta, tá? Eh, apesar de que nesses últimos
 
 
-                        1:23:55
-                        fechado Enfim, turma, vamos ver. E o Bitcoin acelerando, hein? Acho que tem alguma coisa aqui pra gente fazer no Bitcoin. Tá um pouco mais atrasado também, mas eu vou tentar pegar o rompimento dessa máxima, quem sabe aí fazer um trade mais curto, tá? Tentar capturar esses movimentos. Se o índice, se o dólar, perdão, perder essa região de abertura, suporte que eu tô olhando no 641.
+                        1:10:18
+                        três dias a gente teve dias que a gente teve a presença de compradores, mas obviamente pelo fato de ser a maior empresa do mundo, eh ainda vejo uma um movimento ainda mais de queda do que de alta. Pontos bons aqui para quem tá querendo comprar, tá? Algumas regiões fatores positivos aqui que estão fazendo a gente comprar.
 
 
-                        1:25:18
-                        Vamos seguir observando aqui. Mas é isso, galera. mercado ainda mais consolidado. bit. A gente tá observando se pode ter uma recuperação mais forte, mas por enquanto é isso. Mas É isso. Dólar um pouco mais travado.
+                        1:10:43
+                         O ativo já tá chegando próximo de uma região de sobrevenda. Temos um ativo trabalhando próximo a regiões que já foram trabalhadas anteriormente, então regiões que já foram defendidas, como o 18.39, tá? Para mim ainda existe espaço pra gente ver uma aceleração do movimento de de queda, tá? Mas nada é um ponto super bom de compra, tá? Quando a gente olha lá fora também.
 
 
-                        1:26:58
-                        Se perder a região de abertura, objetivo que eu tô trabalhando lá no 641. Caso do índice futuro, índice futuro travado na região de topo, mas ainda com alguma tentativa de recuperação. E agora é esperar um pouco mais. E aí, nesse momento, galera, maiores ques aqui, semin CSN, BBB, seguridade, Natura, Banco do Brasil.
+                        1:11:11
+                        Tá? Acredito que com a divulgação do resultado amanhã, pode ser que a gente tenha um um a gente possa ter um um uma reversão no movimento da baixa para alta, tá? Mas assim, é muita dúvida por enquanto. Ainda pode sair novos escândalos, tem bastante coisa para sair. Em relação ao gráfico, pode ser que seria um bom ponto de compra, mas eu não compraria com muita força, não compraria 1/3 da mão, tá bom? Galerinha, tô zerando esse dólar, esse índice aqui, tá? Tô gostando aqui dessa defesa que ele fez na média móvel de 200 períodos.
 
 
-                        1:27:56
-                        Ó, Red Dorcon 3,30 na recuperação. MRV 3:14 nesse momento. Tenda subir no cerca de 3%. Marcelo, o meu tá funcionando normal. Eu sei que alguns sistemas Microsoft tão com problema hoje, né? Não sei se vocês acompanharam, mas teve meio que uma falha global na Microsoft hoje. Então, às vezes pode ter alguma função do seu computador ali que não tá funcionando, mas aqui tá rodando bem.
+                        1:12:04
+                        Beleza, juros voltando a ganhar força. Dólar aqui deu uma pancada para cima. Juro dólar índice ainda defendendo aquele patamar. Tá bom. Tô mandando para vocês aqui também essa operação lá no connect. Beleza? Obrigatoriamente, pessoal, o stop tem que estar na máxima do dia, beleza? Não pode deixar ele passar da máxima do dia.
 
 
-                        1:28:46
-                         Eu só tô tendo dificuldade, sei lá, por exemplo, meus e-mails, eu tô tendo algum tipo de dificuldade. Sexta-feira 13. É. Hum. Hum.
+                        1:12:56
+                        fechado. Caramba, eu perdi esse rompimento aqui
 
 
-                        1:29:59
-                        É, então os meus e-mails aqui também tão tão meio zoados hoje. Entendi, Glaus. Tá certo. Sou engenheiro de software. Entendi. Nice. É, pessoal, infelizmente o dólar eu vou ter que estopar, tá? Tá um pouco difícil aqui para mim, cara, esses dias. O bit eu tô posicionado. O índice ainda tô também.
+                        1:14:18
+                        desse dólar. Tá uma pena esperar o dólar aqui fraquejar essa alta. E aí eu vou vender ele. M. Como que tá o mercado aqui acionário,
 
 
-                        1:30:23
-                         O índice eu vou esperar um pouco mais. Nosso stop tá maior agora, porém o dólar, o dólar eu vou sair antes, tá? Mas é isso. No caso do BOV, o que eu tô olhando aqui, BBOV consolidado nesse range nos últimos 4 dias entre 169, 900 e a região de 173, 150. Banco do Brasil vai para onde? É, se papel perder 1472, pode acelerar o movimento de baixo ainda, tá? É, não é, tem essa superstição da
+                        1:15:50
+                        galera? Então, abertura do mercado à vista. Temos as maiores baixas aqui do dia por enquanto. Magalu, vamos valpar e localiza, tá? E na alta temos Minerva. Vivo, Tim e Rumo, tá? Maiores altas aqui do dia. E o que mais tem feito o preço, o que mais tem levado esse mercado para cima ou para baixo, no caso da alta é Vivo, Prietro, tá? E as detratoras aqui é Vale, Itaú, localiza Braer, tá? Boa. Vamos embora. Índice. Tô vendido
 
 
-                        1:31:41
-                        sexta-feira 13, né? Uhum. Você sabe na onde que surgiu isso? É em Glaus. Tem uma origem histórica, né? Foi quando o rei Felipe, o Belo decretou o a operação de prisão dos templários e tal, né? Perseguição dos templários. No século 4, no século X, o rei Felipe IV também chama de Felipe Belo. Aí criou-se essa superstição da sexta-feira 13.
+                        1:17:06
+                        aqui, hein, pessoal. Índice apresentou a falha romp. Vamos lá. Tá. Então, o índice apresentou
 
 
-                        1:32:31
-                        Mas é isso, galera. Esse futuro aí eh, rompeu a máxima, tá um pouco mais travado. Se ganhar 173, 875, eu quero uma retomada, mas ainda um pouco mais consolidado. O dólar ficando cada vez mais em range. Lembrando que a gente tem um movimento de dólar um pouco mais forte. É, não, eu adoro essas coisas, cara. Eu adoro história.
+                        1:18:59
+                        falha no rompimento das médias de 21 e 200 períodos. A perda ver o app do dia pode favorecer a retomada no movimento vendedor com alvo. Tá boa. Vamos embora. Tem alguém vendido aqui comigo? Boa, Márcio. Vamos embora. Vamos embora. Vamos embora. Vamos junto aqui já, já. Stop game no zero. Deixa ele completar aqui 200 pontinhos e a gente já bota no zero.
 
 
-                        1:32:51
-                        Adoro. Mas você tem isso, né? que a ordem templária tava muito forte. E aí o rei Felipe, o Belo, ele decretou uma que eles chamam de ordem 13, 12, que era o início da perseguição aos templários. Isso aí, mais ou menos no início do século XI. Não dá para saber se foi por isso que surgiu a superstição, né? Mas tem essa tem esse ponto.
+                        1:20:10
+                        E o dólar não para de subir, hein? Boa. Stop no zero aqui, pessoal. Agora é correr para abraço, tá? >> [suspirando][roncando] >> Ai, Carlos, não, Mar. Para vender tem que perder a Vap. Entendi. Que beleza, hein, Éber? Que beleza, hein, cara?
 
 
-                        1:33:47
-                        Mas enfim, turma, a gente consegue ver o mercado lá fora. É, galera, infelizmente o índice eu vou stopar, hein? Ah, droga.
+                        1:21:20
+                        Comprado desde o 5694. É trade, hein, cara? Que que você tá indo aí, ô Raíça? Não entendi. [roncando] Boa demais essa sua compra, ô, ôber, que isso, cara? tá com mais de 30 pontos aí na tela. Muito bom, pessoal. Vou tirar uma parcial em com 500 pontos essa operação, tá? Caramba, pessoal, vocês acreditam que eu que que eu nem peguei meu café ainda? Que beleza de trade, hein, galera? Quem
 
 
-                        1:34:51
-                        Ele tava nesse rompimento. Acabei stopando aqui. Me parece muito mais uma falha de rompimento do topo. Talvez eu vire a mão. Eu vou virar a mão aqui na falha de rompimento do topo e vou virar a mão no dólar também. Só que tem um ponto, eu não recomendo, principalmente quem for iniciante, eu não recomendo vocês saírem fazendo isso, que eu acho que muita gente pode acabar se dando mal sem tá acostumado a fazer isso, porque sim, não é porque a gente virou a mão que vai dar certo, né? Existe sim a possibilidade de tomar stop nas duas pontas,
+                        1:22:37
+                        conseguiu pegar aqui essa vendinha? Nossa, tô triste pelo dólar, cara. Dólar, ó que loucura. Dólar fazendo fundos mais altos que os anteriores. Rompimento do pivô. Não peguei. Uma pena. Pois é, Raíça, recuperando aqui também, ó, o stopzinho no dólar deu R$ 1.000 para trás. No índice aqui eu tô com 2000 agora.
 
 
-                        1:35:29
-                        então tomem cuidado com isso. Mas eu queria saber um pouco de vocês, que que vocês estão operando, o que que vocês estão observando. Comentem aí para mim, por favor. Entendi. CL. Entendi. Sandra perguntando de aura. Então, aura tem um uma lateralidade nessa região 156 e20, tá? A gente vê o mercado aqui bastante travado. Да.
+                        1:23:11
+                         É, minha recuperação também tá sendo no índice boa parcial aqui no no índice. Desce o stop game para próximo da sua VAP e deixa andar. Deixa andar agora, doletinha. Desculpa, doletinha não, índice. Sim. Olha
 
 
-                        1:36:45
-                        E aí a gente teve aquela alta e Itaú, por exemplo, Petro agora um pouco mais travado, Itaú chegou a subir 1% e voltou. Vale no 0 a zer. Caso o índice a gente perder média 200, abertura aqui no 172 900. Depois tem 172 230. E aí, pessoal? Queria lembrar a todos vocês que eu participei hoje do Morning Call do BTG Pactual, tá? Fiquei bem feliz aí que eu já vi que teve uma galera que comentou, mas se você ainda não comentou, comenta lá o que que vocês acharam da minha participação.
+                        1:25:30
+                        Boa. Que beleza, hein? De trade. Deixa eu fazer um negócio aqui, ó. Boa galerinha, me dei 2 minutos aqui.
 
 
-                        1:37:29
-                         Isso ajuda a gente para caramba. Isso é muito importante para mim aqui internamente. Então comentem lá que que vocês acharam, se a gente tem que estar mais no Mic call ou não. Isso é sempre muito bom, tá? dólar segue querendo acelerar, tá dando seis pontos mais ou menos. Objetivo que eu tenho lá, 5690. E o índice querendo desacelerar nesse momento aqui também.
+                        1:26:56
+                        Vou pegar uma água, um café. Se vocês me, se vocês me derem a positividade aqui, se me derem um, o aval, eu vou pegar um cafezinho. Parabéns, hein, Gláus? 200 contratinhos pegando essa alta inteira aí do dólar. Muito bom. Enquanto isso, eu tô com uma parcial em 1% de baixa. Ã, tô com uma outra parcial lá no fundo e vou tentar um alvo em quase 2% de queda no índice no hoje.
 
 
-                        1:37:56
-                        Boa. Valeu. Obrigado pelos comentários. Quem ainda não comentou, agradeço demais se puderem comentar. Sempre que vocês me virem no Mic call, dá uma comentada lá, porque isso ajuda a gente para caramba. Mas é isso. Tô tentando fazer essa esse trade aqui de reversão. Vamos ver se vai dar certo, tá? Me dá só um minutinho, pessoal.
+                        1:27:24
+                        Fechado, galerinha. Tem dois minutos aqui, já volto, hein. Que foi, Itítalo? Não tô te entendendo, cara. Aí tu quê? Boa. Deixei um stop game aqui acima da VAP, pessoal. E já era. Beleza, já volto aqui. Coisa rápida. Vou pegar um café, uma água e aqui vocês estão enxergando tudo, né? Tranquilo. Já volto, galerinha. 2 minutos.
 
 
-                        1:38:17
-                         Vou só pegar uma água aqui rapidinho. Tô aqui, galera.
+                        1:36:55
+                        Fala pessoal, voltei aqui, hein? Boa. Que beleza esse índice, hein? Vamos ver se ele testa 1%. A gente tira uma parcelzinha ali e está tudo certo. Boa.
 
 
-                        1:41:25
-                        Mas é isso. Índice mais travado aqui. Dóla com uma reversão paraa tentativa de alta. É, vamos ver, vamos ver. Mas aí, pessoal, comentando um pouquinho sobre o mercado agora, a gente tá observando algumas coisas eh curiosas, né? A gente teve algumas falas do Galípolo. Lembrando que a gente teve a divulgação do PPI. O PPI tem uma alta de 0.
+                        1:38:07
+                        Peguei aqui o parcial no índice, pessoal. Que beleza. Mais uma. Agora deixa andar, né? Boa, galerinha. Só tava respondendo aqui
 
 
-                        1:42:08
-                        3% em outubro, antes setembro, consenso de mais 0.4. E aí é isso galera, maiores altas agora
+                        1:40:09
+                        o negócio. Seguinte, então temos aqui o índice testando 1% de baixa, já tiramos todas as nossas parciais, agora é só descer o stop. Eu vou descer junto com a VAP aqui, tá, pessoal? Exatamente, Márcio. O negócio hoje é esperar um pullback no índice e vender ele, tá? Exatamente isso. Esse é o trade. Boa. Tem mais alguém vendido aqui
 
 
-                        1:43:32
-                        continua ali com CAN 6,60, Bif subindo 4,40 e Semig subindo 3,48. Tá rumo subindo 3,28. Red Dor subindo 3% e Dux subindo 2,8. Nas maiores quedas CSN, Semim e Banco do Brasil. Sem caindo 3,75. Você vê que sem fazendo topos mais baixos anteriores. Banco do Brasil acelerando quedas aqui para 3,10 de queda. Aa caindo 1,50.
+                        1:41:35
+                        comigo, pessoal? Saiu com 500 pontos já, Ítalo. Por quê? Ah, o Flávio. Por que, Flavião? Ô, ô, Luca, relaxa, meu querido. Fica em paz. Na próxima aí você entra. Não, não, sem strress nenhum. Nem fica com isso na cabeça, tá? [roncando]
 
 
-                        1:44:50
-                        Então vale no 0 a 0 e tu subind no 0,50. P subind no 0,38 subindo 345. Sabesp 074 Axa tá interessante ganhando 4950 tá Ah. Então é isso, você se ganhar 4950 pode ficar interessante pra média de 50 ali em 5450 SP subindo 0,37 DXY no 0 a 0, 10 anos
+                        1:43:07
+                        Ah, não foi. Eu eu confundi. Ítalo, foi mal. Que beleza de venda no índice, hein? Deixa eu fazer um negócio aqui, ó. Próximas parciais 172065 e 171 700. Stop game. Aanhar com a VAP do dia. Fechou.
 
 
-                        1:46:19
-                        subindo 0,19, tá? Petróleo Brent nesse momento subindo 0,78, Bitcoin C 264 e o ouro aqui no 0 a 0. Dólar tá dando mais ou menos aí uns seis pontos e pouco. Vou botar meu stop no 0 a z0 no dólar tá ragazil. Vamos lá Drogasil tem R,50. 355 é região de suporte. É, então Rogasil por enquanto ainda sem o sinal tão claro de reversão para alta, tá? B3 caindo 081.
+                        1:44:17
+                        Ô, ô, Riqu, no 0173 você vendeu, foi isso? Você vendeu no rompimento da VAP, foi isso, né? Entendi, entendi, cara. Vamos que vamos. Coloca stop game no zero, vai tirando as parciais se der para tirar e e a gente corre pro abraço junto. Aqui, ó. Meu alvo final tá 17 1 275. Pô, eu quero recuperar essa doleta ainda hoje, hein? Todos 5 minutos aqui na tela. Ô Márcio.
 
 
-                        1:46:57
-                         Depois a divulgação de resultado, hein? OK. Então, por enquanto é isso. Grupo Mateus, qual que seria o alvo? Vamos lá. Grupo Mateus, a gente tem o papel falhando o rompimento do 3,60 e fazendo uma tentativa de ação paraa alta. Próxima resistência que eu tenho média de 200 ali em 450 e depois o 570, tá? Então, por enquanto, o preço falhou, o rompimento do 3,60 e fez uma tentativa de recuperação e tubetro segurando o índice. Então, o
+                        1:46:03
+                        Ó lá, se dando uma nova esticada aqui na baixa. Что? Ô, ô, Luca, eh, assim, como fazer day trade ou swing trade? Não, mas a gente te ensina análise, né? Então, se você entra aqui dentro do próprio canal do BTG, ó, caramba, 500.000 inscritos, que beleza. Vocês vão ver diversos vídeos aqui falando sobre operacional, falando sobre estratégia, eh, pô, estratégias, aprenda com seus trades.
 
 
-                        1:48:03
-                        que a gente observa nesse momento é axia, na verdade puxando o índice 278 pontos e redor puxando e 87 pontos, tá? It puxando 70 pontos e Sabespando 53. fechado. É grupo Mateus.
+                        1:47:03
+                         Três, ó lá, três estratégias para treinar, tá vendo? Então, como usar os indicadores, a gente te ensina como, mas, mas assim, o trade em si é você que tem que fazer, ó, como que você faz uma leitura de tendência, leitura de reversão, leitura de fluxo, tecnologia no mercado, tá vendo? A sua primeira operação, conheça a plataforma.
 
 
-                        1:49:10
-                        É o que eu falei, assim, tem a média de 200, média de 50 e depois o topo. E o dólar, vamos ver o dólar querendo acelerar, tá dando uns oito pontos aí. índice futuro um pouco mais travado. Lembrando que daqui a 20 e poucos minutos, 25 minutos mais ou menos, a gente tem abertura do mercado americano. Ali pode pode ter uma definição um pouco mais clara, tá? E aí, pessoal, queria pedir para vocês deixarem o like, se puderem pegar a live, compartilhar com os amigos de vocês.
+                        1:47:27
+                         Então, tá vendo como a gente tem diversos conteúdos aqui dentro para você aprender a formar uma fazer uma operação, tá vendo, ó? Então, como usar tecnologia? Acredito que o mais interessante é você aprender como e desenvolver sua própria estratégia, entendeu? Galera, é esse dólar aqui, ó, eu queria ter vendido. Tô apertando stop game do índice.
 
 
-                        1:49:46
-                         Isso sempre importante, sempre ajuda a gente para caramba. Pague menos perdendo os 2.34. Então, pague menos. Se perder 3,10, eu tenho lá 2,10 e 1,65, tá? Como próximas regiões de suporte. Pag menos continua no movimento de queda. É, pessoal, entre esse futuro aí bem
+                        1:48:36
+                        Dá uma olhada assim, ô Luca. É super super completo ali o canal do do BTG. Vamos tentar vender de novo. É, galerinha, índice voltando a subir e
 
 
-                        1:50:56
-                        complicado. É, se dificultando bastante aqui pra gente. Lembro o que que tem, Aruan da conversa do Vix, né? Lembro. Lembro sim. Ah, boa, Juan. Vou dar uma olhada como
+                        1:50:41
+                        cair. Pulei fora aqui. Não vou ficar posicionado não. Juros também aqui é realmente movimento aqui. Parece ser mais continuidade da alta mesmo desse dólar. Vamos embora pegar a tendência aqui dele. Ne. Deixa esse índice aí, pelo menos o índice a gente tá proveitando, né, pessoal? Fazendo no índice e perdendo no dólar.
 
 
-                        1:52:29
-                        que tá seu nome lá. Entendi, Glaus. Entendi. Ah, beleza, vou dar uma olhada. Vou dar uma olhada. Mas é isso, galera. YouTube cai no 014. Não, YouTube subi no 065. Eh, Vale ca no 014 e Axia subindo 299, um destaque no dia de hoje, tá? A gente tem, se vocês forem observar, em termos de setores, a gente tem aí setor financeiro caino 0,35, materiais básicos caindo 0,72, McAP subindo 0,77, imobiliário subindo 1,25 e fix subindo 0,80 e com subindo 1%.
+                        1:51:45
+                        Esse é meu dia. [risadas] Fala, Lucas. Sim, entraria sim. Com a perda aqui da mínima, tá? Tem espaço para ele cair mais. Boa, Ítalo. Parabéns, cara. Que beleza, hein? Parabéns. Parabéns mesmo. Bom, bons trades. Tô descendo aqui o stop do dólar.
 
 
-                        1:54:02
-                        Cozão fechando a semana acima dos 3:10. Fica interessante. Então, Cozão fechando a semana acima do 310. Sim, eu eu não acho que vai fechar a semana acima dos 310, tá? Mas o price action do papel melhorou bem. Dá até para tentar antecipar um pouquinho, ganhar o 319 ali. Estão ganhando 319. Avança bem. Ah, entendi. Glau boa, boa. É, o índice
+                        1:54:32
+                        Boa, Ítalo. Valeu, meu querido. Bom demais. Galera, não se esqueçam de fazer igual o Ítalo, hein? Deixem o seu like. É uma forma de vocês reconhecerem o nosso trabalho e poder eh compartilhar essa live com mais pessoas. Quanto mais conteúdo de qualidade a gente compartilha, melhor é a adesão do mercado financeiro para todos os investidores, né? Então compartilhem, só temos a ganhar com isso.
 
 
-                        1:56:08
-                        chegou bem perto ali do nosso stop e tá voltando. Se perder a região aqui da máxima do pregão anterior, suporte que eu tenho 173 e 300. Tem a média 200, 173, 175 e um pouco mais para baixo na abertura no 172,900, tá? Tem essa questão aqui de abertura e fechamento anterior, 172700 e também 172,900. Tá. Exatamente.
+                        1:55:52
+                        >> [roncando] >> Duda. da Gaspar, bom dia, Marn. Tô vendido com você no índice lá no 17300. Que beleza, hein, cara? Mas tô querendo aumentar a mão. O que faria? Como faria? Ó, como ele apresentou já o último rompimento de pivô abaixo ali da zona de 1% de de baixa, região que foi defendid rompeu, por enquanto eu não venderia mais não, tá? Já passou ali do gatilho que você deveria entrar.
 
 
-                        1:56:55
-                         20 minutos para abertura do mercado americano, galera. Beleza, Glaus. É isso aí. Boa. Tá tranquilo o dia por aí, né? Bom, é, pessoal, o índice quase quase quase bateu no nosso stop. E o dólar pelo menos tá acelerando, ó,
+                        1:56:33
+                         Então eu não entraria de novo agora não. Eu esperaria um pouco. [roncando] Fala Nelson. Fiz só 500 pontos. Que isso, cara? 500 pontos é coisa para caramba. Se contente com o lucro, cara. Eu eu brinco que, galera, só um ponto aqui, tá? Tô colocando uma vendinha aqui no uma comprinha aqui no dólar, aproveitando que ele fez esse pullback, ele retomando acima ali, a gente vai comprar, tá? E aí a gente tem uma parcial com 10 pontinhos.
 
 
-                        1:58:01
-                        os trancos e barrancos. Sim, Tube fez um topo mais baixo que o anterior, tá? Então, querendo acelerar esse movimento de queda, vale perder na região do fechamento. Vamos ver. Estamos no jogo ainda, galera. faria um aumento de mão do índice perdendo a Vap. Sim, talvez sim. E eu acho que poderia ter um ponto
+                        1:57:22
+                        [roncando] Uma parcial com 11, 12 pontos. E aí a gente tenta levar até 1,5 de alta no dia, tá bom? [roncando] Mas então, eu brinco, [tosse] eu brinco que o trader é um eterno frustrado. O trader ele é um eterno frustrado. Se ele faz 10, 12, 15, 20 pontos, ele fala assim: "Pô, poderia ter feito 25, poderia ter feito 32.
 
 
-                        1:59:07
-                        também no rompimento do fechamento anterior. É uma outra região interessante para ele acelerar. E aí, por enquanto é isso, galera. O
+                        1:58:00
+                        " Meu cara, o importante, pessoal, no final do dia é realmente a gente sair ã no positivo. O mercado é difícil, não é fácil tradar e ganhar dinheiro todos os dias, não é fácil. Então, só de você estar positivo, fazer uma operação lucrativa, já tá ótimo, cara. Entendeu? Esse esse essa sensação de eterno frustrado é sempre muito ruim.
 
 
-                        2:01:06
-                        índice futuro aí, se perder a média móvel de 21 no 17300, pode acelerar o movimento de queda. Vamos ver. Faltam 15 minutos para abertura do mercado americano. Eu tô aguardando isso justamente para poder, eu tô aguardando isso justamente para poder ver se a gente tem o trê andando um pouco mais pro nosso lado. Ó, o dólar a gente acabou saindo 0 a zer. Да.
+                        1:58:32
+                        Pensa assim, se você tivesse perdido esses 500 pontos, certo? Você estaria feliz por ter perdido pouco ou triste por ter perdido muito? A mesma sensação que você tem no lucro deve ser a mesma sensação no prejuízo, entendeu? Então, pô, se você levou 500 pontos de stop, pô, pouco. Se você tá falando que no game é pouco, no lucro é pouco, no no prejuízo é pouco também.
 
 
-                        2:02:15
-                        Mais o quê, turma? Eu vou tentar fazer mais uma compra no dólar, tá? >> [roncando] >> Qual que é a indicação para swing? Acho que tem alguns papéis, tá? Eu gosto, eu gosto de uma recuperação de MRV, por exemplo. Eh, gosto de team e vivo. Acho que tem coisas aqui para
+                        1:59:03
+                        Concorda comigo? Você estaria triste ou feliz? Concordo plenamente, Mar. É uma luta diária. Acho que trade envolve mais do emocional do que o financeiro. Se você estiver com o emocional desecalibrado, isso afetará os resultados financeiros. Sim, exatamente isso. Assim, obviamente, né, pessoal, a questão financeira ela ajuda muito na questão do gerenciamento e tudo mais.
 
 
-                        2:03:20
-                        serem feitas, tá? Eh, Xia, eu gosto desse movimento de recuperação também, tá? Rede Dora. Eu acho que é um papel que tá interessante também aí para uma retomada, tá? Boa, boa. Estamos junto.
+                        1:59:54
+                         você operar sem precisar fazer dinheiro todo dia, ele te dá um alívio muito grande. Mas o grande ponto é o grande segredo. Eh, o grande segredo é que a gente precisa estar 100% flat em relação ao nosso emocional, independente do resultado que a gente teve, entendeu? Se você teve um baita de um lucro, não é porque você teve um baita de um lucro que você vai sair, pô, nossa, sou sou bom para caramba, sou f, sabe, né? Pô, sou muito muito bom, caramba, ego lá em cima.
 
 
-                        2:05:55
-                        Tamo [roncando] junto, Mauro. Tamos junto. Boa. Mais o quê, galera? Mas o que, turma? Quais são as dúvidas,
+                        2:00:28
+                         Não, você vai, beleza, fiz dinheiro, tá ótimo, sabe? Ah, pô, você perdeu mais um dia de trabalho, vida que segue. Perdeu dinheiro, vida que segue. Por isso que assim, eu eu digo isso para vocês, porque até como nosso papel aqui como analista, né? Pensa que eu tô todo dia expondo minha cara, expondo minha análise para vocês.
 
 
-                        2:07:09
-                        perguntas? Fiquem à vontade. Vamos acompanhar. Se o índice perder a VOAP, eu tenho 172 920 900, tá? Eu tenho ali ajuste, tenho fechamento anterior e tenho 172 230. É isso aí, galera. Faltam aí 8 minutos, tá? É isso aí, galera. Índice futuro tá
+                        2:00:53
+                        E a minha responsabilidade de passar o trade para vocês era tão grande quanto operar na minha própria conta. Porque eu penso que o dinheiro dos, eu tenho que ser muito mais responsável com o dinheiro dos outros do que com meu próprio dinheiro, né? Porque vocês estão seguindo meus trades, vocês estão seguindo a análise aqui do do do analista.
 
 
-                        2:09:35
-                        querendo acelerar o movimento de queda, tem 215 pontos aqui. Se perder abertura e ajuste, eu tenho lá o 172 430, tá? E o dólar eu tenho lá 5689. dólar ainda mais travado. Provavelmente aí na abertura do mercado americano a gente deve ter explodindo um pouco mais. Opa, tamo junto, Ítolo. Obrigado. Mas é isso, galera.
+                        2:01:18
+                        E pensa que se eu ficar frustrado com todos os trades que eu faço e até envergonhado com todos os trades que eu faço, eu não vivo. [roncando] Não vivo. Então, estar flat com as nossas emoções, estar flat com o contentamento do nosso trade, ele é muito importante, não só para vocês como trader, mas pra gente como analista também.
 
 
-                        2:10:11
-                         Que que vocês estão posicionados? M. Mas é isso, pessoal. Faltam seis. 6 minutos aqui para ó, a gente tem a região da abertura do 172900.
+                        2:01:45
+                         Então, pode ver, dias que fomos muito bem, a gente fica: "Ah, beleza, galera, foi um dia muito bom. Parabéns a quem fez. Amanhã é um novo dia e estamos junto. Abraço, tchau e nos vemos na próxima". No no no prejuízo, é a mesma coisa, galera. Perdemos X esse dia. Hoje não foi um dia tão bom. Amanhã a gente volta melhor. Então [limpando a garganta] é sempre muito importante a gente calibrar essas nossas essas nossas emoções em relação ao resultado que a gente teve, entendeu? E isso a gente não fala só para a não, não, a gente não fala só para vocês.
 
 
-                        2:11:17
-                        Dola tentando avançar aqui. Mas é isso, turma. 4 minutos aí. É, turma, três minutinhos aí, né?
+                        2:02:22
+                        Isso a gente tem que utilizar nossa vida também, porque imagina se todo dia que eu perder dinheiro eu ficar frustrado, eu entro em depressão, cara. Entendeu? E da mesma forma que vocês, se você parar para pensar que, pô, um dia que eu perdi, teve várias pessoas que seguindo mesmos três de que eu e perderam dinheiro junto comigo, concorda que é uma pressão grande.
 
 
-                        2:13:51
-                        E a FNC desabo? Sim. ebe com dois topos mais baixos anteriores. Se perder a região do 4185, eu tenho suporte na média de 200 e depois eu tenho ali 4135 como outra região de suporte. É isso aí, turma. Um minutinho agora, hein, Coxinha, tem algum estudo falando sobre
+                        2:02:45
+                         E no lucro é a mesma coisa. Então, estar flat em relação a esse emocional, ele é muito importante, não só como trader, mas como analista também. Eu falo isso para vocês de um de um posicionamento, de um de uma de um poder de fala diferente do que o que vocês têm. E é muito difícil, é muito difícil o começo aqui de tocar live e ver a quantidade de pessoas que seguia aqui as nossas recomendações, eh, era realmente difícil, entendeu? Agora a gente já se acostuma, né, com tempo, mas não é fácil não essa responsabilidade. Galerinha, tô descendo
 
 
-                        2:14:53
-                        o percentual de pregões que o índice volta próximo a 0% para abertura do mercado americano? Eh, não, mas dá para fazer, não é impossível de fazer, tá? Não é impossível de ser feito, não. Eu já fiz alguns estudos de gaps, etc e tal. E é isso aí, galera. 10 segundos, hein?
+                        2:03:19
+                        aqui o nosso stop. Se ele ganhar força acima dessa nossa primeira, nossa primeira mínima do dia, eu pulo fora, tá? Mês que vem vou entrar com 250 contratos. Antigamente aumentava de 10 em 10, agora de 5050. Mas por que, ô Glauso? Galerinha, vocês estão com alguma
 
 
-                        2:16:02
-                        4 3 2 1 Foi o SNP com 021. SP querendo acelerar quedas agora. 10 anos ainda segue com uma abertura de curva. Deve até um gapzinho de alta na na entre um candle e outro. Ó, mercado brigando bem, né? Tô vendo aí na zona de 174 500.
+                        2:07:08
+                        dúvida? Tá tudo certo? Tudo em ordem? Galera, tô gostando aqui dessa compra do dólar, tá? Comprei a doleta, stop aqui. Então, abaixo da sua VAP do dia, a gente faz uma parcial de aproximadamente 13 pontos e busca ali um e-mail de alta no dia, tá bom?
 
 
-                        2:17:19
-                        Cara, não é impossível. Hoje para mim tá um dia bem ruim de índice, então Ne. É, o dólar também tá bastante consolidado, não tem um direcional tão definido. O volume do mercado hoje tá bem baixo. Se a gente para para observar o IBOV aqui com volume bem baixo. Dá só dois minutinhos, galera. Eu já
+                        2:10:37
+                        Boa, galera. Então a gente volta a ficar comprado aqui no dólar [roncando] índice. Seguimos aqui a nossa venda. Próxima parcial do índice 172065 e no dólar primeira parcial 49,50. Tá? Deixa eu dar uma atualizada aqui no chat. Ó que beleza que o que o Eduardo mandou ali. Se você fica deprimido quando perde eufórico, quando ganha seu lugar no cassino. É isso aí.
 
 
-                        2:18:46
-                        volto aqui. Tô aqui com vocês, galera.
+                        2:11:51
+                        Boa. Bom, enquanto isso, a gente segue aguardando aqui, tá, pessoal? Eu tava vendo aqui as posições que a gente tem aberto. Petro contra recôncavo. Pô, que beleza de operação, tá? >> [roncando]
 
 
-                        2:21:38
-                        Tão me ouvindo? Confirme aí para mim, por favor, galera. É o índice futuro ainda numa situação meio desafiadora, não tem muito o que se fazer. O índice, infelizmente, eu estopei para um lado e vou estopar por outro. Como que tá o Dow Jones, Flavião?
+                        2:16:08
+                        >> Ai, ai, galerinha. Tá. Acho que eu tô com gelo, pá. Boa galerinha, enquanto isso, vocês
 
 
-                        2:23:00
-                        Dow Jones tá subindo 028, tá? Botei aqui na tela para você. Tá subindo 0,26 nesse momento. E o Ib fez o teste dessa região de 166.000 pontos. E agora lateralizada entre 16995 e a região de 173 150. Tá boa, Alexandre. É isso, tamo junto, cara. Parabéns, mercado muito travado. índice sem um
+                        2:17:35
+                        estão com alguma dúvida? Tá tudo certo? Tudo em ordem? Deixa eu dar uma atualizada aqui no chat. Fala, trader do milhão. Como que você tá, meu querido? Bem demais. Curtiu, curtiu. Foi bom, foi maneirinho, né? Fala aí, F.
 
 
-                        2:24:05
-                        direcional definido. Vocês estão posicionados em quê, galera? Bit acelerando quedas agora, querendo perder a mínima, hein? 3% de queda tá em 390, 540. Você pode fazer o seguinte, ó. Pegar de topo e fundo, projetando para baixo. Eu tenho 387, 384. 387, 384 são as próximas regiões aqui.
+                        2:23:31
+                        Deixa eu ver aqui o negócio. Tá. É, não é o melhor dos melhores isso aqui, mas tá bom. Vamos embora. Hã ã ã ã ã ã ã hum hum hum hum hum hum hum h m. Que beleza aqui, hein, galerinha? Então,
 
 
-                        2:25:15
-                        Abriu uma venda no dólar, é o dólar deveria ter o stop no 680 ou tem um pouco mais em cima, tá? Mas hoje para mim tá um dia bem difícil aqui, tá? Não sei se para vocês tá mais tranquilo. Bif subindo 6. 60%, hein? Tem resistência aqui na média de 50, na média de 200. Magalu subindo 630. Cosan 560. Cirela 3,50. Axa 3,26.
+                        2:24:38
+                        o dólar voltando a ganhar força. Nossa parcial do dólar está no 49,5. Nossa parcial do índice está no 172.65. Beleza. Tem alguém aqui que precisa tá posicionado aqui comigo, pessoal? Boa. Índice feito a nossa parcial. Agora falta o dólar, né?
 
 
-                        2:26:21
-                        É, turma, infelizmente o índice eu não me dei bem. É, Brunão, tá difícil, cara. Tá difícil. Por incrível que pareça, Small Caps hoje indo bem até. Tá, a gente, deixa eu dar
+                        2:25:55
+                        Deixa eu só ver aqui. Deixa eu ver o negócio aqui. Coisa rápida. Bom dia. Vendido na petrole desde as achar que chegamos nos 44. Let me see. [roncando] Acho difícil, tá? A gente tem a média móvel de 200 períodos aqui nos gráficos de 5 minutos, tá? Eu permaneceria vendido, mas eu não colocaria. Tá, eu eu colocaria top bem curtinho, tá boa.
 
 
-                        2:27:24
-                        uma olhada. Vamos dar uma destrinchada. Como que estão small capps hoje? Grupo Mateus 10 e 16 de alta, tá? Acho que é o é a maior alta dentro do índice W caps. Even subindo 9,29, BIP subindo 6,90, Kepler subindo 67, 73. Lojas caroquero com 1,40 como região de existência, depois 1,62, tá? Então 42 1,60 ali com próximas resistências relevantes, tá? É, galera, infelizmente dólar também não
+                        2:26:35
+                         Tá fora de tudo, Marlon. Hoje foi game los game los igual Game 200 contratos. Amém. Boa. Que beleza, galera. Vamos que vamos. Aqui, eu quero ver essa doleta aqui, a gente recuperando esse dólar hoje ainda antes da da gente pro almoço. Boa. Vamos, doletinha dólar. Então, a
 
 
-                        2:29:15
-                        foi. Hoje não é meu dia, tá? suporte que eu tenho 6659, tem um suporte 653 aqui como outra região. Não. É o bit um pouco mais lateral. Tem a região 391 aqui, 110. Para baixo disso eu tenho 387, 150. bit um pouco mais travado, mais consolidado. O dólar aqui teve o teste dessa região de topo do 5680 e a gente tem o 659 aqui como uma outra região de suporte importante.
+                        2:30:11
+                        gente já está com stop no zero. Nossa, se eu conseguir tirar essa parcial, eu recupero inteiro esse loss do dia do dólar. Ó lá, falta um ponto para pegar nossa para pegar não, para pra gente sair ficar no zero a zero do dólar. Eu quero tirar essa parcial. Nossa, se tirar essa parcial aqui, eu já fico, já corro para abraço, tá? Stop no zero do dólar, tá? Ó, puxei então a parcial do dólar do
 
 
-                        2:30:26
-                        É um pregão sem direção definida, né? Eu acho que assim, tiveram vários momentos ali em que o mercado sinalizou uma direção que não deu sequência. Boa. Boa, galera. Mas é isso. O Ibov nesse momento vem tentando recuperar. Tá subindo 0.42. Suporte que eu tenho 166.000. 70, tá? resistência que eu tenho 173 250 ali e um pouco mais para cima disso,
+                        2:31:36
+                        dólar. Tiramos. Então agora stop no zero e deixa o trade rolar. Fechou? >> [roncando] >> Boa. 0 a 0 no dólar. Já tá ficando
 
 
-                        2:31:31
-                        a média de 200. [roncando] Mas é isso, galera. Dólar aí um pouco
+                        2:32:55
+                        positivo já, pessoal. Que beleza, hein? Nossa, que alívio de não sair no prejuízo hoje no dólar. E o índice se aproximando da nossa próxima parcial. Aí a gente faz o seguinte agora, pessoal, no dólar eu vou mandar para vocês aqui, então, o seguinte. Deixa eu só ver o que que eu tinha mandado aqui. Então, dólar parcial do dólar realizada
 
 
-                        2:32:56
-                        mais travado. 5659, uma região de suporte. E no caso do índice, o índice consolidado nessa região entre 172800 e a faixa do 173 980. Você acredita que desconfigurou o canal de baixa? É, eu acho que no caso do Ibov, é, você tem a falha do rompimento do fundo, lateralidade nos últimos quatro pregões e esse movimento mais travado para cima de 173 250, eu tenho 178 330 e depois 181 430.
+                        2:34:00
+                        alvo da operação em 5.76,5. Coloquem o stop no preço de entrada e deixem fechado. Pô, a gente tá com quantos contratos no índice? Ah, se ele tá caindo desse jeito, deixa aí. índice si aproximando da VAP mensal patamar onde tende a concentrar a presença.
 
 
-                        2:33:52
-                        Os da estão começando a querer dar uma aliviada. Então você tá travado aí entre 1699 170 e a região de 173 250. Se ganhar isso aí eu tenho 178 430. Por enquanto é isso galera.
+                        2:35:06
+                        de compradores. Ótima região de alvo e parciais. Desçam o stop game. He. Boa. Então, descendo stop game aqui, ó.
 
 
-                        2:35:28
-                        Bif subindo 6,29, hein? Baita de uma volta em V no papel. Magalu subindo R,94, MRV 3,98 e Axia fazendo esses 3,35 de alta. E o índice futuro aí um pouco mais consolidado, agora subindo cerca de 0.63 63 e o dólar no 0 a0. Contribuição de pontos. A gente tem aí puxando 265 pontos e tubando 180 pontos, Petro puxando 100 pontos, tirando 99 pontos, Vale tirando 68
+                        2:36:30
+                        E deixa andar. Vitão, se eu tô comprado no dólar? Sim, estou comprado no dólar. Meu alvo é 57675. Tá fechado, galerinha. E aí, vocês foram bem hoje? Conseguiram pegar esses três aqui com a gente? Nossa, graças a Deus consegui reverter aqui o prejuízo do dólar. Vou até aproximar aqui, ó. Não vou deixar esse trade voltar, não.
 
 
-                        2:36:32
-                        pontos, Banco do Brasil tirando 53 pontos, tá? Pessoal, vou liberar vocês para almoço e
+                        2:37:00
+                         Pelo menos eu garanto R$ 300 aqui. Já tirado as nossas parciais, galera. 11:36. Zerei dólar, tá? Zerei dólar. Não vou deixar trade voltar nada. Não vou deixar esse trade voltar. Não chega. Boa, Carlos. Tamo junto, meu querido. Tamo junto, meu querido. Olha, vou te falar que o que tava me tirando dor de tava me colocando dor de cabeça era esse dólar, tá? Não tava gostando de ter ficado.
 
 
-                        2:42:16
-                        mais tarde a gente volta aqui, tá bom? Muito obrigado. Excelente almoço para todo mundo. M. O mercado,
+                        2:38:04
+                        Não gostei dele ter ficado de ter ficado negativo nele. Ne. Boa, mano. Tadinho do dólar. Ele foi só
 
 
-                        5:04:19
-                        o mercado mudou. A forma de investir [música] também. No Brasil, a classe de ETF soma mais de 860.000 1 investidores. Na PTG Asset, somos pioneiros. Já são [música] mais de 35 ETFs no portfólio com mais de 20 bilhões em patrimônio e mais de 120.000 investidores. [música] Com produtos versáteis, eficientes e acessíveis.
+                        2:40:45
+                        tomar uma bombia porque é asmático. Entendi. Juntos nada. Estava comprado. Não confiei em você. Foi estupado. Não, Carl. Que isso, ô Carlão? Que isso, cara? É, às vezes, pô, tem várias vezes que você sai no game aí e e eu e eu acabo perdendo e tá tudo bem, cara. 20 pontinhos no dólar. Que beleza, hein,
 
 
-                        5:04:47
-                         Btg Pactual Asset Management, para quem espera mais de seus investimentos. Para revolucionar o futuro do mercado financeiro, é preciso ser rápido, tecnológico e dinâmico, buscando sempre a nossa melhor versão, a evolução do trading. Não é lógica. Fala galerinha, boa tarde a todos. Como que vocês estão? Tudo certo? Tudo em ordem? Me confirmem aqui se vocês estão conseguindo me ouvir, se vocês estão conseguindo me ver.
+                        2:42:00
+                        meu? Vamos, Doleta. Só tô subindo um negócio aqui,
 
 
-                        5:06:25
-                        >> [roncando] >> Boa. Fala 12R Trading. Fala Lúcio. Tudo normal. Boa. Que beleza, hein? E galerinha, me fale um negócio, hein. Qual que é a playlist pro dia? Sextinha, sexta-feira 13 em um São Paulo aqui, ó, ensolarado. Aí, ó, 24º. Assim, não está tão, tá nublado, mas não está tão nublado. Deixa eu ver [roncando] aqui que que eu vou colocar de prou ouvir aqui durante a live.
+                        2:43:58
+                        galerinha, tá? Tá beleza, galera. Tô subindo stop game
 
 
-                        5:07:06
-                        Nossa, graças a Deus eu tô melhorando um pouco no meu nariz. Já tô conseguindo respirar. Ó, que beleza. Deixa eu só avisar aqui o pessoal que já estamos de volta com a nossa live. Boa tarde, pessoal. Já estamos [roncando] de volta com a live do BTG Trader. Mandei para vocês. Tchado. E aí, meus amores, como que vocês estão? Tudo certo? Tudo em ordem? Vocês foram bem no dia de hoje? Como foi a parte da manhã? Boa. Deixa eu ver meu resultado aqui do
+                        2:45:03
+                        aqui do dólar. Boa. Aqui no dólar, pessoal, eu salvo pelo menos 10 pontos, tá? Че?
 
 
-                        5:08:37
-                        dólar. dólar. Eu acabei indo recuperando los porque ele voltou, né? Nossa, mas olha que lindo esse trade aqui. Vocês conseguiram fazer esse esse essa venda aqui no topo triplo que ele fez que ele deu? Cara do céu, que trade aqui, meu. Ah. Boa. Qual que foi, ô Lúcio, você saiu no
+                        2:48:51
+                        Galerinha, seguinte, tá? Tô zerando aqui, tô subindo aqui nosso stop game. Não deixa esse trade voltar mais. Bom, galerinha, tamo junto. Tenho todos uma ótima continuação de dia. Vou liberando vocês aqui pro almoço. Permaneço com a minha compra aqui no dólar. Parcial em 1,5 e 2% de alta.
 
 
-                        5:10:06
-                        positivo, mas você fez o que de operação? Quais operações você fez? Triângulo de alta formando no É verdade, bem lembrado aqui. Bom ponto. >> [suspirando] >> Eh
+                        2:49:33
+                         Se ele voltar abaixo de 49,5, eu pulo fora. Resultado positivo aqui no índice de R$ 3.000 e R$ 400. R400 e no dólar depende da saída dessa operação. Mas a gente recuperou a nossa prejuízo aqui do dia. Se ele pegar aqui nossa saída, tá ótimo, tá? Pelo menos recuperamos nosso preju. Firmeza, galerinha? Bom dia para vocês, bom almoço e todos liberados para o período da tarde.
 
 
-                        5:11:22
-                        루 Ai ai. Boa. Mercado acionário também dando uma boa melhorada, né, pessoal? Quando a gente olha pro Ibov também, Ibov apresentando mais uma lateralidade e nada mais nada menos que ele voltou ali pra zona sem expectativas de de leição, né, eleitoral, sem Flávio, sem nada, né? Então, patamar comum. Agora a gente só precisa ver como o mercado vai vai reagir com os próximos anúncios, né?
+                        2:50:01
+                        Belezinha. Um grande abraço, um beijo e tchau tchau. Fala galerinha, boa tarde a todos.
 
 
-                        5:12:52
-                        Várias entradas curtas no índice. Pô, que beleza. É verdade. Para quem tava operando bem mais curtinho hoje, conseguiu mandar bem. Eu nem lembro que qual foi a operação que eu fiz. Eu acho que eu fiz uma compra. Foi, foi isso mesmo. Peguei esse único movimento aqui longo, eu consegui pegar no índice. Vamos lá.
+                        5:48:07
+                        Tudo certo? Tudo em ordem? Pessoal, me confirmem aqui se vocês estão conseguindo me ver. Se vocês estão conseguindo me ver ou meu e me ouvir também. E aí, pessoal, contem para mim como que vocês estão aí. Deixa eu ver se vocês estão conseguindo ver. Acho que sim, né? Deixa eu ver se vocês estão conseguindo me ver ou me ouvir.
 
 
-                        5:13:15
-                         O Aruan também mandou aqui pra gente, ó. Fiz 1700 pontos na compra no índice hoje. Você segurou até onde, ô Aruan? 174 300. Pô, cara, cravou a máxima. Que beleza, hein, pô? Eu lembro que eu tava, deixa eu ver aqui na live. Eu lembro que eu tava posicionado aqui. Deixa eu ver.
+                        5:48:54
+                        Nossa, que tristeza, meu querido. Meu amigo, galerinha, que que foi esse dólar, cara? A gente poderia ter saído com lucro, meu amigo, que vacilo. Colocamos stop game, ele pegou nessa pancadinha que deu aqui, ó. E olha isso, desde quando a gente saiu, ó. Ó. Nossa, eu ainda falei que meu alvo era 2%. Ai, que triste. Mas tudo bem, tudo bem.
 
 
-                        5:14:32
-                        M. Deixa eu ver um negócio aqui. L Boa. Tô aqui ainda, hein, pessoal.
+                        5:49:37
+                        E o índice é a mesma coisa, né? A gente saiu ali, era por volta de 11 horas e tá indo lá embaixo nos 2% que a gente havia comentado. É, meus queridos amigos, meus queridos amigos, que doideira, né? Caraca, Rafa, que beleza, hein? Parabéns. Tá vem? Não tô nada, Márcio. Eu saí aqui era 11:50, ó. Olha aqui pela live, ó.
 
 
-                        5:18:57
-                        Estou acompanhando. Vou tentar pegar. Ah, o que eu tinha falado. Deixa eu só buscar aqui a operação que a gente fez aqui, ó. [risadas] Ó, o engraçado vai ser quando chegar nesse momento aqui, ó, vai ficar várias telas, ó. Fica vendo, ó. Aí na outra tela vai mostrar a minha tela e na outra tela vai virar um espelho durante aí, ó.
+                        5:50:23
+                        Era por volta de umas 11:50. Deixa eu colocar aqui, ó. Ó, deixa eu ver se eu acho aqui para vocês, ó. Era aqui, ó, a gente tava comprado no dólar, tá vendo, ó? Nos 36 tínhamos o alvo de 1,5. Aí no decorrer aqui, ó, depois ele foi indo, tirou a nossa parcial, ó. Pera aí, ó. Lá, deixamos um stop game ali, ó, no 49,5, ó.
 
 
-                        5:19:28
-                         Ó lá, ó lá, ó lá como ele vai virando o espelho, tá vendo, ó? Quero ver daqui um tempo quando voltar. Quero ver como vai ser. Mas, ó, só para mostrar aqui a operação que a gente fez. A gente fez ao vivo hoje e também eu coloquei lá no connect, tá, pessoal? Para quem não participa, conecte ao nosso grupo do Opa! Ai, caramba! É o nosso grupo aqui dentro do dentro da nelógica, tá? Então aqui a gente soltou essa operação para vocês, ó.
+                        5:51:13
+                         Tá vendo, ó? Aí a gente tinha um alvo lá em 2%, tá vendo, ó? 2% era o nosso alvo. Aí fomos indo, fomos indo. Aí o mercado tirou a gente e depois ó lá, tirou a gente naquele candle feio e ó o que aconteceu depois, ó. Nossa, que tristeza. Defendeu 1 e meio e voltou a subir. Ó, ó. Putz. Uma pena. E do índice, o índice, na verdade, eu saí na mão, né? O índice a gente tava com stop game, ó.
 
 
-                        5:20:07
-                         Lá, colocamos aqui a compra, tal, tal, tal, pi, pi, pi. E aqui a gente tava fazendo ao vivo, então a gente pegou, deixa eu até ver onde que foi o dólar. Eu lembro que eu tava no dólar bem posicionado. Eu acho que ele voltou aqui, ó. Ó lá, o índice começou aí. Dólar quase nos stopou. Ó, e aí a gente fez esse trade, pegamos a venda inteira do do dólar, mas o dólar nos tirou na parcial, se eu não me engano. No.
+                        5:51:57
+                        Ó lá. Aí eu coloquei aqui o índice que a gente teria só nossas parciais nessa região. Aí deu um tempinho depois, ele começou a fraquejar no movimento de de baixo. Aí eu achei melhor zerar. Ó lá. Aí eu zerei. Aí eu falei: "Ah, não, chega". Vamos ver o que eu falei, ó. Ó. Aí eu falei assim: 11:36 zerei dólar. Tá.
 
 
-                        5:21:37
-                        Ó lá. Eu tô achando que essa tela que ela deveria ser branca. Deixa eu ver aqui. Ã ã. Eu tô achando minha tela meio estranha. Faz configurações. Gráfico geral. chat do gráfico. Ele não tá branco. Eu não tô gostando da cor do meu gráfico. Deixa eu colocar esse creme aqui.
+                        5:52:38
+                        Tá vendo? Zerei tudo aí. O mercado, ó, deu uma subidinha e derreteu. Meu caros, meus caros, foi lá no nosso alvo que a gente tinha em 2% de baixo. Mas tudo bem, tudo bem, tudo bem, tudo bom. E o importante é que a gente sai no positivo. O que foi bonito, mas foi triste, foi essa volta que esse dólar fez, tá? Se ele não tivesse feito essa única volta, estaríamos até agora posicionados.
 
 
-                        5:24:19
-                        >> [roncando] [roncando] [roncando]
+                        5:53:11
+                        >> [suspirando] >> Ai, ai. Vou falar o que agora para vocês? Nada. Tá vendo como eu falo para vocês, pessoal, que a gente não pode ficar frustrado porque o importante foi que a gente ainda ainda assim nós saímos no positivo. Ainda assim, graças a Deus, a gente saiu no positivo. Mas é aquele negócio, né, pessoal? É, a gente tem que ficar feliz e se contentar com o que a gente fez.
 
 
-                        5:28:28
-                        >> Okay. Boa. Deixa eu voltar aqui.
+                        5:53:42
+                        Não dá para ficar muito triste, não dá para ficar muito feliz. O esquema aqui é seguir, continuar analisando e correr pro próximo trade, tá? E correr para o próximo trade, next step. Certo, Marlon, tem uma dúvida. Calma aí. Vamos lá. Tá vendido Marlon? Não, já zerei, mano. Tem uns caras que tem um indicador que não deixou eles saírem da compra do dólar.
 
 
-                        5:31:05
-                        Beleza. Tava só resolvendo o negócio fechado. Deixa eu dar uma atualizada aqui. Fala, Nelson. O Bitcoin eu vou deixar o BTC aqui em cima, ó. É o Bit Fots. Futs aqui, ó. Tá no gráfico superior aqui, ó. Tá bom? Nossa, tô bem cabreiro com esse com esse Bitcoin, tá? Eu lembro, eu eu vendi o Bitcoin antes dele apresentar.
+                        5:54:18
+                         A bronca, papai, que é calma aí, mas calma aí. É, é um indicador que indica essa compra de alta. Qual que é, qual que é o indicador que que eles usam? Marno, tenho uma dúvida. Tô achando que B3 muito alavancado para mim. Você acha que o Internacional vai ser melhor por ser menos alavancado? Olha, eh, eu gosto de operar V3. Pelo fato da gente estar aqui, a gente ter um pouco mais de noção do que que tá acontecendo, acredito que é seja legal.
 
 
-                        5:31:49
-                         Eu ele eu vend, na verdade foi assim, eu vendi ele, eu vendi ele na abertura, praticamente tava vendido aqui. Ele me stopou na máxima do dia e foi exatamente onde eu queria, em 4% de cada hoje. É brincadeira, viu, cara? Bom, deixa eu dar voltar um pouco aqui. Mar tem um gráfico, tem um irmão gêmeo. Não, galera, não.
+                        5:54:58
+                         Mas não não te limita a operar eh lá fora. Não saímos juntos porque saí neste horário também. Ah, pô, Márcio, verdade, você saiu junto comigo, pô. Analítica, nem me fala. baita de um trade. Cara, vou falar para vocês que eu acho que esse foi um dos um dos melhores trades que a gente fez. Eh, foi foi o Windows, não foi o nosso melhor trade no dia e assim foi papo de livro, tá? Por quê? A gente teve a formação do topo duplo do dia na máxima do dia, numa região de fechamento de VAP da sexta-feira, alinhado alinhado com uma condição de de
 
 
-                        5:32:19
-                         Ô, mas na verdade eu, meu irmão, ele parece muito comigo. Na verdade, eu pareço muito com o meu irmão. Eu tenho o irmão mais velho. Meu, deixa eu ver só como ficou isso aqui. Quando a gente, ó lá, fiquei com vários marns aqui na tela. Boa. Tã. Sou crente BTG. Só acredito que quem fez fez movimento de direcional. Já foi dito isso.
+                        5:55:51
+                        da média móvel de 200 períodos. que tava convergindo com a média móvel de 21 períodos, região de topo duplo, defesa extrema. Ele ainda deu oportunidade da gente pegar no pivô e também no rompimento da VOAP. Então, ou você pegava algo em torno de 2300 pontos, ou você pegava no fechamento do rompimento 2000 pontos.
 
 
-                        5:32:55
-                         Bom final de semana. Valeu, Carlos. Estamos junto, meu querido. Eu também acho que o movimento direcional já foi hoje. Também tô zarpando Vinícius. Acredito que hoje já foi. Melhor sair com game mínimo quando voltar o dia todo. Verdade. Não, deixa quieto, pessoal. Para quem operou e fez dinheiro hoje. Pau no gato, meu querido.
+                        5:56:19
+                        Esse trade aqui é um trade a ser estudado, tá, pessoal? Deixa eu só ver o negócio aqui que eu tenho que passar o valor de M. M. Deixa eu só mandar um negócio aqui que
 
 
-                        5:34:15
-                        te faz forte. Desejo forte para todos nós. Ainda mais por se tratar de San é bom
+                        5:57:25
+                        eu tinha que mandar. 16 15 de junho 157 T
 
 
-                        5:37:37
-                        ficar. É isso aí. Obrigado. Obrigado. Primeiro passo reconhecer. O que você acha de Brades Spar 3 para carteira de aposentadoria? Até descontado. Poderia analisar? Olha, acredito que seja sim. Não seria ruim não, tá? É Brad Spart 4, né? Na verdade não achei não. Eu teria sim na minha carteira. Mas uma dúvida, eh, você tá pegando o a a Brap 4 ao invés de vale por quê? por conta da docto de holding, o e por conta do dividendo também, né? É algo nesse sentido, né? Você
+                        5:58:36
+                        galerinha, mas e aí, como que vocês estão? Vocês foram bem no dia de hoje? Foram mal? Boa. Deixa eu só terminar de ver aqui
 
 
-                        5:38:54
-                        pegou a três do que a quatro. Por que que você pegou a três do que a quatro? Bom, mas de qualquer forma acredito que faz sentido sim, tá? Ah, entendi. Entendi. Mas historicamente ela já não é 12% abaixo, porque nada. Se a gente coloca que faz uma coção, com integração, não, faz uma indexação, ó, historicamente elas andam juntas.
+                        5:59:44
+                        que eu tinha Boa tarde. Boa tarde. Show, show. Tá, tá, tá, tá, tá. Pois é, o analítico eternos insatisfeitos. Ganha é game, mas trader é um eterno insatisfeito. Agora, Marno, a venda foi boa com topo duplo na abertura. Eu perdi até agora. Tá com raiva. Beleza. Mas enfim, pessoal, o problema não é perder o trade, o problema é ver oportunidade novamente outros dias e perder.
 
 
-                        5:39:35
-                        E no geral, quando a gente olha no longuíssimo prazo, ó, eh, teoricamente elas andam muito juntas, tá vendo, ó? Então, então, sei lá, eu iria de quatro, da quatro, de quatro lá, ele da quatro bradespar 4 do que a três, entendeu? Entendi. Picor não, tudo bem. Eh, cara, eu acho que faz bastante sentido, sim, para longo prazo.
+                        6:00:08
+                        Já perdeu. Agora a gente corre pro próximo trade, vê o que que errou, por que deixou você não tão otimista com essa venda e correr para braço. Agora estou vendido índice e comprado em dólares. Duvidar vão levar até o final do pregão. Ai que ódio. Era para ter comprado sexta-feira na Black Friday. fez a parcial de 10 pontos na venda do dólar e deixaram um contatinho para derreter.
 
 
-                        5:40:23
-                         Eh, e assim, a única coisa que ela tá numa tendência de baixa durante o ano inteiro, né? E aqui a gente não teve interferência 100% de eleição, até porque ela também é bem atrelada a dólar, né? E obviamente que a própria commodity do minério de ferro. Então, eh, eu eu eu teria para longo prazo, tá? Mas eu prestaria bastante atenção na continuidade desse movimento de baixa.
+                        6:00:46
+                        É isso, galera. E aí, pessoal, como que vocês estão? Pô, até até você, pai, que tá atrás de indicador milagroso. Pois é, analítica. Já tá todo mundo atrás de indicador milagroso. Tá todo mundo atrás do setapzinho mágico hoje. Está top. Quase 100 pontos no dólar. Você tá posicionado ainda, Weber? Você ainda tá Você ainda tá posicionado, meu amigo? Resiliente, hein? Caraca, cara.
 
 
-                        5:40:47
-                         E assim, enquanto ele tiver caindo, você vai ter que comprar, entendeu? Eh, e sim, eu eu continuaria sim. Ô, ô, Picone, mas eu eu faria um bom estudo de você ficar tradando Bradespar com Vale, tá? A que cair mais você vai comprando, entendeu? Caiu, você compra. Caiu, você compra. Caiu, você compra. Por exemplo, historicamente, Bradespar, ela tende a andar mais do que do que a própria Vale, né? A gente sabe muito bem, porque ela tem alguns descontos, tal, tal, tal.
+                        6:01:46
+                         Você vai levar até onde isso? Vai deixar ele ir, vai acompanhar pelas médias móveis e vai largar ele? É isso. Nossa. Meu objetivo é 581.
 
 
-                        5:41:42
-                         tem um tem um tem um pagamento de dividendos maior, porque ela tem que ela paga menos impostos. Obviamente que ela tem alguns problemas judiciais, mas historicamente ela tende a performar melhor do que a própria Vale, né? Então eu digo em movimentos do próprio preço, do próprio ativo. Eh, então eu compraria. Então, o que que eu faria se eu fosse você? Toda vez que Bradespar eh caísse mais do que a Vale, eu compraria.
+                        6:03:03
+                        Caraca. Tá do lado já, cara. Mas de onde você tirou esse? De onde você tirou essa? Esse número era aquele número de janeiro. É isso? Essa região aqui, qual o alvo desse índice? Ó, o índice ele tá chegando numa região agora de uma região de defesa. Esse 170 é uma baita de uma região para para tirar parciais, alvos.
 
 
-                        5:42:24
-                         Por exemplo, enquanto Brades Spar estivesse caindo mais o que vale, todo esse movimento aqui, eu estaria comprando Bradespar. Nesses movimentos de alta seria o contrário, porque Vale estaria estaria pior do que Bradespar. Então eu compraria vale. Aí nesse movimento de queda, compraria Bradespar. Nesse movimento de alta compraria vale. Entendeu? visto que você tem essa esse potencial, esse aqui é de longo prazo, eu compraria que tivesse mais barata na comparação uma entre a outra, entendeu? Visto que só a tese é de longo prazo, Bradespar, ela é, né, praticamente não,
+                        6:03:45
+                        Deixa eu só avisar aqui o connect. Estamos de volta com a sala Boa. Mandei lá no connect. Alvo do índice 142. [risadas] [suspirando] Essa mínima, Marlon, é a pernada replicada. Normalmente quando chega aí o preço fica barato. Stop é curto, já deu para mim por hoje. Você tá querendo
 
 
-                        5:43:00
-                        ela é a própria Vale, investe na própria Vale, entendeu? É a própria holding, né? No caso, eu faria esse esquema, entendeu? Que que você acha? E aí você teria duas ações, né? Obviamente, Fala, trader Matozinho, como que você
+                        6:04:49
+                        comprar aqui nesse 170? É isso. Ô louco, mais investimento. Que beleza, hein? 50 conto. Bom demais. Bom demais. Parabéns, cara. Ah.
 
 
-                        5:46:28
-                        tá, meu querido? Boa tarde. Tem compra no índice e venda no dólar? Muito cedo ainda, tá, meu querido? Essa compra no dólar tá um pouco complicada porque a gente tem diversos patamares ali como resistências no curtíssimo prazo, tá? Então esse 5659 que é praticamente abertura ã 5663 Vap do dia. Ah, pô, a gente tem para cima ainda zona de acúmulo do dia, pra, a própria POC, né? Eh, cara, eu particularmente só compraria com ele ganhando esse patamar da sua VAP do dia, mas historicamente, nesse período da tarde de uma sexta-feira, o índice não
+                        6:06:15
+                        Se cair até o 66 é ótimo, pô. TR mais de 3% dá quase 5% de queda. Nossa, que pernada de alta esse mercado. Да. Despar tenda.
 
 
-                        5:47:15
-                        tende a ser um movimento ter um movimento tão o índice não, desculpa, dólar não tende a ter um movimento tão expansionista assim, tá? Então eu particularmente ficaria eh trabalhando mais contra a tendência do que a favor da tendência. Boa. Vamos ver se ele defende essa VOAP
+                        6:08:03
+                        Faça tendinha aqui na venda. Bom, hein? Eu tô pensando, bora vender esse íntes. Olha assim, eu tô achando já esticado tudo, tá? [roncando] Eu realmente tô achando bem esticado, mas assim, quem
 
 
-                        5:48:52
-                        do dia. Se ele defender essa dólar, defender essa VOAP aqui, eu vou lá e vou vender ela. Senão a gente até compra. Vamos lá. Fala, Mauro. Como que você tá, meu querido? Pague menos. Nossa, eu não compraria pag menos não, tá? Não compraria pag menos não. Se você, eu eu lembro que tinha alguém que tava vendido.
+                        6:09:07
+                        quiser vender, pessoal, eu frei. M. 1,98. Objetivo não foi ainda. M.
 
 
-                        5:49:42
-                         É você que tava vendido, né, Mauro? Olha, eu deixo o alvo ali em 2011. Eu só começo a olhar para ele nesse patamar aqui. Tá bom. Ah, você tá vendido, pô. Mantém, mantém. Ô, ô, Mauro, não tem, não tem motivo para você sair ainda. Só porque ele parou de cair. Calma. Mano, não é porque ele parou de cair que ele não tem, ele não tem ainda traços, não tem nem price action mostrando pra gente que esse ativo ele tende a voltar.
+                        6:11:29
+                        venda no dólar para uma possível correção. Ô Renan, eu acho que sim. Acredito que o e a gente esteja próximo de uma possibilidade de reversão, mas ao mesmo tempo, ao mesmo tempo a gente não vê ainda ah reações vendedoras nesses patamares. Então, pra gente vender, a gente precisa de uma reação. Toda todo característica técnica, ela obrigatoriamente tem que ser alinhada e acompanhada de volume, tá, pessoal? Não adianta a gente eh simplesmente ir lá e e vender só porque tá caro.
 
 
-                        5:50:07
-                         Espera um pouco. Faz o seguinte, ó. Bota no gráfico semanal, coloca o stop game na máxima desse desse gráfico da semana passada, do máximo da semana passada. Corre para abraço, meu querido. Deixa cair, deixa cair, deixa cair. 2.65 é máxima, né? É isso. 2.65 é o máximo do da semana passada.
+                        6:12:07
+                         Inicialmente a gente precisa inicialmente a gente precisa eh ter a presença de uma característica vendedora alinhada com volume, tá bom? Eu não venderia agora não, porque tá resiliente esse mercado. Ele tá tá ganhando força cada vez mais. Índice na venda, dólar na compra. Aqui não tem não tem muito o que fazer, não tem por vender por enquanto, entendeu? A gente tem que aguardar.
 
 
-                        5:50:39
-                         Deixa seu stop game ali e corre pro braço. Deixa cair. Fala vídeos variados, como que você foi hoje? Ah, não conseguiu acompanhar o mercado hoje, mas ele tá funilando sim. Ô, vídeos variados. Ó
+                        6:13:43
+                        T T t Ó [roncando] lá como o mercado não para de subir, tá vendo? Eu vou vender ele por a gente não tem nada aqui que faça com que ele realmente apresente o movimento de de queda. Por enquanto. Tá cismado com a musiquinha do plantão. Pois é, Isabel, negócio na minha cabeça, cara, porque eu
 
 
-                        5:51:44
-                        aqui, ó. Dá até para dar uma esticada nisso aqui, ó. Tem que esperar ele sair dessa dessa
+                        6:14:46
+                        tenho um amigo que ele fez esse áudio do p e aí eu tava falando com ele hoje e aí eu lembrei com ele, aí voltou a ficar na minha cabeça, entendeu? complicado, viu? Boa. Agora o esquema agora, pessoal, é escolher a playlist da tarde e vamos ver o que que nos aguarda essa nossa playlist pro dia de hoje. Mas sim, essa musiquinha do plantão tá me pegando, tá? [risadas] Vou até coloquei até outro aqui na cabeça porque se depender dela eu tô lascado.
 
 
-                        5:53:03
-                        lateralização aqui. É, vamos esperar para ver se ele vai romper ali mesmo. Se ele romper, a gente entra sem nenhum problema. Se ele não romper romper também, tá tudo bem. A gente espera. M.
+                        6:16:14
+                        Vamos ver que que tá puxando esse mercado hoje. Entendi. Suzano, que isso? Rumo copel. Não sei mais. você. Pois é, Isabel, quando gruda esses chicletes na cabeça, eu passo o dia pensando nele também. sua uma hora de começar.
 
 
-                        5:55:53
-                        Ó lá, vendi o dólar aqui, tá, pessoal? Falhou no rompimento ali da máxima do do no rompimento da média móvel de 200 períodos. Opa, desculpa. de 200 peros não d app do dia e comprei o winds aqui também, tá? É, galerinha, mercado hoje deu uma boa
+                        6:17:28
+                        Melhor esquecer de te deixar parada e espero que você tá 169 Perfect.
 
 
-                        6:02:04
-                        boa movimentada, não? Que que vocês acham? Magalu voltando a subir. Minerva. Rumo. Nossa, essa BBAS, misericórdia, viu, meu querido. Fala, Matozinho. Eles vão entrar em contato com vocês, tá? Então eles têm, se não me engano, são 30
+                        6:22:31
+                        Tá nada aqui. aqui. S L
 
 
-                        6:03:29
-                        dias úteis, né? 30 dias úteis, se não me engano, para pagar. e a nossa comprinha que a gente fez de
+                        6:24:51
+                        Boa. Enquanto isso, galera, vocês têm alguma dúvida? Tá tudo certo? Tudo em ordem? Galera, tô gostando aqui de uma primeira movimentação desse dólar num possível movimento vendedor aqui, tá? Pois é. Ô, ô, Márcio, quem tá quem tá
 
 
-                        6:05:18
-                        aura, hein? A gente conseguiu sair, hein? Ó lá, pô. Lembra a comprinha que a gente fez de manhã de aura, pessoal? Rompimento de pivô, deu 1%, tiramos parcial, stop no preço e voltou tudo. Ó lá o resultado do dia. Chegaram a ver essa operação que a gente fez hoje na live? No calor dos meus braços, eu acordei sem saber se era um sonho.
+                        6:28:44
+                        operando hoje e respiro de mercado tá tomando taca hoje, né? Mas um dia da caça, do caut do caçador, né? Olha
 
 
-                        6:05:55
-                        Não tempo atrás tem semente dizer. gestão do maestro tá dando M. Fala Raa, como que você tá? Tudo bom? [roncando]
+                        6:30:09
+                        o Itítalo aí. Fala, Italo, meu querido. Tudo bem? Pois é, Brunão. Não tem compra nesse índice. Sim. OK.
 
 
-                        6:07:11
-                        E galerinha, vocês estão posicionados em alguma coisa ou não? Vocês estão operando? Não estão operando? Mar, estou procurando BDRs para comprar.
+                        6:33:17
+                        Ô Marcioc, você faz o que da vida, meu querido? Galera, esse índice aqui ele não tem fundo, tá? O único fundo que ele tem é 170. Fala, Glaus. Boa tarde. Tudo bom? Por aqui tá tudo certo. Marna, você sabe que eu tenho um grupo
 
 
-                        6:09:12
-                        [roncando] Calma aí. Comprado Moura do bem 17 e comprado no índice com você sofrendo não tá no zer a zer aqui, pô. Tá sofrendo comigo? Não, Dudinha. Ô Duda, comprado em Moura A17. Olha, no geral eu gosto de Moura, tá? Entretanto, eu preciso ver ela ganhando força, pelo menos acima dessas suas principais médias, tá? Eu não gostei nada do do Eu não gosto, não tô gostando dessas ações que ficaram abaixo de agosto, tá? Então eu prefiro ficar de fora aqui
+                        6:36:42
+                        de operacional meu logo no início que eu treinava com 40 pontos. Ah, eu sei sim. Ô, ô, Glaus, vida de dona de casa tá difícil. Ó lá, quem tava falando de rap vida esses dias, hein? Tá.
 
 
-                        6:10:23
-                        por enquanto. Olha como sugestão, indo pro mesmo setor, eu iria de alos, eu iria de multi, ó lá, eu iria de direcional, ó lá. Entendeu? Eu, apesar de que eu gosto bastante, apesar de eu gostar bastante de Moura do B, não acredito que seja o melhor momento para comprar agora, tá? Ô André, e sobre as BDRs, o que que você poderia comprar? Deixa eu ver aqui.
+                        6:38:35
+                        Boa, galerinha. Só dando overview aqui para vocês. Isso. Calma aí.
 
 
-                        6:11:41
-                        Ó, ó o cara, mano. Que que dá para você comprar? Deixa eu ver. Nossa, bem que tudo já subiu muito, né? Nossa, muito esticado. Ah, tá. Já sei que eu fiz aqui. Achei o erro. Olha, roxo é um bom nome para você comprar. Hum. Olha, essa VGO não tá das piores também não. Deixa eu só ajustar aqui por volume.
+                        6:40:47
+                        Fala, Giovan. Eu vendi o índice no começo do dia, mas já acabei saindo da operação. Eu saí aqui na com 1,5 de baixa, mais ou menos. Ô, ô, Marci, o que que é esse efeito
 
 
-                        6:12:46
-                        Não adianta nada. A gente fez as BDR e não tem volume para operar. Aqui, ó. Foi deixa eu ver, ó. Microsoft. Tá legal. Meta, meta é uma boa compra, tá? Conta um erro. Como assim um erro? Ô Davin, Davi, JP. Morgan tá um bom preço para comprar. Ó o Andrezão, United Health, bom nome
+                        6:42:30
+                        house money? Eu não sei. >> [suspirando] >> Fala, Aldo. Aldo, ali na outra sala é
 
 
-                        6:14:08
-                        para você comprar o que? Deixa eu ver o que mais. Ah, tipo, são uns bons nomes aqui para comprar micro. Já tô. Então o MTC eu já tô comprado, mas tá caindo quatro hoje. E eu tô comprado em em meta, tá? São os dois. Dell D. Eu tava olhando esses dias. D I E L. Opa, D1 E L. Então eu acho que assim, Dell é um bom bom bom ativo para comprar, mas não compra não não compraria agora.
+                        6:47:20
+                        uma sala que a gente tem um pouco mais de eh aproximação com vocês, entendeu? Então acaba que tem menos pessoas, então acaba sendo algo bem bem centralizado a vocês, entendeu? Eh, então, pô, a gente tira mais dúvida, faz um pouquinho mais de conteúdo ali específico em relação a alguma pergunta que cada participante tem.
 
 
-                        6:14:54
-                        Micro eu já tô comprado. MRVL eu já não tô comprado. Esse aqui eu não compraria agora não, tá? Ainda mais com a defesa aqui na média móvel de 200 períodos, eu fico de fora, tá, meu querido? Não, não sou baiop aqui não. Mas olha, meta e e meta é um bom nome. Eu colocaria meta. Não posso me esconder, mas que a verdade seja dita agora.
+                        6:47:45
+                         Então, é algo centralizado, entendeu? É algo mais individualizado com vocês. Por exemplo, aqui agora a gente tá no período da tarde com 150 pessoas. H, geralmente na parte da manhã dá umas 350, 400 pessoas. Então ali você tem um mundo aberto. Na sala fechada é menos, é menos pessoas, entendeu? E então acaba que a gente faz algo mais sem mais idealizado ali pro para para vocês, entendeu? Caramba, meu estadoleta aqui.
 
 
-                        6:15:48
-                        Mudei por, mas não que sofre tão galera, não é por nada não, mas eu tô colocando muito dinheiro em risco aqui. aqui. Tá que isso, cara? Não, vou tirar um pouco desse slot aqui. Agora que eu reparei o tamanho de posição que eu tô. Não, não, não, n. Tá doido. Tá doido. Não vou ficar posicionado aqui tudo do isso aqui.
+                        6:50:09
+                        Go! Tô positivo hoje. É, exatamente, pessoal. Hoje foi um dia assim, depende do de qual estratégia você segue, né? Depende bastante qual estratégia você segue. Ó lá, pessoal, índice, então, defendendo
 
 
-                        6:16:48
-                         Não vou prar. Entenderam? E de resto, pessoal, como
+                        6:52:38
+                        o patamar de 170. Se ele voltar a ganhar força acima das médias móveis, eu posso até comprar ele, tá? Bora comprar mais dólar. Pois é, cara.
 
 
-                        6:18:25
-                        que vocês estão? Tudo certo? Rap vida tem divergência de fundo no ABV F Pior que tá aparecendo mesmo aqui a
+                        6:55:38
+                        Dólar aqui tá realmente forte. Ah, galera, não é por nada não, mas tô
 
 
-                        6:19:53
-                        divergência, tá? Mas olha, mesmo assim, divergência de fundo, sim. Mas você acredita que ele vai dar uma reversão por conta disso? É isso? >> [tosse] [limpando a garganta] >> Fala, Lenir. Como que você tá, meu querido? Te deixa, te deixa o quê? Olha,
+                        7:01:36
+                        gostando dessa defesa aqui desse dólar. Pois é, defender esse patamar aqui,
 
 
-                        6:21:12
-                        palo alto aqui, pessoal. Eu vejo, eu vejo mais algo lateral, mais algo lateral do que do que continuidade desse movimento, tá? O ativo já vem fazendo o topo mais baixo que o anterior por enquanto. Assim, eu esperaria um pouco ainda sem sem certeza aqui. Tá. O Andrezão, eu sei que você tá procurando aí, mas tantas vezes você Fala, Linir, tudo bem por aí?
+                        7:03:39
+                        Aqui, ó. Eu vou até colocar uma vendinha aqui, ó. Mais poucos contratos, tá, meus amigos? Só para fazer um quero, um quero quero aqui, tá? Tô gostando dessa. Eu vou até vender aqui já, tá, pessoal? Topo duplo aqui no
 
 
-                        6:22:19
-                        Ô André, é bem binário. Eu Mas assim, o o complicado o complicado é que ele não vem nem de um de uma de um stress pré eh balanço, né? Então a gente não tem medido nenhuma expectativa. Realmente lateralidade aqui. >> [assobiando] [risadas]
+                        7:04:44
+                        dólar. Se ele romper aquele topinho, a gente pula fora. Aproveitar que a gente tá com resultado bem positivo no índice. 3 4 1 2 E aqui é isso. Vamos embora. Tô vendido. Ó lá, doletinha. Vamos, dólar, galera.
 
 
-                        6:23:40
-                        >> Que bom assim? Sì.
+                        7:07:59
+                        Com sete pontos aqui, eu vou colocar no bolso uma parte, tá? No 90, na verdade, eu vou colocar um pouquinho depois com 9 p. Eu tiro uma primeira parcial e tô comprando esse índice aqui nesse patamar também. Calma aí que eu preciso colocar essa
 
 
-                        6:25:24
-                        Ah, mas ô André, deixa eu fazer uma pergunta aqui. Em relação ao em relação a esses trades que você pergunta aqui, você faz day trade, você faz a aquele trade de fechamento, é isso? Para tentar sair logo na abertura. Qual que é? Geralmente eu compro pouco antes do
+                        7:09:14
+                        operação aqui para vocês. Bora. Boa. Fechado aqui, hein, galera. Vamos que vamos. Quem tá comigo aqui na operação? M. >> [roncando]
 
 
-                        6:27:53
-                        balanço e para ficar ficar pelo menos uma semana e tal, mas depois dessas leições. Ah, entendi. Mas até as ações lá fora, ah, quer dizer, até as ações aqui só as lá fora. Quer dizer, ao contrário, né? Até as as ações lá fora e aqui também, né? Aqui você tá fazendo isso, mas lá fora também. Eu digo em BDR. Falazão, tudo bom?
+                        7:11:27
+                        >> Boa. Alguém conseguiu fazer essa venda aqui comigo, pessoal? Boa. Stop no zero, parcial de 9.5 aqui. Tá. Nossa, o dólar tá muito técnico hoje. Boa, Iagão. Vamos que vamos, cara. Um pontinho aqui pra nossa parcial na
 
 
-                        6:30:14
-                        Até as de fora. Depois os demócratas entrarem, tomei um super ferro e na quinta após as eleições deles. Entendi. E uma pergunta, você você tradeida só à vista ou você alavanca também? Como que é? Cachorro mordido por cobra fica com medo
+                        7:13:41
+                        doleta. Boa parcial no dólar, hein, pessoal. Alguém conseguiu aqui pegar? Boa, boa, boa. Vamos que vamos, hein, galera? Que beleza hoje, hein? Tô descendo stop game aqui desse dólar,
 
 
-                        6:31:24
-                        de linguiça. >> [risadas] >> Ai, ai, muito bom, cara. Me divirto aqui com essa live, cara. Vocês são muito bons. Ah, cara, eu dou risada. Não vou falar o quê? Não vou rir. Ai, ai, [suspirando] galerinha, pulei fora aqui desse índice, tá? Eu te quero muito mais.
+                        7:14:44
+                        tá? Galera, essa aqui é é Operação curta, tá pessoal? Não tenta ficar alongando muito não, porque vocês estão vocês estão vendo o que que tá acontecendo. No. >> [suspirando]
 
 
-                        6:32:43
-                        meu pano de paz minha vida ser que te amo quando nunca tem alguém você meou de paz Чка.
+                        7:17:25
+                        >> M. On tá dando trabalho para subir um
 
 
-                        6:37:32
-                        Galerinha, a gente stopou aqui o índice, tá? Cadê os compradores? Defend de vender defender 173 900. Olha, tá difícil, cara. Galerinha, deixa eu só pegar um negócio aqui para colocar um coisa rápida. Um minutinho. Voltei, galerinha.
+                        7:20:00
+                        pouco. Pois é. Vamos ver se ele recupera aqui. Fala, Mateusão. Pô, cara, eu confesso que eu não te achei no final, cara. Você foi embora cedo, não foi? Porque eu lembro de te procurar no final ali, a gente tava batendo umas fotos, tal, vê uma galera pedir foto. Aí eu falei: "Pô, cadê o Mateuzão? Aí você tinha sumido já.
 
 
-                        6:40:34
-                        É, ô ô ô, Matozinho não tá andando, né? Na verdade, não tá ajudando a nossa própria operação, entendeu? Estou tentando,
+                        7:20:27
+                         Você foi pro rap hour que teve? Eu não, eu não lembro de te ver lá. Vamos, índice. Que beleza, hein? Flor
 
 
-                        6:43:24
-                        estou tentando, estou tentando segurar o dojid do 5 minutos. Meu óvio estava no 794, quase pegou. Ah, cara, eu não tive muito o que fazer. Ele perdeu ali o padrão que ele tava trabalhando e e aí paciência, né? Não tem muito o que fazer não. [roncando] >> [roncando]
+                        7:23:29
+                        >> [suspirando] >> Boa. Fui nada, fui dali para casa,
 
 
-                        6:44:43
-                        >> É, não tem muito o que fazer, né, cara? O mercado deu uma boa virada aqui. Tô até saindo desse dólar aqui também. H >> [suspirando]
+                        7:25:56
+                        voltou cedo. Pois é, cara. Eu eu te procurei depois no final para te dar um abraço, tal e cara, tu sumiu. Eu vi você ali só no painel e não vi mais nada. Depois a impressão sou ou o dólar morreu. Uai, depende. A gente conseguiu pegar essa venda aqui. Boa. E aqui no índice também é só agora é só esperar a vendinha ali, ó, no 170 e 800.
 
 
-                        6:46:06
-                        >> Vou entender, por favor. Não, loucura. Os caras falar que aqui não tem venda descoberta BTG pactual entender P
+                        7:26:46
+                        Vamos, vamos, vamos ver. >> [roncando] >> Ah. Dó nos 15 minutos
 
 
-                        6:47:17
-                        Марана na nam na Vamos vender e comprar doll. [risadas] Olha Adoro você assim, vai.
+                        7:29:43
+                        aqui, ó. Olha, existia chance sim, tá? dele ir lá em cima no lá embaixo nos dois e nos 2,5 existia esse mundo sim. Bom, galerinha, eu vou ficando por aqui. Foi um prazer mais uma live estar com vocês. Tamo junto. Tenho todos uma ótima continuação de dia e qualquer coisa, qualquer dúvida, me manda uma mensagem lá no Instagram ou pode mandar um e-mail.
 
 
-                        6:50:17
-                        >> [roncando] >> Fala, Nelson Souza. Pô, pior que eu gostei dessa tentativa
-
-
-                        6:54:00
-                        de compra aqui desse índice também, tá? Cara, mano, não fiz nada aqui, hein,
-
-
-                        6:55:04
-                        pessoal. Não comprei, não vendi. Tem um sonha aqui. Vai nessa aqui.
-
-
-                        6:56:54
-                        Pô, comprei de novo esse índice aqui. Vamos ver se a gente consegue recuperar uma parte desse preju. Eu já per sonho que sabe que é dessa pessoa. >> [risadas] >> Parece que vai
-
-
-                        6:58:24
-                        Já perdeu o sonho aqui. Boa, voltei, galerinha.
-
-
-                        7:04:39
-                        Ó lá, conseguimos recuperar uma parte aqui dessa operação, hein? Nossa, que beleza. Ótimo. Stop no zero aqui já desse índice, tá, galerinha? Só mais uma vez. Boa galerinha. Enquanto isso, alguma
-
-
-                        7:05:49
-                        dúvida? Vocês conseguiram pegar essa operação aqui ou não? Ó, eu tô subindo aqui stop game de novo, tá, pessoal? Não vou deixar essa operação voltar não. Fechado. Alguém conseguiu pegar essa
-
-
-                        7:07:11
-                        operação aqui comigo, galerinha? Ó, tô tirando uma parcial. Ah, não tô a fim de deixar esse trade rolar, não. Não, tá doido. Mercadinho também hoje não foi tão bom à tarde. Beleza. Boa. Zerei aqui a operação. Galerinha,
-
-
-                        7:08:38
-                        eu vou ficando por aqui. Foi um prazer mais um dia estar em mais uma incrível live com vocês. Tamo junto. Tenam todos uma ótima continuação de dia. Bom final de semana, bom evento para quem for evento, bom descanso para quem for descansar e bom final de semana a todos. Valeu galerinha, >> o mercado mudou. >> Um grande abraço e até a próxima.
-
-
-                        7:08:59
-                         E um beijo e tchau tchau. >> O mercado mudou, a forma de investir também. No Brasil, a classe de ETF soma [música] mais de 860.000 investidores. Na PTG Asset, somos pioneiros. Já são mais [música] de 35 ETFs no portfólio com mais de 20 bilhões em patrimônio e mais de 120.000 investidores. [música] Com produtos versáteis, eficientes e acessíveis.
-
-
-                        7:09:30
-                         Btg Pactual Asset Management, para quem espera mais de seus investimentos. Para revolucionar o futuro do mercado financeiro, é preciso ser rápido, tecnológico e dinâmico, buscando sempre a nossa melhor versão, a evolução do trading. Não é lógica. M.
+                        7:30:44
+                         Beleza, galerinha? Muito obrigado pela presença de todos. Tamo junto e nos vemos amanhã. fechado. Um grande abraço e tchau tchau.
 
 
                                             Resuma qualquer vídeo instantaneamente
@@ -1983,7 +1995,7 @@ Tubetranscript.com
             }
 
             $(document).ready(function () {
-                const videoId = "4wTuIX-5Wcg";
+                const videoId = "9nz8J0do2aQ";
                 const fileVideoId = "";
                 const translateLang = "";
 
@@ -2130,7 +2142,7 @@ Tubetranscript.com
 
                 const link = document.createElement('a');
                 link.href = url;
-                link.download = `4wTuIX-5Wcg.${ext}`;
+                link.download = `9nz8J0do2aQ.${ext}`;
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
@@ -2149,7 +2161,7 @@ Tubetranscript.com
 
             function extractTranscriptFromHTML(withTimecodes){
                 let contentBody = "";
-                const videoId = "4wTuIX-5Wcg"
+                const videoId = "9nz8J0do2aQ"
                 const url = `https://www.youtube.com/watch?v=${videoId}`;
                 // contentBody += `${document.title}\n`;
                 contentBody += `${url}\n\n`;
@@ -2740,7 +2752,7 @@ Tubetranscript.com
 
             // Retry summary
             function retrySummary() {
-                const videoId = "4wTuIX-5Wcg";
+                const videoId = "9nz8J0do2aQ";
                 summaryLoaded = false;
                 fetchAndRenderSummary(videoId);
             }
@@ -2751,7 +2763,7 @@ Tubetranscript.com
                 summaryLoaded = true;
                 // Hide promo on desktop when loading starts
                 $('#summary-promo').hide();
-                const videoId = "4wTuIX-5Wcg";
+                const videoId = "9nz8J0do2aQ";
                 fetchAndRenderSummary(videoId);
             });
 
@@ -2796,7 +2808,7 @@ Tubetranscript.com
             function startProTranscription() {
                 if (proTranscriptionStarted) return;
                 proTranscriptionStarted = true;
-                const videoId = "4wTuIX-5Wcg";
+                const videoId = "9nz8J0do2aQ";
                 fetchProTranscription(videoId);
                 gtag('event', 'pro_transcription_start');
             }
@@ -2930,7 +2942,7 @@ Tubetranscript.com
 
             // Retry Pro Transcription
             function retryProTranscription() {
-                const videoId = "4wTuIX-5Wcg";
+                const videoId = "9nz8J0do2aQ";
                 proTranscriptionStarted = false;
                 startProTranscription();
             }
@@ -2944,7 +2956,7 @@ Tubetranscript.com
                 }
 
                 let contentBody = "";
-                const videoId = "4wTuIX-5Wcg";
+                const videoId = "9nz8J0do2aQ";
                 const url = `https://www.youtube.com/watch?v=${videoId}`;
                 contentBody += `${url}\n\n`;
                 contentBody += `Transcript:\n`;
@@ -3000,7 +3012,7 @@ Tubetranscript.com
                         content += `${index + 1}\n${start} --> ${end}\n${sub.t}\n\n`;
                     });
                 } else if (ext === 'txt') {
-                    const videoId = "4wTuIX-5Wcg";
+                    const videoId = "9nz8J0do2aQ";
                     const url = `https://www.youtube.com/watch?v=${videoId}`;
                     content += `${url}\n\nTranscript:\n`;
                     savedProTranscription.forEach((sub) => {
@@ -3014,7 +3026,7 @@ Tubetranscript.com
                 const url = URL.createObjectURL(blob);
                 const link = document.createElement('a');
                 link.href = url;
-                link.download = `4wTuIX-5Wcg_pro.${ext}`;
+                link.download = `9nz8J0do2aQ_pro.${ext}`;
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
@@ -3047,3 +3059,9 @@ Tubetranscript.com
 
 
         Tubetranscript.com | Free YouTube Video Transcription | © 2026. All rights reserved.
+
+
+            Privacy Preferences
+            We and our partners share information on your use of this website to help improve your experience. For more information, or to opt out click the Do Not Sell My Information button below.
+            Consent
+            Do Not Sell My Information
